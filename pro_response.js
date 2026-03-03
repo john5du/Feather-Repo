@@ -1,2 +1,0 @@
-const newBody = '0a645cfea6b4fce9f147fbbb11490ce2723fa2f7b91fdb97db4916adc17b24764a608efc5f2911768ab04a615060babc51c4f7632afc4c7fdb7ac48488bf9658ffa7ef2dc07e8983e42b1e0e4c6fdebc6c51a8f8bf23776b0291d5d0a4f8a650';
-$done({ body: newBody });
