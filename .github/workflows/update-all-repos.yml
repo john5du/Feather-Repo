@@ -32,7 +32,6 @@ jobs:
           python merge_apps.py
 
       - name: Commit and push all changes
-        if: steps.update_all.outputs.updated == 'true'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
