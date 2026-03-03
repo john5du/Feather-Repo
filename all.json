@@ -3,6 +3,472 @@
   "name": "My Own Feather repo",
   "sourceURL": "https://github.com/john5du/Feather-Repo",
   "apps": [
+    {
+      "name": "FluxDo",
+      "bundleIdentifier": "com.github.lingyan000.fluxdo",
+      "developerName": "Lingyan000",
+      "subtitle": "一个 Linux.do 第三方客户端",
+      "localizedDescription": "FluxDO 是为 Linux.do 社区打造的现代化移动和桌面客户端，基于 Flutter 开发，致力于为用户提供流畅、优雅的论坛浏览体验。",
+      "iconURL": "https://raw.githubusercontent.com/Lingyan000/fluxdo/refs/heads/main/assets/logo.svg",
+      "tintColor": "FF6B6B",
+      "screenshotURLs": [],
+      "version": "0.1.37",
+      "versionDate": "2026-03-02T16:17:22Z",
+      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.37/fluxdo-unsigned.ipa",
+      "size": 21097083,
+      "versionDescription": "- 🚑️ 回退 doh_proxy\n\n<div align=center>\n\n[![Release Downloads](https://img.shields.io/github/downloads/lingyan000/fluxdo/v0.1.37/total?style=flat-square&logo=github)](https://img.shields.io/github/downloads/lingyan000/fluxdo/v0.1.37/)\n\n</div>\n\n**Download based on your device:**\n\n<div align=left>\n<table>\n    <thead align=left>\n        <tr>\n            <th>OS</th>\n            <th>Download</th>\n        </tr>\n    </thead>\n    <tbody align=left>\n        <tr>\n        <td>Android</td>\n            <td>\n                <a href=\"https://github.com/lingyan000/fluxdo/releases/download/v0.1.37/fluxdo-arm64-v8a.apk\"><img src=\"https://img.shields.io/badge/APK-ARMv8-168039.svg?logo=android\"></a><br>\n                <a href=\"https://github.com/lingyan000/fluxdo/releases/download/v0.1.37/fluxdo-armeabi-v7a.apk\"><img src=\"https://img.shields.io/badge/APK-ARMv7-45bf55.svg?logo=android\"></a><br>\n                <a href=\"https://github.com/lingyan000/fluxdo/releases/download/v0.1.37/fluxdo-x86_64.apk\"><img src=\"https://img.shields.io/badge/APK-x64-96ed89.svg?logo=android\"></a>\n            </td>\n        </tr>\n        <tr>\n        <td>iOS</td>\n            <td>\n                <a href=\"https://github.com/lingyan000/fluxdo/releases/download/v0.1.37/fluxdo-unsigned.ipa\"><img src=\"https://img.shields.io/badge/IPA-Unsigned-0c6bff.svg?logo=apple\"></a>\n            </td>\n        </tr>\n    </tbody>\n</table>\n\n</div>\n",
+      "changelog": "- 🚑️ 回退 doh_proxy\n\n<div align=center>\n\n[![Release Downloads](https://img.shields.io/github/downloads/lingyan000/fluxdo/v0.1.37/total?style=flat-square&logo=github)](https://img.shields.io/github/downloads/lingyan000/fluxdo/v0.1.37/)\n\n</div>\n\n**Download based on your device:**\n\n<div align=left>\n<table>\n    <thead align=left>\n        <tr>\n            <th>OS</th>\n            <th>Download</th>\n        </tr>\n    </thead>\n    <tbody align=left>\n        <tr>\n        <td>Android</td>\n            <td>\n                <a href=\"https://github.com/lingyan000/fluxdo/releases/download/v0.1.37/fluxdo-arm64-v8a.apk\"><img src=\"https://img.shields.io/badge/APK-ARMv8-168039.svg?logo=android\"></a><br>\n                <a href=\"https://github.com/lingyan000/fluxdo/releases/download/v0.1.37/fluxdo-armeabi-v7a.apk\"><img src=\"https://img.shields.io/badge/APK-ARMv7-45bf55.svg?logo=android\"></a><br>\n                <a href=\"https://github.com/lingyan000/fluxdo/releases/download/v0.1.37/fluxdo-x86_64.apk\"><img src=\"https://img.shields.io/badge/APK-x64-96ed89.svg?logo=android\"></a>\n            </td>\n        </tr>\n        <tr>\n        <td>iOS</td>\n            <td>\n                <a href=\"https://github.com/lingyan000/fluxdo/releases/download/v0.1.37/fluxdo-unsigned.ipa\"><img src=\"https://img.shields.io/badge/IPA-Unsigned-0c6bff.svg?logo=apple\"></a>\n            </td>\n        </tr>\n    </tbody>\n</table>\n\n</div>\n",
+      "minOSVersion": "13.0",
+      "contact": {
+        "web": "https://github.com/Lingyan000/fluxdo"
+      },
+      "information": [
+        {
+          "item": "Flutter",
+          "version": "Latest",
+          "authors": "Flutter Team",
+          "url": "https://flutter.dev"
+        },
+        {
+          "item": "FluxDo",
+          "version": "1.7.9",
+          "authors": "Lingyan000",
+          "url": "https://github.com/Predidit/Kazumi"
+        }
+      ],
+      "appPermissions": {},
+      "versions": [
+        {
+          "version": "0.1.37",
+          "date": "2026-03-02",
+          "localizedDescription": "- 🚑️ 回退 doh_proxy\n\n<div align=center>\n\n[![Release Downloads](https://img.shields.io/github/downloads/lingyan000/fluxdo/v0.1.37/total?style=flat-square&logo=github)](https://img.shields.io/github/downloads/lingyan000/fluxdo/v0.1.37/)\n\n</div>\n\n**Download based on your device:**\n\n<div align=left>\n<table>\n    <thead align=left>\n        <tr>\n            <th>OS</th>\n            <th>Download</th>\n        </tr>\n    </thead>\n    <tbody align=left>\n        <tr>\n        <td>Android</td>\n            <td>\n                <a href=\"https://github.com/lingyan000/fluxdo/releases/download/v0.1.37/fluxdo-arm64-v8a.apk\"><img src=\"https://img.shields.io/badge/APK-ARMv8-168039.svg?logo=android\"></a><br>\n                <a href=\"https://github.com/lingyan000/fluxdo/releases/download/v0.1.37/fluxdo-armeabi-v7a.apk\"><img src=\"https://img.shields.io/badge/APK-ARMv7-45bf55.svg?logo=android\"></a><br>\n                <a href=\"https://github.com/lingyan000/fluxdo/releases/download/v0.1.37/fluxdo-x86_64.apk\"><img src=\"https://img.shields.io/badge/APK-x64-96ed89.svg?logo=android\"></a>\n            </td>\n        </tr>\n        <tr>\n        <td>iOS</td>\n            <td>\n                <a href=\"https://github.com/lingyan000/fluxdo/releases/download/v0.1.37/fluxdo-unsigned.ipa\"><img src=\"https://img.shields.io/badge/IPA-Unsigned-0c6bff.svg?logo=apple\"></a>\n            </td>\n        </tr>\n    </tbody>\n</table>\n\n</div>\n",
+          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.37/fluxdo-unsigned.ipa",
+          "size": 21097083,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "beta": false
+    },
+    {
+      "name": "Kazumi",
+      "bundleIdentifier": "com.example.kazumi",
+      "developerName": "Predidit",
+      "subtitle": "开源动漫播放器",
+      "localizedDescription": "Kazumi 是一个开源的动漫资源采集播放器，支持 Android、iOS、macOS、Windows 和 Linux。\n\n主要功能：\n- 支持多个动漫源，无需服务器\n- 实时在线播放，支持弹幕系统\n- AI超分辨率提升视频画质\n- 本地媒体库管理\n- WebDAV同步观看进度\n- 多语言界面",
+      "iconURL": "https://raw.githubusercontent.com/Predidit/Kazumi/main/assets/images/logo/logo_ios.png",
+      "tintColor": "FF6B6B",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_1.png",
+        "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_2.png",
+        "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_3.png",
+        "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_4.png",
+        "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_5.png",
+        "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_6.png"
+      ],
+      "version": "2.0.4",
+      "versionDate": "2026-03-03T02:21:45Z",
+      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.0.4/Kazumi_ios_2.0.4_no_sign.ipa",
+      "size": 27717501,
+      "versionDescription": "- 修复离线缓存视频播放位置记忆错误的问题 (@Predidit) (#1833)\r\n- 修复 android 平台 vulkan1.1 设备播放视频一段时间后崩溃的问题 (@Predidit) (#1756)\r\n- 修复 android 平台 vulkan1.1 设备超分辨率不生效的问题 (@Predidit)\r\n- 修复 windows 平台自旋锁处理不当导致的性能问题 (@Predidit) (#1779)\r\n- 修复 macos 平台启动时窗体闪烁的问题 (@Zhoucheng133)",
+      "changelog": "- 修复离线缓存视频播放位置记忆错误的问题 (@Predidit) (#1833)\r\n- 修复 android 平台 vulkan1.1 设备播放视频一段时间后崩溃的问题 (@Predidit) (#1756)\r\n- 修复 android 平台 vulkan1.1 设备超分辨率不生效的问题 (@Predidit)\r\n- 修复 windows 平台自旋锁处理不当导致的性能问题 (@Predidit) (#1779)\r\n- 修复 macos 平台启动时窗体闪烁的问题 (@Zhoucheng133)",
+      "minOSVersion": "13.0",
+      "contact": {
+        "web": "https://github.com/Predidit/Kazumi"
+      },
+      "information": [
+        {
+          "item": "Flutter",
+          "version": "Latest",
+          "authors": "Flutter Team",
+          "url": "https://flutter.dev"
+        },
+        {
+          "item": "Kazumi Core",
+          "version": "1.7.9",
+          "authors": "Predidit",
+          "url": "https://github.com/Predidit/Kazumi"
+        }
+      ],
+      "appPermissions": {
+        "privacy": {
+          "NSNetworkUsageDescription": "用于获取动漫资源和在线播放",
+          "NSPhotoLibraryUsageDescription": "用于保存截图到相册",
+          "NSMicrophoneUsageDescription": "用于语音搜索功能",
+          "NSCameraUsageDescription": "用于扫描二维码功能"
+        }
+      },
+      "versions": [
+        {
+          "version": "2.0.4",
+          "date": "2026-03-03",
+          "localizedDescription": "- 修复离线缓存视频播放位置记忆错误的问题 (@Predidit) (#1833)\r\n- 修复 android 平台 vulkan1.1 设备播放视频一段时间后崩溃的问题 (@Predidit) (#1756)\r\n- 修复 android 平台 vulkan1.1 设备超分辨率不生效的问题 (@Predidit)\r\n- 修复 windows 平台自旋锁处理不当导致的性能问题 (@Predidit) (#1779)\r\n- 修复 macos 平台启动时窗体闪烁的问题 (@Zhoucheng133)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.0.4/Kazumi_ios_2.0.4_no_sign.ipa",
+          "size": 27717501,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "2.0.3",
+          "date": "2026-02-20",
+          "localizedDescription": "- 新增弹幕去重功能 (#1147) (#1575) (@UzawaReisaQwQ)\r\n- 新增弹幕描边宽度调整功能 (@UzawaReisaQwQ)\r\n- 修复 android 平台切换全屏可能导致内容错位的问题 (@Predidit)\r\n- 修复短时大量离线缓冲可能导致下载记录损坏的问题 (#1772) (@0Chencc)\r\n- 修复非默认线路离线缓冲无法播放的问题 (@Predidit)\r\n- 现在可以自定义长按快捷手势的快进倍率 (#1724) (@UzawaReisaQwQ)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.0.3/Kazumi_ios_2.0.3_no_sign.ipa",
+          "size": 27716594,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "2.0.2",
+          "date": "2026-02-12",
+          "localizedDescription": "- 适配 flutter 3.41 (@Predidit)\r\n- 修复缓存视频评论区不匹配的问题 (#1727) (@0Chencc)\r\n- 修复 windows 平台批量缓存时可能崩溃的问题 (@0Chencc)\r\n- 修复 windows 平台播放视频时桌面图标无法点击的问题 (#1732) (@Predidit)\r\n- 修复 android10 及以下视频解析器总是超时的问题 (#1726) (@0Chencc)\r\n- 修复 iPadOS26 及以上版本视频控制面板无法打开的问题 (#1457) (@Predidit)\r\n- 修复 android 平台在软件解码模式下使用 mediacodec_embed 视频输出可能黑屏的问题 (#1746) (@Predidit)\r\n- 修复特定情况下更新弹窗可能被覆盖的问题 (#1734) (@Predidit)\r\n- 修复 android 设备使用鼠标时应用始终显示绿色边框的问题 (#1708) (@axel10)\r\n- 现在可以自定义代理设置测试地址 (@0Chencc)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.0.2/Kazumi_ios_2.0.2_no_sign.ipa",
+          "size": 27705875,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "2.0.1",
+          "date": "2026-02-08",
+          "localizedDescription": "- 新增 Android 后台缓存功能 (@0Chencc)\r\n- 新增 Android 自定义视频渲染器 (#1670 #1671 #1723) (@Predidit)\r\n- 新增应用启动页选择功能 (#1171) (@aliferne)\r\n- 修复频繁切换视频分集可能抛出错误的问题 (@Predidit)\r\n- 修复单 nvidia 显卡 Linux 设备播放器初始化导致崩溃的问题 (#1722) (@Predidit)\r\n- 改进的播放器错误提示 (@Predidit)\r\n- 其他UI改进 (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.0.1/Kazumi_ios_2.0.1_no_sign.ipa",
+          "size": 27749741,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-02-06",
+          "localizedDescription": "- 新增离线缓存功能 (#26 #316) (@0Chencc) (@aliferne)\r\n- 新增一起看模式下弹幕聊天功能 (#834) (@UzawaReisaQwQ)\r\n- 新增定时关闭功能 (#832 #1586) (@funnytime75)\r\n- 修复 Andorid8/9 应用白屏的问题 (#1676) (@Predidit)\r\n- 修复自动更新功能特定情况下无法打开文件夹的问题 (#1655) (@UzawaReisaQwQ)\r\n- 修复 Android 键鼠操作时不正确的绿色应用边框 (@axel10)\r\n- 修复 Linux 平台视频解析器的线程安全问题 (@Predidit)\r\n- 适配 iOS 改进生命周期 (@0Chencc)\r\n- 其他UI改进 (@UzawaReisaQwQ)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.0.0/Kazumi_ios_2.0.0_no_sign.ipa",
+          "size": 27665049,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.9.6",
+          "date": "2026-01-30",
+          "localizedDescription": "- 修复支持 vulkan 1.4 的安卓设备视频播放崩溃的问题 (#1652) (@Predidit)\r\n- 修复自定义一起看服务器不支持 IPv6 的问题 (#1643) (@keyboard2005)\r\n> [!NOTE]\r\n> 这是 1.9.5 的热修复版本，更多更新日志参考 1.9.5",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.9.6/Kazumi_ios_1.9.6_no_sign.ipa",
+          "size": 27805229,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.9.5",
+          "date": "2026-01-28",
+          "localizedDescription": "- Android14及以上版本现在使用vulkan进行视频渲染与超分辨率计算 (@Predidit)\r\n- 修复部分安卓设备播放视频时的冻结问题 (#1276 #1615) (@Predidit)\r\n- 新增评论排序功能 (#1633) (@UzawaReisaQwQ)\r\n- 新增评分隐藏功能 (@xiaobai19198)\r\n- 修复部分Linux设备上的资源泄漏问题 (@Predidit)\r\n- 修复iOS平台无法使用Altstore签名的问题 (#819) (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.9.5/Kazumi_ios_1.9.5_no_sign.ipa",
+          "size": 27796964,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.9.4",
+          "date": "2026-01-09",
+          "localizedDescription": "- 新增自定义HTTP代理支持 (#1205 #1221) (@0Chencc)\r\n- 修复日志页面日志过多可能导致应用冻结的问题 (#1607) (@Predidit)\r\n- 修复windows平台无法在包含非ASCII路径下运行的问题 (@Predidit)\r\n- 修复linux平台视频解析器偶发的崩溃问题 (@Predidit)\r\n- 其他UI调整 (@0Chencc)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.9.4/Kazumi_ios_1.9.4_no_sign.ipa",
+          "size": 27452591,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.9.3",
+          "date": "2025-12-11",
+          "localizedDescription": "- 新增实验性HLS广告过滤功能 (@0Chencc)\r\n- 现在可以禁用自动连播 (#1544) (@Predidit)\r\n- 其他UI修复 (@Predidit)\r\n> [!IMPORTANT]\r\n> 规则API级别从4升级到5以支持广告过滤，向前兼容",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.9.3/Kazumi_ios_1.9.3_no_sign.ipa",
+          "size": 27422458,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.9.2",
+          "date": "2025-12-05",
+          "localizedDescription": "- 新增 macOS 快捷操作支持 (@yaoyaozijing)\r\n- 修复桌面平台长按快进不生效的问题 (#1536) (@yaoyaozijing)\r\n- 修复 Linux 平台超分辨率可能导致视频闪烁的问题 (@Predidit)\r\n- 修复 Linux 平台偶发的渲染错误 (@Predidit)\r\n- 更好的 windows 平台错误处理 (#1520) (#1538) (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.9.2/Kazumi_ios_1.9.2_no_sign.ipa",
+          "size": 27608465,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.9.1",
+          "date": "2025-11-27",
+          "localizedDescription": "- 新增弹幕加载状态指示器 (@0Chencc)\r\n- 新增桌面平台自定义快捷键功能 (@yaoyaozijing)\r\n- 修复弹幕无法使用系统字体的问题 (#1526) (@Predidit)\r\n- 改进的日志记录模块 (@Predidit)\r\n- 修复 Linux 平台内存泄漏问题 (@Predidit)\r\n- 修复 Linux 平台非 Gnome 环境无法隐藏标题栏的问题 (@Predidit)\r\n- 修复 Linux 平台 Wayland 图标为默认值的问题 (@yaoyaozijing)\r\n- 优化 Linux 平台播放器性能 (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.9.1/Kazumi_ios_1.9.1_no_sign.ipa",
+          "size": 27607497,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.9.0",
+          "date": "2025-11-19",
+          "localizedDescription": "> [!NOTE]\r\n> 这是 1.8.9 的热修复版本，更多更新日志参考 1.8.9",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.9.0/Kazumi_ios_1.9.0_no_sign.ipa",
+          "size": 27580420,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.8.8",
+          "date": "2025-11-15",
+          "localizedDescription": "- 适配 flutter 3.38 (@Predidit)\r\n- 新增新番时间表过滤功能 (#1142) (@0Chencc)\r\n- 新增弹幕速度是否跟随视频倍速的开关 (#1233) (@0Chencc)\r\n- 重构历史记录代码逻辑 (@0Chencc)\r\n- 现在 windows 平台重复启动 kazumi 将自动拉起已存在窗体 (@0Chencc)\r\n- 现在 Linux 平台使用DE原生标题栏而非GTK标题栏 (@yaoyaozijing)\r\n- 修复 Linux 平台视频帧率在特定情况下被锁定为15帧的问题 (@Predidit)\r\n- 修复 winodws 平台发生本地储存错误时静默失败的问题 (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.8/Kazumi_ios_1.8.8_no_sign.ipa",
+          "size": 22127910,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.8.7",
+          "date": "2025-10-29",
+          "localizedDescription": "- 新增规则测试功能 (#1438) (@1312853182)\r\n- 新增弹幕调速功能 (#1331) (@Predidit)\r\n- 新增检索结果过滤功能 (@aliferne)\r\n- 优化资源检索逻辑 (@Predidit)\r\n- 更多的弹幕区域选项 (#1335) (@aliferne)\r\n- 修复 windows 平台启动时的闪烁问题 (@Predidit)\r\n- 轮换示例规则 (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.7/Kazumi_ios_1.8.7_no_sign.ipa",
+          "size": 22020941,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.8.6",
+          "date": "2025-10-22",
+          "localizedDescription": "- 修复 Linux 平台无法运行的问题 (@Predidit)\r\n- 现在可以自定义播放器日志等级 (@Predidit)\r\n> [!NOTE]\r\n> 这是 1.8.5 的热修复版本，更多更新日志参考 1.8.5",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.6/Kazumi_ios_1.8.6_no_sign.ipa",
+          "size": 21996275,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.8.5",
+          "date": "2025-10-21",
+          "localizedDescription": "- 实现 linux 平台零拷贝视频解码 (@Predidit)\r\n- 新增快捷键快进步长自定义功能 (#1373) (#1418) (@aliferne)\r\n- 现在记忆跳过片头按钮的快进步长 (@aliferne)\r\n- 修复部分评论内容空白的问题 (@aliferne)\r\n- 优化自动更新逻辑 (@ErBWs)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.5/Kazumi_ios_1.8.5_no_sign.ipa",
+          "size": 21995635,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.8.4",
+          "date": "2025-10-14",
+          "localizedDescription": "- 修复 windows 平台硬件解码可能发生闪烁的问题 (#1390) (@Predidit)\r\n- 修复 android 平台自动更新可能导致应用安装器意外退出的问题 (#1382) (@Predidit)\r\n- 更新 UA 列表 (@Predidit)\r\n> [!NOTE]\r\n> 这是 1.8.3 的热修复版本，更多更新日志参考 1.8.3",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.4/Kazumi_ios_1.8.4_no_sign.ipa",
+          "size": 21993484,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.8.2",
+          "date": "2025-09-25",
+          "localizedDescription": "- 新增新番时间表排序功能 (@Predidit)\r\n- 改进 Linux 平台视频解析器 (#1055) (@Predidit)\r\n- 修复 Windows 平台退出全屏可能UI冻结的问题 (#1178) (@Predidit)\r\n- 修复自动更新功能可能的URL解析错误 (@UzawaReisaQwQ)\r\n- 修复播放器调试日志无法响应式更新的问题 (@Predidit)\r\n- 修复可能的UI布局问题 (#1323) (@Predidit)\r\n- 现在番剧规则查询可以被优雅地取消 (@Predidit)\r\n- 轮换示例规则 (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.2/Kazumi_ios_1.8.2_no_sign.ipa",
+          "size": 21996984,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.8.1",
+          "date": "2025-09-19",
+          "localizedDescription": "- 修复新版 windows 视频解析器的内存泄漏 (@Predidit)\r\n- 调整历史记录页面样式 (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.1/Kazumi_ios_1.8.1_no_sign.ipa",
+          "size": 21990221,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.8.0",
+          "date": "2025-09-18",
+          "localizedDescription": "- 重新设计的 windows 平台视频解析器 (@Predidit)\r\n- 优化 iOS/ macOS 平台性能，现在可以同时使用弹幕和超分辨率 (#1314) (@ErBWs)\r\n- 新增搜索历史功能 (@Predidit)\r\n- UI 调整 (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.0/Kazumi_ios_1.8.0_no_sign.ipa",
+          "size": 21989645,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "beta": false
+    },
+    {
+      "name": "PiliPlus",
+      "bundleIdentifier": "com.example.piliplus",
+      "developerName": "bggRGjQaUbCoE",
+      "subtitle": "第三方哔哩哔哩客户端",
+      "localizedDescription": "PiliPlus 是一款第三方哔哩哔哩客户端，专为 iOS 设备打造。\n\n主要功能：\n- 去除广告，纯净体验\n- 支持高清视频播放\n- 优化的用户界面\n- 支持弹幕功能\n- 离线缓存支持\n- 多账户管理",
+      "iconURL": "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/images/logo/logo.png",
+      "tintColor": "FB7299",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/home.png",
+        "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
+      ],
+      "version": "2.0.0",
+      "versionDate": "2026-03-03T03:34:27Z",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.0/PiliPlus_ios_2.0.0%2B4715.ipa",
+      "size": 24968000,
+      "versionDescription": "听视频支持定时关闭\r\n听视频支持 Sponsor Block\r\nmacOS 响应 CMD+Q #1834 by @cnctem\r\nLinux 支持设置使用SSD #1839 by @just-a-pony\r\n添加播放顺序设置 #1830 by @My-Responsitories\r\n私信视频消息支持显示 UP 主赠言 #1849 by @barmxds6ch\r\n\r\n优化页面\r\n优化收起顶/底栏\r\n优化取消下拉刷新\r\n优化分享视频链接 #1835 co-by @gujial\r\n优化 #1829 #1831 #1832 #1840 #1846 #1854 by @My-Responsitories\r\n\r\n重构播放组件 #1848 by @My-Responsitories\r\n重构查看大图、长图 by @bggRGjQaUbCoE @My-Responsitories\r\n其他\r\n\r\n修复冷启动无法处理 URL Scheme \r\n修复校验 loudnorm 参数 #1838 by @Starfallan\r\n\r\nCI 调整 #1852 by @nlsdt \r\n其他",
+      "changelog": "听视频支持定时关闭\r\n听视频支持 Sponsor Block\r\nmacOS 响应 CMD+Q #1834 by @cnctem\r\nLinux 支持设置使用SSD #1839 by @just-a-pony\r\n添加播放顺序设置 #1830 by @My-Responsitories\r\n私信视频消息支持显示 UP 主赠言 #1849 by @barmxds6ch\r\n\r\n优化页面\r\n优化收起顶/底栏\r\n优化取消下拉刷新\r\n优化分享视频链接 #1835 co-by @gujial\r\n优化 #1829 #1831 #1832 #1840 #1846 #1854 by @My-Responsitories\r\n\r\n重构播放组件 #1848 by @My-Responsitories\r\n重构查看大图、长图 by @bggRGjQaUbCoE @My-Responsitories\r\n其他\r\n\r\n修复冷启动无法处理 URL Scheme \r\n修复校验 loudnorm 参数 #1838 by @Starfallan\r\n\r\nCI 调整 #1852 by @nlsdt \r\n其他",
+      "minOSVersion": "13.0",
+      "contact": {
+        "web": "https://github.com/bggRGjQaUbCoE/PiliPlus"
+      },
+      "information": [
+        {
+          "item": "Flutter",
+          "version": "Latest",
+          "authors": "Flutter Team",
+          "url": "https://flutter.dev"
+        },
+        {
+          "item": "PiliPlus Core",
+          "version": "Latest",
+          "authors": "bggRGjQaUbCoE",
+          "url": "https://github.com/bggRGjQaUbCoE/PiliPlus"
+        }
+      ],
+      "appPermissions": {
+        "privacy": {
+          "NSNetworkUsageDescription": "用于获取哔哩哔哩视频内容",
+          "NSPhotoLibraryUsageDescription": "用于保存图片和视频到相册",
+          "NSCameraUsageDescription": "用于扫描二维码登录",
+          "NSMicrophoneUsageDescription": "用于录制和发布视频"
+        }
+      },
+      "versions": [
+        {
+          "version": "2.0.0",
+          "date": "2026-03-03",
+          "localizedDescription": "听视频支持定时关闭\r\n听视频支持 Sponsor Block\r\nmacOS 响应 CMD+Q #1834 by @cnctem\r\nLinux 支持设置使用SSD #1839 by @just-a-pony\r\n添加播放顺序设置 #1830 by @My-Responsitories\r\n私信视频消息支持显示 UP 主赠言 #1849 by @barmxds6ch\r\n\r\n优化页面\r\n优化收起顶/底栏\r\n优化取消下拉刷新\r\n优化分享视频链接 #1835 co-by @gujial\r\n优化 #1829 #1831 #1832 #1840 #1846 #1854 by @My-Responsitories\r\n\r\n重构播放组件 #1848 by @My-Responsitories\r\n重构查看大图、长图 by @bggRGjQaUbCoE @My-Responsitories\r\n其他\r\n\r\n修复冷启动无法处理 URL Scheme \r\n修复校验 loudnorm 参数 #1838 by @Starfallan\r\n\r\nCI 调整 #1852 by @nlsdt \r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.0/PiliPlus_ios_2.0.0%2B4715.ipa",
+          "size": 24968000,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.1.6",
+          "date": "2026-02-07",
+          "localizedDescription": "优化滑动手势\r\n优化分区 TAB\r\n优化查看评论笔记\r\n优化调整倍速时卡顿 #1813 by @nakixii\r\n\r\n支持调整自动同步(`autosync`)数值\r\n支持快捷切换账号 #1815 co-by @cnctem\r\n稍后再看/收藏搜索添加`复制`/`移动`按钮 #1822 @cnctem\r\n调整 #1816 #1818 #1821 #1826 by @My-Responsitories\r\n支持基于滑动时间设置滑动弹簧参数 #1816 co-by @My-Responsitories\r\n\r\n修复 #1825 by @Wu-HZ\r\n修复动态页 UP 列表 #1819 by @leset0ng\r\n\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.6/PiliPlus_ios_1.1.6%2B4626.ipa",
+          "size": 25139197,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.1.5.7",
+          "date": "2026-01-28",
+          "localizedDescription": "优化滑动\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.7/PiliPlus_ios_1.1.5%2B4584.ipa",
+          "size": 25132786,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.1.5.6",
+          "date": "2026-01-26",
+          "localizedDescription": "安卓端音频输出回退默认 opensles\r\n安卓端支持选择音频输出 #1811 by @My-Responsitories\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.6/PiliPlus_ios_1.1.5%2B4577.ipa",
+          "size": 25114723,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.1.5.5",
+          "date": "2026-01-25",
+          "localizedDescription": "组件/页面优化\r\n桌面端返回优化\r\n横向滑动优化，支持调节滑动阈值\r\n调整 #1806 #1810 by @My-Responsitories\r\n安卓音频输出优先使用 aaudio #1805 by @My-Responsitories\r\n\r\n修复 Web 端推荐\r\n修复 bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.5/PiliPlus_ios_1.1.5%2B4573.ipa",
+          "size": 25108013,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.1.5.4",
+          "date": "2026-01-15",
+          "localizedDescription": "支持长按/右键图片显示菜单，默认关\r\n调整 #1802 by @My-Responsitories\r\n支持界面缩放 #1800 co-by @sghhhh\r\nSponsorBlock Api 调整 #1797 by @zjns\r\n添加显示动态互动信息开关 #1798 co-by @sghhhh\r\n\r\n修复 #1799 co-by @KoishiMoe\r\n修复 Linux Task Icon #1800 by @sghhhh\r\n修复无法通过 AltStore/SideStore 安装 IPA #1803 by @KoishiMoe\r\n修复 bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.4/PiliPlus_ios_1.1.5%2B4543.ipa",
+          "size": 25103780,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.1.5.3",
+          "date": "2026-01-07",
+          "localizedDescription": "修复 #1795 by @sghhhh\r\n修复 bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.3/PiliPlus_ios_1.1.5%2B4526.ipa",
+          "size": 24632843,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.1.5.2",
+          "date": "2026-01-03",
+          "localizedDescription": "增加桌面端音量上限\r\n支持显示动态互动内容\r\nSuperChat 支持常驻显示\r\n投票面板支持查看关注的人的投票\r\n直播弹幕列表支持`@`、`举报`等操作\r\n新增视频画质ID #1794 by @Vixb1122\r\n私信分享支持多选 #1779 co-by @leset0ng\r\n缓存面板显示网络类型 #1781 by @My-Responsitories\r\n同步 [BilibiliSponsorBlock](https://github.com/hanydd/BilibiliSponsorBlock) 片段类型 #1777 co-by @Vixb1122\r\n弹幕支持`固定转滚动`、`滚动弹幕固定速度` #1791 by @My-Responsitories\r\n\r\n页面优化\r\n优化专栏字体颜色\r\n优化 #1776 #1780 #1782 #1785 #1787 #1788 by @My-Responsitories\r\n\r\n修复 #1790 by @My-Responsitories\r\n修复 bug\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.2/PiliPlus_ios_1.1.5%2B4519.ipa",
+          "size": 24619651,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.1.5.1",
+          "date": "2025-12-10",
+          "localizedDescription": "页面优化\r\n优化下载\r\n重构 Log #1764 by @My-Responsitories\r\n推荐页单独卡片宽度 #1771 by @LiPolymer\r\n调整 #1762 #1765 #1773 by @My-Responsitories\r\n导入设置/登录信息支持输入 #1772 by @My-Responsitories\r\n修复 bug",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.1/PiliPlus_ios_1.1.5%2B4442.ipa",
+          "size": 24632567,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.1.5",
+          "date": "2025-11-30",
+          "localizedDescription": "支持显示电量\r\n支持 DLNA 投屏\r\n支持显示投票图片\r\n支持加载本地字幕文件\r\n亮度调节支持调节系统亮度\r\n直播支持调整弹幕，查看播放信息\r\n重构 CDN 功能 #1743 by @My-Responsitories\r\n离线播放支持媒体通知控制 #1748 co-by @staoran\r\n支持离线缓存/播放 by @bggRGjQaUbCoE @My-Responsitories\r\n空降助手优化/支持绑定 YTB 视频 #1751 by @My-Responsitories\r\n弹幕优化，高级弹幕屏蔽移至弹幕设置 #1756 by @My-Responsitories\r\n支持编辑弹幕屏蔽规则，显示空降助手用户信息 #1738 by @My-Responsitories\r\n\r\n页面优化\r\n优化投票选项\r\n优化 Windows Alt 键平移视频画面\r\n\r\n修复 CDN 相关 #1739 by @iKirby\r\n修复动态解析\r\n修复 bug\r\n\r\n其他\r\n其他调整 #1742 #1745 #1746 #1747 #1750 #1753 by @My-Responsitories",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5/PiliPlus_ios_1.1.5%2B4403.ipa",
+          "size": 24632441,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.1.5-pre8",
+          "date": "2025-11-23",
+          "localizedDescription": "bug fixes",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre8/PiliPlus_ios_1.1.5%2B4389.ipa",
+          "size": 24624365,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.1.5-pre7",
+          "date": "2025-11-22",
+          "localizedDescription": "页面优化\r\n支持显示电量\r\n直播支持调整弹幕，查看播放信息\r\n代码优化 #1750 by @My-Responsitories\r\n空降助手优化/支持绑定 YTB 视频 #1751 by @My-Responsitories\r\n修复 bug\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre7/PiliPlus_ios_1.1.5%2B4384.ipa",
+          "size": 24622129,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.1.5-pre6",
+          "date": "2025-11-17",
+          "localizedDescription": "重构 CDN 功能 #1743 by @My-Responsitories\r\n离线播放支持媒体通知控制 #1748 co-by @staoran\r\n其他调整 #1742 #1745 #1746 #1747 by @My-Responsitories",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre6/PiliPlus_ios_1.1.5%2B4357.ipa",
+          "size": 24567627,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.1.5-pre5",
+          "date": "2025-11-15",
+          "localizedDescription": "fix wakelock",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre5/PiliPlus_ios_1.1.5%2B4348.ipa",
+          "size": 24557486,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.1.5-pre4",
+          "date": "2025-11-14",
+          "localizedDescription": "flutter 3.38\r\n修复 CDN 相关 #1739 by @iKirby\r\n支持编辑弹幕屏蔽规则，显示空降助手用户信息 #1738 by @My-Responsitories\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre4/PiliPlus_ios_1.1.5%2B4347.ipa",
+          "size": 24558900,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.1.5-pre3",
+          "date": "2025-11-12",
+          "localizedDescription": "支持 DLNA 投屏\r\n优化视频/弹幕缓存 #1737 by @My-Responsitories\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre3/PiliPlus_ios_1.1.5%2B4337.ipa",
+          "size": 24526198,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.1.5-pre",
+          "date": "2025-11-10",
+          "localizedDescription": "支持显示投票图片\r\n支持离线缓存/播放\r\n支持加载本地字幕文件\r\n亮度调节支持调节系统亮度\r\n\r\n优化投票选项\r\n优化 Windows Alt 键平移视频画面\r\n\r\n修复动态解析\r\n修复 bug\r\n\r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre/PiliPlus_ios_1.1.5%2B4328.ipa",
+          "size": 24498433,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.1.4.17",
+          "date": "2025-10-28",
+          "localizedDescription": "bug fixes",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.17/PiliPlus_ios_1.1.4%2B4306.ipa",
+          "size": 24409235,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.1.4.16",
+          "date": "2025-10-27",
+          "localizedDescription": "修复 #1641 #1712 #1716\r\n修复 #1696 by @My-Responsitories\r\n调整 #1697 #1706 by @My-Responsitories\r\n打包 Linux AppImage #1575 by @Axiaobo7788\r\n视频菜单查看 AI 总结 #1666 #1698 by @My-Responsitories",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.16/PiliPlus_ios_1.1.4%2B4296.ipa",
+          "size": 24405008,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "1.1.4.15",
+          "date": "2025-10-24",
+          "localizedDescription": "页面优化\r\n修复 #1680 #1684",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.15/PiliPlus_ios_1.1.4%2B4285.ipa",
+          "size": 24413811,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "beta": false
+    }
   ],
   "news": [],
   "userInfo": {}
