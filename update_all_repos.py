@@ -69,7 +69,7 @@ def update_repo_json(repo_owner, repo_name, json_file_name):
             new_version_entry = {
                 'version': new_version,
                 'date': latest_release.published_at.strftime("%Y-%m-%d"),
-                'localizedDescription': latest_release.body,
+                'localizedDescription': latest_release.body.split('<div')[0].strip(),
                 'downloadURL': new_download_url,
                 'size': ipa_asset.size,
                 'minOSVersion': app_data.get('minOSVersion', '13.0')
