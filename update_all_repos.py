@@ -111,7 +111,12 @@ def main():
     print("\n=== Updating PiliPlus ===")
     if update_repo_json("bggRGjQaUbCoE", "PiliPlus", "piliplus.json"):
         updated_files.append("piliplus.json")
-    
+
+    # 更新 FluxDo
+    print("\n=== Updating FluxDo ===")
+    if update_repo_json("Lingyan000", "fluxdo", "fluxdo.json"):
+        updated_files.append("fluxdo.json")
+
     if updated_files:
         print(f"\nUpdated files: {', '.join(updated_files)}")
         set_github_output("updated", "true")
