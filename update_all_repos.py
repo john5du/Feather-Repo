@@ -46,7 +46,6 @@ def update_repo_json(repo_owner, repo_name, json_file_name):
         if current_version == new_version and current_download_url == new_download_url:
             print(f"[{json_file_name}] Current version '{current_version}' is already the latest with same download URL. No update needed.")
             return False
-        version_description = latest_release.body.split('<div')[0].strip()
 
         # 更新主要版本信息
         app_data.update({
@@ -54,8 +53,8 @@ def update_repo_json(repo_owner, repo_name, json_file_name):
             'versionDate': latest_release.published_at.strftime("%Y-%m-%dT%H:%M:%SZ"),
             'downloadURL': new_download_url,
             'size': ipa_asset.size,
-            'versionDescription': version_description,
-            'changelog': latest_release.body
+            'versionDescription': latest_release.body.split('<div')[0].strip(),
+            'changelog': latest_release.body.split('<div')[0].strip()
         })
 
         # 更新或创建versions数组
