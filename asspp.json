@@ -1,0 +1,33 @@
+{
+  "identifier": "com.github.asspp",
+  "name": "PeekPili",
+  "sourceURL": "https://github.com/Lakr233/Asspp",
+  "apps": [
+    {
+      "name": "Asspp",
+      "bundleIdentifier": "wiki.qaq.Asspp",
+      "developerName": "https://github.com/Lakr233/Asspp",
+      "subtitle": "多账号、多地区 App Store 管理神器。",
+      "localizedDescription": "多账号、多地区 App Store 管理神器。 Asspp 专为需要管理多个 Apple ID 和跨区下载的用户打造。你可以在不同国家的 App Store 之间无缝切换，随意浏览和下载应用，完全无需退出系统账号。",
+      "iconURL": "https://i.imgur.com/DIXI85e.png",
+      "tintColor": "#2c9cfc",
+      "category": "utilities",
+      "screenshots": [
+      ],
+      "versions": [
+      ],
+      "appPermissions": {
+        "entitlements": [
+        ],
+        "privacy": {
+          "NSAccentColorName": "AccentColor",
+          "NSLocalNetworkUsageDescription": "Asspp requires this permission to communicate with install service on your device."
+        }
+      },
+      "patreon": {
+      }
+    }
+  ],
+  "news": [],
+  "userInfo": {}
+}

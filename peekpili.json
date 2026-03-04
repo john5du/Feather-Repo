@@ -1,0 +1,34 @@
+{
+  "identifier": "com.github.PeekPili",
+  "name": "PeekPili",
+  "sourceURL": "https://github.com/ingriddaleusag-dotcom/PeekPiliRelease",
+  "apps": [
+    {
+      "name": "PeekPili",
+      "bundleIdentifier": "com.example.peekpili",
+      "developerName": "https://github.com/ingriddaleusag-dotcom/PeekPiliRelease",
+      "subtitle": "集成 TVbox 视频源播放、小说阅读和漫画阅读功能的全能应用.",
+      "localizedDescription": "PeekPili 是一款集成 TVbox 视频源播放功能、小说阅读功能和漫画阅读功能的全能应用，支持多种视频源格式，让您可以在一个应用中享受丰富的第三方视频源、小说和漫画内容。 ✨ 多平台支持 - PeekPili 支持 Android、iOS、Pad、Windows 等平台，无论您使用什么设备，都能享受一致的使用体验。",
+      "iconURL": "https://i.imgur.com/WugMOlw.png",
+      "tintColor": "#d4b484",
+      "category": "entertainment",
+      "screenshots": [
+      ],
+      "versions": [
+      ],
+      "appPermissions": {
+        "entitlements": [
+        ],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "App需要您的同意,才能访问媒体资料库",
+          "NSCameraUsageDescription": "App需要您的同意,才能访问相册",
+          "NSPhotoLibraryUsageDescription": "请允许APP保存图片到相册"
+        }
+      },
+      "patreon": {
+      }
+    }
+  ],
+  "news": [],
+  "userInfo": {}
+}

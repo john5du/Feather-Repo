@@ -1,27 +1,29 @@
 import json
 import os
-from datetime import datetime
-from github import Github
+
 import requests
+from github import Github
+
 
 def update_repo_json(repo_owner, repo_name, json_file_name):
     github_token = os.environ['GITHUB_TOKEN']
     g = Github(github_token)
-    
+
     try:
         repo = g.get_repo(f"{repo_owner}/{repo_name}")
         latest_release = repo.get_latest_release()
-        
+
         ipa_asset = None
         for asset in latest_release.get_assets():
             if asset.name.endswith('.ipa'):
                 ipa_asset = asset
                 break
-        
+
         if not ipa_asset:
-            print(f"[{json_file_name}] No IPA file found in latest release for {repo_owner}/{repo_name}. Skipping update.")
+            print(
+                f"[{json_file_name}] No IPA file found in latest release for {repo_owner}/{repo_name}. Skipping update.")
             return False
-        
+
         # 读取现有JSON文件
         try:
             with open(json_file_name, 'r', encoding='utf-8') as f:
@@ -39,12 +41,12 @@ def update_repo_json(repo_owner, repo_name, json_file_name):
 
         current_version = app_data.get('version', '')
         new_version = latest_release.tag_name.lstrip('v')
-        current_download_url = app_data.get('downloadURL','')
+        current_download_url = app_data.get('downloadURL', '')
         new_download_url = ipa_asset.browser_download_url
 
-
         if current_version == new_version and current_download_url == new_download_url:
-            print(f"[{json_file_name}] Current version '{current_version}' is already the latest with same download URL. No update needed.")
+            print(
+                f"[{json_file_name}] Current version '{current_version}' is already the latest with same download URL. No update needed.")
             return False
 
         # 更新主要版本信息
@@ -60,10 +62,10 @@ def update_repo_json(repo_owner, repo_name, json_file_name):
         # 更新或创建versions数组
         if 'versions' not in app_data:
             app_data['versions'] = []
-        
+
         # 检查是否已存在该版本
         version_exists = any(v.get('version') == new_version for v in app_data['versions'])
-        
+
         if not version_exists:
             # 添加新版本到versions数组开头
             new_version_entry = {
@@ -75,7 +77,7 @@ def update_repo_json(repo_owner, repo_name, json_file_name):
                 'minOSVersion': app_data.get('minOSVersion', '13.0')
             }
             app_data['versions'].insert(0, new_version_entry)
-            
+
             # 保持最多20个版本
             if len(app_data['versions']) > 20:
                 app_data['versions'] = app_data['versions'][:20]
@@ -86,14 +88,15 @@ def update_repo_json(repo_owner, repo_name, json_file_name):
             json.dump(source_data, f, ensure_ascii=False, indent=2)
         print(f"[{json_file_name}] Successfully updated {json_file_name}")
         return True
-        
+
     except Exception as e:
         print(f"[{json_file_name}] Error updating {json_file_name}: {str(e)}")
         return False
 
+
 def main():
     github_output_path = os.environ.get('GITHUB_OUTPUT')
-    
+
     def set_github_output(name, value):
         if github_output_path:
             with open(github_output_path, 'a') as f:
@@ -102,25 +105,22 @@ def main():
             print(f"Warning: GITHUB_OUTPUT environment variable not found. Cannot set output '{name}'.")
 
     updated_files = []
-    
-    # 更新 Kazumi
-    print("=== Updating Kazumi ===")
-    if update_repo_json("Predidit", "Kazumi", "kazumi.json"):
-        updated_files.append("kazumi.json")
-    
-    # 更新 PiliPlus
-    print("\n=== Updating PiliPlus ===")
-    if update_repo_json("bggRGjQaUbCoE", "PiliPlus", "piliplus.json"):
-        updated_files.append("piliplus.json")
 
-    # 更新 FluxDo
-    print("\n=== Updating FluxDo ===")
-    if update_repo_json("Lingyan000", "fluxdo", "fluxdo.json"):
-        updated_files.append("fluxdo.json")
+    # 定义要更新的仓库信息
+    repos_to_update = [
+        ("Predidit", "Kazumi", "kazumi.json"),
+        ("bggRGjQaUbCoE", "PiliPlus", "piliplus.json"),
+        ("Lingyan000", "fluxdo", "fluxdo.json"),
+        ("rrroyal", "Harbour", "harbour.json"),
+        ("ingriddaleusag-dotcom", "PeekPiliRelease", "peekpili.json"),
+        ("Lakr233", "Asspp", "asspp.json"),
+    ]
 
-    print("\n=== Updating Harbour ===")
-    if update_repo_json("rrroyal", "Harbour", "harbour.json"):
-        updated_files.append("harbour.json")
+    # 使用循环更新所有仓库
+    for owner, repo_name, json_file in repos_to_update:
+        print(f"\n=== Updating {repo_name} ===")
+        if update_repo_json(owner, repo_name, json_file):
+            updated_files.append(json_file)
 
     if updated_files:
         print(f"\nUpdated files: {', '.join(updated_files)}")
