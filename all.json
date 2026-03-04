@@ -10,7 +10,7 @@
       "subtitle": "一个 Linux.do 第三方客户端",
       "localizedDescription": "FluxDO 是为 Linux.do 社区打造的现代化移动和桌面客户端，基于 Flutter 开发，致力于为用户提供流畅、优雅的论坛浏览体验。",
       "iconURL": "https://raw.githubusercontent.com/john5du/Feather-Repo/refs/heads/main/img/fluxdo.png",
-      "tintColor": "FF6B6B",
+      "tintColor": "#7f7f7f",
       "screenshotURLs": [],
       "version": "0.1.38",
       "versionDate": "2026-03-03T16:34:17Z",
@@ -36,7 +36,12 @@
           "url": "https://github.com/Predidit/Kazumi"
         }
       ],
-      "appPermissions": {},
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryAddUsageDescription": "需要访问相册以保存图片"
+        }
+      },
       "versions": [
         {
           "version": "0.1.38",
@@ -64,7 +69,8 @@
       "subtitle": "开源动漫播放器",
       "localizedDescription": "Kazumi 是一个开源的动漫资源采集播放器，支持 Android、iOS、macOS、Windows 和 Linux。\n\n主要功能：\n- 支持多个动漫源，无需服务器\n- 实时在线播放，支持弹幕系统\n- AI超分辨率提升视频画质\n- 本地媒体库管理\n- WebDAV同步观看进度\n- 多语言界面",
       "iconURL": "https://raw.githubusercontent.com/Predidit/Kazumi/main/assets/images/logo/logo_ios.png",
-      "tintColor": "FF6B6B",
+      "tintColor": "#81c836",
+      "category": "other",
       "screenshotURLs": [
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_1.png",
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_2.png",
@@ -98,11 +104,9 @@
         }
       ],
       "appPermissions": {
+        "entitlements": [],
         "privacy": {
-          "NSNetworkUsageDescription": "用于获取动漫资源和在线播放",
-          "NSPhotoLibraryUsageDescription": "用于保存截图到相册",
-          "NSMicrophoneUsageDescription": "用于语音搜索功能",
-          "NSCameraUsageDescription": "用于扫描二维码功能"
+          "NSPhotoLibraryAddUsageDescription": ""
         }
       },
       "versions": [
@@ -276,7 +280,8 @@
       "subtitle": "第三方哔哩哔哩客户端",
       "localizedDescription": "PiliPlus 是一款第三方哔哩哔哩客户端，专为 iOS 设备打造。\n\n主要功能：\n- 去除广告，纯净体验\n- 支持高清视频播放\n- 优化的用户界面\n- 支持弹幕功能\n- 离线缓存支持\n- 多账户管理",
       "iconURL": "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/images/logo/logo.png",
-      "tintColor": "FB7299",
+      "tintColor": "#5cb47c",
+      "category": "other",
       "screenshotURLs": [
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/home.png",
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
@@ -306,11 +311,11 @@
         }
       ],
       "appPermissions": {
+        "entitlements": [],
         "privacy": {
-          "NSNetworkUsageDescription": "用于获取哔哩哔哩视频内容",
-          "NSPhotoLibraryUsageDescription": "用于保存图片和视频到相册",
-          "NSCameraUsageDescription": "用于扫描二维码登录",
-          "NSMicrophoneUsageDescription": "用于录制和发布视频"
+          "NSAppleMusicUsageDescription": "App需要您的同意,才能访问媒体资料库",
+          "NSCameraUsageDescription": "App需要您的同意,才能访问相册",
+          "NSPhotoLibraryUsageDescription": "请允许APP保存图片到相册"
         }
       },
       "versions": [
@@ -484,7 +489,8 @@
       "subtitle": "Docker/Portainer management app for iOS, iPadOS and macOS.",
       "localizedDescription": "Docker/Portainer management app for iOS, iPadOS and macOS.",
       "iconURL": "https://raw.githubusercontent.com/rrroyal/Harbour/refs/heads/main/Harbour/Assets.xcassets/AppIcon.appiconset/AppIcon-macOS-256x256.png",
-      "tintColor": "RRGGBB",
+      "tintColor": "#3c54ec",
+      "category": "other",
       "screenshotURLs": [],
       "version": "4.2.7",
       "versionDate": "2025-11-25T11:44:05Z",
@@ -497,7 +503,13 @@
         "web": "https://github.com/rrroyal/Harbour"
       },
       "information": [],
-      "appPermissions": {},
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSHumanReadableCopyright": "2025 shameful",
+          "NSAccentColorName": "AccentColor"
+        }
+      },
       "versions": [
         {
           "version": "4.2.7",

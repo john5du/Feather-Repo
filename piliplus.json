@@ -10,7 +10,8 @@
       "subtitle": "第三方哔哩哔哩客户端",
       "localizedDescription": "PiliPlus 是一款第三方哔哩哔哩客户端，专为 iOS 设备打造。\n\n主要功能：\n- 去除广告，纯净体验\n- 支持高清视频播放\n- 优化的用户界面\n- 支持弹幕功能\n- 离线缓存支持\n- 多账户管理",
       "iconURL": "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/images/logo/logo.png",
-      "tintColor": "FB7299",
+      "tintColor": "#5cb47c",
+      "category": "other",
       "screenshotURLs": [
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/home.png",
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
@@ -40,11 +41,12 @@
         }
       ],
       "appPermissions": {
+        "entitlements": [
+        ],
         "privacy": {
-          "NSNetworkUsageDescription": "用于获取哔哩哔哩视频内容",
-          "NSPhotoLibraryUsageDescription": "用于保存图片和视频到相册",
-          "NSCameraUsageDescription": "用于扫描二维码登录",
-          "NSMicrophoneUsageDescription": "用于录制和发布视频"
+          "NSAppleMusicUsageDescription": "App需要您的同意,才能访问媒体资料库",
+          "NSCameraUsageDescription": "App需要您的同意,才能访问相册",
+          "NSPhotoLibraryUsageDescription": "请允许APP保存图片到相册"
         }
       },
       "versions": [

@@ -10,7 +10,7 @@
       "subtitle": "一个 Linux.do 第三方客户端",
       "localizedDescription": "FluxDO 是为 Linux.do 社区打造的现代化移动和桌面客户端，基于 Flutter 开发，致力于为用户提供流畅、优雅的论坛浏览体验。",
       "iconURL": "https://raw.githubusercontent.com/john5du/Feather-Repo/refs/heads/main/img/fluxdo.png",
-      "tintColor": "FF6B6B",
+      "tintColor": "#7f7f7f",
       "screenshotURLs": [],
       "version": "0.1.38",
       "versionDate": "2026-03-03T16:34:17Z",
@@ -36,7 +36,13 @@
           "url": "https://github.com/Predidit/Kazumi"
         }
       ],
-      "appPermissions": {},
+      "appPermissions": {
+        "entitlements": [
+        ],
+        "privacy": {
+          "NSPhotoLibraryAddUsageDescription": "需要访问相册以保存图片"
+        }
+      },
       "versions": [
         {
           "version": "0.1.38",

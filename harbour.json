@@ -10,7 +10,8 @@
       "subtitle": "Docker/Portainer management app for iOS, iPadOS and macOS.",
       "localizedDescription": "Docker/Portainer management app for iOS, iPadOS and macOS.",
       "iconURL": "https://raw.githubusercontent.com/rrroyal/Harbour/refs/heads/main/Harbour/Assets.xcassets/AppIcon.appiconset/AppIcon-macOS-256x256.png",
-      "tintColor": "RRGGBB",
+      "tintColor": "#3c54ec",
+      "category": "other",
       "screenshotURLs": [],
       "version": "4.2.7",
       "versionDate": "2025-11-25T11:44:05Z",
@@ -23,7 +24,14 @@
         "web": "https://github.com/rrroyal/Harbour"
       },
       "information": [],
-      "appPermissions": {},
+      "appPermissions": {
+        "entitlements": [
+        ],
+        "privacy": {
+          "NSHumanReadableCopyright": "2025 shameful",
+          "NSAccentColorName": "AccentColor"
+        }
+      },
       "versions": [
         {
           "version": "4.2.7",

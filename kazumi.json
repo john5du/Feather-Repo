@@ -10,7 +10,8 @@
       "subtitle": "开源动漫播放器",
       "localizedDescription": "Kazumi 是一个开源的动漫资源采集播放器，支持 Android、iOS、macOS、Windows 和 Linux。\n\n主要功能：\n- 支持多个动漫源，无需服务器\n- 实时在线播放，支持弹幕系统\n- AI超分辨率提升视频画质\n- 本地媒体库管理\n- WebDAV同步观看进度\n- 多语言界面",
       "iconURL": "https://raw.githubusercontent.com/Predidit/Kazumi/main/assets/images/logo/logo_ios.png",
-      "tintColor": "FF6B6B",
+      "tintColor": "#81c836",
+      "category": "other",
       "screenshotURLs": [
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_1.png",
         "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_2.png",
@@ -44,11 +45,10 @@
         }
       ],
       "appPermissions": {
+        "entitlements": [
+        ],
         "privacy": {
-          "NSNetworkUsageDescription": "用于获取动漫资源和在线播放",
-          "NSPhotoLibraryUsageDescription": "用于保存截图到相册",
-          "NSMicrophoneUsageDescription": "用于语音搜索功能",
-          "NSCameraUsageDescription": "用于扫描二维码功能"
+          "NSPhotoLibraryAddUsageDescription": ""
         }
       },
       "versions": [
