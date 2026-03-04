@@ -107,6 +107,7 @@ def main():
     updated_files = []
 
     # 定义要更新的仓库信息
+    # https://altstudio.app/
     repos_to_update = [
         ("Predidit", "Kazumi", "app/kazumi.json"),
         ("bggRGjQaUbCoE", "PiliPlus", "app/piliplus.json"),
