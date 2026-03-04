@@ -118,6 +118,10 @@ def main():
     if update_repo_json("Lingyan000", "fluxdo", "fluxdo.json"):
         updated_files.append("fluxdo.json")
 
+    print("\n=== Updating Harbour ===")
+    if update_repo_json("rrroyal", "Harbour", "harbour.json"):
+        updated_files.append("harbour.json")
+
     if updated_files:
         print(f"\nUpdated files: {', '.join(updated_files)}")
         set_github_output("updated", "true")
