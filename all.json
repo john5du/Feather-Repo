@@ -476,6 +476,39 @@
         }
       ],
       "beta": false
+    },
+    {
+      "name": "Harbour",
+      "bundleIdentifier": "com.github.rrroyal.harbour",
+      "developerName": "rrroyal",
+      "subtitle": "Docker/Portainer management app for iOS, iPadOS and macOS.",
+      "localizedDescription": "Docker/Portainer management app for iOS, iPadOS and macOS.",
+      "iconURL": "https://raw.githubusercontent.com/rrroyal/Harbour/refs/heads/main/Harbour/Assets.xcassets/AppIcon.appiconset/AppIcon-macOS-256x256.png",
+      "tintColor": "RRGGBB",
+      "screenshotURLs": [],
+      "version": "4.2.7",
+      "versionDate": "2025-11-25T11:44:05Z",
+      "downloadURL": "https://github.com/rrroyal/Harbour/releases/download/v4.2.7/Harbour-v4.2.7-60.ipa",
+      "size": 6952759,
+      "versionDescription": "## General\r\n- Fixes for Docker 29\r\n- Tweaked indicators\r\n\r\n## Container Logs\r\n- Fixed string decoding\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/rrroyal/Harbour/compare/v4.2.6...v4.2.7",
+      "changelog": "## General\r\n- Fixes for Docker 29\r\n- Tweaked indicators\r\n\r\n## Container Logs\r\n- Fixed string decoding\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/rrroyal/Harbour/compare/v4.2.6...v4.2.7",
+      "minOSVersion": "13.0",
+      "contact": {
+        "web": "https://github.com/rrroyal/Harbour"
+      },
+      "information": [],
+      "appPermissions": {},
+      "versions": [
+        {
+          "version": "4.2.7",
+          "date": "2025-11-25",
+          "localizedDescription": "## General\r\n- Fixes for Docker 29\r\n- Tweaked indicators\r\n\r\n## Container Logs\r\n- Fixed string decoding\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/rrroyal/Harbour/compare/v4.2.6...v4.2.7",
+          "downloadURL": "https://github.com/rrroyal/Harbour/releases/download/v4.2.7/Harbour-v4.2.7-60.ipa",
+          "size": 6952759,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "beta": false
     }
   ],
   "news": [],
