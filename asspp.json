@@ -12,20 +12,31 @@
       "iconURL": "https://i.imgur.com/DIXI85e.png",
       "tintColor": "#2c9cfc",
       "category": "utilities",
-      "screenshots": [
-      ],
+      "screenshots": [],
       "versions": [
+        {
+          "version": "4.1.1",
+          "date": "2026-02-20",
+          "localizedDescription": "### New Features\n- **macOS Installed Apps tab** — view and update apps on connected devices\n- **In-app logging** — built-in log viewer for debugging\n- **Chinese localization** (zh-Hans)\n- **iTunesMetadata injection** — IPAs now include proper App Store metadata\n\n### Improvements\n- Migrated to `@Observable` and modern SwiftUI patterns\n- Modernized UI with AsyncButton, grouped Form style, and enriched package details\n- Fixed buttons not tappable in iOS Settings\n\n### Bug Fixes\n- **Fixed login failure due to empty response body** — login now works correctly\n- Fixed install failure message not showing\n- Fixed macOS login sheet",
+          "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/4.1.1/Asspp.ipa",
+          "size": 13586686,
+          "minOSVersion": "13.0"
+        }
       ],
       "appPermissions": {
-        "entitlements": [
-        ],
+        "entitlements": [],
         "privacy": {
           "NSAccentColorName": "AccentColor",
           "NSLocalNetworkUsageDescription": "Asspp requires this permission to communicate with install service on your device."
         }
       },
-      "patreon": {
-      }
+      "patreon": {},
+      "version": "4.1.1",
+      "versionDate": "2026-02-20T17:26:46Z",
+      "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/4.1.1/Asspp.ipa",
+      "size": 13586686,
+      "versionDescription": "### New Features\n- **macOS Installed Apps tab** — view and update apps on connected devices\n- **In-app logging** — built-in log viewer for debugging\n- **Chinese localization** (zh-Hans)\n- **iTunesMetadata injection** — IPAs now include proper App Store metadata\n\n### Improvements\n- Migrated to `@Observable` and modern SwiftUI patterns\n- Modernized UI with AsyncButton, grouped Form style, and enriched package details\n- Fixed buttons not tappable in iOS Settings\n\n### Bug Fixes\n- **Fixed login failure due to empty response body** — login now works correctly\n- Fixed install failure message not showing\n- Fixed macOS login sheet",
+      "changelog": "### New Features\n- **macOS Installed Apps tab** — view and update apps on connected devices\n- **In-app logging** — built-in log viewer for debugging\n- **Chinese localization** (zh-Hans)\n- **iTunesMetadata injection** — IPAs now include proper App Store metadata\n\n### Improvements\n- Migrated to `@Observable` and modern SwiftUI patterns\n- Modernized UI with AsyncButton, grouped Form style, and enriched package details\n- Fixed buttons not tappable in iOS Settings\n\n### Bug Fixes\n- **Fixed login failure due to empty response body** — login now works correctly\n- Fixed install failure message not showing\n- Fixed macOS login sheet"
     }
   ],
   "news": [],

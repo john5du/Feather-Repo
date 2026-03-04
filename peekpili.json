@@ -12,21 +12,32 @@
       "iconURL": "https://i.imgur.com/WugMOlw.png",
       "tintColor": "#d4b484",
       "category": "entertainment",
-      "screenshots": [
-      ],
+      "screenshots": [],
       "versions": [
+        {
+          "version": "V1.1.9",
+          "date": "2026-02-28",
+          "localizedDescription": "# Release v1.1.9\r\n\r\n## 🐛 问题修复\r\n\r\n### PC 端播放器修复\r\n- **修复画中画功能**：修复 PC 端 MDK 播放器的画中画功能异常问题，现在可以正常使用画中画模式观看视频\r\n\r\n### 短剧模式修复\r\n- **修复加载问题**：修复 Node 猫源在短剧模式下的加载异常问题，确保短剧内容能够正常加载和播放\r\n\r\n### 猫源适配优化\r\n- **进一步适配 open 版本**：持续优化猫源 open 版本的兼容性，提升源的稳定性和可用性\r\n\r\n## ✨ 体验优化\r\n\r\n- 提升应用整体稳定性\r\n- 优化播放器性能\r\n- 改善用户体验",
+          "downloadURL": "https://github.com/ingriddaleusag-dotcom/PeekPiliRelease/releases/download/V1.1.9/PeekPili_ios_1.1.9%2B2.ipa",
+          "size": 47793545,
+          "minOSVersion": "13.0"
+        }
       ],
       "appPermissions": {
-        "entitlements": [
-        ],
+        "entitlements": [],
         "privacy": {
           "NSAppleMusicUsageDescription": "App需要您的同意,才能访问媒体资料库",
           "NSCameraUsageDescription": "App需要您的同意,才能访问相册",
           "NSPhotoLibraryUsageDescription": "请允许APP保存图片到相册"
         }
       },
-      "patreon": {
-      }
+      "patreon": {},
+      "version": "V1.1.9",
+      "versionDate": "2026-02-28T02:34:27Z",
+      "downloadURL": "https://github.com/ingriddaleusag-dotcom/PeekPiliRelease/releases/download/V1.1.9/PeekPili_ios_1.1.9%2B2.ipa",
+      "size": 47793545,
+      "versionDescription": "# Release v1.1.9\r\n\r\n## 🐛 问题修复\r\n\r\n### PC 端播放器修复\r\n- **修复画中画功能**：修复 PC 端 MDK 播放器的画中画功能异常问题，现在可以正常使用画中画模式观看视频\r\n\r\n### 短剧模式修复\r\n- **修复加载问题**：修复 Node 猫源在短剧模式下的加载异常问题，确保短剧内容能够正常加载和播放\r\n\r\n### 猫源适配优化\r\n- **进一步适配 open 版本**：持续优化猫源 open 版本的兼容性，提升源的稳定性和可用性\r\n\r\n## ✨ 体验优化\r\n\r\n- 提升应用整体稳定性\r\n- 优化播放器性能\r\n- 改善用户体验",
+      "changelog": "# Release v1.1.9\r\n\r\n## 🐛 问题修复\r\n\r\n### PC 端播放器修复\r\n- **修复画中画功能**：修复 PC 端 MDK 播放器的画中画功能异常问题，现在可以正常使用画中画模式观看视频\r\n\r\n### 短剧模式修复\r\n- **修复加载问题**：修复 Node 猫源在短剧模式下的加载异常问题，确保短剧内容能够正常加载和播放\r\n\r\n### 猫源适配优化\r\n- **进一步适配 open 版本**：持续优化猫源 open 版本的兼容性，提升源的稳定性和可用性\r\n\r\n## ✨ 体验优化\r\n\r\n- 提升应用整体稳定性\r\n- 优化播放器性能\r\n- 改善用户体验"
     }
   ],
   "news": [],

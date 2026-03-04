@@ -521,6 +521,77 @@
         }
       ],
       "beta": false
+    },
+    {
+      "name": "Asspp",
+      "bundleIdentifier": "wiki.qaq.Asspp",
+      "developerName": "https://github.com/Lakr233/Asspp",
+      "subtitle": "多账号、多地区 App Store 管理神器。",
+      "localizedDescription": "多账号、多地区 App Store 管理神器。 Asspp 专为需要管理多个 Apple ID 和跨区下载的用户打造。你可以在不同国家的 App Store 之间无缝切换，随意浏览和下载应用，完全无需退出系统账号。",
+      "iconURL": "https://i.imgur.com/DIXI85e.png",
+      "tintColor": "#2c9cfc",
+      "category": "utilities",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "4.1.1",
+          "date": "2026-02-20",
+          "localizedDescription": "### New Features\n- **macOS Installed Apps tab** — view and update apps on connected devices\n- **In-app logging** — built-in log viewer for debugging\n- **Chinese localization** (zh-Hans)\n- **iTunesMetadata injection** — IPAs now include proper App Store metadata\n\n### Improvements\n- Migrated to `@Observable` and modern SwiftUI patterns\n- Modernized UI with AsyncButton, grouped Form style, and enriched package details\n- Fixed buttons not tappable in iOS Settings\n\n### Bug Fixes\n- **Fixed login failure due to empty response body** — login now works correctly\n- Fixed install failure message not showing\n- Fixed macOS login sheet",
+          "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/4.1.1/Asspp.ipa",
+          "size": 13586686,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAccentColorName": "AccentColor",
+          "NSLocalNetworkUsageDescription": "Asspp requires this permission to communicate with install service on your device."
+        }
+      },
+      "patreon": {},
+      "version": "4.1.1",
+      "versionDate": "2026-02-20T17:26:46Z",
+      "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/4.1.1/Asspp.ipa",
+      "size": 13586686,
+      "versionDescription": "### New Features\n- **macOS Installed Apps tab** — view and update apps on connected devices\n- **In-app logging** — built-in log viewer for debugging\n- **Chinese localization** (zh-Hans)\n- **iTunesMetadata injection** — IPAs now include proper App Store metadata\n\n### Improvements\n- Migrated to `@Observable` and modern SwiftUI patterns\n- Modernized UI with AsyncButton, grouped Form style, and enriched package details\n- Fixed buttons not tappable in iOS Settings\n\n### Bug Fixes\n- **Fixed login failure due to empty response body** — login now works correctly\n- Fixed install failure message not showing\n- Fixed macOS login sheet",
+      "changelog": "### New Features\n- **macOS Installed Apps tab** — view and update apps on connected devices\n- **In-app logging** — built-in log viewer for debugging\n- **Chinese localization** (zh-Hans)\n- **iTunesMetadata injection** — IPAs now include proper App Store metadata\n\n### Improvements\n- Migrated to `@Observable` and modern SwiftUI patterns\n- Modernized UI with AsyncButton, grouped Form style, and enriched package details\n- Fixed buttons not tappable in iOS Settings\n\n### Bug Fixes\n- **Fixed login failure due to empty response body** — login now works correctly\n- Fixed install failure message not showing\n- Fixed macOS login sheet"
+    },
+    {
+      "name": "PeekPili",
+      "bundleIdentifier": "com.example.peekpili",
+      "developerName": "https://github.com/ingriddaleusag-dotcom/PeekPiliRelease",
+      "subtitle": "集成 TVbox 视频源播放、小说阅读和漫画阅读功能的全能应用.",
+      "localizedDescription": "PeekPili 是一款集成 TVbox 视频源播放功能、小说阅读功能和漫画阅读功能的全能应用，支持多种视频源格式，让您可以在一个应用中享受丰富的第三方视频源、小说和漫画内容。 ✨ 多平台支持 - PeekPili 支持 Android、iOS、Pad、Windows 等平台，无论您使用什么设备，都能享受一致的使用体验。",
+      "iconURL": "https://i.imgur.com/WugMOlw.png",
+      "tintColor": "#d4b484",
+      "category": "entertainment",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "V1.1.9",
+          "date": "2026-02-28",
+          "localizedDescription": "# Release v1.1.9\r\n\r\n## 🐛 问题修复\r\n\r\n### PC 端播放器修复\r\n- **修复画中画功能**：修复 PC 端 MDK 播放器的画中画功能异常问题，现在可以正常使用画中画模式观看视频\r\n\r\n### 短剧模式修复\r\n- **修复加载问题**：修复 Node 猫源在短剧模式下的加载异常问题，确保短剧内容能够正常加载和播放\r\n\r\n### 猫源适配优化\r\n- **进一步适配 open 版本**：持续优化猫源 open 版本的兼容性，提升源的稳定性和可用性\r\n\r\n## ✨ 体验优化\r\n\r\n- 提升应用整体稳定性\r\n- 优化播放器性能\r\n- 改善用户体验",
+          "downloadURL": "https://github.com/ingriddaleusag-dotcom/PeekPiliRelease/releases/download/V1.1.9/PeekPili_ios_1.1.9%2B2.ipa",
+          "size": 47793545,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "App需要您的同意,才能访问媒体资料库",
+          "NSCameraUsageDescription": "App需要您的同意,才能访问相册",
+          "NSPhotoLibraryUsageDescription": "请允许APP保存图片到相册"
+        }
+      },
+      "patreon": {},
+      "version": "V1.1.9",
+      "versionDate": "2026-02-28T02:34:27Z",
+      "downloadURL": "https://github.com/ingriddaleusag-dotcom/PeekPiliRelease/releases/download/V1.1.9/PeekPili_ios_1.1.9%2B2.ipa",
+      "size": 47793545,
+      "versionDescription": "# Release v1.1.9\r\n\r\n## 🐛 问题修复\r\n\r\n### PC 端播放器修复\r\n- **修复画中画功能**：修复 PC 端 MDK 播放器的画中画功能异常问题，现在可以正常使用画中画模式观看视频\r\n\r\n### 短剧模式修复\r\n- **修复加载问题**：修复 Node 猫源在短剧模式下的加载异常问题，确保短剧内容能够正常加载和播放\r\n\r\n### 猫源适配优化\r\n- **进一步适配 open 版本**：持续优化猫源 open 版本的兼容性，提升源的稳定性和可用性\r\n\r\n## ✨ 体验优化\r\n\r\n- 提升应用整体稳定性\r\n- 优化播放器性能\r\n- 改善用户体验",
+      "changelog": "# Release v1.1.9\r\n\r\n## 🐛 问题修复\r\n\r\n### PC 端播放器修复\r\n- **修复画中画功能**：修复 PC 端 MDK 播放器的画中画功能异常问题，现在可以正常使用画中画模式观看视频\r\n\r\n### 短剧模式修复\r\n- **修复加载问题**：修复 Node 猫源在短剧模式下的加载异常问题，确保短剧内容能够正常加载和播放\r\n\r\n### 猫源适配优化\r\n- **进一步适配 open 版本**：持续优化猫源 open 版本的兼容性，提升源的稳定性和可用性\r\n\r\n## ✨ 体验优化\r\n\r\n- 提升应用整体稳定性\r\n- 优化播放器性能\r\n- 改善用户体验"
     }
   ],
   "news": [],
