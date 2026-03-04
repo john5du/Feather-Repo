@@ -108,12 +108,12 @@ def main():
 
     # 定义要更新的仓库信息
     repos_to_update = [
-        ("Predidit", "Kazumi", "kazumi.json"),
-        ("bggRGjQaUbCoE", "PiliPlus", "piliplus.json"),
-        ("Lingyan000", "fluxdo", "fluxdo.json"),
-        ("rrroyal", "Harbour", "harbour.json"),
-        ("ingriddaleusag-dotcom", "PeekPiliRelease", "peekpili.json"),
-        ("Lakr233", "Asspp", "asspp.json"),
+        ("Predidit", "Kazumi", "app/kazumi.json"),
+        ("bggRGjQaUbCoE", "PiliPlus", "app/piliplus.json"),
+        ("Lingyan000", "fluxdo", "app/fluxdo.json"),
+        ("rrroyal", "Harbour", "app/harbour.json"),
+        ("ingriddaleusag-dotcom", "PeekPiliRelease", "app/eekpili.json"),
+        ("Lakr233", "Asspp", "app/asspp.json"),
     ]
 
     # 使用循环更新所有仓库

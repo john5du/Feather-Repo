@@ -21,9 +21,9 @@ def get_source_files():
     exclude_files = {'all.json'}
 
     json_files = []
-    for json_file in root_dir.glob('*.json'):
+    for json_file in root_dir.glob('app/*.json'):
         if json_file.name not in exclude_files:
-            json_files.append(json_file.name)
+            json_files.append('app/'+json_file.name)
 
     json_files.sort()  # 按字母顺序排序
     return json_files
