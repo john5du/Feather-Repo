@@ -281,12 +281,12 @@
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/home.png",
         "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
       ],
-      "version": "2.0.0",
-      "versionDate": "2026-03-03T03:34:27Z",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.0/PiliPlus_ios_2.0.0%2B4715.ipa",
-      "size": 24968000,
-      "versionDescription": "听视频支持定时关闭\r\n听视频支持 Sponsor Block\r\nmacOS 响应 CMD+Q #1834 by @cnctem\r\nLinux 支持设置使用SSD #1839 by @just-a-pony\r\n添加播放顺序设置 #1830 by @My-Responsitories\r\n私信视频消息支持显示 UP 主赠言 #1849 by @barmxds6ch\r\n\r\n优化页面\r\n优化收起顶/底栏\r\n优化取消下拉刷新\r\n优化分享视频链接 #1835 co-by @gujial\r\n优化 #1829 #1831 #1832 #1840 #1846 #1854 by @My-Responsitories\r\n\r\n重构播放组件 #1848 by @My-Responsitories\r\n重构查看大图、长图 by @bggRGjQaUbCoE @My-Responsitories\r\n其他\r\n\r\n修复冷启动无法处理 URL Scheme \r\n修复校验 loudnorm 参数 #1838 by @Starfallan\r\n\r\nCI 调整 #1852 by @nlsdt \r\n其他",
-      "changelog": "听视频支持定时关闭\r\n听视频支持 Sponsor Block\r\nmacOS 响应 CMD+Q #1834 by @cnctem\r\nLinux 支持设置使用SSD #1839 by @just-a-pony\r\n添加播放顺序设置 #1830 by @My-Responsitories\r\n私信视频消息支持显示 UP 主赠言 #1849 by @barmxds6ch\r\n\r\n优化页面\r\n优化收起顶/底栏\r\n优化取消下拉刷新\r\n优化分享视频链接 #1835 co-by @gujial\r\n优化 #1829 #1831 #1832 #1840 #1846 #1854 by @My-Responsitories\r\n\r\n重构播放组件 #1848 by @My-Responsitories\r\n重构查看大图、长图 by @bggRGjQaUbCoE @My-Responsitories\r\n其他\r\n\r\n修复冷启动无法处理 URL Scheme \r\n修复校验 loudnorm 参数 #1838 by @Starfallan\r\n\r\nCI 调整 #1852 by @nlsdt \r\n其他",
+      "version": "2.0.0.1",
+      "versionDate": "2026-03-04T04:05:38Z",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.0.1/PiliPlus_ios_2.0.0%2B4721.ipa",
+      "size": 24968369,
+      "versionDescription": "修复部分动态富文本显示\r\n修复触摸板调节音量没有检查`滑动调节音量`属性\r\n修复 bug\r\n\r\n## 2.0.0\r\n听视频支持定时关闭\r\n听视频支持 Sponsor Block\r\nmacOS 响应 CMD+Q #1834 by @cnctem\r\nLinux 支持设置使用SSD #1839 by @just-a-pony\r\n添加播放顺序设置 #1830 by @My-Responsitories\r\n私信视频消息支持显示 UP 主赠言 #1849 by @barmxds6ch\r\n\r\n优化页面\r\n优化收起顶/底栏\r\n优化取消下拉刷新\r\n优化分享视频链接 #1835 co-by @gujial\r\n优化 #1829 #1831 #1832 #1840 #1846 #1854 by @My-Responsitories\r\n\r\n重构播放组件 #1848 by @My-Responsitories\r\n重构查看大图、长图 by @bggRGjQaUbCoE @My-Responsitories\r\n其他\r\n\r\n修复冷启动无法处理 URL Scheme \r\n修复校验 loudnorm 参数 #1838 by @Starfallan\r\n\r\nCI 调整 #1852 by @nlsdt \r\n其他",
+      "changelog": "修复部分动态富文本显示\r\n修复触摸板调节音量没有检查`滑动调节音量`属性\r\n修复 bug\r\n\r\n## 2.0.0\r\n听视频支持定时关闭\r\n听视频支持 Sponsor Block\r\nmacOS 响应 CMD+Q #1834 by @cnctem\r\nLinux 支持设置使用SSD #1839 by @just-a-pony\r\n添加播放顺序设置 #1830 by @My-Responsitories\r\n私信视频消息支持显示 UP 主赠言 #1849 by @barmxds6ch\r\n\r\n优化页面\r\n优化收起顶/底栏\r\n优化取消下拉刷新\r\n优化分享视频链接 #1835 co-by @gujial\r\n优化 #1829 #1831 #1832 #1840 #1846 #1854 by @My-Responsitories\r\n\r\n重构播放组件 #1848 by @My-Responsitories\r\n重构查看大图、长图 by @bggRGjQaUbCoE @My-Responsitories\r\n其他\r\n\r\n修复冷启动无法处理 URL Scheme \r\n修复校验 loudnorm 参数 #1838 by @Starfallan\r\n\r\nCI 调整 #1852 by @nlsdt \r\n其他",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/bggRGjQaUbCoE/PiliPlus"
@@ -314,6 +314,14 @@
         }
       },
       "versions": [
+        {
+          "version": "2.0.0.1",
+          "date": "2026-03-04",
+          "localizedDescription": "修复部分动态富文本显示\r\n修复触摸板调节音量没有检查`滑动调节音量`属性\r\n修复 bug\r\n\r\n## 2.0.0\r\n听视频支持定时关闭\r\n听视频支持 Sponsor Block\r\nmacOS 响应 CMD+Q #1834 by @cnctem\r\nLinux 支持设置使用SSD #1839 by @just-a-pony\r\n添加播放顺序设置 #1830 by @My-Responsitories\r\n私信视频消息支持显示 UP 主赠言 #1849 by @barmxds6ch\r\n\r\n优化页面\r\n优化收起顶/底栏\r\n优化取消下拉刷新\r\n优化分享视频链接 #1835 co-by @gujial\r\n优化 #1829 #1831 #1832 #1840 #1846 #1854 by @My-Responsitories\r\n\r\n重构播放组件 #1848 by @My-Responsitories\r\n重构查看大图、长图 by @bggRGjQaUbCoE @My-Responsitories\r\n其他\r\n\r\n修复冷启动无法处理 URL Scheme \r\n修复校验 loudnorm 参数 #1838 by @Starfallan\r\n\r\nCI 调整 #1852 by @nlsdt \r\n其他",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.0.1/PiliPlus_ios_2.0.0%2B4721.ipa",
+          "size": 24968369,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "2.0.0",
           "date": "2026-03-03",
@@ -464,14 +472,6 @@
           "localizedDescription": "修复 #1641 #1712 #1716\r\n修复 #1696 by @My-Responsitories\r\n调整 #1697 #1706 by @My-Responsitories\r\n打包 Linux AppImage #1575 by @Axiaobo7788\r\n视频菜单查看 AI 总结 #1666 #1698 by @My-Responsitories",
           "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.16/PiliPlus_ios_1.1.4%2B4296.ipa",
           "size": 24405008,
-          "minOSVersion": "13.0"
-        },
-        {
-          "version": "1.1.4.15",
-          "date": "2025-10-24",
-          "localizedDescription": "页面优化\r\n修复 #1680 #1684",
-          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.4.15/PiliPlus_ios_1.1.4%2B4285.ipa",
-          "size": 24413811,
           "minOSVersion": "13.0"
         }
       ],
