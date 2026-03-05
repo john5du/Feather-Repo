@@ -1,5 +1,6 @@
 import json
 import os
+from datetime import timezone
 
 import requests
 from github import Github
@@ -52,7 +53,7 @@ def update_repo_json(repo_owner, repo_name, json_file_name):
         # 更新主要版本信息
         app_data.update({
             'version': new_version,
-            'versionDate': latest_release.published_at.strftime("%Y-%m-%dT%H:%M:%SZ"),
+            'versionDate': latest_release.published_at.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             'downloadURL': new_download_url,
             'size': ipa_asset.size,
             'versionDescription': latest_release.body.split('<div')[0].strip(),
@@ -70,7 +71,7 @@ def update_repo_json(repo_owner, repo_name, json_file_name):
             # 添加新版本到versions数组开头
             new_version_entry = {
                 'version': new_version,
-                'date': latest_release.published_at.strftime("%Y-%m-%d"),
+                'date': latest_release.published_at.astimezone(timezone.utc).strftime("%Y-%m-%d"),
                 'localizedDescription': latest_release.body.split('<div')[0].strip(),
                 'downloadURL': new_download_url,
                 'size': ipa_asset.size,
