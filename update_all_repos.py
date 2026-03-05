@@ -113,7 +113,7 @@ def main():
         ("bggRGjQaUbCoE", "PiliPlus", "app/piliplus.json"),
         ("Lingyan000", "fluxdo", "app/fluxdo.json"),
         ("rrroyal", "Harbour", "app/harbour.json"),
-        ("ingriddaleusag-dotcom", "PeekPiliRelease", "app/eekpili.json"),
+        ("ingriddaleusag-dotcom", "PeekPiliRelease", "app/peekpili.json"),
         ("Lakr233", "Asspp", "app/asspp.json"),
     ]
 
