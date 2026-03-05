@@ -12,12 +12,12 @@
       "iconURL": "https://raw.githubusercontent.com/john5du/Feather-Repo/refs/heads/main/img/fluxdo.png",
       "tintColor": "#7f7f7f",
       "screenshotURLs": [],
-      "version": "0.1.38",
-      "versionDate": "2026-03-03T16:34:17Z",
-      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.38/fluxdo-unsigned.ipa",
-      "size": 21120092,
-      "versionDescription": "- ✨ 长按预览显示主贴，close #98\n\n- ✨ 优化图片上传功能，gif 不允许压缩\n\n- ✨ 优化内置浏览器体验，支持打开应用，close #102\n\n- ✨ 标签选择器逻辑优化，close #103\n\n- ✨ 优化 MessageBus 逻辑，更新为最新域名\n\n- 🔧 追加 google-services.json\n\n- ✨ 支持竖屏锁定\n\n- ✨ 集成 Firebase Crashlytics\n\n- ✨ 优化响应式布局效果\n\n- ✨ 边界场景优化\n\n- ✨ 话题详情性能优化\n\n- ✨ 优化启动速度\n\n- ✨ 优化启动服务执行顺序\n\n- 📝 README 更新",
-      "changelog": "- ✨ 长按预览显示主贴，close #98\n\n- ✨ 优化图片上传功能，gif 不允许压缩\n\n- ✨ 优化内置浏览器体验，支持打开应用，close #102\n\n- ✨ 标签选择器逻辑优化，close #103\n\n- ✨ 优化 MessageBus 逻辑，更新为最新域名\n\n- 🔧 追加 google-services.json\n\n- ✨ 支持竖屏锁定\n\n- ✨ 集成 Firebase Crashlytics\n\n- ✨ 优化响应式布局效果\n\n- ✨ 边界场景优化\n\n- ✨ 话题详情性能优化\n\n- ✨ 优化启动速度\n\n- ✨ 优化启动服务执行顺序\n\n- 📝 README 更新",
+      "version": "0.1.39",
+      "versionDate": "2026-03-05T03:37:04Z",
+      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.39/fluxdo-unsigned.ipa",
+      "size": 21216542,
+      "versionDescription": "- ✨ 优化话题更新提示和功能\n\n- ✨ 排序功能支持，close #104 #70\n\n- 🐛 修复热门无法和其他筛选项组合的问题，fix #107\n\n- ✨ 应用样式焕新，取消绝大多数场景的卡片边框，更清爽\n\n- ✨ 轮播图查看支持\n\n- ✨ 文本选择修改为只能选择帖子内容\n\n- ✨ 日志集成设备信息，close #92\n\n- 🐛 修复一些问题\n\n- ✨ 应用日志功能实现\n\n- 📝 更新 README\n\n- 🐛 修复一处不影响使用的报错\n\n- ✨ 首页向上滚动时 FAB 切换为刷新\n\n- ✨ 优化用户信息请求策略，回到前台时不再自动请求",
+      "changelog": "- ✨ 优化话题更新提示和功能\n\n- ✨ 排序功能支持，close #104 #70\n\n- 🐛 修复热门无法和其他筛选项组合的问题，fix #107\n\n- ✨ 应用样式焕新，取消绝大多数场景的卡片边框，更清爽\n\n- ✨ 轮播图查看支持\n\n- ✨ 文本选择修改为只能选择帖子内容\n\n- ✨ 日志集成设备信息，close #92\n\n- 🐛 修复一些问题\n\n- ✨ 应用日志功能实现\n\n- 📝 更新 README\n\n- 🐛 修复一处不影响使用的报错\n\n- ✨ 首页向上滚动时 FAB 切换为刷新\n\n- ✨ 优化用户信息请求策略，回到前台时不再自动请求",
       "minOSVersion": "13.0",
       "contact": {
         "web": "https://github.com/Lingyan000/fluxdo"
@@ -37,13 +37,20 @@
         }
       ],
       "appPermissions": {
-        "entitlements": [
-        ],
+        "entitlements": [],
         "privacy": {
           "NSPhotoLibraryAddUsageDescription": "需要访问相册以保存图片"
         }
       },
       "versions": [
+        {
+          "version": "0.1.39",
+          "date": "2026-03-05",
+          "localizedDescription": "- ✨ 优化话题更新提示和功能\n\n- ✨ 排序功能支持，close #104 #70\n\n- 🐛 修复热门无法和其他筛选项组合的问题，fix #107\n\n- ✨ 应用样式焕新，取消绝大多数场景的卡片边框，更清爽\n\n- ✨ 轮播图查看支持\n\n- ✨ 文本选择修改为只能选择帖子内容\n\n- ✨ 日志集成设备信息，close #92\n\n- 🐛 修复一些问题\n\n- ✨ 应用日志功能实现\n\n- 📝 更新 README\n\n- 🐛 修复一处不影响使用的报错\n\n- ✨ 首页向上滚动时 FAB 切换为刷新\n\n- ✨ 优化用户信息请求策略，回到前台时不再自动请求",
+          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.39/fluxdo-unsigned.ipa",
+          "size": 21216542,
+          "minOSVersion": "13.0"
+        },
         {
           "version": "0.1.38",
           "date": "2026-03-03",
