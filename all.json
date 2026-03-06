@@ -20,19 +20,41 @@
           "minOSVersion": "13.0",
           "localizedDescription": "### New Features\n- **macOS Installed Apps tab** — view and update apps on connected devices\n- **In-app logging** — built-in log viewer for debugging\n- **Chinese localization** (zh-Hans)\n- **iTunesMetadata injection** — IPAs now include proper App Store metadata\n\n### Improvements\n- Migrated to `@Observable` and modern SwiftUI patterns\n- Modernized UI with AsyncButton, grouped Form style, and enriched package details\n- Fixed buttons not tappable in iOS Settings\n\n### Bug Fixes\n- **Fixed login failure due to empty response body** — login now works correctly\n- Fixed install failure message not showing\n- Fixed macOS login sheet"
         }
-      ]
+      ],
+      "developerName": "https://github.com/Lakr233/Asspp",
+      "subtitle": "多账号、多地区 App Store 管理神器。",
+      "localizedDescription": "多账号、多地区 App Store 管理神器。 Asspp 专为需要管理多个 Apple ID 和跨区下载的用户打造。你可以在不同国家的 App Store 之间无缝切换，随意浏览和下载应用，完全无需退出系统账号。",
+      "iconURL": "https://i.imgur.com/DIXI85e.png",
+      "tintColor": "#2c9cfc",
+      "screenshots": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAccentColorName": "AccentColor",
+          "NSLocalNetworkUsageDescription": "Asspp requires this permission to communicate with install service on your device."
+        }
+      },
+      "patreon": {}
     },
     {
       "name": "FluxDo",
       "bundleIdentifier": "com.github.lingyan000.fluxdo",
-      "version": "0.1.40",
-      "versionDate": "2026-03-05T11:19:49Z",
-      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.40/fluxdo-unsigned.ipa",
-      "size": 21230702,
-      "versionDescription": "- ✨ 优化请求策略，避免频繁触发站点风控、掉登录等问题，close #111 #93 #75 #84 #60\n\n- ✨ 新话题/未读完计数展示\n\n- 🐛 修复话题更新提示功能的一些问题\n\n- ✨ 优化通知计数自动归零的问题",
-      "changelog": "- ✨ 优化请求策略，避免频繁触发站点风控、掉登录等问题，close #111 #93 #75 #84 #60\n\n- ✨ 新话题/未读完计数展示\n\n- 🐛 修复话题更新提示功能的一些问题\n\n- ✨ 优化通知计数自动归零的问题",
+      "version": "0.1.41",
+      "versionDate": "2026-03-06T09:59:06Z",
+      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.41/fluxdo-unsigned.ipa",
+      "size": 21270566,
+      "versionDescription": "- ✨ 日志功能优化\n\n- ✨ 优化请求策略\n\n- 🐛 修复一些问题\n\n- 🐛 修复会通过主域名触发 MessageBus 的问题\n\n- ✨ 优化首页 tab 逻辑，避免同时请求\n\n- ✨ 请求相关优化\n\n- ✨ 网络断开提示\n\n- ✨ 优化 Toast 样式\n\n- 🐛 修复单栏创建话题时没有打开话题详情页面的问题\n\n- ✨ 优化一些场景的请求",
+      "changelog": "- ✨ 日志功能优化\n\n- ✨ 优化请求策略\n\n- 🐛 修复一些问题\n\n- 🐛 修复会通过主域名触发 MessageBus 的问题\n\n- ✨ 优化首页 tab 逻辑，避免同时请求\n\n- ✨ 请求相关优化\n\n- ✨ 网络断开提示\n\n- ✨ 优化 Toast 样式\n\n- 🐛 修复单栏创建话题时没有打开话题详情页面的问题\n\n- ✨ 优化一些场景的请求",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "0.1.41",
+          "date": "2026-03-06",
+          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.41/fluxdo-unsigned.ipa",
+          "size": 21270566,
+          "minOSVersion": "13.0",
+          "localizedDescription": "- ✨ 日志功能优化\n\n- ✨ 优化请求策略\n\n- 🐛 修复一些问题\n\n- 🐛 修复会通过主域名触发 MessageBus 的问题\n\n- ✨ 优化首页 tab 逻辑，避免同时请求\n\n- ✨ 请求相关优化\n\n- ✨ 网络断开提示\n\n- ✨ 优化 Toast 样式\n\n- 🐛 修复单栏创建话题时没有打开话题详情页面的问题\n\n- ✨ 优化一些场景的请求"
+        },
         {
           "version": "0.1.40",
           "date": "2026-03-05",
@@ -65,7 +87,37 @@
           "minOSVersion": "13.0",
           "localizedDescription": "- 🚑️ 回退 doh_proxy\n\n<div align=center>\n\n[![Release Downloads](https://img.shields.io/github/downloads/lingyan000/fluxdo/v0.1.37/total?style=flat-square&logo=github)](https://img.shields.io/github/downloads/lingyan000/fluxdo/v0.1.37/)\n\n</div>\n\n**Download based on your device:**\n\n<div align=left>\n<table>\n    <thead align=left>\n        <tr>\n            <th>OS</th>\n            <th>Download</th>\n        </tr>\n    </thead>\n    <tbody align=left>\n        <tr>\n        <td>Android</td>\n            <td>\n                <a href=\"https://github.com/lingyan000/fluxdo/releases/download/v0.1.37/fluxdo-arm64-v8a.apk\"><img src=\"https://img.shields.io/badge/APK-ARMv8-168039.svg?logo=android\"></a><br>\n                <a href=\"https://github.com/lingyan000/fluxdo/releases/download/v0.1.37/fluxdo-armeabi-v7a.apk\"><img src=\"https://img.shields.io/badge/APK-ARMv7-45bf55.svg?logo=android\"></a><br>\n                <a href=\"https://github.com/lingyan000/fluxdo/releases/download/v0.1.37/fluxdo-x86_64.apk\"><img src=\"https://img.shields.io/badge/APK-x64-96ed89.svg?logo=android\"></a>\n            </td>\n        </tr>\n        <tr>\n        <td>iOS</td>\n            <td>\n                <a href=\"https://github.com/lingyan000/fluxdo/releases/download/v0.1.37/fluxdo-unsigned.ipa\"><img src=\"https://img.shields.io/badge/IPA-Unsigned-0c6bff.svg?logo=apple\"></a>\n            </td>\n        </tr>\n    </tbody>\n</table>\n\n</div>\n"
         }
-      ]
+      ],
+      "developerName": "Lingyan000",
+      "subtitle": "一个 Linux.do 第三方客户端",
+      "localizedDescription": "FluxDO 是为 Linux.do 社区打造的现代化移动和桌面客户端，基于 Flutter 开发，致力于为用户提供流畅、优雅的论坛浏览体验。",
+      "iconURL": "https://raw.githubusercontent.com/john5du/Feather-Repo/refs/heads/main/img/fluxdo.png",
+      "tintColor": "#7f7f7f",
+      "screenshotURLs": [],
+      "contact": {
+        "web": "https://github.com/Lingyan000/fluxdo"
+      },
+      "information": [
+        {
+          "item": "Flutter",
+          "version": "Latest",
+          "authors": "Flutter Team",
+          "url": "https://flutter.dev"
+        },
+        {
+          "item": "FluxDo",
+          "version": "1.7.9",
+          "authors": "Lingyan000",
+          "url": "https://github.com/Predidit/Kazumi"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryAddUsageDescription": "需要访问相册以保存图片"
+        }
+      },
+      "beta": false
     },
     {
       "name": "Harbour",
@@ -87,7 +139,25 @@
           "minOSVersion": "13.0",
           "localizedDescription": "## General\r\n- Fixes for Docker 29\r\n- Tweaked indicators\r\n\r\n## Container Logs\r\n- Fixed string decoding\r\n\r\n---\r\n\r\n**Full Changelog**: https://github.com/rrroyal/Harbour/compare/v4.2.6...v4.2.7"
         }
-      ]
+      ],
+      "developerName": "rrroyal",
+      "subtitle": "Docker/Portainer management app for iOS, iPadOS and macOS.",
+      "localizedDescription": "Docker/Portainer management app for iOS, iPadOS and macOS.",
+      "iconURL": "https://raw.githubusercontent.com/rrroyal/Harbour/refs/heads/main/Harbour/Assets.xcassets/AppIcon.appiconset/AppIcon-macOS-256x256.png",
+      "tintColor": "#3c54ec",
+      "screenshotURLs": [],
+      "contact": {
+        "web": "https://github.com/rrroyal/Harbour"
+      },
+      "information": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSHumanReadableCopyright": "2025 shameful",
+          "NSAccentColorName": "AccentColor"
+        }
+      },
+      "beta": false
     },
     {
       "name": "Kazumi",
@@ -261,7 +331,44 @@
           "minOSVersion": "13.0",
           "localizedDescription": "- 重新设计的 windows 平台视频解析器 (@Predidit)\r\n- 优化 iOS/ macOS 平台性能，现在可以同时使用弹幕和超分辨率 (#1314) (@ErBWs)\r\n- 新增搜索历史功能 (@Predidit)\r\n- UI 调整 (@Predidit)"
         }
-      ]
+      ],
+      "developerName": "Predidit",
+      "subtitle": "开源动漫播放器",
+      "localizedDescription": "Kazumi 是一个开源的动漫资源采集播放器，支持 Android、iOS、macOS、Windows 和 Linux。\n\n主要功能：\n- 支持多个动漫源，无需服务器\n- 实时在线播放，支持弹幕系统\n- AI超分辨率提升视频画质\n- 本地媒体库管理\n- WebDAV同步观看进度\n- 多语言界面",
+      "iconURL": "https://raw.githubusercontent.com/Predidit/Kazumi/main/assets/images/logo/logo_ios.png",
+      "tintColor": "#81c836",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_1.png",
+        "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_2.png",
+        "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_3.png",
+        "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_4.png",
+        "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_5.png",
+        "https://raw.githubusercontent.com/Predidit/Kazumi/main/static/screenshot/img_6.png"
+      ],
+      "contact": {
+        "web": "https://github.com/Predidit/Kazumi"
+      },
+      "information": [
+        {
+          "item": "Flutter",
+          "version": "Latest",
+          "authors": "Flutter Team",
+          "url": "https://flutter.dev"
+        },
+        {
+          "item": "Kazumi Core",
+          "version": "1.7.9",
+          "authors": "Predidit",
+          "url": "https://github.com/Predidit/Kazumi"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryAddUsageDescription": ""
+        }
+      },
+      "beta": false
     },
     {
       "name": "PeekPili",
@@ -283,7 +390,22 @@
           "minOSVersion": "13.0",
           "localizedDescription": "# Release v1.1.9\r\n\r\n## 🐛 问题修复\r\n\r\n### PC 端播放器修复\r\n- **修复画中画功能**：修复 PC 端 MDK 播放器的画中画功能异常问题，现在可以正常使用画中画模式观看视频\r\n\r\n### 短剧模式修复\r\n- **修复加载问题**：修复 Node 猫源在短剧模式下的加载异常问题，确保短剧内容能够正常加载和播放\r\n\r\n### 猫源适配优化\r\n- **进一步适配 open 版本**：持续优化猫源 open 版本的兼容性，提升源的稳定性和可用性\r\n\r\n## ✨ 体验优化\r\n\r\n- 提升应用整体稳定性\r\n- 优化播放器性能\r\n- 改善用户体验"
         }
-      ]
+      ],
+      "developerName": "https://github.com/ingriddaleusag-dotcom/PeekPiliRelease",
+      "subtitle": "集成 TVbox 视频源播放、小说阅读和漫画阅读功能的全能应用.",
+      "localizedDescription": "PeekPili 是一款集成 TVbox 视频源播放功能、小说阅读功能和漫画阅读功能的全能应用，支持多种视频源格式，让您可以在一个应用中享受丰富的第三方视频源、小说和漫画内容。 ✨ 多平台支持 - PeekPili 支持 Android、iOS、Pad、Windows 等平台，无论您使用什么设备，都能享受一致的使用体验。",
+      "iconURL": "https://i.imgur.com/WugMOlw.png",
+      "tintColor": "#d4b484",
+      "screenshots": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "App需要您的同意,才能访问媒体资料库",
+          "NSCameraUsageDescription": "App需要您的同意,才能访问相册",
+          "NSPhotoLibraryUsageDescription": "请允许APP保存图片到相册"
+        }
+      },
+      "patreon": {}
     },
     {
       "name": "PiliPlus",
@@ -457,7 +579,42 @@
           "minOSVersion": "13.0",
           "localizedDescription": "修复 #1641 #1712 #1716\r\n修复 #1696 by @My-Responsitories\r\n调整 #1697 #1706 by @My-Responsitories\r\n打包 Linux AppImage #1575 by @Axiaobo7788\r\n视频菜单查看 AI 总结 #1666 #1698 by @My-Responsitories"
         }
-      ]
+      ],
+      "developerName": "bggRGjQaUbCoE",
+      "subtitle": "第三方哔哩哔哩客户端",
+      "localizedDescription": "PiliPlus 是一款第三方哔哩哔哩客户端，专为 iOS 设备打造。\n\n主要功能：\n- 去除广告，纯净体验\n- 支持高清视频播放\n- 优化的用户界面\n- 支持弹幕功能\n- 离线缓存支持\n- 多账户管理",
+      "iconURL": "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/images/logo/logo.png",
+      "tintColor": "#5cb47c",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/home.png",
+        "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/assets/screenshots/main_screen.png"
+      ],
+      "contact": {
+        "web": "https://github.com/bggRGjQaUbCoE/PiliPlus"
+      },
+      "information": [
+        {
+          "item": "Flutter",
+          "version": "Latest",
+          "authors": "Flutter Team",
+          "url": "https://flutter.dev"
+        },
+        {
+          "item": "PiliPlus Core",
+          "version": "Latest",
+          "authors": "bggRGjQaUbCoE",
+          "url": "https://github.com/bggRGjQaUbCoE/PiliPlus"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "App需要您的同意,才能访问媒体资料库",
+          "NSCameraUsageDescription": "App需要您的同意,才能访问相册",
+          "NSPhotoLibraryUsageDescription": "请允许APP保存图片到相册"
+        }
+      },
+      "beta": false
     }
   ]
 }
