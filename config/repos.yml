@@ -1,0 +1,55 @@
+# Feather 项目配置文件
+# 这是默认配置，可通过 ConfigManager.create_default() 使用
+
+repositories:
+  - name: Kazumi
+    owner: Predidit
+    repo: Kazumi
+    json_file: app/kazumi.json
+    ipa_filename_pattern: "*.ipa"
+    min_os_version: "13.0"
+
+  - name: PiliPlus
+    owner: bggRGjQaUbCoE
+    repo: PiliPlus
+    json_file: app/piliplus.json
+    ipa_filename_pattern: "*.ipa"
+    min_os_version: "13.0"
+
+  - name: Fluxdo
+    owner: Lingyan000
+    repo: fluxdo
+    json_file: app/fluxdo.json
+    ipa_filename_pattern: "*.ipa"
+    min_os_version: "13.0"
+
+  - name: Harbour
+    owner: rrroyal
+    repo: Harbour
+    json_file: app/harbour.json
+    ipa_filename_pattern: "*.ipa"
+    min_os_version: "13.0"
+
+  - name: PeekPili
+    owner: ingriddaleusag-dotcom
+    repo: PeekPiliRelease
+    json_file: app/peekpili.json
+    ipa_filename_pattern: "*.ipa"
+    min_os_version: "13.0"
+
+  - name: Asspp
+    owner: Lakr233
+    repo: Asspp
+    json_file: app/asspp.json
+    ipa_filename_pattern: "*.ipa"
+    min_os_version: "13.0"
+
+paths:
+  app_dir: app
+  all_json: all.json
+  backups_dir: .backups
+  backups_enabled: false
+
+logging:
+  level: INFO
+  format: text

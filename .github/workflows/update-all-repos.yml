@@ -28,8 +28,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python update_all_repos.py
-          python merge_apps.py
+          python scripts/update_repos.py
+          python scripts/merge_apps.py
 
       - name: Commit and push all changes
         run: |
