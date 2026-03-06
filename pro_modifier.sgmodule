@@ -1,0 +1,9 @@
+#!name=Pro响应修改
+#!desc=将 http://124.70.164.133/pro/index.php 的响应体修改为指定内容
+
+[Script]
+# 修改Pro响应
+pro_modifier = type=http-response,pattern=^http:\/\/124\.70\.164\.133\/pro\/index\.php$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/DeAthBo/Feather-Repo/refs/heads/main/pro_response.js
+
+[MITM]
+hostname = %APPEND% 124.70.164.133
