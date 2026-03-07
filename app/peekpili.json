@@ -6,23 +6,38 @@
     {
       "name": "PeekPili",
       "bundleIdentifier": "com.example.peekpili",
+      "version": "V1.2.1",
+      "versionDate": "2026-03-07T04:38:20Z",
+      "downloadURL": "https://github.com/ingriddaleusag-dotcom/PeekPiliRelease/releases/download/V1.2.1/PeekPili_ios_1.2.1%2B2.ipa",
+      "size": 47856143,
+      "category": "entertainment",
+      "versionDescription": "# Release v1.2.1\r\n\r\n## 🎉 弹幕功能重大更新 - 支持自定义弹幕源\r\n\r\n现在可以添加自己的弹幕服务器了！支持 LogVar 等开源弹幕项目，弹幕来源更丰富。",
+      "changelog": "# Release v1.2.1\r\n\r\n## 🎉 弹幕功能重大更新 - 支持自定义弹幕源\r\n\r\n现在可以添加自己的弹幕服务器了！支持 LogVar 等开源弹幕项目，弹幕来源更丰富。",
+      "minOSVersion": "13.0",
+      "versions": [
+        {
+          "version": "V1.2.1",
+          "date": "2026-03-07",
+          "downloadURL": "https://github.com/ingriddaleusag-dotcom/PeekPiliRelease/releases/download/V1.2.1/PeekPili_ios_1.2.1%2B2.ipa",
+          "size": 47856143,
+          "minOSVersion": "13.0",
+          "localizedDescription": "# Release v1.2.1\r\n\r\n## 🎉 弹幕功能重大更新 - 支持自定义弹幕源\r\n\r\n现在可以添加自己的弹幕服务器了！支持 LogVar 等开源弹幕项目，弹幕来源更丰富。"
+        },
+        {
+          "version": "V1.1.9",
+          "date": "2026-02-28",
+          "downloadURL": "https://github.com/ingriddaleusag-dotcom/PeekPiliRelease/releases/download/V1.1.9/PeekPili_ios_1.1.9%2B2.ipa",
+          "size": 47793545,
+          "minOSVersion": "13.0",
+          "localizedDescription": "# Release v1.1.9\r\n\r\n## 🐛 问题修复\r\n\r\n### PC 端播放器修复\r\n- **修复画中画功能**：修复 PC 端 MDK 播放器的画中画功能异常问题，现在可以正常使用画中画模式观看视频\r\n\r\n### 短剧模式修复\r\n- **修复加载问题**：修复 Node 猫源在短剧模式下的加载异常问题，确保短剧内容能够正常加载和播放\r\n\r\n### 猫源适配优化\r\n- **进一步适配 open 版本**：持续优化猫源 open 版本的兼容性，提升源的稳定性和可用性\r\n\r\n## ✨ 体验优化\r\n\r\n- 提升应用整体稳定性\r\n- 优化播放器性能\r\n- 改善用户体验"
+        }
+      ],
       "developerName": "https://github.com/ingriddaleusag-dotcom/PeekPiliRelease",
       "subtitle": "集成 TVbox 视频源播放、小说阅读和漫画阅读功能的全能应用.",
       "localizedDescription": "PeekPili 是一款集成 TVbox 视频源播放功能、小说阅读功能和漫画阅读功能的全能应用，支持多种视频源格式，让您可以在一个应用中享受丰富的第三方视频源、小说和漫画内容。 ✨ 多平台支持 - PeekPili 支持 Android、iOS、Pad、Windows 等平台，无论您使用什么设备，都能享受一致的使用体验。",
       "iconURL": "https://i.imgur.com/WugMOlw.png",
       "tintColor": "#d4b484",
-      "category": "entertainment",
       "screenshots": [],
-      "versions": [
-        {
-          "version": "V1.1.9",
-          "date": "2026-02-28",
-          "localizedDescription": "# Release v1.1.9\r\n\r\n## 🐛 问题修复\r\n\r\n### PC 端播放器修复\r\n- **修复画中画功能**：修复 PC 端 MDK 播放器的画中画功能异常问题，现在可以正常使用画中画模式观看视频\r\n\r\n### 短剧模式修复\r\n- **修复加载问题**：修复 Node 猫源在短剧模式下的加载异常问题，确保短剧内容能够正常加载和播放\r\n\r\n### 猫源适配优化\r\n- **进一步适配 open 版本**：持续优化猫源 open 版本的兼容性，提升源的稳定性和可用性\r\n\r\n## ✨ 体验优化\r\n\r\n- 提升应用整体稳定性\r\n- 优化播放器性能\r\n- 改善用户体验",
-          "downloadURL": "https://github.com/ingriddaleusag-dotcom/PeekPiliRelease/releases/download/V1.1.9/PeekPili_ios_1.1.9%2B2.ipa",
-          "size": 47793545,
-          "minOSVersion": "13.0"
-        }
-      ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {
@@ -31,13 +46,7 @@
           "NSPhotoLibraryUsageDescription": "请允许APP保存图片到相册"
         }
       },
-      "patreon": {},
-      "version": "V1.1.9",
-      "versionDate": "2026-02-28T02:34:27Z",
-      "downloadURL": "https://github.com/ingriddaleusag-dotcom/PeekPiliRelease/releases/download/V1.1.9/PeekPili_ios_1.1.9%2B2.ipa",
-      "size": 47793545,
-      "versionDescription": "# Release v1.1.9\r\n\r\n## 🐛 问题修复\r\n\r\n### PC 端播放器修复\r\n- **修复画中画功能**：修复 PC 端 MDK 播放器的画中画功能异常问题，现在可以正常使用画中画模式观看视频\r\n\r\n### 短剧模式修复\r\n- **修复加载问题**：修复 Node 猫源在短剧模式下的加载异常问题，确保短剧内容能够正常加载和播放\r\n\r\n### 猫源适配优化\r\n- **进一步适配 open 版本**：持续优化猫源 open 版本的兼容性，提升源的稳定性和可用性\r\n\r\n## ✨ 体验优化\r\n\r\n- 提升应用整体稳定性\r\n- 优化播放器性能\r\n- 改善用户体验",
-      "changelog": "# Release v1.1.9\r\n\r\n## 🐛 问题修复\r\n\r\n### PC 端播放器修复\r\n- **修复画中画功能**：修复 PC 端 MDK 播放器的画中画功能异常问题，现在可以正常使用画中画模式观看视频\r\n\r\n### 短剧模式修复\r\n- **修复加载问题**：修复 Node 猫源在短剧模式下的加载异常问题，确保短剧内容能够正常加载和播放\r\n\r\n### 猫源适配优化\r\n- **进一步适配 open 版本**：持续优化猫源 open 版本的兼容性，提升源的稳定性和可用性\r\n\r\n## ✨ 体验优化\r\n\r\n- 提升应用整体稳定性\r\n- 优化播放器性能\r\n- 改善用户体验"
+      "patreon": {}
     }
   ],
   "news": [],
