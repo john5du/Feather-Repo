@@ -31,6 +31,8 @@ def set_github_output(name: str, value: str):
 
 def main():
     """主程序入口"""
+    config = None
+    logger = None
     try:
         # 创建默认配置
         config = ConfigManager.create_default()
@@ -57,7 +59,10 @@ def main():
         return 0 if result.success else 1
 
     except Exception as e:
-        print(f"✗ 更新失败: {e}")
+        if logger:
+            logger.error("更新失败", exception=e)
+        else:
+            print(f"✗ 更新失败: {e}")
         return 1
 
 

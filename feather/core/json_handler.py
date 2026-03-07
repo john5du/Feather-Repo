@@ -3,7 +3,7 @@
 import json
 import shutil
 from pathlib import Path
-from typing import Any, Dict, Optional
+from typing import Any, Dict, Optional, Tuple
 from datetime import datetime
 
 
@@ -118,7 +118,7 @@ class JSONHandler:
     def validate_structure(
         data: Dict[str, Any],
         required_keys: list = None
-    ) -> tuple[bool, Optional[str]]:
+    ) -> Tuple[bool, Optional[str]]:
         """
         验证JSON结构
 

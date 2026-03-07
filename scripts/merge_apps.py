@@ -19,6 +19,7 @@ from feather.services.merger import AppMerger
 
 def main():
     """主程序入口"""
+    logger = None
     try:
         # 修复 Windows 控制台默认编码导致的 Unicode 输出错误
         if hasattr(sys.stdout, "reconfigure"):
@@ -44,7 +45,10 @@ def main():
         return 0 if result.success else 1
 
     except Exception as e:
-        logger.error("合并失败", exception=e)
+        if logger:
+            logger.error("合并失败", exception=e)
+        else:
+            print(f"✗ 合并失败: {e}")
         return 1
 
 

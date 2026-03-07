@@ -92,10 +92,10 @@ class AppMerger:
                 self.logger.info(f"  - {sf}")
 
             # 加载all.json
-            all_data = self._load_all_json()
+            all_app_list, metadata = self._load_all_json()
             all_apps: Dict[str, AppInfo] = {
                 app.get_key(): app
-                for app in all_data
+                for app in all_app_list
             }
 
             self.logger.info(f"all.json 中已有 {len(all_apps)} 个应用")
@@ -105,7 +105,7 @@ class AppMerger:
                 self._merge_single_file(source_file, all_apps, result)
 
             # 保存合并结果
-            self._save_all_json(all_apps, result)
+            self._save_all_json(all_apps, metadata, result)
 
             # 输出统计信息
             self._print_statistics(result)
@@ -137,15 +137,18 @@ class AppMerger:
 
         return source_files
 
-    def _load_all_json(self) -> List[AppInfo]:
+    def _load_all_json(self) -> Tuple[List[AppInfo], Dict]:
         """
         加载all.json文件
 
         Returns:
-            应用列表
+            (应用列表, 外层元数据字典)
         """
         try:
             data = self.json_handler.load(self.paths.all_json)
+
+            # 提取外层元数据（除了apps字段）
+            metadata = {k: v for k, v in data.items() if k != 'apps'}
             apps_data = data.get('apps', [])
 
             apps = []
@@ -159,14 +162,14 @@ class AppMerger:
                         {'app_name': app_data.get('name', 'unknown')}
                     )
 
-            return apps
+            return apps, metadata
 
         except FileNotFoundError:
             self.logger.warning(f"文件不存在: {self.paths.all_json}")
-            return []
+            return [], {}
         except Exception as e:
             self.logger.error(f"加载all.json失败", exception=e)
-            return []
+            return [], {}
 
     def _merge_single_file(
         self,
@@ -270,6 +273,7 @@ class AppMerger:
     def _save_all_json(
         self,
         all_apps: Dict[str, AppInfo],
+        metadata: Dict,
         result: MergeResult
     ):
         """
@@ -277,6 +281,7 @@ class AppMerger:
 
         Args:
             all_apps: 所有应用字典
+            metadata: 外层元数据
             result: 合并结果对象
         """
         try:
@@ -286,7 +291,8 @@ class AppMerger:
             # 按name排序
             apps_data.sort(key=lambda x: x.get('name', ''))
 
-            all_data = {'apps': apps_data}
+            # 合并外层字段和apps数据
+            all_data = {**metadata, 'apps': apps_data}
 
             success = self.json_handler.save(
                 self.paths.all_json,

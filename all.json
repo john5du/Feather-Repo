@@ -1,4 +1,14 @@
 {
+  "name": "My Own Feather repo",
+  "subtitle": "A source for all of my apps",
+  "description": "",
+  "iconURL": "https://raw.githubusercontent.com/john5du/Feather-Repo/refs/heads/main/img/icon.png",
+  "website": "https://github.com/john5du/Feather-Repo",
+  "patreonURL": "",
+  "tintColor": "#6156e2",
+  "featuredApps": [
+    "com.github.lingyan000.fluxdo"
+  ],
   "apps": [
     {
       "name": "Asspp",

@@ -3,7 +3,7 @@
 from pathlib import Path
 from typing import Dict, List, Optional
 from dataclasses import dataclass
-from datetime import timezone
+from datetime import timezone, datetime
 
 from feather.core.json_handler import JSONHandler
 from feather.core.logger import FeatherLogger
@@ -267,7 +267,6 @@ class RepositoryUpdater:
 
         if not version_exists:
             # 创建新版本条目
-            from datetime import datetime
             new_entry = VersionEntry(
                 version=new_version,
                 date=datetime.now().strftime("%Y-%m-%d"),
