@@ -49,15 +49,24 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "2.5.1",
+      "version": "2.5.2",
       "versionDate": "2026-03-04T18:03:53Z",
       "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.5.2/conduit.ipa",
       "size": 24053560,
       "category": "utilities",
-      "versionDescription": "- Temporary Chats\n- More UI polish\n- Fix startup crash\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.5.1...v2.5.2",
-      "changelog": "- Temporary Chats\n- More UI polish\n- Fix startup crash\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.5.1...v2.5.2",
+      "versionDescription": "- Temporary Chats\r\n- More UI polish\r\n- Fix startup crash\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.5.1...v2.5.2",
+      "changelog": "- Temporary Chats\r\n- More UI polish\r\n- Fix startup crash\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.5.1...v2.5.2",
       "minOSVersion": "16.0",
-      "versions": [],
+      "versions": [
+        {
+          "version": "2.5.2",
+          "date": "2026-03-07",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.5.2/conduit.ipa",
+          "size": 24053560,
+          "minOSVersion": "16.0",
+          "localizedDescription": "- Temporary Chats\r\n- More UI polish\r\n- Fix startup crash\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.5.1...v2.5.2"
+        }
+      ],
       "developerName": "cogwheel0",
       "subtitle": "Native mobile client for OpenWebUI.",
       "localizedDescription": "Native mobile client for OpenWebUI. Chat with your self-hosted AI.",
