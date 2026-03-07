@@ -6,14 +6,22 @@
     {
       "name": "FluxDo",
       "bundleIdentifier": "com.github.lingyan000.fluxdo",
-      "version": "0.1.41",
-      "versionDate": "2026-03-06T09:59:06Z",
-      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.41/fluxdo-unsigned.ipa",
-      "size": 21270566,
-      "versionDescription": "- ✨ 日志功能优化\n\n- ✨ 优化请求策略\n\n- 🐛 修复一些问题\n\n- 🐛 修复会通过主域名触发 MessageBus 的问题\n\n- ✨ 优化首页 tab 逻辑，避免同时请求\n\n- ✨ 请求相关优化\n\n- ✨ 网络断开提示\n\n- ✨ 优化 Toast 样式\n\n- 🐛 修复单栏创建话题时没有打开话题详情页面的问题\n\n- ✨ 优化一些场景的请求",
-      "changelog": "- ✨ 日志功能优化\n\n- ✨ 优化请求策略\n\n- 🐛 修复一些问题\n\n- 🐛 修复会通过主域名触发 MessageBus 的问题\n\n- ✨ 优化首页 tab 逻辑，避免同时请求\n\n- ✨ 请求相关优化\n\n- ✨ 网络断开提示\n\n- ✨ 优化 Toast 样式\n\n- 🐛 修复单栏创建话题时没有打开话题详情页面的问题\n\n- ✨ 优化一些场景的请求",
+      "version": "0.1.42",
+      "versionDate": "2026-03-07T14:21:24Z",
+      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.42/fluxdo-unsigned.ipa",
+      "size": 21278144,
+      "versionDescription": "- ✨ 应用日志功能优化\n\n- ✨ 请求相关问题优化\n\n- 🐛 修复游客模式调用错误的 MessageBus 接口的问题",
+      "changelog": "- ✨ 应用日志功能优化\n\n- ✨ 请求相关问题优化\n\n- 🐛 修复游客模式调用错误的 MessageBus 接口的问题",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "0.1.42",
+          "date": "2026-03-07",
+          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.42/fluxdo-unsigned.ipa",
+          "size": 21278144,
+          "minOSVersion": "13.0",
+          "localizedDescription": "- ✨ 应用日志功能优化\n\n- ✨ 请求相关问题优化\n\n- 🐛 修复游客模式调用错误的 MessageBus 接口的问题"
+        },
         {
           "version": "0.1.41",
           "date": "2026-03-06",

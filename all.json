@@ -104,14 +104,22 @@
     {
       "name": "FluxDo",
       "bundleIdentifier": "com.github.lingyan000.fluxdo",
-      "version": "0.1.41",
-      "versionDate": "2026-03-06T09:59:06Z",
-      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.41/fluxdo-unsigned.ipa",
-      "size": 21270566,
-      "versionDescription": "- ✨ 日志功能优化\n\n- ✨ 优化请求策略\n\n- 🐛 修复一些问题\n\n- 🐛 修复会通过主域名触发 MessageBus 的问题\n\n- ✨ 优化首页 tab 逻辑，避免同时请求\n\n- ✨ 请求相关优化\n\n- ✨ 网络断开提示\n\n- ✨ 优化 Toast 样式\n\n- 🐛 修复单栏创建话题时没有打开话题详情页面的问题\n\n- ✨ 优化一些场景的请求",
-      "changelog": "- ✨ 日志功能优化\n\n- ✨ 优化请求策略\n\n- 🐛 修复一些问题\n\n- 🐛 修复会通过主域名触发 MessageBus 的问题\n\n- ✨ 优化首页 tab 逻辑，避免同时请求\n\n- ✨ 请求相关优化\n\n- ✨ 网络断开提示\n\n- ✨ 优化 Toast 样式\n\n- 🐛 修复单栏创建话题时没有打开话题详情页面的问题\n\n- ✨ 优化一些场景的请求",
+      "version": "0.1.42",
+      "versionDate": "2026-03-07T14:21:24Z",
+      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.42/fluxdo-unsigned.ipa",
+      "size": 21278144,
+      "versionDescription": "- ✨ 应用日志功能优化\n\n- ✨ 请求相关问题优化\n\n- 🐛 修复游客模式调用错误的 MessageBus 接口的问题",
+      "changelog": "- ✨ 应用日志功能优化\n\n- ✨ 请求相关问题优化\n\n- 🐛 修复游客模式调用错误的 MessageBus 接口的问题",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "0.1.42",
+          "date": "2026-03-07",
+          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.42/fluxdo-unsigned.ipa",
+          "size": 21278144,
+          "minOSVersion": "13.0",
+          "localizedDescription": "- ✨ 应用日志功能优化\n\n- ✨ 请求相关问题优化\n\n- 🐛 修复游客模式调用错误的 MessageBus 接口的问题"
+        },
         {
           "version": "0.1.41",
           "date": "2026-03-06",
@@ -227,15 +235,23 @@
     {
       "name": "Kazumi",
       "bundleIdentifier": "com.example.kazumi",
-      "version": "2.0.4",
-      "versionDate": "2026-03-03T02:21:45Z",
-      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.0.4/Kazumi_ios_2.0.4_no_sign.ipa",
-      "size": 27717501,
+      "version": "2.0.5",
+      "versionDate": "2026-03-07T10:24:47Z",
+      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.0.5/Kazumi_ios_2.0.5_no_sign.ipa",
+      "size": 27758976,
       "category": "other",
-      "versionDescription": "- 修复离线缓存视频播放位置记忆错误的问题 (@Predidit) (#1833)\r\n- 修复 android 平台 vulkan1.1 设备播放视频一段时间后崩溃的问题 (@Predidit) (#1756)\r\n- 修复 android 平台 vulkan1.1 设备超分辨率不生效的问题 (@Predidit)\r\n- 修复 windows 平台自旋锁处理不当导致的性能问题 (@Predidit) (#1779)\r\n- 修复 macos 平台启动时窗体闪烁的问题 (@Zhoucheng133)",
-      "changelog": "- 修复离线缓存视频播放位置记忆错误的问题 (@Predidit) (#1833)\r\n- 修复 android 平台 vulkan1.1 设备播放视频一段时间后崩溃的问题 (@Predidit) (#1756)\r\n- 修复 android 平台 vulkan1.1 设备超分辨率不生效的问题 (@Predidit)\r\n- 修复 windows 平台自旋锁处理不当导致的性能问题 (@Predidit) (#1779)\r\n- 修复 macos 平台启动时窗体闪烁的问题 (@Zhoucheng133)",
+      "versionDescription": "- 新增网页验证接管功能 (#1823) (@Predidit)\r\n> [!IMPORTANT]\r\n> 规则API级别从5升级到6，向前兼容",
+      "changelog": "- 新增网页验证接管功能 (#1823) (@Predidit)\r\n> [!IMPORTANT]\r\n> 规则API级别从5升级到6，向前兼容",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "2.0.5",
+          "date": "2026-03-07",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.0.5/Kazumi_ios_2.0.5_no_sign.ipa",
+          "size": 27758976,
+          "minOSVersion": "13.0",
+          "localizedDescription": "- 新增网页验证接管功能 (#1823) (@Predidit)\r\n> [!IMPORTANT]\r\n> 规则API级别从5升级到6，向前兼容"
+        },
         {
           "version": "2.0.4",
           "date": "2026-03-03",
@@ -387,14 +403,6 @@
           "size": 21990221,
           "minOSVersion": "13.0",
           "localizedDescription": "- 修复新版 windows 视频解析器的内存泄漏 (@Predidit)\r\n- 调整历史记录页面样式 (@Predidit)"
-        },
-        {
-          "version": "1.8.0",
-          "date": "2025-09-18",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.0/Kazumi_ios_1.8.0_no_sign.ipa",
-          "size": 21989645,
-          "minOSVersion": "13.0",
-          "localizedDescription": "- 重新设计的 windows 平台视频解析器 (@Predidit)\r\n- 优化 iOS/ macOS 平台性能，现在可以同时使用弹幕和超分辨率 (#1314) (@ErBWs)\r\n- 新增搜索历史功能 (@Predidit)\r\n- UI 调整 (@Predidit)"
         }
       ],
       "developerName": "Predidit",
