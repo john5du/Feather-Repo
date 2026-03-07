@@ -1,0 +1,56 @@
+{
+  "identifier": "app.cogwheel.conduit",
+  "name": "Conduit",
+  "sourceURL": "https://github.com/cogwheel0/conduit",
+  "apps": [
+    {
+      "name": "Conduit",
+      "bundleIdentifier": "app.cogwheel.conduit",
+      "developerName": "cogwheel0",
+      "subtitle": "Native mobile client for OpenWebUI.",
+      "localizedDescription": "Native mobile client for OpenWebUI. Chat with your self-hosted AI.",
+      "iconURL": "https://raw.githubusercontent.com/cogwheel0/conduit/main/assets/icons/icon.png",
+      "tintColor": "#1444e4",
+      "category": "utilities",
+      "screenshotURLs": [],
+      "version": "2.5.1",
+      "versionDate": "2026-03-04T18:03:53Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.5.2/conduit.ipa",
+      "size": 24053560,
+      "versionDescription": "- Temporary Chats\n- More UI polish\n- Fix startup crash\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.5.1...v2.5.2",
+      "changelog": "- Temporary Chats\n- More UI polish\n- Fix startup crash\n\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.5.1...v2.5.2",
+      "minOSVersion": "16.0",
+      "contact": {
+        "web": "https://github.com/cogwheel0/conduit"
+      },
+      "information": [
+        {
+          "item": "Flutter",
+          "version": "Latest",
+          "authors": "Flutter Team",
+          "url": "https://flutter.dev"
+        },
+        {
+          "item": "Conduit",
+          "version": "2.5.2",
+          "authors": "cogwheel0",
+          "url": "https://github.com/cogwheel0/conduit"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "Conduit uses the camera to take photos or videos you choose to share in chats.",
+          "NSMicrophoneUsageDescription": "Conduit uses the microphone to record voice messages and enable voice-to-text in chats.",
+          "NSPhotoLibraryUsageDescription": "Conduit needs access to your photo library so you can select existing images or videos to share in chats.",
+          "NSSpeechRecognitionUsageDescription": "Conduit uses on-device speech recognition so you can dictate messages hands-free."
+        }
+      },
+      "versions": [
+      ],
+      "beta": false
+    }
+  ],
+  "news": [],
+  "userInfo": {}
+}
