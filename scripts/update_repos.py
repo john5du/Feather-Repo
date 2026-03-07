@@ -35,7 +35,7 @@ def main():
     logger = None
     try:
         # 创建默认配置
-        config = ConfigManager.create_default()
+        config = ConfigManager.create()
         logger = FeatherLogger.setup("INFO")
 
         logger.info("开始更新仓库...")

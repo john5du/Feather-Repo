@@ -4,6 +4,7 @@ import os
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 from dataclasses import dataclass, field
+import yaml
 
 
 @dataclass
@@ -169,6 +170,55 @@ class ConfigManager:
             ),
         )
         return ConfigManager(config)
+
+    @staticmethod
+    def create_from_yaml(config_file: str = "config/repos.yml") -> "ConfigManager":
+        """从 YAML 配置文件创建配置"""
+        config_path = Path(config_file)
+        if not config_path.exists():
+            raise FileNotFoundError(f"配置文件不存在: {config_file}")
+
+        with config_path.open("r", encoding="utf-8") as f:
+            data = yaml.safe_load(f) or {}
+
+        repositories: List[RepositoryConfig] = []
+        for repo in data.get("repositories", []):
+            repositories.append(
+                RepositoryConfig(
+                    name=repo.get("name", ""),
+                    owner=repo.get("owner", ""),
+                    repo=repo.get("repo", ""),
+                    json_file=repo.get("json_file", ""),
+                    ipa_filename_pattern=repo.get("ipa_filename_pattern", "*.ipa"),
+                    min_os_version=repo.get("min_os_version", "13.0"),
+                )
+            )
+
+        paths_data = data.get("paths", {})
+        logging_data = data.get("logging", {})
+
+        config = Config(
+            repositories=repositories,
+            paths=PathConfig(
+                app_dir=paths_data.get("app_dir", "app"),
+                all_json=paths_data.get("all_json", "all.json"),
+                backups_dir=paths_data.get("backups_dir", ".backups"),
+                backups_enabled=paths_data.get("backups_enabled", False),
+            ),
+            logging=LoggingConfig(
+                level=logging_data.get("level", "INFO"),
+                format=logging_data.get("format", "text"),
+            ),
+        )
+        return ConfigManager(config)
+
+    @staticmethod
+    def create(config_file: str = "config/repos.yml") -> "ConfigManager":
+        """优先从 YAML 加载，失败时回退默认配置"""
+        try:
+            return ConfigManager.create_from_yaml(config_file)
+        except Exception:
+            return ConfigManager.create_default()
 
     def to_dict(self) -> Dict[str, Any]:
         """将配置转换为字典"""
