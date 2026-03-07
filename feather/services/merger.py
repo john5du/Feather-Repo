@@ -297,8 +297,6 @@ class AppMerger:
             success = self.json_handler.save(
                 self.paths.all_json,
                 all_data,
-                backup=self.paths.backups_enabled,
-                backup_dir=self.paths.backups_dir
             )
 
             if success:

@@ -1,10 +1,8 @@
 """JSON文件处理工具"""
 
 import json
-import shutil
 from pathlib import Path
 from typing import Any, Dict, Optional, Tuple
-from datetime import datetime
 
 
 class JSONHandler:
@@ -47,8 +45,6 @@ class JSONHandler:
     def save(
         filepath: str,
         data: Dict[str, Any],
-        backup: bool = True,
-        backup_dir: Optional[str] = None,
         encoding: str = 'utf-8',
         indent: int = 2
     ) -> bool:
@@ -58,8 +54,6 @@ class JSONHandler:
         Args:
             filepath: JSON文件路径
             data: 要保存的数据
-            backup: 是否创建备份
-            backup_dir: 备份目录（相对路径基于目标文件目录）
             encoding: 文件编码
             indent: JSON缩进
 
@@ -69,11 +63,6 @@ class JSONHandler:
         filepath = Path(filepath)
 
         try:
-            # 如果文件存在且需要备份，创建备份
-            if backup and filepath.exists():
-                backup_path = JSONHandler._create_backup(filepath, backup_dir)
-                print(f"  备份文件: {backup_path}")
-
             # 确保目录存在
             filepath.parent.mkdir(parents=True, exist_ok=True)
 
@@ -86,33 +75,6 @@ class JSONHandler:
         except Exception as e:
             print(f"✗ 保存JSON失败 ({filepath}): {str(e)}")
             return False
-
-    @staticmethod
-    def _create_backup(filepath: Path, backup_dir: Optional[str] = None) -> Path:
-        """
-        为文件创建备份
-
-        Args:
-            filepath: 原始文件路径
-
-        Returns:
-            备份文件路径
-        """
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-
-        if backup_dir:
-            backup_path_dir = Path(backup_dir)
-            if not backup_path_dir.is_absolute():
-                backup_path_dir = filepath.parent / backup_path_dir
-        else:
-            backup_path_dir = filepath.parent / '.backups'
-
-        backup_path_dir.mkdir(parents=True, exist_ok=True)
-
-        backup_path = backup_path_dir / f"{filepath.stem}_{timestamp}{filepath.suffix}"
-        shutil.copy2(filepath, backup_path)
-
-        return backup_path
 
     @staticmethod
     def validate_structure(

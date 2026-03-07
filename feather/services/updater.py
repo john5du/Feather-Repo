@@ -204,8 +204,6 @@ class RepositoryUpdater:
             if self.json_handler.save(
                 repo_config.json_file,
                 all_data,
-                backup=self.paths.backups_enabled,
-                backup_dir=self.paths.backups_dir
             ):
                 stat.success = True
                 stat.updated = True

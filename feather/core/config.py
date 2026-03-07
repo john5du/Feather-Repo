@@ -12,15 +12,11 @@ class PathConfig:
     """路径配置"""
     app_dir: str = "app"
     all_json: str = "all.json"
-    backups_dir: str = ".backups"
-    backups_enabled: bool = False
 
     def to_dict(self) -> Dict[str, Any]:
         return {
             'app_dir': self.app_dir,
             'all_json': self.all_json,
-            'backups_dir': self.backups_dir,
-            'backups_enabled': self.backups_enabled,
         }
 
 
@@ -161,8 +157,6 @@ class ConfigManager:
             paths=PathConfig(
                 app_dir="app",
                 all_json="all.json",
-                backups_dir=".backups",
-                backups_enabled=False,
             ),
             logging=LoggingConfig(
                 level="INFO",
@@ -202,8 +196,6 @@ class ConfigManager:
             paths=PathConfig(
                 app_dir=paths_data.get("app_dir", "app"),
                 all_json=paths_data.get("all_json", "all.json"),
-                backups_dir=paths_data.get("backups_dir", ".backups"),
-                backups_enabled=paths_data.get("backups_enabled", False),
             ),
             logging=LoggingConfig(
                 level=logging_data.get("level", "INFO"),
@@ -233,4 +225,3 @@ class ConfigManager:
         print(f"日志级别: {self.config.logging.level}")
         print(f"应用目录: {self.config.paths.app_dir}")
         print(f"合并文件: {self.config.paths.all_json}")
-        print(f"备份开关: {'开启' if self.config.paths.backups_enabled else '关闭'}")

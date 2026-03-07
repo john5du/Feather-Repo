@@ -54,8 +54,6 @@ repositories:
 paths:
   app_dir: app
   all_json: all.json
-  backups_dir: .backups
-  backups_enabled: false
 
 logging:
   level: INFO
