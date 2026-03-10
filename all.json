@@ -49,15 +49,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "2.5.2",
-      "versionDate": "2026-03-04T18:03:53Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.5.2/conduit.ipa",
-      "size": 24053560,
+      "version": "2.5.3",
+      "versionDate": "2026-03-09T16:58:11Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.5.3/conduit.ipa",
+      "size": 24094843,
       "category": "utilities",
-      "versionDescription": "- Temporary Chats\r\n- More UI polish\r\n- Fix startup crash\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.5.1...v2.5.2",
-      "changelog": "- Temporary Chats\r\n- More UI polish\r\n- Fix startup crash\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.5.1...v2.5.2",
+      "versionDescription": "- Fix paste to image on iOS\r\n- Fix HEIC uploads and unsupported WEBP conversion.\r\n- Performance optimization\r\n- UI polish and refactoring\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.5.2...v2.5.3",
+      "changelog": "- Fix paste to image on iOS\r\n- Fix HEIC uploads and unsupported WEBP conversion.\r\n- Performance optimization\r\n- UI polish and refactoring\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.5.2...v2.5.3",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "2.5.3",
+          "date": "2026-03-10",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.5.3/conduit.ipa",
+          "size": 24094843,
+          "minOSVersion": "16.0",
+          "localizedDescription": "- Fix paste to image on iOS\r\n- Fix HEIC uploads and unsupported WEBP conversion.\r\n- Performance optimization\r\n- UI polish and refactoring\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.5.2...v2.5.3"
+        },
         {
           "version": "2.5.2",
           "date": "2026-03-07",
@@ -104,14 +112,22 @@
     {
       "name": "FluxDo",
       "bundleIdentifier": "com.github.lingyan000.fluxdo",
-      "version": "0.1.42",
-      "versionDate": "2026-03-07T14:21:24Z",
-      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.42/fluxdo-unsigned.ipa",
-      "size": 21278144,
-      "versionDescription": "- ✨ 应用日志功能优化\n\n- ✨ 请求相关问题优化\n\n- 🐛 修复游客模式调用错误的 MessageBus 接口的问题",
-      "changelog": "- ✨ 应用日志功能优化\n\n- ✨ 请求相关问题优化\n\n- 🐛 修复游客模式调用错误的 MessageBus 接口的问题",
+      "version": "0.1.43",
+      "versionDate": "2026-03-09T15:21:38Z",
+      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.43/fluxdo-unsigned.ipa",
+      "size": 21323628,
+      "versionDescription": "- ✨ 一些功能优化\n\n- Add invite links and remember AI model selection (#120)\n\n- Co-authored-by: N1nEmAn <S3vn@S3vn.localdomain>\n\n- 🐛 修复了一些问题，ref #116\n\n- ✨ 元宇宙功能优化\n\n- ✨ 网络添加会话代守卫拦截器，提升应用稳定性\n\n- ✨ 过盾体验优化",
+      "changelog": "- ✨ 一些功能优化\n\n- Add invite links and remember AI model selection (#120)\n\n- Co-authored-by: N1nEmAn <S3vn@S3vn.localdomain>\n\n- 🐛 修复了一些问题，ref #116\n\n- ✨ 元宇宙功能优化\n\n- ✨ 网络添加会话代守卫拦截器，提升应用稳定性\n\n- ✨ 过盾体验优化",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "0.1.43",
+          "date": "2026-03-10",
+          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.43/fluxdo-unsigned.ipa",
+          "size": 21323628,
+          "minOSVersion": "13.0",
+          "localizedDescription": "- ✨ 一些功能优化\n\n- Add invite links and remember AI model selection (#120)\n\n- Co-authored-by: N1nEmAn <S3vn@S3vn.localdomain>\n\n- 🐛 修复了一些问题，ref #116\n\n- ✨ 元宇宙功能优化\n\n- ✨ 网络添加会话代守卫拦截器，提升应用稳定性\n\n- ✨ 过盾体验优化"
+        },
         {
           "version": "0.1.42",
           "date": "2026-03-07",
