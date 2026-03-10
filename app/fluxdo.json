@@ -6,14 +6,22 @@
     {
       "name": "FluxDo",
       "bundleIdentifier": "com.github.lingyan000.fluxdo",
-      "version": "0.1.45",
-      "versionDate": "2026-03-10T06:02:22Z",
-      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.45/fluxdo-unsigned.ipa",
-      "size": 21335685,
-      "versionDescription": "- 🚑️ 修复 CF 过盾异常\n\n- 🐛 修复话题详情到底还会继续触发加载的问题\n\n- 🚑️ 修复 CF 盾后无法进入页面",
-      "changelog": "- 🚑️ 修复 CF 过盾异常\n\n- 🐛 修复话题详情到底还会继续触发加载的问题\n\n- 🚑️ 修复 CF 盾后无法进入页面",
+      "version": "0.1.46",
+      "versionDate": "2026-03-10T14:38:09Z",
+      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.46/fluxdo-unsigned.ipa",
+      "size": 21670338,
+      "versionDescription": "- ✨ 支持开关滚动收起导航栏\r\n\r\n- ✨ 启动页优化，防止一些极端场景卡启动页\r\n\r\n- 🐛 修复邀请链接显示与限频提示 (#129)\r\n\r\n- ✨ 稍后阅读功能，refs #115\r\n\r\n- ✨ 书签功能优化，refs #115\r\n\r\n- ✨ SVG 渲染优化，close #126\r\n\r\n- ✨ 优化过盾逻辑\r\n\r\n- ✨ 异形屏横屏适配，close #110\r\n\r\n- ✨ Token 变更日志\r\n\r\n- ✨ 更详情的退出日志",
+      "changelog": "- ✨ 支持开关滚动收起导航栏\r\n\r\n- ✨ 启动页优化，防止一些极端场景卡启动页\r\n\r\n- 🐛 修复邀请链接显示与限频提示 (#129)\r\n\r\n- ✨ 稍后阅读功能，refs #115\r\n\r\n- ✨ 书签功能优化，refs #115\r\n\r\n- ✨ SVG 渲染优化，close #126\r\n\r\n- ✨ 优化过盾逻辑\r\n\r\n- ✨ 异形屏横屏适配，close #110\r\n\r\n- ✨ Token 变更日志\r\n\r\n- ✨ 更详情的退出日志",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "0.1.46",
+          "date": "2026-03-10",
+          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.46/fluxdo-unsigned.ipa",
+          "size": 21670338,
+          "minOSVersion": "13.0",
+          "localizedDescription": "- ✨ 支持开关滚动收起导航栏\r\n\r\n- ✨ 启动页优化，防止一些极端场景卡启动页\r\n\r\n- 🐛 修复邀请链接显示与限频提示 (#129)\r\n\r\n- ✨ 稍后阅读功能，refs #115\r\n\r\n- ✨ 书签功能优化，refs #115\r\n\r\n- ✨ SVG 渲染优化，close #126\r\n\r\n- ✨ 优化过盾逻辑\r\n\r\n- ✨ 异形屏横屏适配，close #110\r\n\r\n- ✨ Token 变更日志\r\n\r\n- ✨ 更详情的退出日志"
+        },
         {
           "version": "0.1.45",
           "date": "2026-03-10",
