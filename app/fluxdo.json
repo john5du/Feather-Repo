@@ -6,14 +6,22 @@
     {
       "name": "FluxDo",
       "bundleIdentifier": "com.github.lingyan000.fluxdo",
-      "version": "0.1.46",
-      "versionDate": "2026-03-10T14:38:09Z",
-      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.46/fluxdo-unsigned.ipa",
-      "size": 21670338,
-      "versionDescription": "- ✨ 支持开关滚动收起导航栏\r\n\r\n- ✨ 启动页优化，防止一些极端场景卡启动页\r\n\r\n- 🐛 修复邀请链接显示与限频提示 (#129)\r\n\r\n- ✨ 稍后阅读功能，refs #115\r\n\r\n- ✨ 书签功能优化，refs #115\r\n\r\n- ✨ SVG 渲染优化，close #126\r\n\r\n- ✨ 优化过盾逻辑\r\n\r\n- ✨ 异形屏横屏适配，close #110\r\n\r\n- ✨ Token 变更日志\r\n\r\n- ✨ 更详情的退出日志",
-      "changelog": "- ✨ 支持开关滚动收起导航栏\r\n\r\n- ✨ 启动页优化，防止一些极端场景卡启动页\r\n\r\n- 🐛 修复邀请链接显示与限频提示 (#129)\r\n\r\n- ✨ 稍后阅读功能，refs #115\r\n\r\n- ✨ 书签功能优化，refs #115\r\n\r\n- ✨ SVG 渲染优化，close #126\r\n\r\n- ✨ 优化过盾逻辑\r\n\r\n- ✨ 异形屏横屏适配，close #110\r\n\r\n- ✨ Token 变更日志\r\n\r\n- ✨ 更详情的退出日志",
+      "version": "0.1.47",
+      "versionDate": "2026-03-11T13:20:36Z",
+      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.47/fluxdo-unsigned.ipa",
+      "size": 21800059,
+      "versionDescription": "- 🐛 解决部分帖子无法点击查看大图的问题，fix #134\n\n- ✨ 优化书签卡片展示，refs #133\n\n- ✨ AI 助手导出图片功能，close #132\n\n- ✨ 优化回应弹框显示效果\n\n- ✨ 稍后阅读浮窗数量角标显示优化\n\n- ✨ AI 助手优化，close #132\n\n- ✨ 优化部分场景动画效果\n\n- ✨ 浮窗位置计算优化",
+      "changelog": "- 🐛 解决部分帖子无法点击查看大图的问题，fix #134\n\n- ✨ 优化书签卡片展示，refs #133\n\n- ✨ AI 助手导出图片功能，close #132\n\n- ✨ 优化回应弹框显示效果\n\n- ✨ 稍后阅读浮窗数量角标显示优化\n\n- ✨ AI 助手优化，close #132\n\n- ✨ 优化部分场景动画效果\n\n- ✨ 浮窗位置计算优化",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "0.1.47",
+          "date": "2026-03-11",
+          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.47/fluxdo-unsigned.ipa",
+          "size": 21800059,
+          "minOSVersion": "13.0",
+          "localizedDescription": "- 🐛 解决部分帖子无法点击查看大图的问题，fix #134\n\n- ✨ 优化书签卡片展示，refs #133\n\n- ✨ AI 助手导出图片功能，close #132\n\n- ✨ 优化回应弹框显示效果\n\n- ✨ 稍后阅读浮窗数量角标显示优化\n\n- ✨ AI 助手优化，close #132\n\n- ✨ 优化部分场景动画效果\n\n- ✨ 浮窗位置计算优化"
+        },
         {
           "version": "0.1.46",
           "date": "2026-03-10",
