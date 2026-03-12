@@ -120,14 +120,22 @@
     {
       "name": "FluxDo",
       "bundleIdentifier": "com.github.lingyan000.fluxdo",
-      "version": "0.1.47",
-      "versionDate": "2026-03-11T13:20:36Z",
-      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.47/fluxdo-unsigned.ipa",
-      "size": 21800059,
-      "versionDescription": "- 🐛 解决部分帖子无法点击查看大图的问题，fix #134\n\n- ✨ 优化书签卡片展示，refs #133\n\n- ✨ AI 助手导出图片功能，close #132\n\n- ✨ 优化回应弹框显示效果\n\n- ✨ 稍后阅读浮窗数量角标显示优化\n\n- ✨ AI 助手优化，close #132\n\n- ✨ 优化部分场景动画效果\n\n- ✨ 浮窗位置计算优化",
-      "changelog": "- 🐛 解决部分帖子无法点击查看大图的问题，fix #134\n\n- ✨ 优化书签卡片展示，refs #133\n\n- ✨ AI 助手导出图片功能，close #132\n\n- ✨ 优化回应弹框显示效果\n\n- ✨ 稍后阅读浮窗数量角标显示优化\n\n- ✨ AI 助手优化，close #132\n\n- ✨ 优化部分场景动画效果\n\n- ✨ 浮窗位置计算优化",
+      "version": "0.1.50",
+      "versionDate": "2026-03-12T10:35:11Z",
+      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.50/fluxdo-unsigned.ipa",
+      "size": 22603846,
+      "versionDescription": "- 🐛 修复部分图片资源无法加载",
+      "changelog": "- 🐛 修复部分图片资源无法加载",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "0.1.50",
+          "date": "2026-03-12",
+          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.50/fluxdo-unsigned.ipa",
+          "size": 22603846,
+          "minOSVersion": "13.0",
+          "localizedDescription": "- 🐛 修复部分图片资源无法加载"
+        },
         {
           "version": "0.1.47",
           "date": "2026-03-11",
