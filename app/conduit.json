@@ -6,15 +6,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "2.5.4",
-      "versionDate": "2026-03-11T09:04:55Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.5.4/conduit.ipa",
-      "size": 24096239,
+      "version": "2.5.5",
+      "versionDate": "2026-03-13T18:55:48Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.5.5/conduit.ipa",
+      "size": 24094064,
       "category": "utilities",
-      "versionDescription": "- Smoother scrolling\r\n- Drawer open gesture refactor\r\n- Pin to top when sending new messages\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.5.3...v2.5.4",
-      "changelog": "- Smoother scrolling\r\n- Drawer open gesture refactor\r\n- Pin to top when sending new messages\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.5.3...v2.5.4",
+      "versionDescription": "## What's Changed\n* feat(auth): improve iOS text field styling and header input UX by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/392\n* fix(streaming): acknowledge channel RPC to prevent 60s timeout by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/393\n* fix(ios): prevent infinite recursion in paste bridge swizzling by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/394",
+      "changelog": "## What's Changed\n* feat(auth): improve iOS text field styling and header input UX by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/392\n* fix(streaming): acknowledge channel RPC to prevent 60s timeout by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/393\n* fix(ios): prevent infinite recursion in paste bridge swizzling by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/394",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "2.5.5",
+          "date": "2026-03-14",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.5.5/conduit.ipa",
+          "size": 24094064,
+          "minOSVersion": "16.0",
+          "localizedDescription": "## What's Changed\n* feat(auth): improve iOS text field styling and header input UX by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/392\n* fix(streaming): acknowledge channel RPC to prevent 60s timeout by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/393\n* fix(ios): prevent infinite recursion in paste bridge swizzling by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/394"
+        },
         {
           "version": "2.5.4",
           "date": "2026-03-11",

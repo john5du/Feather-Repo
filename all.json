@@ -49,15 +49,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "2.5.4",
-      "versionDate": "2026-03-11T09:04:55Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.5.4/conduit.ipa",
-      "size": 24096239,
+      "version": "2.5.5",
+      "versionDate": "2026-03-13T18:55:48Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.5.5/conduit.ipa",
+      "size": 24094064,
       "category": "utilities",
-      "versionDescription": "- Smoother scrolling\r\n- Drawer open gesture refactor\r\n- Pin to top when sending new messages\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.5.3...v2.5.4",
-      "changelog": "- Smoother scrolling\r\n- Drawer open gesture refactor\r\n- Pin to top when sending new messages\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.5.3...v2.5.4",
+      "versionDescription": "## What's Changed\n* feat(auth): improve iOS text field styling and header input UX by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/392\n* fix(streaming): acknowledge channel RPC to prevent 60s timeout by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/393\n* fix(ios): prevent infinite recursion in paste bridge swizzling by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/394",
+      "changelog": "## What's Changed\n* feat(auth): improve iOS text field styling and header input UX by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/392\n* fix(streaming): acknowledge channel RPC to prevent 60s timeout by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/393\n* fix(ios): prevent infinite recursion in paste bridge swizzling by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/394",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "2.5.5",
+          "date": "2026-03-14",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.5.5/conduit.ipa",
+          "size": 24094064,
+          "minOSVersion": "16.0",
+          "localizedDescription": "## What's Changed\n* feat(auth): improve iOS text field styling and header input UX by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/392\n* fix(streaming): acknowledge channel RPC to prevent 60s timeout by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/393\n* fix(ios): prevent infinite recursion in paste bridge swizzling by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/394"
+        },
         {
           "version": "2.5.4",
           "date": "2026-03-11",
@@ -510,15 +518,23 @@
     {
       "name": "PeekPili",
       "bundleIdentifier": "com.example.peekpili",
-      "version": "V1.2.1",
-      "versionDate": "2026-03-07T04:38:20Z",
-      "downloadURL": "https://github.com/ingriddaleusag-dotcom/PeekPiliRelease/releases/download/V1.2.1/PeekPili_ios_1.2.1%2B2.ipa",
-      "size": 47856143,
+      "version": "V1.2.4",
+      "versionDate": "2026-03-14T01:07:36Z",
+      "downloadURL": "https://github.com/ingriddaleusag-dotcom/PeekPiliRelease/releases/download/V1.2.4/PeekPili_ios_1.2.4%2B2.ipa",
+      "size": 48816726,
       "category": "entertainment",
-      "versionDescription": "# Release v1.2.1\r\n\r\n## 🎉 弹幕功能重大更新 - 支持自定义弹幕源\r\n\r\n现在可以添加自己的弹幕服务器了！支持 LogVar 等开源弹幕项目，弹幕来源更丰富。",
-      "changelog": "# Release v1.2.1\r\n\r\n## 🎉 弹幕功能重大更新 - 支持自定义弹幕源\r\n\r\n现在可以添加自己的弹幕服务器了！支持 LogVar 等开源弹幕项目，弹幕来源更丰富。",
+      "versionDescription": "# Release v1.2.4\r\n\r\n## ✨ 新增功能\r\n\r\n- **WebDAV 音频智能播放**：WebDAV 服务器上的音频文件播放时自动调用音乐播放器，享受完整的音乐播放体验\r\n- **摸鱼模式优化**：进入摸鱼模式后窗口不再置顶，并且窗口变透明\r\n- **更新弹窗优化**：可以选择忽略此版本，忽略后将不再显示弹窗直到下一次更新\r\n- **小说阅读器界面优化**：全面优化小说阅读器界面，提升阅读体验和视觉效果\r\n- **仿真模式真实化**：仿真模式实现真正的仿真效果，更加逼真自然\r\n- **音乐模块安卓端优化**：\r\n  - 新增原生通知开关，开启后将使用原生写法的通知栏，解决部分安卓系统在通知栏点击暂停以后无法恢复播放的bug\r\n  - 新增桌面歌词开关，开启后可在桌面显示歌词\r\n  - 桌面歌词支持按住移动位置\r\n  - 单击歌词显示控制背景，再次单击隐藏控制背景\r\n  - 详细操作说明请查看设置项\r\n- **短剧 tab 触发方式增强**：支持名称中带 [短] 标签的内容自动触发短剧模式\r\n\r\n## 🐛 问题修复\r\n\r\n- **修复 drpy 开启 pwd 后站源加载",
+      "changelog": "# Release v1.2.4\r\n\r\n## ✨ 新增功能\r\n\r\n- **WebDAV 音频智能播放**：WebDAV 服务器上的音频文件播放时自动调用音乐播放器，享受完整的音乐播放体验\r\n- **摸鱼模式优化**：进入摸鱼模式后窗口不再置顶，并且窗口变透明\r\n- **更新弹窗优化**：可以选择忽略此版本，忽略后将不再显示弹窗直到下一次更新\r\n- **小说阅读器界面优化**：全面优化小说阅读器界面，提升阅读体验和视觉效果\r\n- **仿真模式真实化**：仿真模式实现真正的仿真效果，更加逼真自然\r\n- **音乐模块安卓端优化**：\r\n  - 新增原生通知开关，开启后将使用原生写法的通知栏，解决部分安卓系统在通知栏点击暂停以后无法恢复播放的bug\r\n  - 新增桌面歌词开关，开启后可在桌面显示歌词\r\n  - 桌面歌词支持按住移动位置\r\n  - 单击歌词显示控制背景，再次单击隐藏控制背景\r\n  - 详细操作说明请查看设置项\r\n- **短剧 tab 触发方式增强**：支持名称中带 [短] 标签的内容自动触发短剧模式\r\n\r\n## 🐛 问题修复\r\n\r\n- **修复 drpy 开启 pwd 后站源加载",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "V1.2.4",
+          "date": "2026-03-14",
+          "downloadURL": "https://github.com/ingriddaleusag-dotcom/PeekPiliRelease/releases/download/V1.2.4/PeekPili_ios_1.2.4%2B2.ipa",
+          "size": 48816726,
+          "minOSVersion": "13.0",
+          "localizedDescription": "# Release v1.2.4\r\n\r\n## ✨ 新增功能\r\n\r\n- **WebDAV 音频智能播放**：WebDAV 服务器上的音频文件播放时自动调用音乐播放器，享受完整的音乐播放体验\r\n- **摸鱼模式优化**：进入摸鱼模式后窗口不再置顶，并且窗口变透明\r\n- **更新弹窗优化**：可以选择忽略此版本，忽略后将不再显示弹窗直到下一次更新\r\n- **小说阅读器界面优化**：全面优化小说阅读器界面，提升阅读体验和视觉效果\r\n- **仿真模式真实化**：仿真模式实现真正的仿真效果，更加逼真自然\r\n- **音乐模块安卓端优化**：\r\n  - 新增原生通知开关，开启后将使用原生写法的通知栏，解决部分安卓系统在通知栏点击暂停以后无法恢复播放的bug\r\n  - 新增桌面歌词开关，开启后可在桌面显示歌词\r\n  - 桌面歌词支持按住移动位置\r\n  - 单击歌词显示控制背景，再次单击隐藏控制背景\r\n  - 详细操作说明请查看设置项\r\n- **短剧 tab 触发方式增强**：支持名称中带 [短] 标签的内容自动触发短剧模式\r\n\r\n## 🐛 问题修复\r\n\r\n- **修复 drpy 开启 pwd 后站源加载"
+        },
         {
           "version": "V1.2.1",
           "date": "2026-03-07",
