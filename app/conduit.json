@@ -6,15 +6,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "2.5.5",
-      "versionDate": "2026-03-13T18:55:48Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.5.5/conduit.ipa",
-      "size": 24094064,
+      "version": "2.5.6",
+      "versionDate": "2026-03-14T08:35:19Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.5.6/conduit.ipa",
+      "size": 24098793,
       "category": "utilities",
-      "versionDescription": "## What's Changed\n* feat(auth): improve iOS text field styling and header input UX by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/392\n* fix(streaming): acknowledge channel RPC to prevent 60s timeout by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/393\n* fix(ios): prevent infinite recursion in paste bridge swizzling by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/394",
-      "changelog": "## What's Changed\n* feat(auth): improve iOS text field styling and header input UX by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/392\n* fix(streaming): acknowledge channel RPC to prevent 60s timeout by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/393\n* fix(ios): prevent infinite recursion in paste bridge swizzling by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/394",
+      "versionDescription": "## What's Changed\n* chore: prepare for merge to main by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/396\n* feat: auto-scroll to bottom when opening existing conversations by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/397\n* branch/feat response frequently empty 4f4 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/398\n* chore: prepare for merge to main by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/399",
+      "changelog": "## What's Changed\n* chore: prepare for merge to main by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/396\n* feat: auto-scroll to bottom when opening existing conversations by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/397\n* branch/feat response frequently empty 4f4 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/398\n* chore: prepare for merge to main by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/399",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "2.5.6",
+          "date": "2026-03-14",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.5.6/conduit.ipa",
+          "size": 24098793,
+          "minOSVersion": "16.0",
+          "localizedDescription": "## What's Changed\n* chore: prepare for merge to main by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/396\n* feat: auto-scroll to bottom when opening existing conversations by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/397\n* branch/feat response frequently empty 4f4 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/398\n* chore: prepare for merge to main by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/399"
+        },
         {
           "version": "2.5.5",
           "date": "2026-03-14",

@@ -6,15 +6,23 @@
     {
       "name": "PeekPili",
       "bundleIdentifier": "com.example.peekpili",
-      "version": "V1.2.4",
-      "versionDate": "2026-03-14T01:07:36Z",
-      "downloadURL": "https://github.com/ingriddaleusag-dotcom/PeekPiliRelease/releases/download/V1.2.4/PeekPili_ios_1.2.4%2B2.ipa",
-      "size": 48816726,
+      "version": "V1.2.5",
+      "versionDate": "2026-03-14T07:53:35Z",
+      "downloadURL": "https://github.com/ingriddaleusag-dotcom/PeekPiliRelease/releases/download/V1.2.5/PeekPili_ios_1.2.5%2B2.ipa",
+      "size": 49972273,
       "category": "entertainment",
-      "versionDescription": "# Release v1.2.4\r\n\r\n## ✨ 新增功能\r\n\r\n- **WebDAV 音频智能播放**：WebDAV 服务器上的音频文件播放时自动调用音乐播放器，享受完整的音乐播放体验\r\n- **摸鱼模式优化**：进入摸鱼模式后窗口不再置顶，并且窗口变透明\r\n- **更新弹窗优化**：可以选择忽略此版本，忽略后将不再显示弹窗直到下一次更新\r\n- **小说阅读器界面优化**：全面优化小说阅读器界面，提升阅读体验和视觉效果\r\n- **仿真模式真实化**：仿真模式实现真正的仿真效果，更加逼真自然\r\n- **音乐模块安卓端优化**：\r\n  - 新增原生通知开关，开启后将使用原生写法的通知栏，解决部分安卓系统在通知栏点击暂停以后无法恢复播放的bug\r\n  - 新增桌面歌词开关，开启后可在桌面显示歌词\r\n  - 桌面歌词支持按住移动位置\r\n  - 单击歌词显示控制背景，再次单击隐藏控制背景\r\n  - 详细操作说明请查看设置项\r\n- **短剧 tab 触发方式增强**：支持名称中带 [短] 标签的内容自动触发短剧模式\r\n\r\n## 🐛 问题修复\r\n\r\n- **修复 drpy 开启 pwd 后站源加载",
-      "changelog": "# Release v1.2.4\r\n\r\n## ✨ 新增功能\r\n\r\n- **WebDAV 音频智能播放**：WebDAV 服务器上的音频文件播放时自动调用音乐播放器，享受完整的音乐播放体验\r\n- **摸鱼模式优化**：进入摸鱼模式后窗口不再置顶，并且窗口变透明\r\n- **更新弹窗优化**：可以选择忽略此版本，忽略后将不再显示弹窗直到下一次更新\r\n- **小说阅读器界面优化**：全面优化小说阅读器界面，提升阅读体验和视觉效果\r\n- **仿真模式真实化**：仿真模式实现真正的仿真效果，更加逼真自然\r\n- **音乐模块安卓端优化**：\r\n  - 新增原生通知开关，开启后将使用原生写法的通知栏，解决部分安卓系统在通知栏点击暂停以后无法恢复播放的bug\r\n  - 新增桌面歌词开关，开启后可在桌面显示歌词\r\n  - 桌面歌词支持按住移动位置\r\n  - 单击歌词显示控制背景，再次单击隐藏控制背景\r\n  - 详细操作说明请查看设置项\r\n- **短剧 tab 触发方式增强**：支持名称中带 [短] 标签的内容自动触发短剧模式\r\n\r\n## 🐛 问题修复\r\n\r\n- **修复 drpy 开启 pwd 后站源加载",
+      "versionDescription": "# Release v1.2.5（最终公开版）\r\n\r\n## ⚠️ 重要声明\r\n\r\n**这是最后一版公开版本，大概率不再更新。**",
+      "changelog": "# Release v1.2.5（最终公开版）\r\n\r\n## ⚠️ 重要声明\r\n\r\n**这是最后一版公开版本，大概率不再更新。**",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "V1.2.5",
+          "date": "2026-03-14",
+          "downloadURL": "https://github.com/ingriddaleusag-dotcom/PeekPiliRelease/releases/download/V1.2.5/PeekPili_ios_1.2.5%2B2.ipa",
+          "size": 49972273,
+          "minOSVersion": "13.0",
+          "localizedDescription": "# Release v1.2.5（最终公开版）\r\n\r\n## ⚠️ 重要声明\r\n\r\n**这是最后一版公开版本，大概率不再更新。**"
+        },
         {
           "version": "V1.2.4",
           "date": "2026-03-14",
