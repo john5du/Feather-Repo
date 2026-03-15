@@ -6,14 +6,22 @@
     {
       "name": "FluxDo",
       "bundleIdentifier": "com.github.lingyan000.fluxdo",
-      "version": "0.1.51",
-      "versionDate": "2026-03-13T11:43:09Z",
-      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.51/fluxdo-unsigned.ipa",
-      "size": 22767890,
-      "versionDescription": "- ✨ 表情包支持，感谢 @stevessr\n\n- ✨ 提升网络请求稳定性\n\n- ✨ VPN 自动切换，close #115\n\n- ✨ DOH 支持复制地址、编辑，close #138，close #100\n\n- ✨ 更新 doh_proxy\n\n- ✨ FAB 子按钮支持\n\n- ✨ improve upstream proxy support on android (#125)\n\n- ✨ 帖子内容优化\n\n- ✨ 用户封禁显示，close #139\n\n- ✨ 支持图标切换\n\n- ✨ 图片批量上传，close #130\n\n- ✨ 图片查看器手势优化\n\n- ✨ MacOS 图标优化",
-      "changelog": "- ✨ 表情包支持，感谢 @stevessr\n\n- ✨ 提升网络请求稳定性\n\n- ✨ VPN 自动切换，close #115\n\n- ✨ DOH 支持复制地址、编辑，close #138，close #100\n\n- ✨ 更新 doh_proxy\n\n- ✨ FAB 子按钮支持\n\n- ✨ improve upstream proxy support on android (#125)\n\n- ✨ 帖子内容优化\n\n- ✨ 用户封禁显示，close #139\n\n- ✨ 支持图标切换\n\n- ✨ 图片批量上传，close #130\n\n- ✨ 图片查看器手势优化\n\n- ✨ MacOS 图标优化",
+      "version": "0.1.52",
+      "versionDate": "2026-03-15T04:34:19Z",
+      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.52/fluxdo-unsigned.ipa",
+      "size": 22805212,
+      "versionDescription": "- 🐛 修复附件无法下载，fix #141\n\n- ✨ 表情面板功能优化\n\n- 🐛 修复了一些问题",
+      "changelog": "- 🐛 修复附件无法下载，fix #141\n\n- ✨ 表情面板功能优化\n\n- 🐛 修复了一些问题",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "0.1.52",
+          "date": "2026-03-15",
+          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.52/fluxdo-unsigned.ipa",
+          "size": 22805212,
+          "minOSVersion": "13.0",
+          "localizedDescription": "- 🐛 修复附件无法下载，fix #141\n\n- ✨ 表情面板功能优化\n\n- 🐛 修复了一些问题"
+        },
         {
           "version": "0.1.51",
           "date": "2026-03-13",
