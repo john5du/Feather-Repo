@@ -6,15 +6,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "2.5.6",
-      "versionDate": "2026-03-14T08:35:19Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.5.6/conduit.ipa",
-      "size": 24098793,
+      "version": "2.6.0",
+      "versionDate": "2026-03-21T18:35:57Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.6.0/conduit.ipa",
+      "size": 24292249,
       "category": "utilities",
-      "versionDescription": "## What's Changed\n* chore: prepare for merge to main by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/396\n* feat: auto-scroll to bottom when opening existing conversations by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/397\n* branch/feat response frequently empty 4f4 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/398\n* chore: prepare for merge to main by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/399",
-      "changelog": "## What's Changed\n* chore: prepare for merge to main by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/396\n* feat: auto-scroll to bottom when opening existing conversations by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/397\n* branch/feat response frequently empty 4f4 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/398\n* chore: prepare for merge to main by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/399",
+      "versionDescription": "## What's Changed\r\n\r\n**Features**\r\n- Phone sidebar with dedicated Chats, Notes, and Channels tabs\r\n- Pill-style tab bar in navigation with improved visual design\r\n- Haptic feedback when streaming assistant messages\r\n- Stronger haptics when drawer settles at open/close endpoints\r\n- Handle tool-only completions in voice call TTS processing\r\n- OpenWebUI image generation parity with native chat flow\r\n- Improved markdown spacing for better readability\r\n- OpenWebUI stream parser and typed completion t",
+      "changelog": "## What's Changed\r\n\r\n**Features**\r\n- Phone sidebar with dedicated Chats, Notes, and Channels tabs\r\n- Pill-style tab bar in navigation with improved visual design\r\n- Haptic feedback when streaming assistant messages\r\n- Stronger haptics when drawer settles at open/close endpoints\r\n- Handle tool-only completions in voice call TTS processing\r\n- OpenWebUI image generation parity with native chat flow\r\n- Improved markdown spacing for better readability\r\n- OpenWebUI stream parser and typed completion t",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "2.6.0",
+          "date": "2026-03-22",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.6.0/conduit.ipa",
+          "size": 24292249,
+          "minOSVersion": "16.0",
+          "localizedDescription": "## What's Changed\r\n\r\n**Features**\r\n- Phone sidebar with dedicated Chats, Notes, and Channels tabs\r\n- Pill-style tab bar in navigation with improved visual design\r\n- Haptic feedback when streaming assistant messages\r\n- Stronger haptics when drawer settles at open/close endpoints\r\n- Handle tool-only completions in voice call TTS processing\r\n- OpenWebUI image generation parity with native chat flow\r\n- Improved markdown spacing for better readability\r\n- OpenWebUI stream parser and typed completion t"
+        },
         {
           "version": "2.5.6",
           "date": "2026-03-14",
