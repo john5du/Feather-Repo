@@ -6,15 +6,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "2.6.0",
-      "versionDate": "2026-03-21T18:35:57Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.6.0/conduit.ipa",
-      "size": 24292249,
+      "version": "2.6.2",
+      "versionDate": "2026-03-22T09:41:37Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.6.2/conduit.ipa",
+      "size": 24293865,
       "category": "utilities",
-      "versionDescription": "## What's Changed\r\n\r\n**Features**\r\n- Phone sidebar with dedicated Chats, Notes, and Channels tabs\r\n- Pill-style tab bar in navigation with improved visual design\r\n- Haptic feedback when streaming assistant messages\r\n- Stronger haptics when drawer settles at open/close endpoints\r\n- Handle tool-only completions in voice call TTS processing\r\n- OpenWebUI image generation parity with native chat flow\r\n- Improved markdown spacing for better readability\r\n- OpenWebUI stream parser and typed completion t",
-      "changelog": "## What's Changed\r\n\r\n**Features**\r\n- Phone sidebar with dedicated Chats, Notes, and Channels tabs\r\n- Pill-style tab bar in navigation with improved visual design\r\n- Haptic feedback when streaming assistant messages\r\n- Stronger haptics when drawer settles at open/close endpoints\r\n- Handle tool-only completions in voice call TTS processing\r\n- OpenWebUI image generation parity with native chat flow\r\n- Improved markdown spacing for better readability\r\n- OpenWebUI stream parser and typed completion t",
+      "versionDescription": "- Changed the default dark mode background to AMOLED black for more polish\r\n- Fix assistant error causing message history issues.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.6.1...v2.6.2",
+      "changelog": "- Changed the default dark mode background to AMOLED black for more polish\r\n- Fix assistant error causing message history issues.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.6.1...v2.6.2",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "2.6.2",
+          "date": "2026-03-23",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.6.2/conduit.ipa",
+          "size": 24293865,
+          "minOSVersion": "16.0",
+          "localizedDescription": "- Changed the default dark mode background to AMOLED black for more polish\r\n- Fix assistant error causing message history issues.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.6.1...v2.6.2"
+        },
         {
           "version": "2.6.0",
           "date": "2026-03-22",
