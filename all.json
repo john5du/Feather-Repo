@@ -49,15 +49,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "2.6.2",
-      "versionDate": "2026-03-22T09:41:37Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.6.2/conduit.ipa",
-      "size": 24293865,
+      "version": "2.6.3",
+      "versionDate": "2026-03-24T08:51:09Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.6.3/conduit.ipa",
+      "size": 24403280,
       "category": "utilities",
-      "versionDescription": "- Changed the default dark mode background to AMOLED black for more polish\r\n- Fix assistant error causing message history issues.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.6.1...v2.6.2",
-      "changelog": "- Changed the default dark mode background to AMOLED black for more polish\r\n- Fix assistant error causing message history issues.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.6.1...v2.6.2",
+      "versionDescription": "## What's Changed\r\n\r\n- Improved streaming replies in chat, with cleaner completion on terminal chunks, smoother long-conversation behavior, and better handling when you manually scroll during generation.\r\n- Switched reasoning and tool-call rendering to native collapsible markdown blocks, making assistant responses cleaner and more consistent.\r\n- Added richer embed and preview support in messages, including HTML/SVG preview actions and more reliable sizing for WebView-based content such as charts",
+      "changelog": "## What's Changed\r\n\r\n- Improved streaming replies in chat, with cleaner completion on terminal chunks, smoother long-conversation behavior, and better handling when you manually scroll during generation.\r\n- Switched reasoning and tool-call rendering to native collapsible markdown blocks, making assistant responses cleaner and more consistent.\r\n- Added richer embed and preview support in messages, including HTML/SVG preview actions and more reliable sizing for WebView-based content such as charts",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "2.6.3",
+          "date": "2026-03-25",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.6.3/conduit.ipa",
+          "size": 24403280,
+          "minOSVersion": "16.0",
+          "localizedDescription": "## What's Changed\r\n\r\n- Improved streaming replies in chat, with cleaner completion on terminal chunks, smoother long-conversation behavior, and better handling when you manually scroll during generation.\r\n- Switched reasoning and tool-call rendering to native collapsible markdown blocks, making assistant responses cleaner and more consistent.\r\n- Added richer embed and preview support in messages, including HTML/SVG preview actions and more reliable sizing for WebView-based content such as charts"
+        },
         {
           "version": "2.6.2",
           "date": "2026-03-23",
