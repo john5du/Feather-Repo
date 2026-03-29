@@ -6,14 +6,22 @@
     {
       "name": "FluxDo",
       "bundleIdentifier": "com.github.lingyan000.fluxdo",
-      "version": "0.2.2",
-      "versionDate": "2026-03-28T08:05:26Z",
-      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.2/fluxdo-unsigned.ipa",
-      "size": 34880309,
-      "versionDescription": "- 🚑️ 尝试解决掉登录的问题",
-      "changelog": "- 🚑️ 尝试解决掉登录的问题",
+      "version": "0.2.3",
+      "versionDate": "2026-03-29T12:36:39Z",
+      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.3/fluxdo-unsigned.ipa",
+      "size": 34886718,
+      "versionDescription": "- 🚑️ 取消 Android 默认 CDP 机制，不再支持 WebView 双向同步，解决新版本掉登录问题\n\n- 🐛: 注入 iOS 15 JS polyfill 修复登录页白屏问题 (#185)",
+      "changelog": "- 🚑️ 取消 Android 默认 CDP 机制，不再支持 WebView 双向同步，解决新版本掉登录问题\n\n- 🐛: 注入 iOS 15 JS polyfill 修复登录页白屏问题 (#185)",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "0.2.3",
+          "date": "2026-03-29",
+          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.3/fluxdo-unsigned.ipa",
+          "size": 34886718,
+          "minOSVersion": "13.0",
+          "localizedDescription": "- 🚑️ 取消 Android 默认 CDP 机制，不再支持 WebView 双向同步，解决新版本掉登录问题\n\n- 🐛: 注入 iOS 15 JS polyfill 修复登录页白屏问题 (#185)"
+        },
         {
           "version": "0.2.2",
           "date": "2026-03-28",
