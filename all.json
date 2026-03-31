@@ -168,14 +168,22 @@
     {
       "name": "FluxDo",
       "bundleIdentifier": "com.github.lingyan000.fluxdo",
-      "version": "0.2.3",
-      "versionDate": "2026-03-29T12:36:39Z",
-      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.3/fluxdo-unsigned.ipa",
-      "size": 34886718,
-      "versionDescription": "- 🚑️ 取消 Android 默认 CDP 机制，不再支持 WebView 双向同步，解决新版本掉登录问题\n\n- 🐛: 注入 iOS 15 JS polyfill 修复登录页白屏问题 (#185)",
-      "changelog": "- 🚑️ 取消 Android 默认 CDP 机制，不再支持 WebView 双向同步，解决新版本掉登录问题\n\n- 🐛: 注入 iOS 15 JS polyfill 修复登录页白屏问题 (#185)",
+      "version": "0.2.5",
+      "versionDate": "2026-03-30T16:44:58Z",
+      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.5/fluxdo-unsigned.ipa",
+      "size": 38300683,
+      "versionDescription": "- 🚑️ Windows 卡验证修复",
+      "changelog": "- 🚑️ Windows 卡验证修复",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "0.2.5",
+          "date": "2026-03-31",
+          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.5/fluxdo-unsigned.ipa",
+          "size": 38300683,
+          "minOSVersion": "13.0",
+          "localizedDescription": "- 🚑️ Windows 卡验证修复"
+        },
         {
           "version": "0.2.3",
           "date": "2026-03-29",
