@@ -6,8 +6,11 @@ import sys
 import os
 from pathlib import Path
 
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
 # 添加项目根目录到Python路径
-sys.path.insert(0, str(Path(__file__).parent.parent))
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 from feather.core.config import ConfigManager
 from feather.core.logger import FeatherLogger
@@ -34,9 +37,11 @@ def main():
     config = None
     logger = None
     try:
-        # 创建默认配置
+        # 固定工作目录为仓库根目录，避免相对路径受运行位置影响
+        os.chdir(PROJECT_ROOT)
+
         config = ConfigManager.create()
-        logger = FeatherLogger.setup("INFO")
+        logger = FeatherLogger.setup(config.get_logging().level)
 
         logger.info("开始更新仓库...")
         config.print_summary()

@@ -156,7 +156,7 @@ class AppInfo:
 
     def get_key(self) -> str:
         """获取应用的唯一标识"""
-        return self.name or self.bundleIdentifier
+        return self.bundleIdentifier or self.name
 
     def has_same_version_info(self, other: "AppInfo") -> bool:
         """检查版本信息是否相同"""

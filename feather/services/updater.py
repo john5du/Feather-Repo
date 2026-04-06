@@ -1,9 +1,9 @@
 """GitHub仓库更新服务"""
 
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Tuple
 from dataclasses import dataclass
-from datetime import timezone, datetime
+from fnmatch import fnmatch
 
 from feather.core.json_handler import JSONHandler
 from feather.core.logger import FeatherLogger
@@ -124,11 +124,21 @@ class RepositoryUpdater:
             )
 
             # 查找IPA文件
-            ipa_asset = self._find_ipa_asset(release_info['assets'])
+            ipa_asset = self._find_ipa_asset(
+                release_info['assets'],
+                repo_config.ipa_filename_pattern,
+            )
 
             if not ipa_asset:
-                stat.message = f"未找到IPA文件"
-                self.logger.warning(f"  {stat.message}")
+                asset_names = [asset.get('name', '') for asset in release_info['assets']]
+                stat.message = f"未找到匹配 {repo_config.ipa_filename_pattern} 的IPA文件"
+                self.logger.warning(
+                    f"  {stat.message}",
+                    {
+                        'pattern': repo_config.ipa_filename_pattern,
+                        'assets': ', '.join(asset_names) or 'none',
+                    }
+                )
                 return stat
 
             # 读取现有JSON文件
@@ -150,15 +160,13 @@ class RepositoryUpdater:
                 self.logger.warning(f"  {stat.message}")
                 return stat
 
-            app_data = apps_list[0]
-
-            # 解析应用信息
-            try:
-                app = AppInfo.from_dict(app_data)
-            except Exception as e:
-                self.logger.error(f"  解析应用数据失败: {e}")
-                stat.message = "解析应用数据失败"
+            selected = self._select_target_app(apps_list, repo_config)
+            if not selected:
+                stat.message = "无法唯一定位要更新的应用条目"
+                self.logger.warning(f"  {stat.message}")
                 return stat
+
+            app_index, app = selected
 
             # 比较版本
             new_version = ReleaseInfoExtractor.extract_version_from_tag(
@@ -195,11 +203,12 @@ class RepositoryUpdater:
                 description,
                 new_download_url,
                 ipa_asset['size'],
-                repo_config.min_os_version
+                repo_config.min_os_version,
+                release_info['published_at'],
             )
 
             # 保存JSON文件
-            all_data['apps'][0] = app.to_dict()
+            all_data['apps'][app_index] = app.to_dict()
 
             if self.json_handler.save(
                 repo_config.json_file,
@@ -220,19 +229,55 @@ class RepositoryUpdater:
             return stat
 
     @staticmethod
-    def _find_ipa_asset(assets: List[Dict]) -> Optional[Dict]:
+    def _find_ipa_asset(assets: List[Dict], pattern: str = "*.ipa") -> Optional[Dict]:
         """
         从资源列表中查找IPA文件
 
         Args:
             assets: 资源列表
+            pattern: 文件名匹配模式
 
         Returns:
             IPA资源字典或None
         """
         for asset in assets:
-            if asset['name'].endswith('.ipa'):
+            name = asset.get('name', '')
+            if name.endswith('.ipa') and fnmatch(name, pattern):
                 return asset
+
+        return None
+
+    @staticmethod
+    def _select_target_app(
+        apps_list: List[Dict],
+        repo_config: RepositoryConfig
+    ) -> Optional[Tuple[int, AppInfo]]:
+        """按确定性规则选择要更新的应用条目"""
+        parsed_apps: List[Tuple[int, AppInfo]] = []
+        for index, app_data in enumerate(apps_list):
+            if not isinstance(app_data, dict):
+                continue
+            try:
+                parsed_apps.append((index, AppInfo.from_dict(app_data)))
+            except Exception:
+                continue
+
+        if len(parsed_apps) == 1:
+            return parsed_apps[0]
+
+        exact_name_matches = [
+            item for item in parsed_apps
+            if item[1].name == repo_config.name
+        ]
+        if len(exact_name_matches) == 1:
+            return exact_name_matches[0]
+
+        bundle_matches = [
+            item for item in parsed_apps
+            if item[1].bundleIdentifier and repo_config.name.lower() in item[1].bundleIdentifier.lower()
+        ]
+        if len(bundle_matches) == 1:
+            return bundle_matches[0]
 
         return None
 
@@ -243,7 +288,8 @@ class RepositoryUpdater:
         description: str,
         download_url: str,
         size: int,
-        min_os_version: str
+        min_os_version: str,
+        published_at,
     ):
         """
         更新版本数组
@@ -267,7 +313,7 @@ class RepositoryUpdater:
             # 创建新版本条目
             new_entry = VersionEntry(
                 version=new_version,
-                date=datetime.now().strftime("%Y-%m-%d"),
+                date=ReleaseInfoExtractor.format_date_short(published_at),
                 downloadURL=download_url,
                 size=size,
                 minOSVersion=min_os_version,

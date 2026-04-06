@@ -30,9 +30,8 @@ def main():
         # 固定工作目录为仓库根目录，避免相对路径受运行位置影响
         os.chdir(PROJECT_ROOT)
 
-        # 创建默认配置
         config = ConfigManager.create()
-        logger = FeatherLogger.setup("INFO")
+        logger = FeatherLogger.setup(config.get_logging().level)
 
         logger.info("开始合并应用...")
         config.print_summary()

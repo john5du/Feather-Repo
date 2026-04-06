@@ -206,11 +206,13 @@ class ConfigManager:
 
     @staticmethod
     def create(config_file: str = "config/repos.yml") -> "ConfigManager":
-        """优先从 YAML 加载，失败时回退默认配置"""
+        """从 YAML 配置文件创建配置，失败时显式报错"""
         try:
             return ConfigManager.create_from_yaml(config_file)
-        except Exception:
-            return ConfigManager.create_default()
+        except Exception as e:
+            raise RuntimeError(
+                f"加载配置文件失败: {config_file}. {e}"
+            ) from e
 
     def to_dict(self) -> Dict[str, Any]:
         """将配置转换为字典"""
