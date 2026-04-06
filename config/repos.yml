@@ -51,6 +51,13 @@ repositories:
     ipa_filename_pattern: "*.ipa"
     min_os_version: "16.0"
 
+  - name: YueYin
+    owner: xiaoqi419
+    repo: joy-music-mobile
+    json_file: app/yueyin.json
+    ipa_filename_pattern: "*.ipa"
+    min_os_version: "13.0"
+
 paths:
   app_dir: app
   all_json: all.json

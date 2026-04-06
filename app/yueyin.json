@@ -1,0 +1,48 @@
+{
+  "identifier": "com.joymusic.mobile",
+  "name": "YueYin",
+  "sourceURL": "https://github.com/xiaoqi419/joy-music-mobile",
+  "apps": [
+    {
+      "name": "YueYin",
+      "bundleIdentifier": "com.joymusic.mobile",
+      "developerName": "xiaoqi419",
+      "subtitle": "优雅的本地音乐播放器。",
+      "localizedDescription": "悦音是一款专注于本地音乐播放体验的 iOS 应用，提供更优雅的音乐库浏览与播放界面。",
+      "iconURL": "https://raw.githubusercontent.com/xiaoqi419/joy-music-mobile/master/assets/icon.png",
+      "tintColor": "#1a1a1a",
+      "category": "music",
+      "screenshotURLs": [],
+      "version": "1.2.9",
+      "versionDate": "2026-03-05T12:34:33Z",
+      "downloadURL": "https://github.com/xiaoqi419/joy-music-mobile/releases/download/v1.2.9/YueYin-1.2.9-unsigned.ipa",
+      "size": 16756285,
+      "versionDescription": "新增多个公益音乐源适配",
+      "changelog": "新增多个公益音乐源适配",
+      "minOSVersion": "13.0",
+      "contact": {
+        "web": "https://github.com/xiaoqi419/joy-music-mobile"
+      },
+      "information": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSMicrophoneUsageDescription": "Allow 悦音 to access your microphone."
+        }
+      },
+      "versions": [
+        {
+          "version": "1.2.9",
+          "date": "2026-03-05",
+          "localizedDescription": "新增多个公益音乐源适配",
+          "downloadURL": "https://github.com/xiaoqi419/joy-music-mobile/releases/download/v1.2.9/YueYin-1.2.9-unsigned.ipa",
+          "size": 16756285,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "beta": false
+    }
+  ],
+  "news": [],
+  "userInfo": {}
+}
