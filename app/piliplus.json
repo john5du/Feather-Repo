@@ -6,15 +6,23 @@
     {
       "name": "PiliPlus",
       "bundleIdentifier": "com.example.piliplus",
-      "version": "2.0.3",
-      "versionDate": "2026-04-08T05:12:58Z",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.3/PiliPlus_ios_2.0.3%2B4833.ipa",
-      "size": 24944932,
+      "version": "2.0.3.1",
+      "versionDate": "2026-04-09T03:15:29Z",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.3.1/PiliPlus_ios_2.0.3%2B4836.ipa",
+      "size": 24957955,
       "category": "other",
-      "versionDescription": "重写视频方向控制逻辑:\r\n解决 iOS 横屏从后台返回自动切换为竖屏问题\r\n解决 iOS 横屏关闭自动旋转自动切换为竖屏问题\r\n解决 Android 横屏返回键切换为竖屏自动切换回横屏问题\r\n\r\n支持悬浮底栏，默认关\r\n用户主页显示预约按钮\r\n添加 Android Shortcut\r\nAndroid 支持添加 UP 至桌面\r\n桌面端离线视频支持在本地文件夹打开\r\n\r\n修复 AppSign\r\n修复弹幕等级屏蔽无效 #1879 by @HChaZZY",
-      "changelog": "重写视频方向控制逻辑:\r\n解决 iOS 横屏从后台返回自动切换为竖屏问题\r\n解决 iOS 横屏关闭自动旋转自动切换为竖屏问题\r\n解决 Android 横屏返回键切换为竖屏自动切换回横屏问题\r\n\r\n支持悬浮底栏，默认关\r\n用户主页显示预约按钮\r\n添加 Android Shortcut\r\nAndroid 支持添加 UP 至桌面\r\n桌面端离线视频支持在本地文件夹打开\r\n\r\n修复 AppSign\r\n修复弹幕等级屏蔽无效 #1879 by @HChaZZY",
+      "versionDescription": "修复视频返回按钮 @1883 by @HChaZZY\r\n\r\n## 2.0.3\r\n重写视频方向控制逻辑:\r\n解决 iOS 横屏从后台返回自动切换为竖屏问题\r\n解决 iOS 横屏关闭自动旋转自动切换为竖屏问题\r\n解决 Android 横屏返回键切换为竖屏自动切换回横屏问题\r\n\r\n支持悬浮底栏，默认关\r\n用户主页显示预约按钮\r\n添加 Android Shortcut\r\nAndroid 支持添加 UP 至桌面\r\n桌面端离线视频支持在本地文件夹打开\r\n\r\n修复 AppSign\r\n修复弹幕等级屏蔽无效 #1879 by @HChaZZY",
+      "changelog": "修复视频返回按钮 @1883 by @HChaZZY\r\n\r\n## 2.0.3\r\n重写视频方向控制逻辑:\r\n解决 iOS 横屏从后台返回自动切换为竖屏问题\r\n解决 iOS 横屏关闭自动旋转自动切换为竖屏问题\r\n解决 Android 横屏返回键切换为竖屏自动切换回横屏问题\r\n\r\n支持悬浮底栏，默认关\r\n用户主页显示预约按钮\r\n添加 Android Shortcut\r\nAndroid 支持添加 UP 至桌面\r\n桌面端离线视频支持在本地文件夹打开\r\n\r\n修复 AppSign\r\n修复弹幕等级屏蔽无效 #1879 by @HChaZZY",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "2.0.3.1",
+          "date": "2026-04-09",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.3.1/PiliPlus_ios_2.0.3%2B4836.ipa",
+          "size": 24957955,
+          "minOSVersion": "13.0",
+          "localizedDescription": "修复视频返回按钮 @1883 by @HChaZZY\r\n\r\n## 2.0.3\r\n重写视频方向控制逻辑:\r\n解决 iOS 横屏从后台返回自动切换为竖屏问题\r\n解决 iOS 横屏关闭自动旋转自动切换为竖屏问题\r\n解决 Android 横屏返回键切换为竖屏自动切换回横屏问题\r\n\r\n支持悬浮底栏，默认关\r\n用户主页显示预约按钮\r\n添加 Android Shortcut\r\nAndroid 支持添加 UP 至桌面\r\n桌面端离线视频支持在本地文件夹打开\r\n\r\n修复 AppSign\r\n修复弹幕等级屏蔽无效 #1879 by @HChaZZY"
+        },
         {
           "version": "2.0.3",
           "date": "2026-04-08",
@@ -166,14 +174,6 @@
           "size": 24557486,
           "minOSVersion": "13.0",
           "localizedDescription": "fix wakelock"
-        },
-        {
-          "version": "1.1.5-pre4",
-          "date": "2025-11-14",
-          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5-pre4/PiliPlus_ios_1.1.5%2B4347.ipa",
-          "size": 24558900,
-          "minOSVersion": "13.0",
-          "localizedDescription": "flutter 3.38\r\n修复 CDN 相关 #1739 by @iKirby\r\n支持编辑弹幕屏蔽规则，显示空降助手用户信息 #1738 by @My-Responsitories\r\n其他"
         }
       ],
       "developerName": "bggRGjQaUbCoE",
