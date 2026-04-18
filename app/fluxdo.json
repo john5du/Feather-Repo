@@ -6,14 +6,22 @@
     {
       "name": "FluxDo",
       "bundleIdentifier": "com.github.lingyan000.fluxdo",
-      "version": "0.2.8",
-      "versionDate": "2026-04-13T14:59:30Z",
-      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.8/fluxdo-unsigned.ipa",
-      "size": 38439349,
-      "versionDescription": "- 🐛 CI 修复\n\n- ✨ 修复 Windows 无法分享的问题，close #200\n\n- ✨ 修复 windows 无法上传图片，close #212\n\n- ✨ 网络检查性能优化，ref #205\n\n- ✨ 通知、私信功能优化，并添加私信列表，close #216\n\n- ♻️ 取消提交多语言的 merged\n\n- 🐛 修复 Windows 无法关闭的问题\n\n- ♻️ 多语言能力模块化设计\n\n- 🐛 修复某些场景无法加载更多帖子的问题\n\n- 🐛 修复帖子内容更新后无法发送 boost\n\n- ✨ 保守登出复检机制\n\n- ✨ WebView 适配器缓存问题修复\n\n- ✨ 日志记录优化\n\n- 🐛 修复 cookieJar 同步到 webview 的异常",
-      "changelog": "- 🐛 CI 修复\n\n- ✨ 修复 Windows 无法分享的问题，close #200\n\n- ✨ 修复 windows 无法上传图片，close #212\n\n- ✨ 网络检查性能优化，ref #205\n\n- ✨ 通知、私信功能优化，并添加私信列表，close #216\n\n- ♻️ 取消提交多语言的 merged\n\n- 🐛 修复 Windows 无法关闭的问题\n\n- ♻️ 多语言能力模块化设计\n\n- 🐛 修复某些场景无法加载更多帖子的问题\n\n- 🐛 修复帖子内容更新后无法发送 boost\n\n- ✨ 保守登出复检机制\n\n- ✨ WebView 适配器缓存问题修复\n\n- ✨ 日志记录优化\n\n- 🐛 修复 cookieJar 同步到 webview 的异常",
+      "version": "0.2.9",
+      "versionDate": "2026-04-18T08:11:44Z",
+      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.9/fluxdo-unsigned.ipa",
+      "size": 38440556,
+      "versionDescription": "- ✨ 对话框模糊性能优化\n\n- ✨ PassKey 支持\n\n- ✨ 内置浏览器网址输入弹框优化\n\n- ✨ 请求添加 Discourse-Present 头\n\n- ✨ 内置浏览器性能优化\n\n- ✨ 添加指纹上报\n\n- ✨ 优化 DOH 保活检测\n\n- 🐛 修复一些无感知异常\n\n- ✨ 优化通知列表更新逻辑\n\n- ♻️ 代码优化\n\n- ✨ 新增侧栏分类快捷入口与 Windows WebView 兜底逻辑 (#217)",
+      "changelog": "- ✨ 对话框模糊性能优化\n\n- ✨ PassKey 支持\n\n- ✨ 内置浏览器网址输入弹框优化\n\n- ✨ 请求添加 Discourse-Present 头\n\n- ✨ 内置浏览器性能优化\n\n- ✨ 添加指纹上报\n\n- ✨ 优化 DOH 保活检测\n\n- 🐛 修复一些无感知异常\n\n- ✨ 优化通知列表更新逻辑\n\n- ♻️ 代码优化\n\n- ✨ 新增侧栏分类快捷入口与 Windows WebView 兜底逻辑 (#217)",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "0.2.9",
+          "date": "2026-04-18",
+          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.9/fluxdo-unsigned.ipa",
+          "size": 38440556,
+          "minOSVersion": "13.0",
+          "localizedDescription": "- ✨ 对话框模糊性能优化\n\n- ✨ PassKey 支持\n\n- ✨ 内置浏览器网址输入弹框优化\n\n- ✨ 请求添加 Discourse-Present 头\n\n- ✨ 内置浏览器性能优化\n\n- ✨ 添加指纹上报\n\n- ✨ 优化 DOH 保活检测\n\n- 🐛 修复一些无感知异常\n\n- ✨ 优化通知列表更新逻辑\n\n- ♻️ 代码优化\n\n- ✨ 新增侧栏分类快捷入口与 Windows WebView 兜底逻辑 (#217)"
+        },
         {
           "version": "0.2.8",
           "date": "2026-04-13",
@@ -165,14 +173,6 @@
           "size": 21270566,
           "minOSVersion": "13.0",
           "localizedDescription": "- ✨ 日志功能优化\n\n- ✨ 优化请求策略\n\n- 🐛 修复一些问题\n\n- 🐛 修复会通过主域名触发 MessageBus 的问题\n\n- ✨ 优化首页 tab 逻辑，避免同时请求\n\n- ✨ 请求相关优化\n\n- ✨ 网络断开提示\n\n- ✨ 优化 Toast 样式\n\n- 🐛 修复单栏创建话题时没有打开话题详情页面的问题\n\n- ✨ 优化一些场景的请求"
-        },
-        {
-          "version": "0.1.40",
-          "date": "2026-03-05",
-          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.40/fluxdo-unsigned.ipa",
-          "size": 21230702,
-          "minOSVersion": "13.0",
-          "localizedDescription": "- ✨ 优化请求策略，避免频繁触发站点风控、掉登录等问题，close #111 #93 #75 #84 #60\n\n- ✨ 新话题/未读完计数展示\n\n- 🐛 修复话题更新提示功能的一些问题\n\n- ✨ 优化通知计数自动归零的问题"
         }
       ],
       "developerName": "Lingyan000",
