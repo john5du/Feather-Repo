@@ -168,14 +168,22 @@
     {
       "name": "FluxDo",
       "bundleIdentifier": "com.github.lingyan000.fluxdo",
-      "version": "0.2.9",
-      "versionDate": "2026-04-18T08:11:44Z",
-      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.9/fluxdo-unsigned.ipa",
-      "size": 38440556,
-      "versionDescription": "- ✨ 对话框模糊性能优化\n\n- ✨ PassKey 支持\n\n- ✨ 内置浏览器网址输入弹框优化\n\n- ✨ 请求添加 Discourse-Present 头\n\n- ✨ 内置浏览器性能优化\n\n- ✨ 添加指纹上报\n\n- ✨ 优化 DOH 保活检测\n\n- 🐛 修复一些无感知异常\n\n- ✨ 优化通知列表更新逻辑\n\n- ♻️ 代码优化\n\n- ✨ 新增侧栏分类快捷入口与 Windows WebView 兜底逻辑 (#217)",
-      "changelog": "- ✨ 对话框模糊性能优化\n\n- ✨ PassKey 支持\n\n- ✨ 内置浏览器网址输入弹框优化\n\n- ✨ 请求添加 Discourse-Present 头\n\n- ✨ 内置浏览器性能优化\n\n- ✨ 添加指纹上报\n\n- ✨ 优化 DOH 保活检测\n\n- 🐛 修复一些无感知异常\n\n- ✨ 优化通知列表更新逻辑\n\n- ♻️ 代码优化\n\n- ✨ 新增侧栏分类快捷入口与 Windows WebView 兜底逻辑 (#217)",
+      "version": "0.2.11",
+      "versionDate": "2026-04-20T13:17:51Z",
+      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.11/fluxdo-unsigned.ipa",
+      "size": 38634869,
+      "versionDescription": "- ✨ 帖子 details 性能优化\n\n- ✨ 帖子 policy 内容支持\n\n- ✨ 贴内时间内容支持，close #202\n\n- ✨ 顶栏自定义布局支持\n\n- 🐛 Android PassKey 修复\n\n- ✨ 添加底栏设置",
+      "changelog": "- ✨ 帖子 details 性能优化\n\n- ✨ 帖子 policy 内容支持\n\n- ✨ 贴内时间内容支持，close #202\n\n- ✨ 顶栏自定义布局支持\n\n- 🐛 Android PassKey 修复\n\n- ✨ 添加底栏设置",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "0.2.11",
+          "date": "2026-04-20",
+          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.11/fluxdo-unsigned.ipa",
+          "size": 38634869,
+          "minOSVersion": "13.0",
+          "localizedDescription": "- ✨ 帖子 details 性能优化\n\n- ✨ 帖子 policy 内容支持\n\n- ✨ 贴内时间内容支持，close #202\n\n- ✨ 顶栏自定义布局支持\n\n- 🐛 Android PassKey 修复\n\n- ✨ 添加底栏设置"
+        },
         {
           "version": "0.2.9",
           "date": "2026-04-18",
@@ -327,14 +335,6 @@
           "size": 21278144,
           "minOSVersion": "13.0",
           "localizedDescription": "- ✨ 应用日志功能优化\n\n- ✨ 请求相关问题优化\n\n- 🐛 修复游客模式调用错误的 MessageBus 接口的问题"
-        },
-        {
-          "version": "0.1.41",
-          "date": "2026-03-06",
-          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.41/fluxdo-unsigned.ipa",
-          "size": 21270566,
-          "minOSVersion": "13.0",
-          "localizedDescription": "- ✨ 日志功能优化\n\n- ✨ 优化请求策略\n\n- 🐛 修复一些问题\n\n- 🐛 修复会通过主域名触发 MessageBus 的问题\n\n- ✨ 优化首页 tab 逻辑，避免同时请求\n\n- ✨ 请求相关优化\n\n- ✨ 网络断开提示\n\n- ✨ 优化 Toast 样式\n\n- 🐛 修复单栏创建话题时没有打开话题详情页面的问题\n\n- ✨ 优化一些场景的请求"
         }
       ],
       "developerName": "Lingyan000",
