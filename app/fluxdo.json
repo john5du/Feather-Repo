@@ -6,14 +6,22 @@
     {
       "name": "FluxDo",
       "bundleIdentifier": "com.github.lingyan000.fluxdo",
-      "version": "0.2.11",
-      "versionDate": "2026-04-20T13:17:51Z",
-      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.11/fluxdo-unsigned.ipa",
-      "size": 38634869,
-      "versionDescription": "- ✨ 帖子 details 性能优化\n\n- ✨ 帖子 policy 内容支持\n\n- ✨ 贴内时间内容支持，close #202\n\n- ✨ 顶栏自定义布局支持\n\n- 🐛 Android PassKey 修复\n\n- ✨ 添加底栏设置",
-      "changelog": "- ✨ 帖子 details 性能优化\n\n- ✨ 帖子 policy 内容支持\n\n- ✨ 贴内时间内容支持，close #202\n\n- ✨ 顶栏自定义布局支持\n\n- 🐛 Android PassKey 修复\n\n- ✨ 添加底栏设置",
+      "version": "0.2.12",
+      "versionDate": "2026-04-22T10:45:36Z",
+      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.12/fluxdo-unsigned.ipa",
+      "size": 38638965,
+      "versionDescription": "- ✨ 树形视图界面优化\n\n- 🐛 树形视图 404 修复",
+      "changelog": "- ✨ 树形视图界面优化\n\n- 🐛 树形视图 404 修复",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "0.2.12",
+          "date": "2026-04-22",
+          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.12/fluxdo-unsigned.ipa",
+          "size": 38638965,
+          "minOSVersion": "13.0",
+          "localizedDescription": "- ✨ 树形视图界面优化\n\n- 🐛 树形视图 404 修复"
+        },
         {
           "version": "0.2.11",
           "date": "2026-04-20",
@@ -165,14 +173,6 @@
           "size": 21323628,
           "minOSVersion": "13.0",
           "localizedDescription": "- ✨ 一些功能优化\n\n- Add invite links and remember AI model selection (#120)\n\n- Co-authored-by: N1nEmAn <S3vn@S3vn.localdomain>\n\n- 🐛 修复了一些问题，ref #116\n\n- ✨ 元宇宙功能优化\n\n- ✨ 网络添加会话代守卫拦截器，提升应用稳定性\n\n- ✨ 过盾体验优化"
-        },
-        {
-          "version": "0.1.42",
-          "date": "2026-03-07",
-          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.42/fluxdo-unsigned.ipa",
-          "size": 21278144,
-          "minOSVersion": "13.0",
-          "localizedDescription": "- ✨ 应用日志功能优化\n\n- ✨ 请求相关问题优化\n\n- 🐛 修复游客模式调用错误的 MessageBus 接口的问题"
         }
       ],
       "developerName": "Lingyan000",
