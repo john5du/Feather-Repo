@@ -6,15 +6,23 @@
     {
       "name": "Kazumi",
       "bundleIdentifier": "com.example.kazumi",
-      "version": "2.0.7",
-      "versionDate": "2026-04-09T11:32:44Z",
-      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.0.7/Kazumi_ios_2.0.7_no_sign.ipa",
-      "size": 27866552,
+      "version": "2.0.8",
+      "versionDate": "2026-04-24T11:49:25Z",
+      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.0.8/Kazumi_ios_2.0.8_no_sign.ipa",
+      "size": 27886967,
       "category": "other",
-      "versionDescription": "- 重新设计的历史记录页面 (@Predidit)\r\n- 新增 Android 平台画中画支持 (#1910) (@yaoyaozijing)\r\n- 新增BGM评论GIF支持 (@Predidit)\r\n- 修复包含特殊字符的番剧标题的检索问题 (#1945) (@Predidit)\r\n- 修复特定情况下系统媒体控制面板不显示进度条的问题 (@Predidit)\r\n- 现在 windows 平台第一次启动可以选择创建快捷方式 (@WingChunWong)\r\n- 其他UI改进 (@Predidit)\r\n- 轮换示例规则 (@Predidit)",
-      "changelog": "- 重新设计的历史记录页面 (@Predidit)\r\n- 新增 Android 平台画中画支持 (#1910) (@yaoyaozijing)\r\n- 新增BGM评论GIF支持 (@Predidit)\r\n- 修复包含特殊字符的番剧标题的检索问题 (#1945) (@Predidit)\r\n- 修复特定情况下系统媒体控制面板不显示进度条的问题 (@Predidit)\r\n- 现在 windows 平台第一次启动可以选择创建快捷方式 (@WingChunWong)\r\n- 其他UI改进 (@Predidit)\r\n- 轮换示例规则 (@Predidit)",
+      "versionDescription": "- 重新设计的番剧时间表页面 (@Predidit)\r\n- 新增图片预览功能 (@LiggMax)\r\n- 修复 windows 平台特定情况下出现幽灵窗体的问题 (#1883) (@0Chencc)\r\n- 修复搜索页面排序参数丢失的问题 (#1995) (@Predidit)\r\n- 修复新番评论区为空时报告网络错误的问题 (@Predidit)\r\n- 修复 windows 平台系统标题栏颜色跟随主题的问题 (@ChouChiu)\r\n- 现在可以在时间表页面筛选已追番剧 (@keyboard2005)\r\n- 提高 Linux 平台视频解析器稳定性 (@Predidit)",
+      "changelog": "- 重新设计的番剧时间表页面 (@Predidit)\r\n- 新增图片预览功能 (@LiggMax)\r\n- 修复 windows 平台特定情况下出现幽灵窗体的问题 (#1883) (@0Chencc)\r\n- 修复搜索页面排序参数丢失的问题 (#1995) (@Predidit)\r\n- 修复新番评论区为空时报告网络错误的问题 (@Predidit)\r\n- 修复 windows 平台系统标题栏颜色跟随主题的问题 (@ChouChiu)\r\n- 现在可以在时间表页面筛选已追番剧 (@keyboard2005)\r\n- 提高 Linux 平台视频解析器稳定性 (@Predidit)",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "2.0.8",
+          "date": "2026-04-24",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.0.8/Kazumi_ios_2.0.8_no_sign.ipa",
+          "size": 27886967,
+          "minOSVersion": "13.0",
+          "localizedDescription": "- 重新设计的番剧时间表页面 (@Predidit)\r\n- 新增图片预览功能 (@LiggMax)\r\n- 修复 windows 平台特定情况下出现幽灵窗体的问题 (#1883) (@0Chencc)\r\n- 修复搜索页面排序参数丢失的问题 (#1995) (@Predidit)\r\n- 修复新番评论区为空时报告网络错误的问题 (@Predidit)\r\n- 修复 windows 平台系统标题栏颜色跟随主题的问题 (@ChouChiu)\r\n- 现在可以在时间表页面筛选已追番剧 (@keyboard2005)\r\n- 提高 Linux 平台视频解析器稳定性 (@Predidit)"
+        },
         {
           "version": "2.0.7",
           "date": "2026-04-09",
@@ -166,14 +174,6 @@
           "size": 21995635,
           "minOSVersion": "13.0",
           "localizedDescription": "- 实现 linux 平台零拷贝视频解码 (@Predidit)\r\n- 新增快捷键快进步长自定义功能 (#1373) (#1418) (@aliferne)\r\n- 现在记忆跳过片头按钮的快进步长 (@aliferne)\r\n- 修复部分评论内容空白的问题 (@aliferne)\r\n- 优化自动更新逻辑 (@ErBWs)"
-        },
-        {
-          "version": "1.8.4",
-          "date": "2025-10-14",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.4/Kazumi_ios_1.8.4_no_sign.ipa",
-          "size": 21993484,
-          "minOSVersion": "13.0",
-          "localizedDescription": "- 修复 windows 平台硬件解码可能发生闪烁的问题 (#1390) (@Predidit)\r\n- 修复 android 平台自动更新可能导致应用安装器意外退出的问题 (#1382) (@Predidit)\r\n- 更新 UA 列表 (@Predidit)\r\n> [!NOTE]\r\n> 这是 1.8.3 的热修复版本，更多更新日志参考 1.8.3"
         }
       ],
       "developerName": "Predidit",
