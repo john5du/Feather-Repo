@@ -6,15 +6,23 @@
     {
       "name": "Harbour",
       "bundleIdentifier": "com.github.rrroyal.harbour",
-      "version": "4.2.8",
-      "versionDate": "2026-04-26T09:19:16Z",
-      "downloadURL": "https://github.com/rrroyal/Harbour/releases/download/v4.2.8/Harbour-v4.2.8-62.ipa",
-      "size": 6988595,
+      "version": "4.2.9",
+      "versionDate": "2026-05-02T21:42:25Z",
+      "downloadURL": "https://github.com/rrroyal/Harbour/releases/download/v4.2.9/Harbour-v4.2.9-63.ipa",
+      "size": 8552473,
       "category": "other",
-      "versionDescription": "## General\r\n- Tweaked haptics\r\n- Cleaned up colors\r\n- Moved endpoints selector to toolbar menu\r\n\r\n## Stacks\r\n- Added more sections (including Git config)",
-      "changelog": "## General\r\n- Tweaked haptics\r\n- Cleaned up colors\r\n- Moved endpoints selector to toolbar menu\r\n\r\n## Stacks\r\n- Added more sections (including Git config)",
+      "versionDescription": "## Containers\r\n- Fixed subtitle in list cells (#82)",
+      "changelog": "## Containers\r\n- Fixed subtitle in list cells (#82)",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "4.2.9",
+          "date": "2026-05-02",
+          "downloadURL": "https://github.com/rrroyal/Harbour/releases/download/v4.2.9/Harbour-v4.2.9-63.ipa",
+          "size": 8552473,
+          "minOSVersion": "13.0",
+          "localizedDescription": "## Containers\r\n- Fixed subtitle in list cells (#82)"
+        },
         {
           "version": "4.2.8",
           "date": "2026-04-26",
