@@ -6,15 +6,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "2.6.5",
-      "versionDate": "2026-04-23T18:41:18Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.6.5/conduit.ipa",
-      "size": 24520747,
+      "version": "2.6.8",
+      "versionDate": "2026-05-03T19:39:58Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.6.8/conduit.ipa",
+      "size": 26578753,
       "category": "utilities",
-      "versionDescription": "- Added support for attaching files that are already stored on the server directly from the chat composer.\r\n- Added note pinning, with pinned notes grouped separately for quicker access.\r\n- Added mutual TLS (mTLS) client certificate support for server connections, including certificate/key selection and clearer TLS error handling.\r\n- Improved proxy sign-in detection to avoid premature auth capture on same-host login pages.\r\n- Improved Android background streaming behavior so the foreground servi",
-      "changelog": "- Added support for attaching files that are already stored on the server directly from the chat composer.\r\n- Added note pinning, with pinned notes grouped separately for quicker access.\r\n- Added mutual TLS (mTLS) client certificate support for server connections, including certificate/key selection and clearer TLS error handling.\r\n- Improved proxy sign-in detection to avoid premature auth capture on same-host login pages.\r\n- Improved Android background streaming behavior so the foreground servi",
+      "versionDescription": "- Added background streaming lease management.\r\n- Improved chat socket session handling and message buffering.\r\n- Fixed iOS Podfile patching for super_native_extensions.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.6.7...v2.6.8",
+      "changelog": "- Added background streaming lease management.\r\n- Improved chat socket session handling and message buffering.\r\n- Fixed iOS Podfile patching for super_native_extensions.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.6.7...v2.6.8",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "2.6.8",
+          "date": "2026-05-03",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.6.8/conduit.ipa",
+          "size": 26578753,
+          "minOSVersion": "16.0",
+          "localizedDescription": "- Added background streaming lease management.\r\n- Improved chat socket session handling and message buffering.\r\n- Fixed iOS Podfile patching for super_native_extensions.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.6.7...v2.6.8"
+        },
         {
           "version": "2.6.5",
           "date": "2026-04-23",

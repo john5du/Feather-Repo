@@ -6,15 +6,23 @@
     {
       "name": "Kazumi",
       "bundleIdentifier": "com.example.kazumi",
-      "version": "2.0.9",
-      "versionDate": "2026-05-02T07:37:38Z",
-      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.0.9/Kazumi_ios_2.0.9_no_sign.ipa",
-      "size": 27997089,
+      "version": "2.1.0",
+      "versionDate": "2026-05-03T14:30:43Z",
+      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.1.0/Kazumi_ios_2.1.0_no_sign.ipa",
+      "size": 27997661,
       "category": "other",
-      "versionDescription": "- 新增以图搜番功能 (@LiggMax)\r\n- 新增 Bangumi 收藏同步功能 (@bgzo @melancholyFishAndWater)\r\n- 现在可以在存在检索结果时进行别名检索 (@x1renn)\r\n- 优化画中画功能视频比例 (@x1renn)\r\n- 优化 windows 平台视频播放器性能 (@Predidit)\r\n- 其他 UI 调整",
-      "changelog": "- 新增以图搜番功能 (@LiggMax)\r\n- 新增 Bangumi 收藏同步功能 (@bgzo @melancholyFishAndWater)\r\n- 现在可以在存在检索结果时进行别名检索 (@x1renn)\r\n- 优化画中画功能视频比例 (@x1renn)\r\n- 优化 windows 平台视频播放器性能 (@Predidit)\r\n- 其他 UI 调整",
+      "versionDescription": "- 修复 Bangumi 同步可能导致评分数据清空的问题 (#2034) (@bgzo)\r\n- 修复特定情况下分集评论内容重复的问题 (#2038) (@Predidit)\r\n- 修复 macOS 平台以图搜番功能无法导入图片的问题 (#2032) (@LiggMax)\r\n- 现在可以禁用播放器音量与亮度调节手势 (@B-2U)\r\n- 其他 UI 调整 (@Predidit)\r\n> [!NOTE]\r\n> 这是 2.0.9 的热修复版本，更多更新日志参考 2.0.9",
+      "changelog": "- 修复 Bangumi 同步可能导致评分数据清空的问题 (#2034) (@bgzo)\r\n- 修复特定情况下分集评论内容重复的问题 (#2038) (@Predidit)\r\n- 修复 macOS 平台以图搜番功能无法导入图片的问题 (#2032) (@LiggMax)\r\n- 现在可以禁用播放器音量与亮度调节手势 (@B-2U)\r\n- 其他 UI 调整 (@Predidit)\r\n> [!NOTE]\r\n> 这是 2.0.9 的热修复版本，更多更新日志参考 2.0.9",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "2.1.0",
+          "date": "2026-05-03",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.1.0/Kazumi_ios_2.1.0_no_sign.ipa",
+          "size": 27997661,
+          "minOSVersion": "13.0",
+          "localizedDescription": "- 修复 Bangumi 同步可能导致评分数据清空的问题 (#2034) (@bgzo)\r\n- 修复特定情况下分集评论内容重复的问题 (#2038) (@Predidit)\r\n- 修复 macOS 平台以图搜番功能无法导入图片的问题 (#2032) (@LiggMax)\r\n- 现在可以禁用播放器音量与亮度调节手势 (@B-2U)\r\n- 其他 UI 调整 (@Predidit)\r\n> [!NOTE]\r\n> 这是 2.0.9 的热修复版本，更多更新日志参考 2.0.9"
+        },
         {
           "version": "2.0.9",
           "date": "2026-05-02",
@@ -166,14 +174,6 @@
           "size": 22020941,
           "minOSVersion": "13.0",
           "localizedDescription": "- 新增规则测试功能 (#1438) (@1312853182)\r\n- 新增弹幕调速功能 (#1331) (@Predidit)\r\n- 新增检索结果过滤功能 (@aliferne)\r\n- 优化资源检索逻辑 (@Predidit)\r\n- 更多的弹幕区域选项 (#1335) (@aliferne)\r\n- 修复 windows 平台启动时的闪烁问题 (@Predidit)\r\n- 轮换示例规则 (@Predidit)"
-        },
-        {
-          "version": "1.8.6",
-          "date": "2025-10-22",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.6/Kazumi_ios_1.8.6_no_sign.ipa",
-          "size": 21996275,
-          "minOSVersion": "13.0",
-          "localizedDescription": "- 修复 Linux 平台无法运行的问题 (@Predidit)\r\n- 现在可以自定义播放器日志等级 (@Predidit)\r\n> [!NOTE]\r\n> 这是 1.8.5 的热修复版本，更多更新日志参考 1.8.5"
         }
       ],
       "developerName": "Predidit",
