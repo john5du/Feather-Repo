@@ -6,15 +6,23 @@
     {
       "name": "Kazumi",
       "bundleIdentifier": "com.example.kazumi",
-      "version": "2.1.0",
-      "versionDate": "2026-05-03T14:30:43Z",
-      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.1.0/Kazumi_ios_2.1.0_no_sign.ipa",
-      "size": 27997661,
+      "version": "2.1.1",
+      "versionDate": "2026-05-08T07:41:12Z",
+      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.1.1/Kazumi_ios_2.1.1_no_sign.ipa",
+      "size": 28029329,
       "category": "other",
-      "versionDescription": "- 修复 Bangumi 同步可能导致评分数据清空的问题 (#2034) (@bgzo)\r\n- 修复特定情况下分集评论内容重复的问题 (#2038) (@Predidit)\r\n- 修复 macOS 平台以图搜番功能无法导入图片的问题 (#2032) (@LiggMax)\r\n- 现在可以禁用播放器音量与亮度调节手势 (@B-2U)\r\n- 其他 UI 调整 (@Predidit)\r\n> [!NOTE]\r\n> 这是 2.0.9 的热修复版本，更多更新日志参考 2.0.9",
-      "changelog": "- 修复 Bangumi 同步可能导致评分数据清空的问题 (#2034) (@bgzo)\r\n- 修复特定情况下分集评论内容重复的问题 (#2038) (@Predidit)\r\n- 修复 macOS 平台以图搜番功能无法导入图片的问题 (#2032) (@LiggMax)\r\n- 现在可以禁用播放器音量与亮度调节手势 (@B-2U)\r\n- 其他 UI 调整 (@Predidit)\r\n> [!NOTE]\r\n> 这是 2.0.9 的热修复版本，更多更新日志参考 2.0.9",
+      "versionDescription": "- 重新设计的历史记录同步功能 (#1999) (@Predidit)\r\n- 优化弹幕性能 (#1146) (#1518) (@Predidit)\r\n- 修复番剧详情页面过渡动画卡顿的问题 (@Predidit)\r\n- 修复番剧海报点击时闪烁的问题 (@Predidit)\r\n- 修复 Android 平台应用后台可能导致播放器画面丢失的问题 (#1921) (@Predidit)\r\n- 用户友好的错误提示 (@Predidit) \r\n- 现在 Android 平台使用 Impeller 渲染引擎 (#821) (@Predidit)\r\n- 其他错误修复 (@LiggMax)",
+      "changelog": "- 重新设计的历史记录同步功能 (#1999) (@Predidit)\r\n- 优化弹幕性能 (#1146) (#1518) (@Predidit)\r\n- 修复番剧详情页面过渡动画卡顿的问题 (@Predidit)\r\n- 修复番剧海报点击时闪烁的问题 (@Predidit)\r\n- 修复 Android 平台应用后台可能导致播放器画面丢失的问题 (#1921) (@Predidit)\r\n- 用户友好的错误提示 (@Predidit) \r\n- 现在 Android 平台使用 Impeller 渲染引擎 (#821) (@Predidit)\r\n- 其他错误修复 (@LiggMax)",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "2.1.1",
+          "date": "2026-05-08",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.1.1/Kazumi_ios_2.1.1_no_sign.ipa",
+          "size": 28029329,
+          "minOSVersion": "13.0",
+          "localizedDescription": "- 重新设计的历史记录同步功能 (#1999) (@Predidit)\r\n- 优化弹幕性能 (#1146) (#1518) (@Predidit)\r\n- 修复番剧详情页面过渡动画卡顿的问题 (@Predidit)\r\n- 修复番剧海报点击时闪烁的问题 (@Predidit)\r\n- 修复 Android 平台应用后台可能导致播放器画面丢失的问题 (#1921) (@Predidit)\r\n- 用户友好的错误提示 (@Predidit) \r\n- 现在 Android 平台使用 Impeller 渲染引擎 (#821) (@Predidit)\r\n- 其他错误修复 (@LiggMax)"
+        },
         {
           "version": "2.1.0",
           "date": "2026-05-03",
@@ -166,14 +174,6 @@
           "size": 22127910,
           "minOSVersion": "13.0",
           "localizedDescription": "- 适配 flutter 3.38 (@Predidit)\r\n- 新增新番时间表过滤功能 (#1142) (@0Chencc)\r\n- 新增弹幕速度是否跟随视频倍速的开关 (#1233) (@0Chencc)\r\n- 重构历史记录代码逻辑 (@0Chencc)\r\n- 现在 windows 平台重复启动 kazumi 将自动拉起已存在窗体 (@0Chencc)\r\n- 现在 Linux 平台使用DE原生标题栏而非GTK标题栏 (@yaoyaozijing)\r\n- 修复 Linux 平台视频帧率在特定情况下被锁定为15帧的问题 (@Predidit)\r\n- 修复 winodws 平台发生本地储存错误时静默失败的问题 (@Predidit)"
-        },
-        {
-          "version": "1.8.7",
-          "date": "2025-10-29",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.7/Kazumi_ios_1.8.7_no_sign.ipa",
-          "size": 22020941,
-          "minOSVersion": "13.0",
-          "localizedDescription": "- 新增规则测试功能 (#1438) (@1312853182)\r\n- 新增弹幕调速功能 (#1331) (@Predidit)\r\n- 新增检索结果过滤功能 (@aliferne)\r\n- 优化资源检索逻辑 (@Predidit)\r\n- 更多的弹幕区域选项 (#1335) (@aliferne)\r\n- 修复 windows 平台启动时的闪烁问题 (@Predidit)\r\n- 轮换示例规则 (@Predidit)"
         }
       ],
       "developerName": "Predidit",
