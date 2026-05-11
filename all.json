@@ -715,15 +715,23 @@
     {
       "name": "PiliPlus",
       "bundleIdentifier": "com.example.piliplus",
-      "version": "2.0.7",
-      "versionDate": "2026-05-05T02:45:57Z",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.7/PiliPlus_ios_2.0.7%2B4940.ipa",
-      "size": 23938472,
+      "version": "2.0.7.1",
+      "versionDate": "2026-05-10T11:03:41Z",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.7.1/PiliPlus_ios_2.0.7%2B4946.ipa",
+      "size": 23949646,
       "category": "other",
-      "versionDescription": "优化安卓倾斜角度切视频换方向 #1953\r\n桌面端音频播放页支持调节音量 #1950\r\n评论转发到动态文字按钮改成图标按钮 #1937\r\n直播发送弹幕面板半透明背景改为透明 #1944\r\n\r\n修复评论布局 #1925\r\n修复 iOS 侧滑手势冲突 #1929\r\n修复一些安卓设备无法降低系统亮度\r\n修复关闭二级页面时其余手势被取消 #1947\r\n修复视频方向切换 #1926 by @My-Responsitories\r\n修复搜索结果标题符号显示 #1956 by @My-Responsitories",
-      "changelog": "优化安卓倾斜角度切视频换方向 #1953\r\n桌面端音频播放页支持调节音量 #1950\r\n评论转发到动态文字按钮改成图标按钮 #1937\r\n直播发送弹幕面板半透明背景改为透明 #1944\r\n\r\n修复评论布局 #1925\r\n修复 iOS 侧滑手势冲突 #1929\r\n修复一些安卓设备无法降低系统亮度\r\n修复关闭二级页面时其余手势被取消 #1947\r\n修复视频方向切换 #1926 by @My-Responsitories\r\n修复搜索结果标题符号显示 #1956 by @My-Responsitories",
+      "versionDescription": "修复 #2002\r\n修复 #2020 by @My-Responsitories\r\n其他调整 #2032 by @My-Responsitories",
+      "changelog": "修复 #2002\r\n修复 #2020 by @My-Responsitories\r\n其他调整 #2032 by @My-Responsitories",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "2.0.7.1",
+          "date": "2026-05-10",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.7.1/PiliPlus_ios_2.0.7%2B4946.ipa",
+          "size": 23949646,
+          "minOSVersion": "13.0",
+          "localizedDescription": "修复 #2002\r\n修复 #2020 by @My-Responsitories\r\n其他调整 #2032 by @My-Responsitories"
+        },
         {
           "version": "2.0.7",
           "date": "2026-05-05",
@@ -875,14 +883,6 @@
           "size": 24619651,
           "minOSVersion": "13.0",
           "localizedDescription": "增加桌面端音量上限\r\n支持显示动态互动内容\r\nSuperChat 支持常驻显示\r\n投票面板支持查看关注的人的投票\r\n直播弹幕列表支持`@`、`举报`等操作\r\n新增视频画质ID #1794 by @Vixb1122\r\n私信分享支持多选 #1779 co-by @leset0ng\r\n缓存面板显示网络类型 #1781 by @My-Responsitories\r\n同步 [BilibiliSponsorBlock](https://github.com/hanydd/BilibiliSponsorBlock) 片段类型 #1777 co-by @Vixb1122\r\n弹幕支持`固定转滚动`、`滚动弹幕固定速度` #1791 by @My-Responsitories\r\n\r\n页面优化\r\n优化专栏字体颜色\r\n优化 #1776 #1780 #1782 #1785 #1787 #1788 by @My-Responsitories\r\n\r\n修复 #1790 by @My-Responsitories\r\n修复 bug\r\n其他"
-        },
-        {
-          "version": "1.1.5.1",
-          "date": "2025-12-10",
-          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.1/PiliPlus_ios_1.1.5%2B4442.ipa",
-          "size": 24632567,
-          "minOSVersion": "13.0",
-          "localizedDescription": "页面优化\r\n优化下载\r\n重构 Log #1764 by @My-Responsitories\r\n推荐页单独卡片宽度 #1771 by @LiPolymer\r\n调整 #1762 #1765 #1773 by @My-Responsitories\r\n导入设置/登录信息支持输入 #1772 by @My-Responsitories\r\n修复 bug"
         }
       ],
       "developerName": "bggRGjQaUbCoE",
