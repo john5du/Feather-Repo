@@ -6,15 +6,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "2.6.8",
-      "versionDate": "2026-05-03T19:39:58Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.6.8/conduit.ipa",
-      "size": 26578753,
+      "version": "3.0.0",
+      "versionDate": "2026-05-15T06:26:34Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.0.0/conduit.ipa",
+      "size": 26595204,
       "category": "utilities",
-      "versionDescription": "- Added background streaming lease management.\r\n- Improved chat socket session handling and message buffering.\r\n- Fixed iOS Podfile patching for super_native_extensions.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.6.7...v2.6.8",
-      "changelog": "- Added background streaming lease management.\r\n- Improved chat socket session handling and message buffering.\r\n- Fixed iOS Podfile patching for super_native_extensions.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.6.7...v2.6.8",
+      "versionDescription": "https://github.com/user-attachments/assets/b8c3d1c5-c74a-4f1a-85c7-717878f7a65d\r\n\r\n- Added native iOS sheets, dropdowns, keyboard attachment actions, and localized App Intent strings.\r\n- Reworked Profile into richer Account, Personalization, Audio, Customization, and About settings pages.\r\n- Added default model, user system prompt, AI memory, account metadata, password, and server info management.\r\n- Improved chat with refreshed composer UI, temporary chats, save/toggle actions, richer paste/a",
+      "changelog": "https://github.com/user-attachments/assets/b8c3d1c5-c74a-4f1a-85c7-717878f7a65d\r\n\r\n- Added native iOS sheets, dropdowns, keyboard attachment actions, and localized App Intent strings.\r\n- Reworked Profile into richer Account, Personalization, Audio, Customization, and About settings pages.\r\n- Added default model, user system prompt, AI memory, account metadata, password, and server info management.\r\n- Improved chat with refreshed composer UI, temporary chats, save/toggle actions, richer paste/a",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "3.0.0",
+          "date": "2026-05-15",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.0.0/conduit.ipa",
+          "size": 26595204,
+          "minOSVersion": "16.0",
+          "localizedDescription": "https://github.com/user-attachments/assets/b8c3d1c5-c74a-4f1a-85c7-717878f7a65d\r\n\r\n- Added native iOS sheets, dropdowns, keyboard attachment actions, and localized App Intent strings.\r\n- Reworked Profile into richer Account, Personalization, Audio, Customization, and About settings pages.\r\n- Added default model, user system prompt, AI memory, account metadata, password, and server info management.\r\n- Improved chat with refreshed composer UI, temporary chats, save/toggle actions, richer paste/a"
+        },
         {
           "version": "2.6.8",
           "date": "2026-05-03",
