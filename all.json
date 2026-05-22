@@ -49,15 +49,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "3.1.0",
-      "versionDate": "2026-05-18T13:44:16Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.1.0/conduit.ipa",
-      "size": 26896897,
+      "version": "3.1.1",
+      "versionDate": "2026-05-21T12:57:05Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.1.1/conduit.ipa",
+      "size": 26932358,
       "category": "utilities",
-      "versionDescription": "## Open Terminal Integration\r\n\r\n<img width=\"360\" alt=\"conduit-open-terminal\" src=\"https://github.com/user-attachments/assets/fa93091e-1968-4791-b34d-2b003df69aa7\" /><br><br>\r\n\r\n- Added a new Terminal sidebar tab with interactive shell access.\r\n- Added terminal server selection, connection status, and connect/disconnect controls.\r\n- Added terminal file browsing with preview, upload, download, rename, delete, folder creation, and search.\r\n- Added listening-port discovery with “open in browser” sup",
-      "changelog": "## Open Terminal Integration\r\n\r\n<img width=\"360\" alt=\"conduit-open-terminal\" src=\"https://github.com/user-attachments/assets/fa93091e-1968-4791-b34d-2b003df69aa7\" /><br><br>\r\n\r\n- Added a new Terminal sidebar tab with interactive shell access.\r\n- Added terminal server selection, connection status, and connect/disconnect controls.\r\n- Added terminal file browsing with preview, upload, download, rename, delete, folder creation, and search.\r\n- Added listening-port discovery with “open in browser” sup",
+      "versionDescription": "- Improved chat streaming smoothness, markdown rendering performance, and loading skeletons.\r\n- Refined chat scrolling, keyboard anchoring, and pin-to-top behavior.\r\n- Fixed iOS voice input audio routing and speech recognizer recovery.\r\n- Fixed self-signed/mTLS image loading and Android home widget dependency resolution.\r\n- Improved terminal tab lifecycle handling and sidebar layout polish.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.0...v3.1.1",
+      "changelog": "- Improved chat streaming smoothness, markdown rendering performance, and loading skeletons.\r\n- Refined chat scrolling, keyboard anchoring, and pin-to-top behavior.\r\n- Fixed iOS voice input audio routing and speech recognizer recovery.\r\n- Fixed self-signed/mTLS image loading and Android home widget dependency resolution.\r\n- Improved terminal tab lifecycle handling and sidebar layout polish.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.0...v3.1.1",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "3.1.1",
+          "date": "2026-05-21",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.1.1/conduit.ipa",
+          "size": 26932358,
+          "minOSVersion": "16.0",
+          "localizedDescription": "- Improved chat streaming smoothness, markdown rendering performance, and loading skeletons.\r\n- Refined chat scrolling, keyboard anchoring, and pin-to-top behavior.\r\n- Fixed iOS voice input audio routing and speech recognizer recovery.\r\n- Fixed self-signed/mTLS image loading and Android home widget dependency resolution.\r\n- Improved terminal tab lifecycle handling and sidebar layout polish.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.0...v3.1.1"
+        },
         {
           "version": "3.1.0",
           "date": "2026-05-18",
