@@ -49,15 +49,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "3.1.3",
-      "versionDate": "2026-05-25T21:49:57Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.1.3/conduit.ipa",
-      "size": 27033447,
+      "version": "3.1.4",
+      "versionDate": "2026-05-26T15:03:51Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.1.4/conduit.ipa",
+      "size": 27085517,
       "category": "utilities",
-      "versionDescription": "- Added location-aware prompt support for `USER_LOCATION`.\r\n- Added mobile location permissions and `geolocator`.\r\n- Fixed web search visibility using server, user, and model feature flags.\r\n- Cleaned up iOS metadata and lockfile formatting.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.2...v3.1.3",
-      "changelog": "- Added location-aware prompt support for `USER_LOCATION`.\r\n- Added mobile location permissions and `geolocator`.\r\n- Fixed web search visibility using server, user, and model feature flags.\r\n- Cleaned up iOS metadata and lockfile formatting.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.2...v3.1.3",
+      "versionDescription": "- Fix scroll jumps and chats not scrolling to bottom on open.\r\n- Fix empty assistant response on stopping generation.\r\n- Standardize pull to refresh indicator placement.\r\n\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.3...v3.1.4",
+      "changelog": "- Fix scroll jumps and chats not scrolling to bottom on open.\r\n- Fix empty assistant response on stopping generation.\r\n- Standardize pull to refresh indicator placement.\r\n\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.3...v3.1.4",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "3.1.4",
+          "date": "2026-05-26",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.1.4/conduit.ipa",
+          "size": 27085517,
+          "minOSVersion": "16.0",
+          "localizedDescription": "- Fix scroll jumps and chats not scrolling to bottom on open.\r\n- Fix empty assistant response on stopping generation.\r\n- Standardize pull to refresh indicator placement.\r\n\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.3...v3.1.4"
+        },
         {
           "version": "3.1.3",
           "date": "2026-05-25",
