@@ -6,15 +6,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "3.1.4",
-      "versionDate": "2026-05-26T15:03:51Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.1.4/conduit.ipa",
-      "size": 27085517,
+      "version": "3.1.5",
+      "versionDate": "2026-05-27T18:42:45Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.1.5/conduit.ipa",
+      "size": 27855180,
       "category": "utilities",
-      "versionDescription": "- Fix scroll jumps and chats not scrolling to bottom on open.\r\n- Fix empty assistant response on stopping generation.\r\n- Standardize pull to refresh indicator placement.\r\n\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.3...v3.1.4",
-      "changelog": "- Fix scroll jumps and chats not scrolling to bottom on open.\r\n- Fix empty assistant response on stopping generation.\r\n- Standardize pull to refresh indicator placement.\r\n\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.3...v3.1.4",
+      "versionDescription": "- Fix flashing response placeholders appearing during streaming.\r\n- Fix SSO auth and replace webview package.\r\n- Remove haptics for sidebar open and close.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.4...v3.1.5",
+      "changelog": "- Fix flashing response placeholders appearing during streaming.\r\n- Fix SSO auth and replace webview package.\r\n- Remove haptics for sidebar open and close.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.4...v3.1.5",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "3.1.5",
+          "date": "2026-05-27",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.1.5/conduit.ipa",
+          "size": 27855180,
+          "minOSVersion": "16.0",
+          "localizedDescription": "- Fix flashing response placeholders appearing during streaming.\r\n- Fix SSO auth and replace webview package.\r\n- Remove haptics for sidebar open and close.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.4...v3.1.5"
+        },
         {
           "version": "3.1.4",
           "date": "2026-05-26",
