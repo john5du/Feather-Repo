@@ -49,15 +49,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "3.1.5",
-      "versionDate": "2026-05-27T18:42:45Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.1.5/conduit.ipa",
-      "size": 27855180,
+      "version": "3.1.6",
+      "versionDate": "2026-06-01T10:34:08Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.1.6/conduit.ipa",
+      "size": 27880913,
       "category": "utilities",
-      "versionDescription": "- Fix flashing response placeholders appearing during streaming.\r\n- Fix SSO auth and replace webview package.\r\n- Remove haptics for sidebar open and close.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.4...v3.1.5",
-      "changelog": "- Fix flashing response placeholders appearing during streaming.\r\n- Fix SSO auth and replace webview package.\r\n- Remove haptics for sidebar open and close.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.4...v3.1.5",
+      "versionDescription": "- Fix socket connection issues.\r\n- Fix images leaking into responses.\r\n- Implement model pinning.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.5...v3.1.6",
+      "changelog": "- Fix socket connection issues.\r\n- Fix images leaking into responses.\r\n- Implement model pinning.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.5...v3.1.6",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "3.1.6",
+          "date": "2026-06-01",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.1.6/conduit.ipa",
+          "size": 27880913,
+          "minOSVersion": "16.0",
+          "localizedDescription": "- Fix socket connection issues.\r\n- Fix images leaking into responses.\r\n- Implement model pinning.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.5...v3.1.6"
+        },
         {
           "version": "3.1.5",
           "date": "2026-05-27",
