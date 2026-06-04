@@ -6,15 +6,23 @@
     {
       "name": "PiliPlus",
       "bundleIdentifier": "com.example.piliplus",
-      "version": "2.0.7.2",
-      "versionDate": "2026-05-15T03:21:02Z",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.7.2/PiliPlus_ios_2.0.7%2B4956.ipa",
-      "size": 23837357,
+      "version": "2.0.8",
+      "versionDate": "2026-06-04T06:24:24Z",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.8/PiliPlus_ios_2.0.8%2B5014.ipa",
+      "size": 23458920,
       "category": "other",
-      "versionDescription": "修复 #2075 #2087\r\n其他调整 #2100 by @My-Responsitories\r\n定时发布动态不立即检查是否可见 #2059 by @uhiovk",
-      "changelog": "修复 #2075 #2087\r\n其他调整 #2100 by @My-Responsitories\r\n定时发布动态不立即检查是否可见 #2059 by @uhiovk",
+      "versionDescription": "更多 FAB 动画 #2265\r\n优化专栏视频跳转 #2148\r\n发布页发布按钮防抖 #2152\r\n限制视频弹出面板宽度 #2277\r\n锁定模式不处理分段跳转 #2143\r\n安卓画中画添加快进/快退按钮 #2251\r\n桌面端`可选文本`调整为横向触发 #2106\r\n安卓关闭系统动画时支持播放 GIF #2107\r\n安卓支持调节倾斜角度切换视频方向 #2140\r\n重构 Log #2216 by @My-Responsitories\r\n优化账号描述 #2280 by @My-Responsitories\r\njni 重构 #2244 #2255 by @My-Responsitories\r\n优化 win32 api #2246 by @My-Responsitories\r\n移除未用的图片资源 #2267 by @My-Responsitories\r\n重构缓存管理 #2266 #2276 by @My-Responsitories\r\n处理投票 URL Scheme #2105 by @My-Responsitories\r\n\r\n修复超分失效 #2112\r\n修复投币上限 #2192\r\n修复手势调节",
+      "changelog": "更多 FAB 动画 #2265\r\n优化专栏视频跳转 #2148\r\n发布页发布按钮防抖 #2152\r\n限制视频弹出面板宽度 #2277\r\n锁定模式不处理分段跳转 #2143\r\n安卓画中画添加快进/快退按钮 #2251\r\n桌面端`可选文本`调整为横向触发 #2106\r\n安卓关闭系统动画时支持播放 GIF #2107\r\n安卓支持调节倾斜角度切换视频方向 #2140\r\n重构 Log #2216 by @My-Responsitories\r\n优化账号描述 #2280 by @My-Responsitories\r\njni 重构 #2244 #2255 by @My-Responsitories\r\n优化 win32 api #2246 by @My-Responsitories\r\n移除未用的图片资源 #2267 by @My-Responsitories\r\n重构缓存管理 #2266 #2276 by @My-Responsitories\r\n处理投票 URL Scheme #2105 by @My-Responsitories\r\n\r\n修复超分失效 #2112\r\n修复投币上限 #2192\r\n修复手势调节",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "2.0.8",
+          "date": "2026-06-04",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.8/PiliPlus_ios_2.0.8%2B5014.ipa",
+          "size": 23458920,
+          "minOSVersion": "13.0",
+          "localizedDescription": "更多 FAB 动画 #2265\r\n优化专栏视频跳转 #2148\r\n发布页发布按钮防抖 #2152\r\n限制视频弹出面板宽度 #2277\r\n锁定模式不处理分段跳转 #2143\r\n安卓画中画添加快进/快退按钮 #2251\r\n桌面端`可选文本`调整为横向触发 #2106\r\n安卓关闭系统动画时支持播放 GIF #2107\r\n安卓支持调节倾斜角度切换视频方向 #2140\r\n重构 Log #2216 by @My-Responsitories\r\n优化账号描述 #2280 by @My-Responsitories\r\njni 重构 #2244 #2255 by @My-Responsitories\r\n优化 win32 api #2246 by @My-Responsitories\r\n移除未用的图片资源 #2267 by @My-Responsitories\r\n重构缓存管理 #2266 #2276 by @My-Responsitories\r\n处理投票 URL Scheme #2105 by @My-Responsitories\r\n\r\n修复超分失效 #2112\r\n修复投币上限 #2192\r\n修复手势调节"
+        },
         {
           "version": "2.0.7.2",
           "date": "2026-05-15",
@@ -166,14 +174,6 @@
           "size": 25103780,
           "minOSVersion": "13.0",
           "localizedDescription": "支持长按/右键图片显示菜单，默认关\r\n调整 #1802 by @My-Responsitories\r\n支持界面缩放 #1800 co-by @sghhhh\r\nSponsorBlock Api 调整 #1797 by @zjns\r\n添加显示动态互动信息开关 #1798 co-by @sghhhh\r\n\r\n修复 #1799 co-by @KoishiMoe\r\n修复 Linux Task Icon #1800 by @sghhhh\r\n修复无法通过 AltStore/SideStore 安装 IPA #1803 by @KoishiMoe\r\n修复 bug"
-        },
-        {
-          "version": "1.1.5.3",
-          "date": "2026-01-07",
-          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.3/PiliPlus_ios_1.1.5%2B4526.ipa",
-          "size": 24632843,
-          "minOSVersion": "13.0",
-          "localizedDescription": "修复 #1795 by @sghhhh\r\n修复 bug"
         }
       ],
       "developerName": "bggRGjQaUbCoE",
