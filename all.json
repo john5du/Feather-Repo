@@ -49,15 +49,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "3.1.6",
-      "versionDate": "2026-06-01T10:34:08Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.1.6/conduit.ipa",
-      "size": 27880913,
+      "version": "3.2.1",
+      "versionDate": "2026-06-04T19:26:08Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.2.1/conduit.ipa",
+      "size": 27888547,
       "category": "utilities",
-      "versionDescription": "- Fix socket connection issues.\r\n- Fix images leaking into responses.\r\n- Implement model pinning.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.5...v3.1.6",
-      "changelog": "- Fix socket connection issues.\r\n- Fix images leaking into responses.\r\n- Implement model pinning.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.5...v3.1.6",
+      "versionDescription": "- Fix Android permissions.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.2.0...v3.2.1",
+      "changelog": "- Fix Android permissions.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.2.0...v3.2.1",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "3.2.1",
+          "date": "2026-06-04",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.2.1/conduit.ipa",
+          "size": 27888547,
+          "minOSVersion": "16.0",
+          "localizedDescription": "- Fix Android permissions.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.2.0...v3.2.1"
+        },
         {
           "version": "3.1.6",
           "date": "2026-06-01",
