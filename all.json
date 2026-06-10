@@ -256,14 +256,22 @@
     {
       "name": "FluxDo",
       "bundleIdentifier": "com.github.lingyan000.fluxdo",
-      "version": "0.2.15",
-      "versionDate": "2026-05-09T17:45:56Z",
-      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.15/fluxdo-unsigned.ipa",
-      "size": 39700334,
-      "versionDescription": "- 🐛 CI 更新日志修复\n- ✨ 为「新话题」筛选新增二级子过滤下拉，对齐 Linux.do 网页版行为。 (#243)\n- ✨ boost 切换到帖子回复 (#238)\n- ✨ 新增剪贴板话题链接识别服务 (#237)\n\n- 🐛 CI 修复\n\n- ✨ 取消主动指纹上报\n\n- ✨ Cookie 同步到 webview 逻辑优化\n- ✨ 用户签名显示支持，close #234\n- ✨ 图片查看器体验优化\n- ✨ 树形视图体验优化\n- ✨ 编辑器支持插入 Callout，close #95\n- 🐛 修复回复话题和 messageBus 的竞态问题，fix #233\n- ✨ AI 模型快捷词支持导出导入\n- ✨ AI 助手模型调用 prompt 缓存支持\n- ✨ 优化 AI 助手关闭连接逻辑\n- ✨ AI 助手支持选择思考深度\n- ✨ 模型配置界面优化\n- ✨ AI 助手提示词界面优化，生图模式优化\n- ✨ AI 助手优化\n- 🐛 CI 修复\n- 🐛 CI 修复\n- 🐛 修复开发环境问题\n- ✨ 发布脚本优化\n- ✨ 国际化功能优化，项目工程优化\n- ✨ 快捷键功能优化",
-      "changelog": "- 🐛 CI 更新日志修复\n- ✨ 为「新话题」筛选新增二级子过滤下拉，对齐 Linux.do 网页版行为。 (#243)\n- ✨ boost 切换到帖子回复 (#238)\n- ✨ 新增剪贴板话题链接识别服务 (#237)\n\n- 🐛 CI 修复\n\n- ✨ 取消主动指纹上报\n\n- ✨ Cookie 同步到 webview 逻辑优化\n- ✨ 用户签名显示支持，close #234\n- ✨ 图片查看器体验优化\n- ✨ 树形视图体验优化\n- ✨ 编辑器支持插入 Callout，close #95\n- 🐛 修复回复话题和 messageBus 的竞态问题，fix #233\n- ✨ AI 模型快捷词支持导出导入\n- ✨ AI 助手模型调用 prompt 缓存支持\n- ✨ 优化 AI 助手关闭连接逻辑\n- ✨ AI 助手支持选择思考深度\n- ✨ 模型配置界面优化\n- ✨ AI 助手提示词界面优化，生图模式优化\n- ✨ AI 助手优化\n- 🐛 CI 修复\n- 🐛 CI 修复\n- 🐛 修复开发环境问题\n- ✨ 发布脚本优化\n- ✨ 国际化功能优化，项目工程优化\n- ✨ 快捷键功能优化",
+      "version": "0.2.16",
+      "versionDate": "2026-06-09T12:48:34Z",
+      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.16/fluxdo-unsigned.ipa",
+      "size": 50580206,
+      "versionDescription": "## [0.2.16] - 2026-06-09\r\n\r\n\r\n### 🌟 新功能\r\n\r\n- 俺也一样: OP 帖底部 ME TOO 表态按钮 (discourse-solved shared_issue) by @Lingyan000\r\n\r\n- Notion 同步: 帖子/话题 -> Notion Database (close [#230](https://github.com/lingyan000/fluxdo/issues/230)) by @Lingyan000\r\n\r\n- 导出历史: 帖子导出/同步统一可追溯 (PR1/2 → #227) by @Lingyan000\r\n\r\n- Native 应用登录页: WebView 内 JS 全流程登录 by @Lingyan000\r\n\r\n- 多解决方案支持: 列表化 banner + 兼容 discourse-solved 新分支 by @Lingyan000\r\n\r\n- 老 WKWebView 兼容层: core-js polyfill 子工程 + JS 错误回传 by @Lingyan000\r\n\r\n- Cookie 引擎 v0.4.0 ",
+      "changelog": "## [0.2.16] - 2026-06-09\r\n\r\n\r\n### 🌟 新功能\r\n\r\n- 俺也一样: OP 帖底部 ME TOO 表态按钮 (discourse-solved shared_issue) by @Lingyan000\r\n\r\n- Notion 同步: 帖子/话题 -> Notion Database (close [#230](https://github.com/lingyan000/fluxdo/issues/230)) by @Lingyan000\r\n\r\n- 导出历史: 帖子导出/同步统一可追溯 (PR1/2 → #227) by @Lingyan000\r\n\r\n- Native 应用登录页: WebView 内 JS 全流程登录 by @Lingyan000\r\n\r\n- 多解决方案支持: 列表化 banner + 兼容 discourse-solved 新分支 by @Lingyan000\r\n\r\n- 老 WKWebView 兼容层: core-js polyfill 子工程 + JS 错误回传 by @Lingyan000\r\n\r\n- Cookie 引擎 v0.4.0 ",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "0.2.16",
+          "date": "2026-06-09",
+          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.16/fluxdo-unsigned.ipa",
+          "size": 50580206,
+          "minOSVersion": "13.0",
+          "localizedDescription": "## [0.2.16] - 2026-06-09\r\n\r\n\r\n### 🌟 新功能\r\n\r\n- 俺也一样: OP 帖底部 ME TOO 表态按钮 (discourse-solved shared_issue) by @Lingyan000\r\n\r\n- Notion 同步: 帖子/话题 -> Notion Database (close [#230](https://github.com/lingyan000/fluxdo/issues/230)) by @Lingyan000\r\n\r\n- 导出历史: 帖子导出/同步统一可追溯 (PR1/2 → #227) by @Lingyan000\r\n\r\n- Native 应用登录页: WebView 内 JS 全流程登录 by @Lingyan000\r\n\r\n- 多解决方案支持: 列表化 banner + 兼容 discourse-solved 新分支 by @Lingyan000\r\n\r\n- 老 WKWebView 兼容层: core-js polyfill 子工程 + JS 错误回传 by @Lingyan000\r\n\r\n- Cookie 引擎 v0.4.0 "
+        },
         {
           "version": "0.2.15",
           "date": "2026-05-09",
@@ -415,14 +423,6 @@
           "size": 21800059,
           "minOSVersion": "13.0",
           "localizedDescription": "- 🐛 解决部分帖子无法点击查看大图的问题，fix #134\n\n- ✨ 优化书签卡片展示，refs #133\n\n- ✨ AI 助手导出图片功能，close #132\n\n- ✨ 优化回应弹框显示效果\n\n- ✨ 稍后阅读浮窗数量角标显示优化\n\n- ✨ AI 助手优化，close #132\n\n- ✨ 优化部分场景动画效果\n\n- ✨ 浮窗位置计算优化"
-        },
-        {
-          "version": "0.1.46",
-          "date": "2026-03-10",
-          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.46/fluxdo-unsigned.ipa",
-          "size": 21670338,
-          "minOSVersion": "13.0",
-          "localizedDescription": "- ✨ 支持开关滚动收起导航栏\r\n\r\n- ✨ 启动页优化，防止一些极端场景卡启动页\r\n\r\n- 🐛 修复邀请链接显示与限频提示 (#129)\r\n\r\n- ✨ 稍后阅读功能，refs #115\r\n\r\n- ✨ 书签功能优化，refs #115\r\n\r\n- ✨ SVG 渲染优化，close #126\r\n\r\n- ✨ 优化过盾逻辑\r\n\r\n- ✨ 异形屏横屏适配，close #110\r\n\r\n- ✨ Token 变更日志\r\n\r\n- ✨ 更详情的退出日志"
         }
       ],
       "developerName": "Lingyan000",
