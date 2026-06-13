@@ -13,15 +13,23 @@
     {
       "name": "Asspp",
       "bundleIdentifier": "wiki.qaq.Asspp",
-      "version": "4.1.1",
-      "versionDate": "2026-02-20T17:26:46Z",
-      "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/4.1.1/Asspp.ipa",
-      "size": 13586686,
+      "version": "4.2.0",
+      "versionDate": "2026-06-12T08:23:55Z",
+      "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/4.2.0/Asspp.ipa",
+      "size": 15153128,
       "category": "utilities",
-      "versionDescription": "### New Features\n- **macOS Installed Apps tab** — view and update apps on connected devices\n- **In-app logging** — built-in log viewer for debugging\n- **Chinese localization** (zh-Hans)\n- **iTunesMetadata injection** — IPAs now include proper App Store metadata\n\n### Improvements\n- Migrated to `@Observable` and modern SwiftUI patterns\n- Modernized UI with AsyncButton, grouped Form style, and enriched package details\n- Fixed buttons not tappable in iOS Settings\n\n### Bug Fixes\n- **Fixed login failure due to empty response body** — login now works correctly\n- Fixed install failure message not showing\n- Fixed macOS login sheet",
-      "changelog": "### New Features\n- **macOS Installed Apps tab** — view and update apps on connected devices\n- **In-app logging** — built-in log viewer for debugging\n- **Chinese localization** (zh-Hans)\n- **iTunesMetadata injection** — IPAs now include proper App Store metadata\n\n### Improvements\n- Migrated to `@Observable` and modern SwiftUI patterns\n- Modernized UI with AsyncButton, grouped Form style, and enriched package details\n- Fixed buttons not tappable in iOS Settings\n\n### Bug Fixes\n- **Fixed login failure due to empty response body** — login now works correctly\n- Fixed install failure message not showing\n- Fixed macOS login sheet",
+      "versionDescription": "Release 4.2.0",
+      "changelog": "Release 4.2.0",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "4.2.0",
+          "date": "2026-06-12",
+          "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/4.2.0/Asspp.ipa",
+          "size": 15153128,
+          "minOSVersion": "13.0",
+          "localizedDescription": "Release 4.2.0"
+        },
         {
           "version": "4.1.1",
           "date": "2026-02-20",
@@ -787,15 +795,23 @@
     {
       "name": "PiliPlus",
       "bundleIdentifier": "com.example.piliplus",
-      "version": "2.0.8.1",
-      "versionDate": "2026-06-06T04:20:39Z",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.8.1/PiliPlus_ios_2.0.8%2B5024.ipa",
-      "size": 23460325,
+      "version": "2.0.9.1",
+      "versionDate": "2026-06-12T04:21:17Z",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.9.1/PiliPlus_ios_2.0.9%2B5047.ipa",
+      "size": 23386570,
       "category": "other",
-      "versionDescription": "增加私信消息点击范围 #2292\r\n\r\n修复专栏解析\r\n修复 #2295 #2308\r\n修复界面缩放时无法显示滚动弹幕 #2305",
-      "changelog": "增加私信消息点击范围 #2292\r\n\r\n修复专栏解析\r\n修复 #2295 #2308\r\n修复界面缩放时无法显示滚动弹幕 #2305",
+      "versionDescription": "直播支持切换线路\r\n桌面端支持自定义最大音量 #2199\r\n移动端支持设置播放器音量 #2358\r\n优化视频字幕、截图 #2364 by @My-Responsitories\r\n音乐页面显示全部标签 #2363 by @My-Responsitories\r\n支持自定义播放缓存大小、缓存时长 #2370 by @My-Responsitories\r\n\r\n修复 #2342 #2350 #2351 #2386\r\n修复桌面端富文本输入 #2123 #2215 #2300\r\n修复安卓端验证码窗口显示 #2341 by @My-Responsitories",
+      "changelog": "直播支持切换线路\r\n桌面端支持自定义最大音量 #2199\r\n移动端支持设置播放器音量 #2358\r\n优化视频字幕、截图 #2364 by @My-Responsitories\r\n音乐页面显示全部标签 #2363 by @My-Responsitories\r\n支持自定义播放缓存大小、缓存时长 #2370 by @My-Responsitories\r\n\r\n修复 #2342 #2350 #2351 #2386\r\n修复桌面端富文本输入 #2123 #2215 #2300\r\n修复安卓端验证码窗口显示 #2341 by @My-Responsitories",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "2.0.9.1",
+          "date": "2026-06-12",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.9.1/PiliPlus_ios_2.0.9%2B5047.ipa",
+          "size": 23386570,
+          "minOSVersion": "13.0",
+          "localizedDescription": "直播支持切换线路\r\n桌面端支持自定义最大音量 #2199\r\n移动端支持设置播放器音量 #2358\r\n优化视频字幕、截图 #2364 by @My-Responsitories\r\n音乐页面显示全部标签 #2363 by @My-Responsitories\r\n支持自定义播放缓存大小、缓存时长 #2370 by @My-Responsitories\r\n\r\n修复 #2342 #2350 #2351 #2386\r\n修复桌面端富文本输入 #2123 #2215 #2300\r\n修复安卓端验证码窗口显示 #2341 by @My-Responsitories"
+        },
         {
           "version": "2.0.8.1",
           "date": "2026-06-06",
@@ -947,14 +963,6 @@
           "size": 25114723,
           "minOSVersion": "13.0",
           "localizedDescription": "安卓端音频输出回退默认 opensles\r\n安卓端支持选择音频输出 #1811 by @My-Responsitories\r\n其他"
-        },
-        {
-          "version": "1.1.5.5",
-          "date": "2026-01-25",
-          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.5/PiliPlus_ios_1.1.5%2B4573.ipa",
-          "size": 25108013,
-          "minOSVersion": "13.0",
-          "localizedDescription": "组件/页面优化\r\n桌面端返回优化\r\n横向滑动优化，支持调节滑动阈值\r\n调整 #1806 #1810 by @My-Responsitories\r\n安卓音频输出优先使用 aaudio #1805 by @My-Responsitories\r\n\r\n修复 Web 端推荐\r\n修复 bug"
         }
       ],
       "developerName": "bggRGjQaUbCoE",
