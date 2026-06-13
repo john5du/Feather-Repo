@@ -6,14 +6,22 @@
     {
       "name": "FluxDo",
       "bundleIdentifier": "com.github.lingyan000.fluxdo",
-      "version": "0.2.17",
-      "versionDate": "2026-06-10T08:49:37Z",
-      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.17/fluxdo-unsigned.ipa",
-      "size": 50599163,
-      "versionDescription": "## [0.2.17] - 2026-06-10\n\n\n### 🌟 新功能\n\n- Hcaptcha create endpoint 可配置 + fallback 列表 by @Lingyan000\n\n- Hcaptcha create endpoint 可配置 + fallback 列表 by @Lingyan000\n\n\n### 🐛 修复\n\n- ApiKey 改明文存储 + 诊断走应用日志,根治「未收到 AI 回复」 by @Lingyan000\n\n- 修 Android nukeAllVariants 因无 Looper 线程致空操作 by @Lingyan000\n\n- 升 native_animated_image 0.3.1: 修不透明动画 WebP 解码 crash by @Lingyan000\n\n- 修请求调度器按 dio 实例独立窗口, 导致服务端 429 by @Lingyan000\n\n- 修请求调度器按 dio 实例独立窗口, 导致服务端 429 by @Lingyan000\n\n- Release notes 从上个 stable 起算 + Pages 图标路径动态化 b",
-      "changelog": "## [0.2.17] - 2026-06-10\n\n\n### 🌟 新功能\n\n- Hcaptcha create endpoint 可配置 + fallback 列表 by @Lingyan000\n\n- Hcaptcha create endpoint 可配置 + fallback 列表 by @Lingyan000\n\n\n### 🐛 修复\n\n- ApiKey 改明文存储 + 诊断走应用日志,根治「未收到 AI 回复」 by @Lingyan000\n\n- 修 Android nukeAllVariants 因无 Looper 线程致空操作 by @Lingyan000\n\n- 升 native_animated_image 0.3.1: 修不透明动画 WebP 解码 crash by @Lingyan000\n\n- 修请求调度器按 dio 实例独立窗口, 导致服务端 429 by @Lingyan000\n\n- 修请求调度器按 dio 实例独立窗口, 导致服务端 429 by @Lingyan000\n\n- Release notes 从上个 stable 起算 + Pages 图标路径动态化 b",
+      "version": "0.2.18",
+      "versionDate": "2026-06-13T09:15:00Z",
+      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.18/fluxdo-unsigned.ipa",
+      "size": 51260668,
+      "versionDescription": "## [0.2.18] - 2026-06-13\n\n\n### 🌟 新功能\n\n- 登录页调整 by @Lingyan000\n\n- 增加本地草稿兜底缓存 by @Lingyan000\n\n- 优化启动页 UI 并统一氛围页角落按钮 by @Lingyan000\n\n- 点击通知跳转后不再主动关闭通知面板 by @Lingyan000\n\n- 统一登录文案为 LINUX.DO by @Lingyan000\n\n- 调整主题预览弹窗自适应高度 by @Lingyan000\n\n- 支持话题摘要流式更新 by @Lingyan000\n\n- Cdk 卡片跳转地址更改 by @Lingyan000\n\n- 头像点击改弹用户卡片:基于话题私信/关注/静音忽略 by @Lingyan000\n\n- 统一错误页 UI:补网络设置入口 + 收敛 9 个页面到 ErrorView by @Lingyan000\n\n- MessageBus 对齐官方 v4 协议：消除 iOS 100ms 重连风暴 by @Lingyan000\n\n- CF 验证期间冻结业务请求：模拟网页 CF 403 直接停滞 by @Lingyan000\n\n",
+      "changelog": "## [0.2.18] - 2026-06-13\n\n\n### 🌟 新功能\n\n- 登录页调整 by @Lingyan000\n\n- 增加本地草稿兜底缓存 by @Lingyan000\n\n- 优化启动页 UI 并统一氛围页角落按钮 by @Lingyan000\n\n- 点击通知跳转后不再主动关闭通知面板 by @Lingyan000\n\n- 统一登录文案为 LINUX.DO by @Lingyan000\n\n- 调整主题预览弹窗自适应高度 by @Lingyan000\n\n- 支持话题摘要流式更新 by @Lingyan000\n\n- Cdk 卡片跳转地址更改 by @Lingyan000\n\n- 头像点击改弹用户卡片:基于话题私信/关注/静音忽略 by @Lingyan000\n\n- 统一错误页 UI:补网络设置入口 + 收敛 9 个页面到 ErrorView by @Lingyan000\n\n- MessageBus 对齐官方 v4 协议：消除 iOS 100ms 重连风暴 by @Lingyan000\n\n- CF 验证期间冻结业务请求：模拟网页 CF 403 直接停滞 by @Lingyan000\n\n",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "0.2.18",
+          "date": "2026-06-13",
+          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.18/fluxdo-unsigned.ipa",
+          "size": 51260668,
+          "minOSVersion": "13.0",
+          "localizedDescription": "## [0.2.18] - 2026-06-13\n\n\n### 🌟 新功能\n\n- 登录页调整 by @Lingyan000\n\n- 增加本地草稿兜底缓存 by @Lingyan000\n\n- 优化启动页 UI 并统一氛围页角落按钮 by @Lingyan000\n\n- 点击通知跳转后不再主动关闭通知面板 by @Lingyan000\n\n- 统一登录文案为 LINUX.DO by @Lingyan000\n\n- 调整主题预览弹窗自适应高度 by @Lingyan000\n\n- 支持话题摘要流式更新 by @Lingyan000\n\n- Cdk 卡片跳转地址更改 by @Lingyan000\n\n- 头像点击改弹用户卡片:基于话题私信/关注/静音忽略 by @Lingyan000\n\n- 统一错误页 UI:补网络设置入口 + 收敛 9 个页面到 ErrorView by @Lingyan000\n\n- MessageBus 对齐官方 v4 协议：消除 iOS 100ms 重连风暴 by @Lingyan000\n\n- CF 验证期间冻结业务请求：模拟网页 CF 403 直接停滞 by @Lingyan000\n\n"
+        },
         {
           "version": "0.2.17",
           "date": "2026-06-10",
@@ -165,14 +173,6 @@
           "size": 22767890,
           "minOSVersion": "13.0",
           "localizedDescription": "- ✨ 表情包支持，感谢 @stevessr\n\n- ✨ 提升网络请求稳定性\n\n- ✨ VPN 自动切换，close #115\n\n- ✨ DOH 支持复制地址、编辑，close #138，close #100\n\n- ✨ 更新 doh_proxy\n\n- ✨ FAB 子按钮支持\n\n- ✨ improve upstream proxy support on android (#125)\n\n- ✨ 帖子内容优化\n\n- ✨ 用户封禁显示，close #139\n\n- ✨ 支持图标切换\n\n- ✨ 图片批量上传，close #130\n\n- ✨ 图片查看器手势优化\n\n- ✨ MacOS 图标优化"
-        },
-        {
-          "version": "0.1.50",
-          "date": "2026-03-12",
-          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.50/fluxdo-unsigned.ipa",
-          "size": 22603846,
-          "minOSVersion": "13.0",
-          "localizedDescription": "- 🐛 修复部分图片资源无法加载"
         }
       ],
       "developerName": "Lingyan000",

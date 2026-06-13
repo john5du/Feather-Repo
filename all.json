@@ -264,14 +264,22 @@
     {
       "name": "FluxDo",
       "bundleIdentifier": "com.github.lingyan000.fluxdo",
-      "version": "0.2.17",
-      "versionDate": "2026-06-10T08:49:37Z",
-      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.17/fluxdo-unsigned.ipa",
-      "size": 50599163,
-      "versionDescription": "## [0.2.17] - 2026-06-10\n\n\n### 🌟 新功能\n\n- Hcaptcha create endpoint 可配置 + fallback 列表 by @Lingyan000\n\n- Hcaptcha create endpoint 可配置 + fallback 列表 by @Lingyan000\n\n\n### 🐛 修复\n\n- ApiKey 改明文存储 + 诊断走应用日志,根治「未收到 AI 回复」 by @Lingyan000\n\n- 修 Android nukeAllVariants 因无 Looper 线程致空操作 by @Lingyan000\n\n- 升 native_animated_image 0.3.1: 修不透明动画 WebP 解码 crash by @Lingyan000\n\n- 修请求调度器按 dio 实例独立窗口, 导致服务端 429 by @Lingyan000\n\n- 修请求调度器按 dio 实例独立窗口, 导致服务端 429 by @Lingyan000\n\n- Release notes 从上个 stable 起算 + Pages 图标路径动态化 b",
-      "changelog": "## [0.2.17] - 2026-06-10\n\n\n### 🌟 新功能\n\n- Hcaptcha create endpoint 可配置 + fallback 列表 by @Lingyan000\n\n- Hcaptcha create endpoint 可配置 + fallback 列表 by @Lingyan000\n\n\n### 🐛 修复\n\n- ApiKey 改明文存储 + 诊断走应用日志,根治「未收到 AI 回复」 by @Lingyan000\n\n- 修 Android nukeAllVariants 因无 Looper 线程致空操作 by @Lingyan000\n\n- 升 native_animated_image 0.3.1: 修不透明动画 WebP 解码 crash by @Lingyan000\n\n- 修请求调度器按 dio 实例独立窗口, 导致服务端 429 by @Lingyan000\n\n- 修请求调度器按 dio 实例独立窗口, 导致服务端 429 by @Lingyan000\n\n- Release notes 从上个 stable 起算 + Pages 图标路径动态化 b",
+      "version": "0.2.18",
+      "versionDate": "2026-06-13T09:15:00Z",
+      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.18/fluxdo-unsigned.ipa",
+      "size": 51260668,
+      "versionDescription": "## [0.2.18] - 2026-06-13\n\n\n### 🌟 新功能\n\n- 登录页调整 by @Lingyan000\n\n- 增加本地草稿兜底缓存 by @Lingyan000\n\n- 优化启动页 UI 并统一氛围页角落按钮 by @Lingyan000\n\n- 点击通知跳转后不再主动关闭通知面板 by @Lingyan000\n\n- 统一登录文案为 LINUX.DO by @Lingyan000\n\n- 调整主题预览弹窗自适应高度 by @Lingyan000\n\n- 支持话题摘要流式更新 by @Lingyan000\n\n- Cdk 卡片跳转地址更改 by @Lingyan000\n\n- 头像点击改弹用户卡片:基于话题私信/关注/静音忽略 by @Lingyan000\n\n- 统一错误页 UI:补网络设置入口 + 收敛 9 个页面到 ErrorView by @Lingyan000\n\n- MessageBus 对齐官方 v4 协议：消除 iOS 100ms 重连风暴 by @Lingyan000\n\n- CF 验证期间冻结业务请求：模拟网页 CF 403 直接停滞 by @Lingyan000\n\n",
+      "changelog": "## [0.2.18] - 2026-06-13\n\n\n### 🌟 新功能\n\n- 登录页调整 by @Lingyan000\n\n- 增加本地草稿兜底缓存 by @Lingyan000\n\n- 优化启动页 UI 并统一氛围页角落按钮 by @Lingyan000\n\n- 点击通知跳转后不再主动关闭通知面板 by @Lingyan000\n\n- 统一登录文案为 LINUX.DO by @Lingyan000\n\n- 调整主题预览弹窗自适应高度 by @Lingyan000\n\n- 支持话题摘要流式更新 by @Lingyan000\n\n- Cdk 卡片跳转地址更改 by @Lingyan000\n\n- 头像点击改弹用户卡片:基于话题私信/关注/静音忽略 by @Lingyan000\n\n- 统一错误页 UI:补网络设置入口 + 收敛 9 个页面到 ErrorView by @Lingyan000\n\n- MessageBus 对齐官方 v4 协议：消除 iOS 100ms 重连风暴 by @Lingyan000\n\n- CF 验证期间冻结业务请求：模拟网页 CF 403 直接停滞 by @Lingyan000\n\n",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "0.2.18",
+          "date": "2026-06-13",
+          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.18/fluxdo-unsigned.ipa",
+          "size": 51260668,
+          "minOSVersion": "13.0",
+          "localizedDescription": "## [0.2.18] - 2026-06-13\n\n\n### 🌟 新功能\n\n- 登录页调整 by @Lingyan000\n\n- 增加本地草稿兜底缓存 by @Lingyan000\n\n- 优化启动页 UI 并统一氛围页角落按钮 by @Lingyan000\n\n- 点击通知跳转后不再主动关闭通知面板 by @Lingyan000\n\n- 统一登录文案为 LINUX.DO by @Lingyan000\n\n- 调整主题预览弹窗自适应高度 by @Lingyan000\n\n- 支持话题摘要流式更新 by @Lingyan000\n\n- Cdk 卡片跳转地址更改 by @Lingyan000\n\n- 头像点击改弹用户卡片:基于话题私信/关注/静音忽略 by @Lingyan000\n\n- 统一错误页 UI:补网络设置入口 + 收敛 9 个页面到 ErrorView by @Lingyan000\n\n- MessageBus 对齐官方 v4 协议：消除 iOS 100ms 重连风暴 by @Lingyan000\n\n- CF 验证期间冻结业务请求：模拟网页 CF 403 直接停滞 by @Lingyan000\n\n"
+        },
         {
           "version": "0.2.17",
           "date": "2026-06-10",
@@ -423,14 +431,6 @@
           "size": 22767890,
           "minOSVersion": "13.0",
           "localizedDescription": "- ✨ 表情包支持，感谢 @stevessr\n\n- ✨ 提升网络请求稳定性\n\n- ✨ VPN 自动切换，close #115\n\n- ✨ DOH 支持复制地址、编辑，close #138，close #100\n\n- ✨ 更新 doh_proxy\n\n- ✨ FAB 子按钮支持\n\n- ✨ improve upstream proxy support on android (#125)\n\n- ✨ 帖子内容优化\n\n- ✨ 用户封禁显示，close #139\n\n- ✨ 支持图标切换\n\n- ✨ 图片批量上传，close #130\n\n- ✨ 图片查看器手势优化\n\n- ✨ MacOS 图标优化"
-        },
-        {
-          "version": "0.1.50",
-          "date": "2026-03-12",
-          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.50/fluxdo-unsigned.ipa",
-          "size": 22603846,
-          "minOSVersion": "13.0",
-          "localizedDescription": "- 🐛 修复部分图片资源无法加载"
         }
       ],
       "developerName": "Lingyan000",
@@ -795,15 +795,23 @@
     {
       "name": "PiliPlus",
       "bundleIdentifier": "com.example.piliplus",
-      "version": "2.0.9.1",
-      "versionDate": "2026-06-12T04:21:17Z",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.9.1/PiliPlus_ios_2.0.9%2B5047.ipa",
-      "size": 23386570,
+      "version": "2.0.9.2",
+      "versionDate": "2026-06-13T09:40:58Z",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.9.2/PiliPlus_ios_2.0.9%2B5051.ipa",
+      "size": 23393835,
       "category": "other",
-      "versionDescription": "直播支持切换线路\r\n桌面端支持自定义最大音量 #2199\r\n移动端支持设置播放器音量 #2358\r\n优化视频字幕、截图 #2364 by @My-Responsitories\r\n音乐页面显示全部标签 #2363 by @My-Responsitories\r\n支持自定义播放缓存大小、缓存时长 #2370 by @My-Responsitories\r\n\r\n修复 #2342 #2350 #2351 #2386\r\n修复桌面端富文本输入 #2123 #2215 #2300\r\n修复安卓端验证码窗口显示 #2341 by @My-Responsitories",
-      "changelog": "直播支持切换线路\r\n桌面端支持自定义最大音量 #2199\r\n移动端支持设置播放器音量 #2358\r\n优化视频字幕、截图 #2364 by @My-Responsitories\r\n音乐页面显示全部标签 #2363 by @My-Responsitories\r\n支持自定义播放缓存大小、缓存时长 #2370 by @My-Responsitories\r\n\r\n修复 #2342 #2350 #2351 #2386\r\n修复桌面端富文本输入 #2123 #2215 #2300\r\n修复安卓端验证码窗口显示 #2341 by @My-Responsitories",
+      "versionDescription": "修复 bug\r\n其他调整 #2404 by @My-Responsitories",
+      "changelog": "修复 bug\r\n其他调整 #2404 by @My-Responsitories",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "2.0.9.2",
+          "date": "2026-06-13",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.9.2/PiliPlus_ios_2.0.9%2B5051.ipa",
+          "size": 23393835,
+          "minOSVersion": "13.0",
+          "localizedDescription": "修复 bug\r\n其他调整 #2404 by @My-Responsitories"
+        },
         {
           "version": "2.0.9.1",
           "date": "2026-06-12",
@@ -955,14 +963,6 @@
           "size": 25132786,
           "minOSVersion": "13.0",
           "localizedDescription": "优化滑动\r\n其他"
-        },
-        {
-          "version": "1.1.5.6",
-          "date": "2026-01-26",
-          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.5.6/PiliPlus_ios_1.1.5%2B4577.ipa",
-          "size": 25114723,
-          "minOSVersion": "13.0",
-          "localizedDescription": "安卓端音频输出回退默认 opensles\r\n安卓端支持选择音频输出 #1811 by @My-Responsitories\r\n其他"
         }
       ],
       "developerName": "bggRGjQaUbCoE",
