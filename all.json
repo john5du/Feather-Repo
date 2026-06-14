@@ -13,15 +13,23 @@
     {
       "name": "Asspp",
       "bundleIdentifier": "wiki.qaq.Asspp",
-      "version": "4.2.0",
-      "versionDate": "2026-06-12T08:23:55Z",
-      "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/4.2.0/Asspp.ipa",
-      "size": 15153128,
+      "version": "4.2.1",
+      "versionDate": "2026-06-14T02:47:42Z",
+      "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/4.2.1/Asspp.ipa",
+      "size": 15162563,
       "category": "utilities",
-      "versionDescription": "Release 4.2.0",
-      "changelog": "Release 4.2.0",
+      "versionDescription": "Release 4.2.1",
+      "changelog": "Release 4.2.1",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "4.2.1",
+          "date": "2026-06-14",
+          "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/4.2.1/Asspp.ipa",
+          "size": 15162563,
+          "minOSVersion": "13.0",
+          "localizedDescription": "Release 4.2.1"
+        },
         {
           "version": "4.2.0",
           "date": "2026-06-12",
