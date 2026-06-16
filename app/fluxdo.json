@@ -6,14 +6,22 @@
     {
       "name": "FluxDo",
       "bundleIdentifier": "com.github.lingyan000.fluxdo",
-      "version": "0.2.18",
-      "versionDate": "2026-06-13T09:15:00Z",
-      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.18/fluxdo-unsigned.ipa",
-      "size": 51260668,
-      "versionDescription": "## [0.2.18] - 2026-06-13\n\n\n### 🌟 新功能\n\n- 登录页调整 by @Lingyan000\n\n- 增加本地草稿兜底缓存 by @Lingyan000\n\n- 优化启动页 UI 并统一氛围页角落按钮 by @Lingyan000\n\n- 点击通知跳转后不再主动关闭通知面板 by @Lingyan000\n\n- 统一登录文案为 LINUX.DO by @Lingyan000\n\n- 调整主题预览弹窗自适应高度 by @Lingyan000\n\n- 支持话题摘要流式更新 by @Lingyan000\n\n- Cdk 卡片跳转地址更改 by @Lingyan000\n\n- 头像点击改弹用户卡片:基于话题私信/关注/静音忽略 by @Lingyan000\n\n- 统一错误页 UI:补网络设置入口 + 收敛 9 个页面到 ErrorView by @Lingyan000\n\n- MessageBus 对齐官方 v4 协议：消除 iOS 100ms 重连风暴 by @Lingyan000\n\n- CF 验证期间冻结业务请求：模拟网页 CF 403 直接停滞 by @Lingyan000\n\n",
-      "changelog": "## [0.2.18] - 2026-06-13\n\n\n### 🌟 新功能\n\n- 登录页调整 by @Lingyan000\n\n- 增加本地草稿兜底缓存 by @Lingyan000\n\n- 优化启动页 UI 并统一氛围页角落按钮 by @Lingyan000\n\n- 点击通知跳转后不再主动关闭通知面板 by @Lingyan000\n\n- 统一登录文案为 LINUX.DO by @Lingyan000\n\n- 调整主题预览弹窗自适应高度 by @Lingyan000\n\n- 支持话题摘要流式更新 by @Lingyan000\n\n- Cdk 卡片跳转地址更改 by @Lingyan000\n\n- 头像点击改弹用户卡片:基于话题私信/关注/静音忽略 by @Lingyan000\n\n- 统一错误页 UI:补网络设置入口 + 收敛 9 个页面到 ErrorView by @Lingyan000\n\n- MessageBus 对齐官方 v4 协议：消除 iOS 100ms 重连风暴 by @Lingyan000\n\n- CF 验证期间冻结业务请求：模拟网页 CF 403 直接停滞 by @Lingyan000\n\n",
+      "version": "0.2.19",
+      "versionDate": "2026-06-16T02:44:08Z",
+      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.19/fluxdo-unsigned.ipa",
+      "size": 51285738,
+      "versionDescription": "## [0.2.19] - 2026-06-16\n\n\n### 🐛 修复\n\n- 修复 LDC 余额趋势符号显示 by @Lingyan000\n\n- 修复实时 Boost 权限误判 by @Lingyan000\n\n- Harden WebView session cookie sync by @Lingyan000\n\n- Fix: 修复 Windows 登录验证和加载卡住 by @Lingyan000\n\n- Fix: 兼容伪装成 PNG 的 SVG 头像 by @Lingyan000\n\n\n### ♻️ 重构\n\n- 抽象分页加载状态 by @Lingyan000\n\n\n### 🔧 其他\n\n- :bug: fix: 收敛 Discourse 登录态与上报逻辑 by @Lingyan000\n\n\n\n\n**Full Changelog**: https://github.com/lingyan000/fluxdo/compare/v0.2.18...v0.2.19",
+      "changelog": "## [0.2.19] - 2026-06-16\n\n\n### 🐛 修复\n\n- 修复 LDC 余额趋势符号显示 by @Lingyan000\n\n- 修复实时 Boost 权限误判 by @Lingyan000\n\n- Harden WebView session cookie sync by @Lingyan000\n\n- Fix: 修复 Windows 登录验证和加载卡住 by @Lingyan000\n\n- Fix: 兼容伪装成 PNG 的 SVG 头像 by @Lingyan000\n\n\n### ♻️ 重构\n\n- 抽象分页加载状态 by @Lingyan000\n\n\n### 🔧 其他\n\n- :bug: fix: 收敛 Discourse 登录态与上报逻辑 by @Lingyan000\n\n\n\n\n**Full Changelog**: https://github.com/lingyan000/fluxdo/compare/v0.2.18...v0.2.19",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "0.2.19",
+          "date": "2026-06-16",
+          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.19/fluxdo-unsigned.ipa",
+          "size": 51285738,
+          "minOSVersion": "13.0",
+          "localizedDescription": "## [0.2.19] - 2026-06-16\n\n\n### 🐛 修复\n\n- 修复 LDC 余额趋势符号显示 by @Lingyan000\n\n- 修复实时 Boost 权限误判 by @Lingyan000\n\n- Harden WebView session cookie sync by @Lingyan000\n\n- Fix: 修复 Windows 登录验证和加载卡住 by @Lingyan000\n\n- Fix: 兼容伪装成 PNG 的 SVG 头像 by @Lingyan000\n\n\n### ♻️ 重构\n\n- 抽象分页加载状态 by @Lingyan000\n\n\n### 🔧 其他\n\n- :bug: fix: 收敛 Discourse 登录态与上报逻辑 by @Lingyan000\n\n\n\n\n**Full Changelog**: https://github.com/lingyan000/fluxdo/compare/v0.2.18...v0.2.19"
+        },
         {
           "version": "0.2.18",
           "date": "2026-06-13",
@@ -165,14 +173,6 @@
           "size": 22805212,
           "minOSVersion": "13.0",
           "localizedDescription": "- 🐛 修复附件无法下载，fix #141\n\n- ✨ 表情面板功能优化\n\n- 🐛 修复了一些问题"
-        },
-        {
-          "version": "0.1.51",
-          "date": "2026-03-13",
-          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.51/fluxdo-unsigned.ipa",
-          "size": 22767890,
-          "minOSVersion": "13.0",
-          "localizedDescription": "- ✨ 表情包支持，感谢 @stevessr\n\n- ✨ 提升网络请求稳定性\n\n- ✨ VPN 自动切换，close #115\n\n- ✨ DOH 支持复制地址、编辑，close #138，close #100\n\n- ✨ 更新 doh_proxy\n\n- ✨ FAB 子按钮支持\n\n- ✨ improve upstream proxy support on android (#125)\n\n- ✨ 帖子内容优化\n\n- ✨ 用户封禁显示，close #139\n\n- ✨ 支持图标切换\n\n- ✨ 图片批量上传，close #130\n\n- ✨ 图片查看器手势优化\n\n- ✨ MacOS 图标优化"
         }
       ],
       "developerName": "Lingyan000",
