@@ -6,14 +6,22 @@
     {
       "name": "FluxDo",
       "bundleIdentifier": "com.github.lingyan000.fluxdo",
-      "version": "0.2.20",
-      "versionDate": "2026-06-19T09:59:41Z",
-      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.20/fluxdo-unsigned.ipa",
-      "size": 51447441,
-      "versionDescription": "## [0.2.20] - 2026-06-19\n\n\n### 🌟 新功能\n\n- 改进移动端表情长按面板体验 by @Lingyan000\n\n- 弹出菜单顶部快捷按钮条 + 子面板展开动画 by @Lingyan000\n\n- 帖子编辑历史 + 修复 callout 跨标签贪婪正则 by @Lingyan000\n\n- 优化 CF 信任刷新与 Cookie 同步 by @Lingyan000\n\n- 表情选择器改造为手势驱动的连贯交互 by @Lingyan000\n\n- 长按进度条菜单加入衍生 / 收回动画 by @Lingyan000\n\n- 支持轻量 WebView 会话 cookie bootstrap by @Lingyan000\n\n\n### 🐛 修复\n\n- 识别 CHIPS 分区 cf_clearance，终结 sweep 空转 by @Lingyan000\n\n- 修复页面刷新后通知徽章回退到初值 by @Lingyan000\n\n- 修复通知图标 build 阶段 setState 报错 by @Lingyan000\n\n- 修复 mac 进度指示器卡死 + 表情选择器 tap 误触发动",
-      "changelog": "## [0.2.20] - 2026-06-19\n\n\n### 🌟 新功能\n\n- 改进移动端表情长按面板体验 by @Lingyan000\n\n- 弹出菜单顶部快捷按钮条 + 子面板展开动画 by @Lingyan000\n\n- 帖子编辑历史 + 修复 callout 跨标签贪婪正则 by @Lingyan000\n\n- 优化 CF 信任刷新与 Cookie 同步 by @Lingyan000\n\n- 表情选择器改造为手势驱动的连贯交互 by @Lingyan000\n\n- 长按进度条菜单加入衍生 / 收回动画 by @Lingyan000\n\n- 支持轻量 WebView 会话 cookie bootstrap by @Lingyan000\n\n\n### 🐛 修复\n\n- 识别 CHIPS 分区 cf_clearance，终结 sweep 空转 by @Lingyan000\n\n- 修复页面刷新后通知徽章回退到初值 by @Lingyan000\n\n- 修复通知图标 build 阶段 setState 报错 by @Lingyan000\n\n- 修复 mac 进度指示器卡死 + 表情选择器 tap 误触发动",
+      "version": "0.2.21",
+      "versionDate": "2026-06-23T12:54:44Z",
+      "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.21/fluxdo-unsigned.ipa",
+      "size": 51470466,
+      "versionDescription": "## [0.2.21] - 2026-06-23\n\n\n### 🌟 新功能\n\n- 全局图标统一为 Material Symbols Rounded + 支持自绘 by @Lingyan000\n\n- 加载更多统一使用自定义 LoadingSpinner by @Lingyan000\n\n- 支持查看 DNS 缓存记录 by @Lingyan000\n\n- 支持 Premium 回复最小长度 by @Lingyan000\n\n- 统一底部弹框为 AppSheetScaffold(贴边/卡片双形态) by @Lingyan000\n\n\n### 🐛 修复\n\n- 修复网络适配器与 Cookie 同步稳定性 by @Lingyan000\n\n- 修复用户卡片更多菜单层级 by @Lingyan000\n\n- 修复 CF 静默验证页布局异常 by @Lingyan000\n\n\n### ⚡ 性能\n\n- 合并 HTML 解析路径,长帖渲染走 isolate 预热 by @Lingyan000\n\n- 隔离自驱动重绘 + 头像 SVG 探测短路 by @Lingyan000\n\n- 优化后台 WebView 资源占用 by ",
+      "changelog": "## [0.2.21] - 2026-06-23\n\n\n### 🌟 新功能\n\n- 全局图标统一为 Material Symbols Rounded + 支持自绘 by @Lingyan000\n\n- 加载更多统一使用自定义 LoadingSpinner by @Lingyan000\n\n- 支持查看 DNS 缓存记录 by @Lingyan000\n\n- 支持 Premium 回复最小长度 by @Lingyan000\n\n- 统一底部弹框为 AppSheetScaffold(贴边/卡片双形态) by @Lingyan000\n\n\n### 🐛 修复\n\n- 修复网络适配器与 Cookie 同步稳定性 by @Lingyan000\n\n- 修复用户卡片更多菜单层级 by @Lingyan000\n\n- 修复 CF 静默验证页布局异常 by @Lingyan000\n\n\n### ⚡ 性能\n\n- 合并 HTML 解析路径,长帖渲染走 isolate 预热 by @Lingyan000\n\n- 隔离自驱动重绘 + 头像 SVG 探测短路 by @Lingyan000\n\n- 优化后台 WebView 资源占用 by ",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "0.2.21",
+          "date": "2026-06-23",
+          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.2.21/fluxdo-unsigned.ipa",
+          "size": 51470466,
+          "minOSVersion": "13.0",
+          "localizedDescription": "## [0.2.21] - 2026-06-23\n\n\n### 🌟 新功能\n\n- 全局图标统一为 Material Symbols Rounded + 支持自绘 by @Lingyan000\n\n- 加载更多统一使用自定义 LoadingSpinner by @Lingyan000\n\n- 支持查看 DNS 缓存记录 by @Lingyan000\n\n- 支持 Premium 回复最小长度 by @Lingyan000\n\n- 统一底部弹框为 AppSheetScaffold(贴边/卡片双形态) by @Lingyan000\n\n\n### 🐛 修复\n\n- 修复网络适配器与 Cookie 同步稳定性 by @Lingyan000\n\n- 修复用户卡片更多菜单层级 by @Lingyan000\n\n- 修复 CF 静默验证页布局异常 by @Lingyan000\n\n\n### ⚡ 性能\n\n- 合并 HTML 解析路径,长帖渲染走 isolate 预热 by @Lingyan000\n\n- 隔离自驱动重绘 + 头像 SVG 探测短路 by @Lingyan000\n\n- 优化后台 WebView 资源占用 by "
+        },
         {
           "version": "0.2.20",
           "date": "2026-06-19",
@@ -165,14 +173,6 @@
           "size": 32434518,
           "minOSVersion": "13.0",
           "localizedDescription": "- ✨ 编辑器支持插入模板\n\n- ✨ Windows 兼容优化\n\n- ✨ 个人页布局优化\n\n- ✨ 请求并发控制优化\n\n- ✨ 优化 Cookie 同步逻辑\n\n- ✨ 提升内置浏览器体验，添加收藏能力，添加下载管理\n\n- ✨ 桌面端体验优化\n\n- ✨ 优化回复报错提示，close #155\n\n- ✨ 帖子详情和只看顶层实现，close #153\n\n- ✨ 用户登录失效判断优化\n\n- ✨ 过盾体验优化\n\n- ✨ 提高 rhttp 适配器稳定性\n\n- ✨ DOH 网关模式稳定性修复"
-        },
-        {
-          "version": "0.1.54",
-          "date": "2026-03-18",
-          "downloadURL": "https://github.com/Lingyan000/fluxdo/releases/download/v0.1.54/fluxdo-unsigned.ipa",
-          "size": 32324204,
-          "minOSVersion": "13.0",
-          "localizedDescription": "- 🚑️ 修复安卓无法启动\n\n- ✨ 支持邮箱链接登录\n\n- ✨ 支持切换字体，ref #152\n\n- ✨ AI 服务可跟随应用网络设置，close #147\n\n- ✨ 图片批量上传策略优化，close #151\n\n- 🐛 CF 验证相关问题修复\n\n- ✨ 更新下载界面优化\n\n- ✨ 国际化支持\n\n- ✨ RHttp 适配器支持\n\n- ✨ 预览弹框可点击进入分类、标签列表\n\n- 🐛 模糊剧透问题修复，fix #150\n\n- 🚀 CI 修复\n\n- ✨ DOH 功能优化\n\n- 🐛 修复创建或编辑话题时切换到预览无法发布的问题，fix #116\n\n- ✨ 话题内头部信息分类、标签支持跳转，close #146\n\n- 🐛 修复 macOS 未声明相册权限导致的闪退，fix #149"
         }
       ],
       "developerName": "Lingyan000",
