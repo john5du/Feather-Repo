@@ -6,15 +6,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "3.2.1",
-      "versionDate": "2026-06-04T19:26:08Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.2.1/conduit.ipa",
-      "size": 27888547,
+      "version": "3.4.0",
+      "versionDate": "2026-06-29T15:50:38Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.4.0/conduit.ipa",
+      "size": 32996501,
       "category": "utilities",
-      "versionDescription": "- Fix Android permissions.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.2.0...v3.2.1",
-      "changelog": "- Fix Android permissions.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.2.0...v3.2.1",
+      "versionDescription": "## What's Changed\r\n\r\n- Conduit is much better offline. Chats, folders, notes, search, uploads, and pending messages stay available locally, with changes queued until your Open WebUI server is reachable again. \r\n- Voice mode is more hands-free and natural, with native iOS/Android speech, continuous listening, and barge-in so you can interrupt playback by speaking. \r\n- Notifications are now built in for finished responses, channel messages, and DMs. \r\n- Streaming, notes, and conversation loading a",
+      "changelog": "## What's Changed\r\n\r\n- Conduit is much better offline. Chats, folders, notes, search, uploads, and pending messages stay available locally, with changes queued until your Open WebUI server is reachable again. \r\n- Voice mode is more hands-free and natural, with native iOS/Android speech, continuous listening, and barge-in so you can interrupt playback by speaking. \r\n- Notifications are now built in for finished responses, channel messages, and DMs. \r\n- Streaming, notes, and conversation loading a",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "3.4.0",
+          "date": "2026-06-29",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.4.0/conduit.ipa",
+          "size": 32996501,
+          "minOSVersion": "16.0",
+          "localizedDescription": "## What's Changed\r\n\r\n- Conduit is much better offline. Chats, folders, notes, search, uploads, and pending messages stay available locally, with changes queued until your Open WebUI server is reachable again. \r\n- Voice mode is more hands-free and natural, with native iOS/Android speech, continuous listening, and barge-in so you can interrupt playback by speaking. \r\n- Notifications are now built in for finished responses, channel messages, and DMs. \r\n- Streaming, notes, and conversation loading a"
+        },
         {
           "version": "3.2.1",
           "date": "2026-06-04",
@@ -166,14 +174,6 @@
           "size": 24094843,
           "minOSVersion": "16.0",
           "localizedDescription": "- Fix paste to image on iOS\r\n- Fix HEIC uploads and unsupported WEBP conversion.\r\n- Performance optimization\r\n- UI polish and refactoring\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.5.2...v2.5.3"
-        },
-        {
-          "version": "2.5.2",
-          "date": "2026-03-07",
-          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.5.2/conduit.ipa",
-          "size": 24053560,
-          "minOSVersion": "16.0",
-          "localizedDescription": "- Temporary Chats\r\n- More UI polish\r\n- Fix startup crash\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.5.1...v2.5.2"
         }
       ],
       "developerName": "cogwheel0",
