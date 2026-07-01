@@ -65,15 +65,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "3.4.0",
-      "versionDate": "2026-06-29T15:50:38Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.4.0/conduit.ipa",
-      "size": 32996501,
+      "version": "3.4.1",
+      "versionDate": "2026-06-30T18:20:17Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.4.1/conduit.ipa",
+      "size": 33017803,
       "category": "utilities",
-      "versionDescription": "## What's Changed\r\n\r\n- Conduit is much better offline. Chats, folders, notes, search, uploads, and pending messages stay available locally, with changes queued until your Open WebUI server is reachable again. \r\n- Voice mode is more hands-free and natural, with native iOS/Android speech, continuous listening, and barge-in so you can interrupt playback by speaking. \r\n- Notifications are now built in for finished responses, channel messages, and DMs. \r\n- Streaming, notes, and conversation loading a",
-      "changelog": "## What's Changed\r\n\r\n- Conduit is much better offline. Chats, folders, notes, search, uploads, and pending messages stay available locally, with changes queued until your Open WebUI server is reachable again. \r\n- Voice mode is more hands-free and natural, with native iOS/Android speech, continuous listening, and barge-in so you can interrupt playback by speaking. \r\n- Notifications are now built in for finished responses, channel messages, and DMs. \r\n- Streaming, notes, and conversation loading a",
+      "versionDescription": "## What's Changed\r\n\r\n- Added compatibility for Open WebUI 0.10, including updated chat streaming, structured output, knowledge upload, tool-call, settings, and conversation parsing behavior.\r\n- Added a clear compatibility gate for unsupported newer Open WebUI servers, so Conduit now blocks known-incompatible server versions with guidance instead of failing unpredictably.\r\n- Fixed assistant response rendering that could rapidly flash between streamed content and the loading skeleton during genera",
+      "changelog": "## What's Changed\r\n\r\n- Added compatibility for Open WebUI 0.10, including updated chat streaming, structured output, knowledge upload, tool-call, settings, and conversation parsing behavior.\r\n- Added a clear compatibility gate for unsupported newer Open WebUI servers, so Conduit now blocks known-incompatible server versions with guidance instead of failing unpredictably.\r\n- Fixed assistant response rendering that could rapidly flash between streamed content and the loading skeleton during genera",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "3.4.1",
+          "date": "2026-06-30",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.4.1/conduit.ipa",
+          "size": 33017803,
+          "minOSVersion": "16.0",
+          "localizedDescription": "## What's Changed\r\n\r\n- Added compatibility for Open WebUI 0.10, including updated chat streaming, structured output, knowledge upload, tool-call, settings, and conversation parsing behavior.\r\n- Added a clear compatibility gate for unsupported newer Open WebUI servers, so Conduit now blocks known-incompatible server versions with guidance instead of failing unpredictably.\r\n- Fixed assistant response rendering that could rapidly flash between streamed content and the loading skeleton during genera"
+        },
         {
           "version": "3.4.0",
           "date": "2026-06-29",
@@ -225,14 +233,6 @@
           "size": 24096239,
           "minOSVersion": "16.0",
           "localizedDescription": "- Smoother scrolling\r\n- Drawer open gesture refactor\r\n- Pin to top when sending new messages\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.5.3...v2.5.4"
-        },
-        {
-          "version": "2.5.3",
-          "date": "2026-03-10",
-          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.5.3/conduit.ipa",
-          "size": 24094843,
-          "minOSVersion": "16.0",
-          "localizedDescription": "- Fix paste to image on iOS\r\n- Fix HEIC uploads and unsupported WEBP conversion.\r\n- Performance optimization\r\n- UI polish and refactoring\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.5.2...v2.5.3"
         }
       ],
       "developerName": "cogwheel0",
