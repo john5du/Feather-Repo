@@ -6,15 +6,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "3.4.1",
-      "versionDate": "2026-06-30T18:20:17Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.4.1/conduit.ipa",
-      "size": 33017803,
+      "version": "3.4.2",
+      "versionDate": "2026-07-01T19:21:05Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.4.2/conduit.ipa",
+      "size": 33017431,
       "category": "utilities",
-      "versionDescription": "## What's Changed\r\n\r\n- Added compatibility for Open WebUI 0.10, including updated chat streaming, structured output, knowledge upload, tool-call, settings, and conversation parsing behavior.\r\n- Added a clear compatibility gate for unsupported newer Open WebUI servers, so Conduit now blocks known-incompatible server versions with guidance instead of failing unpredictably.\r\n- Fixed assistant response rendering that could rapidly flash between streamed content and the loading skeleton during genera",
-      "changelog": "## What's Changed\r\n\r\n- Added compatibility for Open WebUI 0.10, including updated chat streaming, structured output, knowledge upload, tool-call, settings, and conversation parsing behavior.\r\n- Added a clear compatibility gate for unsupported newer Open WebUI servers, so Conduit now blocks known-incompatible server versions with guidance instead of failing unpredictably.\r\n- Fixed assistant response rendering that could rapidly flash between streamed content and the loading skeleton during genera",
+      "versionDescription": "## What's Changed\n* Bump max supported Open WebUI version to 0.10.2 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/547",
+      "changelog": "## What's Changed\n* Bump max supported Open WebUI version to 0.10.2 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/547",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "3.4.2",
+          "date": "2026-07-01",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.4.2/conduit.ipa",
+          "size": 33017431,
+          "minOSVersion": "16.0",
+          "localizedDescription": "## What's Changed\n* Bump max supported Open WebUI version to 0.10.2 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/547"
+        },
         {
           "version": "3.4.1",
           "date": "2026-06-30",
@@ -166,14 +174,6 @@
           "size": 24094064,
           "minOSVersion": "16.0",
           "localizedDescription": "## What's Changed\n* feat(auth): improve iOS text field styling and header input UX by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/392\n* fix(streaming): acknowledge channel RPC to prevent 60s timeout by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/393\n* fix(ios): prevent infinite recursion in paste bridge swizzling by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/394"
-        },
-        {
-          "version": "2.5.4",
-          "date": "2026-03-11",
-          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.5.4/conduit.ipa",
-          "size": 24096239,
-          "minOSVersion": "16.0",
-          "localizedDescription": "- Smoother scrolling\r\n- Drawer open gesture refactor\r\n- Pin to top when sending new messages\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.5.3...v2.5.4"
         }
       ],
       "developerName": "cogwheel0",
