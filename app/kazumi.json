@@ -6,15 +6,23 @@
     {
       "name": "Kazumi",
       "bundleIdentifier": "com.example.kazumi",
-      "version": "2.1.8",
-      "versionDate": "2026-07-02T13:54:11Z",
-      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.1.8/Kazumi_ios_2.1.8_no_sign.ipa",
-      "size": 28346335,
+      "version": "2.2.0",
+      "versionDate": "2026-07-09T14:36:25Z",
+      "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.2.0/Kazumi_ios_2.2.0_no_sign.ipa",
+      "size": 28150602,
       "category": "other",
-      "versionDescription": "- 新增 4:3 画面比例模式 (#2240) (@Predidit)\r\n- 桌面端播放器现在会记忆音量与静音状态 (#1599 #2046) (@liangyuR)\r\n- 长按倍速现在会跟随默认方向键/长按倍速设置 (#2248) (@UzawaReisaQwQ)\r\n- 改进特殊集数的识别与切集体验 (@liangyuR)\r\n- 改进弹幕时间偏移设置与相关底部面板 (@Predidit)\r\n- 调整 Android 默认硬件解码器为 MediaCodec，并升级播放组件 (@Predidit)\r\n- 修复部分地区Github规则镜像不生效的问题 (@Predidit)\r\n- 修复特定情况下多次快进可能导致弹幕冻结的问题 (@Predidit)\r\n- 优化项目文档 (@ChouChiu)",
-      "changelog": "- 新增 4:3 画面比例模式 (#2240) (@Predidit)\r\n- 桌面端播放器现在会记忆音量与静音状态 (#1599 #2046) (@liangyuR)\r\n- 长按倍速现在会跟随默认方向键/长按倍速设置 (#2248) (@UzawaReisaQwQ)\r\n- 改进特殊集数的识别与切集体验 (@liangyuR)\r\n- 改进弹幕时间偏移设置与相关底部面板 (@Predidit)\r\n- 调整 Android 默认硬件解码器为 MediaCodec，并升级播放组件 (@Predidit)\r\n- 修复部分地区Github规则镜像不生效的问题 (@Predidit)\r\n- 修复特定情况下多次快进可能导致弹幕冻结的问题 (@Predidit)\r\n- 优化项目文档 (@ChouChiu)",
+      "versionDescription": "- 新增API规则支持 (@Predidit)\r\n- 新增 Windows 平台系统代理支持 (@Predidit)\r\n- 修复历史记录较多时应用启动卡顿的问题 (#2293) (#2233) (@Predidit)\r\n- 修复已经已完播剧集重复观看从结尾处开始的问题 (#2222) (@Predidit)\r\n- 修复部分 Android 设备硬件解码不生效的问题 (@Predidit)\r\n- 修复特定情况下播放器控制面板不会自动隐藏的问题 (@liangyuR)\r\n- 修复部分地区规则仓库镜像不可用的问题 (@Predidit)\r\n- 修复HTTP站点不可用的问题 (#2292) (@Predidit)\r\n- 更多的播放器控制面板动效 (@LiggMax)\r\n- 其他代码结构调整 (@Predidit)",
+      "changelog": "- 新增API规则支持 (@Predidit)\r\n- 新增 Windows 平台系统代理支持 (@Predidit)\r\n- 修复历史记录较多时应用启动卡顿的问题 (#2293) (#2233) (@Predidit)\r\n- 修复已经已完播剧集重复观看从结尾处开始的问题 (#2222) (@Predidit)\r\n- 修复部分 Android 设备硬件解码不生效的问题 (@Predidit)\r\n- 修复特定情况下播放器控制面板不会自动隐藏的问题 (@liangyuR)\r\n- 修复部分地区规则仓库镜像不可用的问题 (@Predidit)\r\n- 修复HTTP站点不可用的问题 (#2292) (@Predidit)\r\n- 更多的播放器控制面板动效 (@LiggMax)\r\n- 其他代码结构调整 (@Predidit)",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "2.2.0",
+          "date": "2026-07-09",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.2.0/Kazumi_ios_2.2.0_no_sign.ipa",
+          "size": 28150602,
+          "minOSVersion": "13.0",
+          "localizedDescription": "- 新增API规则支持 (@Predidit)\r\n- 新增 Windows 平台系统代理支持 (@Predidit)\r\n- 修复历史记录较多时应用启动卡顿的问题 (#2293) (#2233) (@Predidit)\r\n- 修复已经已完播剧集重复观看从结尾处开始的问题 (#2222) (@Predidit)\r\n- 修复部分 Android 设备硬件解码不生效的问题 (@Predidit)\r\n- 修复特定情况下播放器控制面板不会自动隐藏的问题 (@liangyuR)\r\n- 修复部分地区规则仓库镜像不可用的问题 (@Predidit)\r\n- 修复HTTP站点不可用的问题 (#2292) (@Predidit)\r\n- 更多的播放器控制面板动效 (@LiggMax)\r\n- 其他代码结构调整 (@Predidit)"
+        },
         {
           "version": "2.1.8",
           "date": "2026-07-02",
@@ -166,14 +174,6 @@
           "size": 27665049,
           "minOSVersion": "13.0",
           "localizedDescription": "- 新增离线缓存功能 (#26 #316) (@0Chencc) (@aliferne)\r\n- 新增一起看模式下弹幕聊天功能 (#834) (@UzawaReisaQwQ)\r\n- 新增定时关闭功能 (#832 #1586) (@funnytime75)\r\n- 修复 Andorid8/9 应用白屏的问题 (#1676) (@Predidit)\r\n- 修复自动更新功能特定情况下无法打开文件夹的问题 (#1655) (@UzawaReisaQwQ)\r\n- 修复 Android 键鼠操作时不正确的绿色应用边框 (@axel10)\r\n- 修复 Linux 平台视频解析器的线程安全问题 (@Predidit)\r\n- 适配 iOS 改进生命周期 (@0Chencc)\r\n- 其他UI改进 (@UzawaReisaQwQ)"
-        },
-        {
-          "version": "1.9.6",
-          "date": "2026-01-30",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.9.6/Kazumi_ios_1.9.6_no_sign.ipa",
-          "size": 27805229,
-          "minOSVersion": "13.0",
-          "localizedDescription": "- 修复支持 vulkan 1.4 的安卓设备视频播放崩溃的问题 (#1652) (@Predidit)\r\n- 修复自定义一起看服务器不支持 IPv6 的问题 (#1643) (@keyboard2005)\r\n> [!NOTE]\r\n> 这是 1.9.5 的热修复版本，更多更新日志参考 1.9.5"
         }
       ],
       "developerName": "Predidit",
