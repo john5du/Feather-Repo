@@ -6,15 +6,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "3.4.2",
-      "versionDate": "2026-07-01T19:21:05Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.4.2/conduit.ipa",
-      "size": 33017431,
+      "version": "3.4.3",
+      "versionDate": "2026-07-10T18:59:54Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.4.3/conduit.ipa",
+      "size": 33016339,
       "category": "utilities",
-      "versionDescription": "## What's Changed\n* Bump max supported Open WebUI version to 0.10.2 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/547",
-      "changelog": "## What's Changed\n* Bump max supported Open WebUI version to 0.10.2 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/547",
+      "versionDescription": "## What's Changed\n* fix: render slashes in assistant messages instead of &#47; (#549) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/561\n* fix: request iOS microphone permission in voice preflight (#557) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/562\n* Polish phase-aware chat streaming and markdown rendering by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/537\n* Warn instead of blocking newer Open WebUI servers by @cogwheel0 in https://github.com/cogwheel0/c",
+      "changelog": "## What's Changed\n* fix: render slashes in assistant messages instead of &#47; (#549) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/561\n* fix: request iOS microphone permission in voice preflight (#557) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/562\n* Polish phase-aware chat streaming and markdown rendering by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/537\n* Warn instead of blocking newer Open WebUI servers by @cogwheel0 in https://github.com/cogwheel0/c",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "3.4.3",
+          "date": "2026-07-10",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.4.3/conduit.ipa",
+          "size": 33016339,
+          "minOSVersion": "16.0",
+          "localizedDescription": "## What's Changed\n* fix: render slashes in assistant messages instead of &#47; (#549) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/561\n* fix: request iOS microphone permission in voice preflight (#557) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/562\n* Polish phase-aware chat streaming and markdown rendering by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/537\n* Warn instead of blocking newer Open WebUI servers by @cogwheel0 in https://github.com/cogwheel0/c"
+        },
         {
           "version": "3.4.2",
           "date": "2026-07-01",
@@ -166,14 +174,6 @@
           "size": 24098793,
           "minOSVersion": "16.0",
           "localizedDescription": "## What's Changed\n* chore: prepare for merge to main by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/396\n* feat: auto-scroll to bottom when opening existing conversations by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/397\n* branch/feat response frequently empty 4f4 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/398\n* chore: prepare for merge to main by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/399"
-        },
-        {
-          "version": "2.5.5",
-          "date": "2026-03-14",
-          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.5.5/conduit.ipa",
-          "size": 24094064,
-          "minOSVersion": "16.0",
-          "localizedDescription": "## What's Changed\n* feat(auth): improve iOS text field styling and header input UX by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/392\n* fix(streaming): acknowledge channel RPC to prevent 60s timeout by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/393\n* fix(ios): prevent infinite recursion in paste bridge swizzling by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/394"
         }
       ],
       "developerName": "cogwheel0",
