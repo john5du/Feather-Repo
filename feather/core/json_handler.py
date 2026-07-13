@@ -2,14 +2,14 @@
 
 import json
 from pathlib import Path
-from typing import Any, Dict, Optional, Tuple
+from typing import Any, Dict, List, Optional, Tuple
 
 
 class JSONHandler:
     """统一的JSON加载/保存工具"""
 
     @staticmethod
-    def load(filepath: str, encoding: str = 'utf-8') -> Dict[str, Any]:
+    def load(filepath: str, encoding: str = "utf-8") -> Dict[str, Any]:
         """
         加载JSON文件
 
@@ -30,13 +30,13 @@ class JSONHandler:
             raise FileNotFoundError(f"文件不存在: {filepath}")
 
         try:
-            with open(filepath, 'r', encoding=encoding) as f:
+            with open(filepath, "r", encoding=encoding) as f:
                 return json.load(f)
         except json.JSONDecodeError as e:
             raise json.JSONDecodeError(
                 f"JSON格式错误 ({filepath}): {e.msg}",
                 e.doc,
-                e.pos
+                e.pos,
             )
         except Exception as e:
             raise Exception(f"读取JSON文件失败 ({filepath}): {str(e)}")
@@ -45,11 +45,11 @@ class JSONHandler:
     def save(
         filepath: str,
         data: Dict[str, Any],
-        encoding: str = 'utf-8',
-        indent: int = 2
+        encoding: str = "utf-8",
+        indent: int = 2,
     ) -> bool:
         """
-        保存JSON文件
+        保存JSON文件（稳定缩进 + 尾部换行，减少 diff 噪音）
 
         Args:
             filepath: JSON文件路径
@@ -63,12 +63,19 @@ class JSONHandler:
         filepath = Path(filepath)
 
         try:
-            # 确保目录存在
             filepath.parent.mkdir(parents=True, exist_ok=True)
 
-            # 保存JSON
-            with open(filepath, 'w', encoding=encoding) as f:
-                json.dump(data, f, ensure_ascii=False, indent=indent)
+            content = json.dumps(
+                data,
+                ensure_ascii=False,
+                indent=indent,
+                separators=(",", ": "),
+            )
+            if not content.endswith("\n"):
+                content += "\n"
+
+            with open(filepath, "w", encoding=encoding, newline="\n") as f:
+                f.write(content)
 
             return True
 
@@ -79,18 +86,9 @@ class JSONHandler:
     @staticmethod
     def validate_structure(
         data: Dict[str, Any],
-        required_keys: list = None
+        required_keys: Optional[List[str]] = None,
     ) -> Tuple[bool, Optional[str]]:
-        """
-        验证JSON结构
-
-        Args:
-            data: JSON数据
-            required_keys: 必需的顶层键列表
-
-        Returns:
-            (是否有效, 错误信息)
-        """
+        """验证JSON结构"""
         if not isinstance(data, dict):
             return False, "数据必须是字典"
 
@@ -103,16 +101,8 @@ class JSONHandler:
 
     @staticmethod
     def get_app_list(data: Dict[str, Any]) -> list:
-        """
-        从JSON数据中提取应用列表
-
-        Args:
-            data: JSON数据
-
-        Returns:
-            应用列表（如果不存在返回空列表）
-        """
-        apps = data.get('apps', [])
+        """从JSON数据中提取应用列表"""
+        apps = data.get("apps", [])
         if not isinstance(apps, list):
             return []
         return apps

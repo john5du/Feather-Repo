@@ -19,20 +19,27 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
 
       - name: Install dependencies
         run: pip install -r requirements.txt
+
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
 
       - name: Update all JSON files
         id: update_all
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          set -euo pipefail
           python scripts/update_repos.py
           python scripts/merge_apps.py
 
       - name: Commit and push all changes
+        if: success()
         run: |
+          set -euo pipefail
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
@@ -44,10 +51,5 @@ jobs:
           fi
 
           CHANGED_FILES=$(git diff --staged --name-only | tr '\n' ' ' | sed 's/ $//')
-          if [ -n "$CHANGED_FILES" ]; then
-            git commit -m "chore: update JSON files with latest release info - Updated files: $CHANGED_FILES"
-          else
-            git commit -m "chore: update JSON files with latest release info"
-          fi
-
-          git push origin main
+          git commit -m "chore: update JSON files with latest release info - Updated files: ${CHANGED_FILES}"
+          git push origin HEAD

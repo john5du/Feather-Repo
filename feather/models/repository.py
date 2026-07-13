@@ -1,9 +1,5 @@
 """Repository configuration model"""
 
-from dataclasses import dataclass
+from feather.core.config import RepositoryConfig
 
-
-@dataclass
-class RepositoryConfig:
-    """GitHub repository configuration - already defined in config.py"""
-    pass
+__all__ = ["RepositoryConfig"]

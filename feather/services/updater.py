@@ -1,16 +1,17 @@
 """GitHub仓库更新服务"""
 
-from pathlib import Path
-from typing import Dict, List, Optional, Tuple
-from dataclasses import dataclass
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from dataclasses import dataclass, field
 from fnmatch import fnmatch
+from typing import Dict, List, Optional, Sequence, Tuple
 
+from feather.core.config import ConfigManager, RepositoryConfig
 from feather.core.json_handler import JSONHandler
 from feather.core.logger import FeatherLogger
-from feather.core.config import ConfigManager, RepositoryConfig
 from feather.models.app import AppInfo, VersionEntry
 from feather.services.github_client import GitHubClient
 from feather.utils.formatters import ReleaseInfoExtractor
+from feather.utils.validators import AppValidator
 
 
 @dataclass
@@ -27,14 +28,9 @@ class UpdateResult:
     """更新结果统计"""
     success: bool = True
     updated_count: int = 0
-    updated_files: List[str] = None
-    stats: List[UpdateStat] = None
-
-    def __post_init__(self):
-        if self.updated_files is None:
-            self.updated_files = []
-        if self.stats is None:
-            self.stats = []
+    failed_count: int = 0
+    updated_files: List[str] = field(default_factory=list)
+    stats: List[UpdateStat] = field(default_factory=list)
 
 
 class RepositoryUpdater:
@@ -45,37 +41,25 @@ class RepositoryUpdater:
         config: ConfigManager,
         logger: FeatherLogger,
         json_handler: JSONHandler = None,
-        github_client: GitHubClient = None
+        github_client: GitHubClient = None,
     ):
-        """
-        初始化RepositoryUpdater
-
-        Args:
-            config: 配置管理器
-            logger: 日志记录器
-            json_handler: JSON处理器（可选）
-            github_client: GitHub客户端（可选）
-        """
         self.config = config
         self.logger = logger
         self.json_handler = json_handler or JSONHandler()
         self.paths = config.get_paths()
+        self.update_config = config.get_update()
 
         try:
             self.github_client = github_client or GitHubClient(
-                config.get_github_token()
+                config.get_github_token(),
+                max_retries=self.update_config.max_retries,
             )
         except ValueError as e:
             self.logger.error(f"GitHub Token 配置错误: {e}")
             self.github_client = None
 
     def update_all(self) -> UpdateResult:
-        """
-        更新所有仓库
-
-        Returns:
-            UpdateResult 更新结果
-        """
+        """更新所有仓库（支持并发）"""
         result = UpdateResult()
 
         if not self.github_client:
@@ -85,17 +69,47 @@ class RepositoryUpdater:
 
         try:
             repos = self.config.get_repos()
+            if not repos:
+                self.logger.error("未配置任何仓库")
+                result.success = False
+                return result
+
             self.logger.info(f"准备更新 {len(repos)} 个仓库")
+            max_workers = max(1, min(self.update_config.max_workers, len(repos)))
 
+            stats_by_name: Dict[str, UpdateStat] = {}
+            with ThreadPoolExecutor(max_workers=max_workers) as executor:
+                futures = {
+                    executor.submit(self.update_single_repo, repo_config): repo_config
+                    for repo_config in repos
+                }
+                for future in as_completed(futures):
+                    repo_config = futures[future]
+                    try:
+                        stat = future.result()
+                    except Exception as e:
+                        stat = UpdateStat(
+                            repo_name=repo_config.name,
+                            success=False,
+                            message=str(e),
+                        )
+                        self.logger.error(f"  {repo_config.name} 更新异常: {e}")
+                    stats_by_name[stat.repo_name] = stat
+
+            # 按配置顺序输出统计
             for repo_config in repos:
-                self.logger.info(f"更新 {repo_config.name}...")
-                stat = self.update_single_repo(repo_config)
+                stat = stats_by_name.get(
+                    repo_config.name,
+                    UpdateStat(repo_name=repo_config.name, success=False, message="未知错误"),
+                )
                 result.stats.append(stat)
-
                 if stat.updated:
                     result.updated_count += 1
                     result.updated_files.append(repo_config.json_file)
+                if not stat.success:
+                    result.failed_count += 1
 
+            result.success = result.failed_count == 0
             self._print_statistics(result)
             return result
 
@@ -105,43 +119,33 @@ class RepositoryUpdater:
             return result
 
     def update_single_repo(self, repo_config: RepositoryConfig) -> UpdateStat:
-        """
-        更新单个仓库
-
-        Args:
-            repo_config: 仓库配置
-
-        Returns:
-            UpdateStat 更新统计
-        """
+        """更新单个仓库"""
         stat = UpdateStat(repo_name=repo_config.name)
 
         try:
-            # 获取最新Release
             release_info = self.github_client.extract_release_info(
                 repo_config.owner,
-                repo_config.repo
+                repo_config.repo,
             )
 
-            # 查找IPA文件
             ipa_asset = self._find_ipa_asset(
-                release_info['assets'],
-                repo_config.ipa_filename_pattern,
+                release_info["assets"],
+                repo_config.ipa_filename_patterns,
             )
 
             if not ipa_asset:
-                asset_names = [asset.get('name', '') for asset in release_info['assets']]
-                stat.message = f"未找到匹配 {repo_config.ipa_filename_pattern} 的IPA文件"
+                asset_names = [asset.get("name", "") for asset in release_info["assets"]]
+                patterns = ", ".join(repo_config.ipa_filename_patterns)
+                stat.message = f"未找到匹配 [{patterns}] 的IPA文件"
                 self.logger.warning(
                     f"  {stat.message}",
                     {
-                        'pattern': repo_config.ipa_filename_pattern,
-                        'assets': ', '.join(asset_names) or 'none',
-                    }
+                        "patterns": patterns,
+                        "assets": ", ".join(asset_names) or "none",
+                    },
                 )
                 return stat
 
-            # 读取现有JSON文件
             try:
                 all_data = self.json_handler.load(repo_config.json_file)
             except FileNotFoundError:
@@ -153,8 +157,7 @@ class RepositoryUpdater:
                 stat.message = "读取文件失败"
                 return stat
 
-            # 提取应用数据
-            apps_list = all_data.get('apps', [])
+            apps_list = all_data.get("apps", [])
             if not apps_list:
                 stat.message = "apps数组为空"
                 self.logger.warning(f"  {stat.message}")
@@ -168,52 +171,60 @@ class RepositoryUpdater:
 
             app_index, app = selected
 
-            # 比较版本
             new_version = ReleaseInfoExtractor.extract_version_from_tag(
-                release_info['tag_name']
+                release_info["tag_name"]
             )
-            new_download_url = ipa_asset['url']
+            new_download_url = ipa_asset["url"]
 
-            if (app.version == new_version and
-                app.downloadURL == new_download_url):
+            if app.version == new_version and app.downloadURL == new_download_url:
+                stat.success = True
                 stat.message = f"已是最新版本 (v{new_version})"
                 self.logger.info(f"  {stat.message}")
                 return stat
 
-            # 更新应用信息
             old_version = app.version
             app.version = new_version
             app.versionDate = ReleaseInfoExtractor.format_iso_date(
-                release_info['published_at']
+                release_info["published_at"]
             )
             app.downloadURL = new_download_url
-            app.size = ipa_asset['size']
+            app.size = ipa_asset["size"]
 
-            # 提取版本描述
             description = ReleaseInfoExtractor.extract_description(
-                release_info['body']
+                release_info["body"]
             )
             app.versionDescription = description
             app.changelog = description
+            app.mark_fields_present(
+                "version",
+                "versionDate",
+                "downloadURL",
+                "size",
+                "versionDescription",
+                "changelog",
+                "versions",
+            )
 
-            # 更新versions数组
             self._update_versions_array(
                 app,
                 new_version,
                 description,
                 new_download_url,
-                ipa_asset['size'],
+                ipa_asset["size"],
                 repo_config.min_os_version,
-                release_info['published_at'],
+                release_info["published_at"],
             )
 
-            # 保存JSON文件
-            all_data['apps'][app_index] = app.to_dict()
+            app_dict = app.to_dict()
+            ok, err = AppValidator.validate_app_info(app_dict)
+            if not ok:
+                stat.message = f"校验失败: {err}"
+                self.logger.error(f"  {stat.message}")
+                return stat
 
-            if self.json_handler.save(
-                repo_config.json_file,
-                all_data,
-            ):
+            all_data["apps"][app_index] = app_dict
+
+            if self.json_handler.save(repo_config.json_file, all_data):
                 stat.success = True
                 stat.updated = True
                 stat.message = f"已从 v{old_version} 更新到 v{new_version}"
@@ -229,28 +240,30 @@ class RepositoryUpdater:
             return stat
 
     @staticmethod
-    def _find_ipa_asset(assets: List[Dict], pattern: str = "*.ipa") -> Optional[Dict]:
+    def _find_ipa_asset(
+        assets: List[Dict],
+        patterns: Optional[Sequence[str]] = None,
+    ) -> Optional[Dict]:
         """
-        从资源列表中查找IPA文件
+        按 pattern 优先级查找 IPA。
 
-        Args:
-            assets: 资源列表
-            pattern: 文件名匹配模式
-
-        Returns:
-            IPA资源字典或None
+        patterns 按顺序匹配，先命中的 pattern 优先；
+        同一 pattern 内取资源列表中的第一个匹配项。
         """
-        for asset in assets:
-            name = asset.get('name', '')
-            if name.endswith('.ipa') and fnmatch(name, pattern):
-                return asset
+        if not patterns:
+            patterns = ["*.ipa"]
 
+        for pattern in patterns:
+            for asset in assets:
+                name = asset.get("name", "")
+                if name.endswith(".ipa") and fnmatch(name, pattern):
+                    return asset
         return None
 
     @staticmethod
     def _select_target_app(
         apps_list: List[Dict],
-        repo_config: RepositoryConfig
+        repo_config: RepositoryConfig,
     ) -> Optional[Tuple[int, AppInfo]]:
         """按确定性规则选择要更新的应用条目"""
         parsed_apps: List[Tuple[int, AppInfo]] = []
@@ -274,7 +287,8 @@ class RepositoryUpdater:
 
         bundle_matches = [
             item for item in parsed_apps
-            if item[1].bundleIdentifier and repo_config.name.lower() in item[1].bundleIdentifier.lower()
+            if item[1].bundleIdentifier
+            and repo_config.name.lower() in item[1].bundleIdentifier.lower()
         ]
         if len(bundle_matches) == 1:
             return bundle_matches[0]
@@ -291,26 +305,13 @@ class RepositoryUpdater:
         min_os_version: str,
         published_at,
     ):
-        """
-        更新版本数组
-
-        Args:
-            app: 应用对象
-            new_version: 新版本号
-            description: 版本描述
-            download_url: 下载URL
-            size: 文件大小
-            min_os_version: 最低OS版本
-        """
-        # 初始化versions数组
+        """更新版本数组"""
         if not app.versions:
             app.versions = []
 
-        # 检查版本是否已存在
         version_exists = any(v.version == new_version for v in app.versions)
 
         if not version_exists:
-            # 创建新版本条目
             new_entry = VersionEntry(
                 version=new_version,
                 date=ReleaseInfoExtractor.format_date_short(published_at),
@@ -318,12 +319,17 @@ class RepositoryUpdater:
                 size=size,
                 minOSVersion=min_os_version,
                 localizedDescription=description,
+                _field_order=[
+                    "version",
+                    "date",
+                    "downloadURL",
+                    "size",
+                    "minOSVersion",
+                    "localizedDescription",
+                ],
             )
-
-            # 添加到前面
             app.versions.insert(0, new_entry)
 
-            # 保持最多20个版本
             if len(app.versions) > 20:
                 app.versions = app.versions[:20]
 
@@ -332,11 +338,19 @@ class RepositoryUpdater:
         print("\n" + "=" * 80)
         print("更新统计:")
         print(f"  ✓ 已更新: {result.updated_count} 个")
+        print(f"  ✗ 失败: {result.failed_count} 个")
         print(f"  处理仓库: {len(result.stats)} 个")
+        print(f"  总体成功: {result.success}")
 
         if result.updated_files:
-            print(f"\n已更新的文件:")
+            print("\n已更新的文件:")
             for file in result.updated_files:
                 print(f"  - {file}")
+
+        failed = [s for s in result.stats if not s.success]
+        if failed:
+            print("\n失败详情:")
+            for stat in failed:
+                print(f"  - {stat.repo_name}: {stat.message}")
 
         print("=" * 80)

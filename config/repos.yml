@@ -1,5 +1,4 @@
 # Feather 项目配置文件
-# 这是默认配置，可通过 ConfigManager.create_default() 使用
 
 repositories:
   - name: Kazumi
@@ -65,3 +64,11 @@ paths:
 logging:
   level: INFO
   format: text
+
+merge:
+  # app/*.json 为唯一数据源，合并时删除 all.json 中的孤儿应用
+  remove_orphans: true
+
+update:
+  max_workers: 4
+  max_retries: 3

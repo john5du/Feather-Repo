@@ -1,6 +1,11 @@
 """Utility functions for Feather"""
 
-from .validators import AppValidator, VersionValidator
 from .formatters import ReleaseInfoExtractor
+from .validators import AppValidator, URLValidator, VersionValidator
 
-__all__ = ['AppValidator', 'VersionValidator', 'ReleaseInfoExtractor']
+__all__ = [
+    "AppValidator",
+    "VersionValidator",
+    "URLValidator",
+    "ReleaseInfoExtractor",
+]
