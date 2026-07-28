@@ -65,15 +65,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "3.4.3",
-      "versionDate": "2026-07-10T18:59:54Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.4.3/conduit.ipa",
-      "size": 33016339,
+      "version": "4.0.0",
+      "versionDate": "2026-07-28T08:33:19Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.0.0/conduit.ipa",
+      "size": 34709592,
       "category": "utilities",
-      "versionDescription": "## What's Changed\n* fix: render slashes in assistant messages instead of &#47; (#549) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/561\n* fix: request iOS microphone permission in voice preflight (#557) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/562\n* Polish phase-aware chat streaming and markdown rendering by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/537\n* Warn instead of blocking newer Open WebUI servers by @cogwheel0 in https://github.com/cogwheel0/c",
-      "changelog": "## What's Changed\n* fix: render slashes in assistant messages instead of &#47; (#549) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/561\n* fix: request iOS microphone permission in voice preflight (#557) by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/562\n* Polish phase-aware chat streaming and markdown rendering by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/537\n* Warn instead of blocking newer Open WebUI servers by @cogwheel0 in https://github.com/cogwheel0/c",
+      "versionDescription": "## Conduit 4.0 is here\r\n\r\n\r\n<p align=\"center\">\r\n  <img width=\"800\" alt=\"image\" src=\"https://github.com/user-attachments/assets/b0174de2-315e-43ca-abdf-306beabc3bf7\" />\r\n</p>\r\n\r\nHi! This is the biggest update since Conduit began, and I'm really excited to share it. Your chats now live on your phone first, and you can use Conduit entirely without a server.\r\n\r\n### Local persistence\r\n\r\nChats, notes, and drafts are kept safely on your device. Notes and drafts remain available without a connection; co",
+      "changelog": "## Conduit 4.0 is here\r\n\r\n\r\n<p align=\"center\">\r\n  <img width=\"800\" alt=\"image\" src=\"https://github.com/user-attachments/assets/b0174de2-315e-43ca-abdf-306beabc3bf7\" />\r\n</p>\r\n\r\nHi! This is the biggest update since Conduit began, and I'm really excited to share it. Your chats now live on your phone first, and you can use Conduit entirely without a server.\r\n\r\n### Local persistence\r\n\r\nChats, notes, and drafts are kept safely on your device. Notes and drafts remain available without a connection; co",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "4.0.0",
+          "date": "2026-07-28",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.0.0/conduit.ipa",
+          "size": 34709592,
+          "minOSVersion": "16.0",
+          "localizedDescription": "## Conduit 4.0 is here\r\n\r\n\r\n<p align=\"center\">\r\n  <img width=\"800\" alt=\"image\" src=\"https://github.com/user-attachments/assets/b0174de2-315e-43ca-abdf-306beabc3bf7\" />\r\n</p>\r\n\r\nHi! This is the biggest update since Conduit began, and I'm really excited to share it. Your chats now live on your phone first, and you can use Conduit entirely without a server.\r\n\r\n### Local persistence\r\n\r\nChats, notes, and drafts are kept safely on your device. Notes and drafts remain available without a connection; co"
+        },
         {
           "version": "3.4.3",
           "date": "2026-07-10",
@@ -225,14 +233,6 @@
           "size": 24292249,
           "minOSVersion": "16.0",
           "localizedDescription": "## What's Changed\r\n\r\n**Features**\r\n- Phone sidebar with dedicated Chats, Notes, and Channels tabs\r\n- Pill-style tab bar in navigation with improved visual design\r\n- Haptic feedback when streaming assistant messages\r\n- Stronger haptics when drawer settles at open/close endpoints\r\n- Handle tool-only completions in voice call TTS processing\r\n- OpenWebUI image generation parity with native chat flow\r\n- Improved markdown spacing for better readability\r\n- OpenWebUI stream parser and typed completion t"
-        },
-        {
-          "version": "2.5.6",
-          "date": "2026-03-14",
-          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.5.6/conduit.ipa",
-          "size": 24098793,
-          "minOSVersion": "16.0",
-          "localizedDescription": "## What's Changed\n* chore: prepare for merge to main by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/396\n* feat: auto-scroll to bottom when opening existing conversations by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/397\n* branch/feat response frequently empty 4f4 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/398\n* chore: prepare for merge to main by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/399"
         }
       ],
       "developerName": "cogwheel0",
