@@ -65,15 +65,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "4.0.0",
-      "versionDate": "2026-07-28T08:33:19Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.0.0/conduit.ipa",
-      "size": 34709592,
+      "version": "4.0.2",
+      "versionDate": "2026-08-01T09:06:40Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.0.2/conduit.ipa",
+      "size": 35553052,
       "category": "utilities",
-      "versionDescription": "## Conduit 4.0 is here\r\n\r\n\r\n<p align=\"center\">\r\n  <img width=\"800\" alt=\"image\" src=\"https://github.com/user-attachments/assets/b0174de2-315e-43ca-abdf-306beabc3bf7\" />\r\n</p>\r\n\r\nHi! This is the biggest update since Conduit began, and I'm really excited to share it. Your chats now live on your phone first, and you can use Conduit entirely without a server.\r\n\r\n### Local persistence\r\n\r\nChats, notes, and drafts are kept safely on your device. Notes and drafts remain available without a connection; co",
-      "changelog": "## Conduit 4.0 is here\r\n\r\n\r\n<p align=\"center\">\r\n  <img width=\"800\" alt=\"image\" src=\"https://github.com/user-attachments/assets/b0174de2-315e-43ca-abdf-306beabc3bf7\" />\r\n</p>\r\n\r\nHi! This is the biggest update since Conduit began, and I'm really excited to share it. Your chats now live on your phone first, and you can use Conduit entirely without a server.\r\n\r\n### Local persistence\r\n\r\nChats, notes, and drafts are kept safely on your device. Notes and drafts remain available without a connection; co",
+      "versionDescription": "## What's Changed\n* Enable optimized R8 resource shrinking with AGP 9 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/607",
+      "changelog": "## What's Changed\n* Enable optimized R8 resource shrinking with AGP 9 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/607",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "4.0.2",
+          "date": "2026-08-01",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.0.2/conduit.ipa",
+          "size": 35553052,
+          "minOSVersion": "16.0",
+          "localizedDescription": "## What's Changed\n* Enable optimized R8 resource shrinking with AGP 9 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/607"
+        },
         {
           "version": "4.0.0",
           "date": "2026-07-28",
@@ -225,14 +233,6 @@
           "size": 24293865,
           "minOSVersion": "16.0",
           "localizedDescription": "- Changed the default dark mode background to AMOLED black for more polish\r\n- Fix assistant error causing message history issues.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.6.1...v2.6.2"
-        },
-        {
-          "version": "2.6.0",
-          "date": "2026-03-22",
-          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.6.0/conduit.ipa",
-          "size": 24292249,
-          "minOSVersion": "16.0",
-          "localizedDescription": "## What's Changed\r\n\r\n**Features**\r\n- Phone sidebar with dedicated Chats, Notes, and Channels tabs\r\n- Pill-style tab bar in navigation with improved visual design\r\n- Haptic feedback when streaming assistant messages\r\n- Stronger haptics when drawer settles at open/close endpoints\r\n- Handle tool-only completions in voice call TTS processing\r\n- OpenWebUI image generation parity with native chat flow\r\n- Improved markdown spacing for better readability\r\n- OpenWebUI stream parser and typed completion t"
         }
       ],
       "developerName": "cogwheel0",
