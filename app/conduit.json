@@ -6,15 +6,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "4.0.2",
-      "versionDate": "2026-08-01T09:06:40Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.0.2/conduit.ipa",
-      "size": 35553052,
+      "version": "4.0.3",
+      "versionDate": "2026-08-05T15:10:39Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.0.3/conduit.ipa",
+      "size": 35604541,
       "category": "utilities",
-      "versionDescription": "## What's Changed\n* Enable optimized R8 resource shrinking with AGP 9 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/607",
-      "changelog": "## What's Changed\n* Enable optimized R8 resource shrinking with AGP 9 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/607",
+      "versionDescription": "## What's Changed\r\n* fix: iOS 26 performance and polish by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/610\r\n* Fix reasoning effort persistence for unsupported models by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/613\r\n* Fix note editor context-menu crashes by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/614\r\n* fix(auth): finish proxy login after iOS redirects by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/615\r\n\r\n\r\n**Full Changelog**: https://github.",
+      "changelog": "## What's Changed\r\n* fix: iOS 26 performance and polish by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/610\r\n* Fix reasoning effort persistence for unsupported models by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/613\r\n* Fix note editor context-menu crashes by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/614\r\n* fix(auth): finish proxy login after iOS redirects by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/615\r\n\r\n\r\n**Full Changelog**: https://github.",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "4.0.3",
+          "date": "2026-08-05",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.0.3/conduit.ipa",
+          "size": 35604541,
+          "minOSVersion": "16.0",
+          "localizedDescription": "## What's Changed\r\n* fix: iOS 26 performance and polish by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/610\r\n* Fix reasoning effort persistence for unsupported models by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/613\r\n* Fix note editor context-menu crashes by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/614\r\n* fix(auth): finish proxy login after iOS redirects by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/615\r\n\r\n\r\n**Full Changelog**: https://github."
+        },
         {
           "version": "4.0.2",
           "date": "2026-08-01",
@@ -166,14 +174,6 @@
           "size": 24403280,
           "minOSVersion": "16.0",
           "localizedDescription": "## What's Changed\r\n\r\n- Improved streaming replies in chat, with cleaner completion on terminal chunks, smoother long-conversation behavior, and better handling when you manually scroll during generation.\r\n- Switched reasoning and tool-call rendering to native collapsible markdown blocks, making assistant responses cleaner and more consistent.\r\n- Added richer embed and preview support in messages, including HTML/SVG preview actions and more reliable sizing for WebView-based content such as charts"
-        },
-        {
-          "version": "2.6.2",
-          "date": "2026-03-23",
-          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.6.2/conduit.ipa",
-          "size": 24293865,
-          "minOSVersion": "16.0",
-          "localizedDescription": "- Changed the default dark mode background to AMOLED black for more polish\r\n- Fix assistant error causing message history issues.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v2.6.1...v2.6.2"
         }
       ],
       "developerName": "cogwheel0",
