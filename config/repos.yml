@@ -43,6 +43,13 @@ repositories:
     ipa_filename_pattern: "*.ipa"
     min_os_version: "13.0"
 
+  - name: Location Spoofer
+    owner: xweiba
+    repo: location-spoofer
+    json_file: app/location-spoofer.json
+    ipa_filename_pattern: "*.ipa"
+    min_os_version: "15.0"
+
 paths:
   app_dir: app
   all_json: all.json

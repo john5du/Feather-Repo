@@ -529,6 +529,81 @@
       "beta": false
     },
     {
+      "name": "Location Spoofer",
+      "bundleIdentifier": "com.paopaolabs.location-spoofer",
+      "version": "1.0.5",
+      "versionDate": "2026-08-10T08:25:22Z",
+      "downloadURL": "https://github.com/xweiba/location-spoofer/releases/download/v1.0.5/Location-Spoofer-unsigned.ipa",
+      "size": 3894290,
+      "category": "utilities",
+      "versionDescription": "# v1.0.5\n\n发布日期：2026-08-10\n\n## 主要更新\n\n- APP 模式与第三方代理模式统一支持 Wi-Fi、CellTower 字段 22/24，以及 ARPC、marker、synthetic、bare 等 WLOC 响应格式。\n- 新增默认关闭的运动状态模拟，可在定位响应中同步模拟运动状态。\n- 第三方模式改用项目维护的固定版本脚本，支持 Shadowrocket、Surge、Quantumult X、Loon、Stash 和 Egern。\n- 设置页新增手动检查更新入口；版本配置和更新说明优先使用国内镜像，并保留 GitHub 官方源兜底。",
+      "changelog": "# v1.0.5\n\n发布日期：2026-08-10\n\n## 主要更新\n\n- APP 模式与第三方代理模式统一支持 Wi-Fi、CellTower 字段 22/24，以及 ARPC、marker、synthetic、bare 等 WLOC 响应格式。\n- 新增默认关闭的运动状态模拟，可在定位响应中同步模拟运动状态。\n- 第三方模式改用项目维护的固定版本脚本，支持 Shadowrocket、Surge、Quantumult X、Loon、Stash 和 Egern。\n- 设置页新增手动检查更新入口；版本配置和更新说明优先使用国内镜像，并保留 GitHub 官方源兜底。",
+      "minOSVersion": "15.0",
+      "versions": [
+        {
+          "version": "1.0.5",
+          "date": "2026-08-10",
+          "downloadURL": "https://github.com/xweiba/location-spoofer/releases/download/v1.0.5/Location-Spoofer-unsigned.ipa",
+          "size": 3894290,
+          "minOSVersion": "15.0",
+          "localizedDescription": "# v1.0.5\n\n发布日期：2026-08-10\n\n## 主要更新\n\n- APP 模式与第三方代理模式统一支持 Wi-Fi、CellTower 字段 22/24，以及 ARPC、marker、synthetic、bare 等 WLOC 响应格式。\n- 新增默认关闭的运动状态模拟，可在定位响应中同步模拟运动状态。\n- 第三方模式改用项目维护的固定版本脚本，支持 Shadowrocket、Surge、Quantumult X、Loon、Stash 和 Egern。\n- 设置页新增手动检查更新入口；版本配置和更新说明优先使用国内镜像，并保留 GitHub 官方源兜底。"
+        },
+        {
+          "version": "1.0.3",
+          "date": "2026-08-09",
+          "downloadURL": "https://github.com/xweiba/location-spoofer/releases/download/v1.0.3/Location-Spoofer-unsigned.ipa",
+          "size": 3836347,
+          "minOSVersion": "15.0",
+          "localizedDescription": "# v1.0.3\n\n发布日期：2026-08-09\n\n## 主要更新\n\n- 增加 APP 模式与第三方代理模式的独立初始化状态和切换引导。\n- 调整环境检测时机，启动时不再阻塞首屏，开启虚拟定位时再执行检测。\n- 完善证书重置、下载、安装、信任和异常修复流程。\n- 完善第三方代理导入、连接检测、诊断日志和客户端跳转。"
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-07",
+          "downloadURL": "https://github.com/xweiba/location-spoofer/releases/download/v1.0.2/Location-Spoofer-unsigned.ipa",
+          "size": 3418146,
+          "minOSVersion": "15.0",
+          "localizedDescription": "# v1.0.2\n\n发布日期：2026-08-07\n\n## 主要更新\n\n- 修复虚拟定位跨越中国大陆与境外后，MapKit 坐标标准变化可能导致的地图选点、蓝点和收藏位置偏移。\n- 增加运行期固定锚点刷新与状态清理，坐标标准切换后会按已保存的 WGS-84 / GCJ-02 坐标对重新显示图钉。\n- 点击实时定位时，如果当前位置与已保存收藏匹配，会恢复对应收藏的选中状态。\n- 当前选点面板同时显示 GCJ-02(国内) 与 WGS-84(国际) 坐标。"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06",
+          "downloadURL": "https://github.com/xweiba/location-spoofer/releases/download/v1.0.1/Location-Spoofer-unsigned.ipa",
+          "size": 3400746,
+          "minOSVersion": "15.0",
+          "localizedDescription": "# v1.0.1\n\n发布日期：2026-08-06\n\n## 提交变更总结\n\n- 新增 APP 模式与第三方代理模式，支持复制模块订阅地址、唤起 Shadowrocket、Surge、Quantumult X、Loon、Stash、Egern，并完善首次启动和模式切换引导。\n- 优化启动初始化、证书安装、坐标双格式持久化和旧数据迁移；增加日志清理、操作提醒及诊断入口。\n- 加固本地代理、CA 持久化、MapKit 坐标标准探测、实时定位和 WLOC WGS-84 写入链路。"
+        },
+        {
+          "version": "1.0.0",
+          "date": "2026-08-05",
+          "downloadURL": "https://github.com/xweiba/location-spoofer/releases/download/v1.0.0/Location-Spoofer-unsigned.ipa",
+          "size": 3222670,
+          "minOSVersion": "15.0",
+          "localizedDescription": "## PaopaoLocationSpoofer v1.0.0\n\n正式发布首个稳定版本。\n\n### 核心功能\n\n- 原生地图体验：Apple MapKit 蓝点实时定位，搜索地点、点击选点、拖动浏览\n- 虚拟定位引擎：基于本地 HTTP 代理 MITM 方案，无需 VPN、无需越狱\n- 完整设置引导：证书安装 → WiFi 代理配置 → 环境验证\n- 收藏与快速切换：保存常用坐标，一键跳转\n- 诊断日志：实时查看定位请求和改写状态"
+        }
+      ],
+      "developerName": "xweiba",
+      "subtitle": "iOS 虚拟定位研究与测试工具。",
+      "localizedDescription": "面向 iOS 定位服务行为研究和开发测试的虚拟定位工具，支持地图选点、本地与第三方代理、WGS-84 / GCJ-02 双坐标、环境检测和问题诊断。",
+      "iconURL": "https://raw.githubusercontent.com/xweiba/location-spoofer/main/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+      "tintColor": "#007AFF",
+      "screenshotURLs": [],
+      "contact": {
+        "web": "https://github.com/xweiba/location-spoofer"
+      },
+      "information": [],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.application-groups",
+          "com.apple.developer.networking.wifi-info"
+        ],
+        "privacy": {
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "用于显示和验证虚拟定位是否生效",
+          "NSLocationWhenInUseUsageDescription": "用于显示和验证虚拟定位是否生效"
+        }
+      },
+      "beta": false
+    },
+    {
       "name": "PiliPlus",
       "bundleIdentifier": "com.example.piliplus",
       "version": "2.1.0",
