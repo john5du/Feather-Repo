@@ -6,15 +6,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "4.0.3",
-      "versionDate": "2026-08-05T15:10:39Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.0.3/conduit.ipa",
-      "size": 35604541,
+      "version": "4.1.0",
+      "versionDate": "2026-08-20T17:05:48Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.0/conduit.ipa",
+      "size": 36456598,
       "category": "utilities",
-      "versionDescription": "## What's Changed\r\n* fix: iOS 26 performance and polish by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/610\r\n* Fix reasoning effort persistence for unsupported models by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/613\r\n* Fix note editor context-menu crashes by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/614\r\n* fix(auth): finish proxy login after iOS redirects by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/615\r\n\r\n\r\n**Full Changelog**: https://github.",
-      "changelog": "## What's Changed\r\n* fix: iOS 26 performance and polish by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/610\r\n* Fix reasoning effort persistence for unsupported models by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/613\r\n* Fix note editor context-menu crashes by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/614\r\n* fix(auth): finish proxy login after iOS redirects by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/615\r\n\r\n\r\n**Full Changelog**: https://github.",
+      "versionDescription": "## What's Changed\r\n* Migrate adaptive UI to native iOS glass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/622\r\n* feat: unify app surfaces with native grouped design by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/628\r\n* feat: add Hermes Desktop Gateway backend by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/636\r\n* fix: separate semantic details blocks by @andrewchen in https://github.com/cogwheel0/conduit/pull/641\r\n* perf: chat scrolling and markdown rendering",
+      "changelog": "## What's Changed\r\n* Migrate adaptive UI to native iOS glass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/622\r\n* feat: unify app surfaces with native grouped design by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/628\r\n* feat: add Hermes Desktop Gateway backend by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/636\r\n* fix: separate semantic details blocks by @andrewchen in https://github.com/cogwheel0/conduit/pull/641\r\n* perf: chat scrolling and markdown rendering",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "4.1.0",
+          "date": "2026-08-20",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.0/conduit.ipa",
+          "size": 36456598,
+          "minOSVersion": "16.0",
+          "localizedDescription": "## What's Changed\r\n* Migrate adaptive UI to native iOS glass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/622\r\n* feat: unify app surfaces with native grouped design by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/628\r\n* feat: add Hermes Desktop Gateway backend by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/636\r\n* fix: separate semantic details blocks by @andrewchen in https://github.com/cogwheel0/conduit/pull/641\r\n* perf: chat scrolling and markdown rendering"
+        },
         {
           "version": "4.0.3",
           "date": "2026-08-05",
@@ -166,14 +174,6 @@
           "size": 24449612,
           "minOSVersion": "16.0",
           "localizedDescription": "This release focuses on faster chat workflows, better sidebar organization, and a more reliable streaming experience.\r\n\r\n### Highlights\r\n\r\n- Added nested folders in the chat sidebar.\r\n- Added drag-and-drop support for moving chats between folders, nesting folders, and returning items to the top level.\r\n- Added smarter `#` context suggestions in the composer for notes, knowledge bases, and knowledge files.\r\n- Added note attachments to chat context, including note cards rendered directly in sent m"
-        },
-        {
-          "version": "2.6.3",
-          "date": "2026-03-25",
-          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.6.3/conduit.ipa",
-          "size": 24403280,
-          "minOSVersion": "16.0",
-          "localizedDescription": "## What's Changed\r\n\r\n- Improved streaming replies in chat, with cleaner completion on terminal chunks, smoother long-conversation behavior, and better handling when you manually scroll during generation.\r\n- Switched reasoning and tool-call rendering to native collapsible markdown blocks, making assistant responses cleaner and more consistent.\r\n- Added richer embed and preview support in messages, including HTML/SVG preview actions and more reliable sizing for WebView-based content such as charts"
         }
       ],
       "developerName": "cogwheel0",
