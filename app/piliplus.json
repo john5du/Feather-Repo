@@ -6,15 +6,23 @@
     {
       "name": "PiliPlus",
       "bundleIdentifier": "com.example.piliplus",
-      "version": "2.1.0",
-      "versionDate": "2026-07-12T04:26:28Z",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.0/PiliPlus_ios_2.1.0%2B5109.ipa",
-      "size": 23440601,
+      "version": "2.1.1",
+      "versionDate": "2026-08-22T04:07:26Z",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.1/PiliPlus_ios_2.1.1%2B5225.ipa",
+      "size": 23884938,
       "category": "other",
-      "versionDescription": "支持评论区投票\r\n支持显示话题折叠内容\r\n支持显示动态`赞与转发`详情\r\n动态支持点击评论按钮直达评论区\r\n专栏支持跨行复制 #2437 by @My-Responsitories\r\n视频字幕支持未登录使用 #2426 by @My-Responsitories\r\n支持导出 `vtt`、`srt` 格式字幕 co-by @My-Responsitories\r\n解码格式设置改为多选 #2426 by @My-Responsitories #2444 co-by @Starfallan\r\n其他调整 #2426 by @My-Responsitories\r\n\r\n界面优化\r\n调整默认滑动弹簧系数\r\n安卓硬解优先使用 `mediacodec` \r\nLinux 构建优化 #2441 by @VillagerTom\r\n\r\n修复桌面端富文本选中编辑\r\n修复 bug\r\n\r\n其他调整",
-      "changelog": "支持评论区投票\r\n支持显示话题折叠内容\r\n支持显示动态`赞与转发`详情\r\n动态支持点击评论按钮直达评论区\r\n专栏支持跨行复制 #2437 by @My-Responsitories\r\n视频字幕支持未登录使用 #2426 by @My-Responsitories\r\n支持导出 `vtt`、`srt` 格式字幕 co-by @My-Responsitories\r\n解码格式设置改为多选 #2426 by @My-Responsitories #2444 co-by @Starfallan\r\n其他调整 #2426 by @My-Responsitories\r\n\r\n界面优化\r\n调整默认滑动弹簧系数\r\n安卓硬解优先使用 `mediacodec` \r\nLinux 构建优化 #2441 by @VillagerTom\r\n\r\n修复桌面端富文本选中编辑\r\n修复 bug\r\n\r\n其他调整",
+      "versionDescription": "支持显示 SC 发送时间\r\n私信消息支持标为已读\r\n过滤无播放权限的推荐视频\r\n取消滑动刷新时不隐藏 FAB\r\n动态文字支持复制表情包内容\r\n刷新滑动距离调整为根据刷新指示器高度计算\r\n恢复历史记录视频播放记录 #2458 by @Zxis233\r\n直播卡片支持反馈 #2456 by @My-Responsitories\r\nLinux 平台关闭 Impeller #2569 by @Axiaobo7788\r\n增加弹幕不透明度/字体大小设置区间 #2452 by @Meteor-3\r\n文字选择工具栏部分支持站内搜索 #2474 by @My-Responsitories\r\n支持播放多片段类型视频，优化仅播音频 #2455 by @My-Responsitories\r\n其他调整 #2612 by @My-Responsitories\r\n\r\n界面优化\r\n优化统一 iOS 列表滑动效果 #2184\r\n优化评论/动态检查结果界面 #2501\r\n图片缓存优化 #2473 by @My-Responsitories\r\n\r\n修复桌面端富文本菜单点击无效\r\n修复 #2182 #2485 #2491 #2",
+      "changelog": "支持显示 SC 发送时间\r\n私信消息支持标为已读\r\n过滤无播放权限的推荐视频\r\n取消滑动刷新时不隐藏 FAB\r\n动态文字支持复制表情包内容\r\n刷新滑动距离调整为根据刷新指示器高度计算\r\n恢复历史记录视频播放记录 #2458 by @Zxis233\r\n直播卡片支持反馈 #2456 by @My-Responsitories\r\nLinux 平台关闭 Impeller #2569 by @Axiaobo7788\r\n增加弹幕不透明度/字体大小设置区间 #2452 by @Meteor-3\r\n文字选择工具栏部分支持站内搜索 #2474 by @My-Responsitories\r\n支持播放多片段类型视频，优化仅播音频 #2455 by @My-Responsitories\r\n其他调整 #2612 by @My-Responsitories\r\n\r\n界面优化\r\n优化统一 iOS 列表滑动效果 #2184\r\n优化评论/动态检查结果界面 #2501\r\n图片缓存优化 #2473 by @My-Responsitories\r\n\r\n修复桌面端富文本菜单点击无效\r\n修复 #2182 #2485 #2491 #2",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "2.1.1",
+          "date": "2026-08-22",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.1/PiliPlus_ios_2.1.1%2B5225.ipa",
+          "size": 23884938,
+          "minOSVersion": "13.0",
+          "localizedDescription": "支持显示 SC 发送时间\r\n私信消息支持标为已读\r\n过滤无播放权限的推荐视频\r\n取消滑动刷新时不隐藏 FAB\r\n动态文字支持复制表情包内容\r\n刷新滑动距离调整为根据刷新指示器高度计算\r\n恢复历史记录视频播放记录 #2458 by @Zxis233\r\n直播卡片支持反馈 #2456 by @My-Responsitories\r\nLinux 平台关闭 Impeller #2569 by @Axiaobo7788\r\n增加弹幕不透明度/字体大小设置区间 #2452 by @Meteor-3\r\n文字选择工具栏部分支持站内搜索 #2474 by @My-Responsitories\r\n支持播放多片段类型视频，优化仅播音频 #2455 by @My-Responsitories\r\n其他调整 #2612 by @My-Responsitories\r\n\r\n界面优化\r\n优化统一 iOS 列表滑动效果 #2184\r\n优化评论/动态检查结果界面 #2501\r\n图片缓存优化 #2473 by @My-Responsitories\r\n\r\n修复桌面端富文本菜单点击无效\r\n修复 #2182 #2485 #2491 #2"
+        },
         {
           "version": "2.1.0",
           "date": "2026-07-12",
@@ -166,14 +174,6 @@
           "size": 24968000,
           "minOSVersion": "13.0",
           "localizedDescription": "听视频支持定时关闭\r\n听视频支持 Sponsor Block\r\nmacOS 响应 CMD+Q #1834 by @cnctem\r\nLinux 支持设置使用SSD #1839 by @just-a-pony\r\n添加播放顺序设置 #1830 by @My-Responsitories\r\n私信视频消息支持显示 UP 主赠言 #1849 by @barmxds6ch\r\n\r\n优化页面\r\n优化收起顶/底栏\r\n优化取消下拉刷新\r\n优化分享视频链接 #1835 co-by @gujial\r\n优化 #1829 #1831 #1832 #1840 #1846 #1854 by @My-Responsitories\r\n\r\n重构播放组件 #1848 by @My-Responsitories\r\n重构查看大图、长图 by @bggRGjQaUbCoE @My-Responsitories\r\n其他\r\n\r\n修复冷启动无法处理 URL Scheme \r\n修复校验 loudnorm 参数 #1838 by @Starfallan\r\n\r\nCI 调整 #1852 by @nlsdt \r\n其他"
-        },
-        {
-          "version": "1.1.6",
-          "date": "2026-02-07",
-          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/1.1.6/PiliPlus_ios_1.1.6%2B4626.ipa",
-          "size": 25139197,
-          "minOSVersion": "13.0",
-          "localizedDescription": "优化滑动手势\r\n优化分区 TAB\r\n优化查看评论笔记\r\n优化调整倍速时卡顿 #1813 by @nakixii\r\n\r\n支持调整自动同步(`autosync`)数值\r\n支持快捷切换账号 #1815 co-by @cnctem\r\n稍后再看/收藏搜索添加`复制`/`移动`按钮 #1822 @cnctem\r\n调整 #1816 #1818 #1821 #1826 by @My-Responsitories\r\n支持基于滑动时间设置滑动弹簧参数 #1816 co-by @My-Responsitories\r\n\r\n修复 #1825 by @Wu-HZ\r\n修复动态页 UP 列表 #1819 by @leset0ng\r\n\r\n其他"
         }
       ],
       "developerName": "bggRGjQaUbCoE",
