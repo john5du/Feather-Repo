@@ -6,15 +6,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "4.1.0",
-      "versionDate": "2026-08-20T17:05:48Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.0/conduit.ipa",
-      "size": 36456598,
+      "version": "4.1.2",
+      "versionDate": "2026-08-26T18:06:15Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.2/conduit.ipa",
+      "size": 35196327,
       "category": "utilities",
-      "versionDescription": "## What's Changed\r\n* Migrate adaptive UI to native iOS glass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/622\r\n* feat: unify app surfaces with native grouped design by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/628\r\n* feat: add Hermes Desktop Gateway backend by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/636\r\n* fix: separate semantic details blocks by @andrewchen in https://github.com/cogwheel0/conduit/pull/641\r\n* perf: chat scrolling and markdown rendering",
-      "changelog": "## What's Changed\r\n* Migrate adaptive UI to native iOS glass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/622\r\n* feat: unify app surfaces with native grouped design by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/628\r\n* feat: add Hermes Desktop Gateway backend by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/636\r\n* fix: separate semantic details blocks by @andrewchen in https://github.com/cogwheel0/conduit/pull/641\r\n* perf: chat scrolling and markdown rendering",
+      "versionDescription": "## What's Changed\n* chore(dependencies): replace sharing intent plugin by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/669\n* fix(hermes): allow continued dashboard chats by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/670\n* Show Apple models for existing backends by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/671",
+      "changelog": "## What's Changed\n* chore(dependencies): replace sharing intent plugin by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/669\n* fix(hermes): allow continued dashboard chats by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/670\n* Show Apple models for existing backends by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/671",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "4.1.2",
+          "date": "2026-08-26",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.2/conduit.ipa",
+          "size": 35196327,
+          "minOSVersion": "16.0",
+          "localizedDescription": "## What's Changed\n* chore(dependencies): replace sharing intent plugin by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/669\n* fix(hermes): allow continued dashboard chats by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/670\n* Show Apple models for existing backends by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/671"
+        },
         {
           "version": "4.1.0",
           "date": "2026-08-20",
@@ -166,14 +174,6 @@
           "size": 24520747,
           "minOSVersion": "16.0",
           "localizedDescription": "- Added support for attaching files that are already stored on the server directly from the chat composer.\r\n- Added note pinning, with pinned notes grouped separately for quicker access.\r\n- Added mutual TLS (mTLS) client certificate support for server connections, including certificate/key selection and clearer TLS error handling.\r\n- Improved proxy sign-in detection to avoid premature auth capture on same-host login pages.\r\n- Improved Android background streaming behavior so the foreground servi"
-        },
-        {
-          "version": "2.6.4",
-          "date": "2026-03-29",
-          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v2.6.4/conduit.ipa",
-          "size": 24449612,
-          "minOSVersion": "16.0",
-          "localizedDescription": "This release focuses on faster chat workflows, better sidebar organization, and a more reliable streaming experience.\r\n\r\n### Highlights\r\n\r\n- Added nested folders in the chat sidebar.\r\n- Added drag-and-drop support for moving chats between folders, nesting folders, and returning items to the top level.\r\n- Added smarter `#` context suggestions in the composer for notes, knowledge bases, and knowledge files.\r\n- Added note attachments to chat context, including note cards rendered directly in sent m"
         }
       ],
       "developerName": "cogwheel0",
