@@ -606,15 +606,23 @@
     {
       "name": "PiliPlus",
       "bundleIdentifier": "com.example.piliplus",
-      "version": "2.1.2.2",
-      "versionDate": "2026-08-29T13:58:46Z",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.2.2/PiliPlus_ios_2.1.2%2B5277.ipa",
-      "size": 23936202,
+      "version": "2.1.2.3",
+      "versionDate": "2026-08-30T04:20:00Z",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.2.3/PiliPlus_ios_2.1.2%2B5281.ipa",
+      "size": 23936722,
       "category": "other",
-      "versionDescription": "回退 #2446\r\n显示视频分 P 序号 #2717\r\n弹幕应用 APP 字体 #2712\r\n支持导入字体 co-by @My-Responsitories\r\n其他调整 #2734 #2767 by @My-Responsitories\r\n\r\n修复 #2716 #2731\r\n修复部分安卓设备无法显示登录验证码 #2642 #2713 by @My-Responsitories",
-      "changelog": "回退 #2446\r\n显示视频分 P 序号 #2717\r\n弹幕应用 APP 字体 #2712\r\n支持导入字体 co-by @My-Responsitories\r\n其他调整 #2734 #2767 by @My-Responsitories\r\n\r\n修复 #2716 #2731\r\n修复部分安卓设备无法显示登录验证码 #2642 #2713 by @My-Responsitories",
+      "versionDescription": "修复 bug",
+      "changelog": "修复 bug",
       "minOSVersion": "13.0",
       "versions": [
+        {
+          "version": "2.1.2.3",
+          "date": "2026-08-30",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.2.3/PiliPlus_ios_2.1.2%2B5281.ipa",
+          "size": 23936722,
+          "minOSVersion": "13.0",
+          "localizedDescription": "修复 bug"
+        },
         {
           "version": "2.1.2.2",
           "date": "2026-08-29",
@@ -766,14 +774,6 @@
           "size": 24944932,
           "minOSVersion": "13.0",
           "localizedDescription": "重写视频方向控制逻辑:\r\n解决 iOS 横屏从后台返回自动切换为竖屏问题\r\n解决 iOS 横屏关闭自动旋转自动切换为竖屏问题\r\n解决 Android 横屏返回键切换为竖屏自动切换回横屏问题\r\n\r\n支持悬浮底栏，默认关\r\n用户主页显示预约按钮\r\n添加 Android Shortcut\r\nAndroid 支持添加 UP 至桌面\r\n桌面端离线视频支持在本地文件夹打开\r\n\r\n修复 AppSign\r\n修复弹幕等级屏蔽无效 #1879 by @HChaZZY"
-        },
-        {
-          "version": "2.0.2",
-          "date": "2026-03-31",
-          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.0.2/PiliPlus_ios_2.0.2%2B4814.ipa",
-          "size": 24978956,
-          "minOSVersion": "13.0",
-          "localizedDescription": "性能优化\r\n优化查看图片\r\n优化滑动隐藏 FAB\r\n\r\n支持显示粉丝勋章，默认开\r\n校验 loudnorm 参数 #1871 by @Starfallan\r\n优化 #1868 #1877 by @My-Responsitories\r\nmacOS 启用媒体通知管理 #1872 by @stephen-zeng\r\n添加 Web 端用户投稿，支持页码跳转，按`最多收藏`排序\r\n缓存视频固定使用 HTTP/1.1 #1870 by @HeXis-YS @My-Responsitories\r\n\r\n修复解析动态页 UP 列表 #1876 co-by @ninatan777\r\n修复 bug"
         }
       ],
       "developerName": "bggRGjQaUbCoE",
