@@ -6,15 +6,23 @@
     {
       "name": "Location Spoofer",
       "bundleIdentifier": "com.paopaolabs.location-spoofer",
-      "version": "1.0.5",
-      "versionDate": "2026-08-10T08:25:22Z",
-      "downloadURL": "https://github.com/xweiba/location-spoofer/releases/download/v1.0.5/Location-Spoofer-unsigned.ipa",
-      "size": 3894290,
+      "version": "1.0.6",
+      "versionDate": "2026-09-01T10:20:19Z",
+      "downloadURL": "https://github.com/xweiba/location-spoofer/releases/download/v1.0.6/Location-Spoofer-unsigned.ipa",
+      "size": 3871234,
       "category": "utilities",
-      "versionDescription": "# v1.0.5\n\n发布日期：2026-08-10\n\n## 主要更新\n\n- APP 模式与第三方代理模式统一支持 Wi-Fi、CellTower 字段 22/24，以及 ARPC、marker、synthetic、bare 等 WLOC 响应格式。\n- 新增默认关闭的运动状态模拟，可在定位响应中同步模拟运动状态。\n- 第三方模式改用项目维护的固定版本脚本，支持 Shadowrocket、Surge、Quantumult X、Loon、Stash 和 Egern。\n- 设置页新增手动检查更新入口；版本配置和更新说明优先使用国内镜像，并保留 GitHub 官方源兜底。",
-      "changelog": "# v1.0.5\n\n发布日期：2026-08-10\n\n## 主要更新\n\n- APP 模式与第三方代理模式统一支持 Wi-Fi、CellTower 字段 22/24，以及 ARPC、marker、synthetic、bare 等 WLOC 响应格式。\n- 新增默认关闭的运动状态模拟，可在定位响应中同步模拟运动状态。\n- 第三方模式改用项目维护的固定版本脚本，支持 Shadowrocket、Surge、Quantumult X、Loon、Stash 和 Egern。\n- 设置页新增手动检查更新入口；版本配置和更新说明优先使用国内镜像，并保留 GitHub 官方源兜底。",
+      "versionDescription": "# v1.0.6",
+      "changelog": "# v1.0.6",
       "minOSVersion": "15.0",
       "versions": [
+        {
+          "version": "1.0.6",
+          "date": "2026-09-01",
+          "downloadURL": "https://github.com/xweiba/location-spoofer/releases/download/v1.0.6/Location-Spoofer-unsigned.ipa",
+          "size": 3871234,
+          "minOSVersion": "15.0",
+          "localizedDescription": "# v1.0.6"
+        },
         {
           "version": "1.0.5",
           "date": "2026-08-10",
