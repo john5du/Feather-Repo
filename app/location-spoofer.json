@@ -6,15 +6,23 @@
     {
       "name": "Location Spoofer",
       "bundleIdentifier": "com.paopaolabs.location-spoofer",
-      "version": "1.0.6",
-      "versionDate": "2026-09-01T10:20:19Z",
-      "downloadURL": "https://github.com/xweiba/location-spoofer/releases/download/v1.0.6/Location-Spoofer-unsigned.ipa",
-      "size": 3871234,
+      "version": "1.0.7",
+      "versionDate": "2026-09-11T03:56:42Z",
+      "downloadURL": "https://github.com/xweiba/location-spoofer/releases/download/v1.0.7/Location-Spoofer-unsigned.ipa",
+      "size": 3923060,
       "category": "utilities",
-      "versionDescription": "# v1.0.6",
-      "changelog": "# v1.0.6",
+      "versionDescription": "# v1.0.7",
+      "changelog": "# v1.0.7",
       "minOSVersion": "15.0",
       "versions": [
+        {
+          "version": "1.0.7",
+          "date": "2026-09-11",
+          "downloadURL": "https://github.com/xweiba/location-spoofer/releases/download/v1.0.7/Location-Spoofer-unsigned.ipa",
+          "size": 3923060,
+          "minOSVersion": "15.0",
+          "localizedDescription": "# v1.0.7"
+        },
         {
           "version": "1.0.6",
           "date": "2026-09-01",
