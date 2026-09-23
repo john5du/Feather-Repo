@@ -6,15 +6,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "4.1.6",
-      "versionDate": "2026-09-16T16:09:41Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.6/conduit.ipa",
-      "size": 35930568,
+      "version": "4.1.7",
+      "versionDate": "2026-09-22T19:30:59Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.7/conduit.ipa",
+      "size": 35926535,
       "category": "utilities",
-      "versionDescription": "## What's Changed\n* Collapse raw reasoning tags client-side and stop re-escaping stored content by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/731\n* Fix attachments, STT, TTS, citations, proxy re-auth, and Hermes probe by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/732\n* Keep chat scrollbar thumb stable and inset it from the composer by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/734",
-      "changelog": "## What's Changed\n* Collapse raw reasoning tags client-side and stop re-escaping stored content by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/731\n* Fix attachments, STT, TTS, citations, proxy re-auth, and Hermes probe by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/732\n* Keep chat scrollbar thumb stable and inset it from the composer by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/734",
+      "versionDescription": "## What's Changed\n* Add iOS native Barge in toggle by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/737\n* Support Open WebUI 0.11.4 and fix user-settings clears by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/748\n* Fix native dropdown crash, composer overflow artifact, and stale streaming state by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/749",
+      "changelog": "## What's Changed\n* Add iOS native Barge in toggle by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/737\n* Support Open WebUI 0.11.4 and fix user-settings clears by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/748\n* Fix native dropdown crash, composer overflow artifact, and stale streaming state by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/749",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "4.1.7",
+          "date": "2026-09-22",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.7/conduit.ipa",
+          "size": 35926535,
+          "minOSVersion": "16.0",
+          "localizedDescription": "## What's Changed\n* Add iOS native Barge in toggle by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/737\n* Support Open WebUI 0.11.4 and fix user-settings clears by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/748\n* Fix native dropdown crash, composer overflow artifact, and stale streaming state by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/749"
+        },
         {
           "version": "4.1.6",
           "date": "2026-09-16",
@@ -166,14 +174,6 @@
           "size": 26932358,
           "minOSVersion": "16.0",
           "localizedDescription": "- Improved chat streaming smoothness, markdown rendering performance, and loading skeletons.\r\n- Refined chat scrolling, keyboard anchoring, and pin-to-top behavior.\r\n- Fixed iOS voice input audio routing and speech recognizer recovery.\r\n- Fixed self-signed/mTLS image loading and Android home widget dependency resolution.\r\n- Improved terminal tab lifecycle handling and sidebar layout polish.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.0...v3.1.1"
-        },
-        {
-          "version": "3.1.0",
-          "date": "2026-05-18",
-          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.1.0/conduit.ipa",
-          "size": 26896897,
-          "minOSVersion": "16.0",
-          "localizedDescription": "## Open Terminal Integration\r\n\r\n<img width=\"360\" alt=\"conduit-open-terminal\" src=\"https://github.com/user-attachments/assets/fa93091e-1968-4791-b34d-2b003df69aa7\" /><br><br>\r\n\r\n- Added a new Terminal sidebar tab with interactive shell access.\r\n- Added terminal server selection, connection status, and connect/disconnect controls.\r\n- Added terminal file browsing with preview, upload, download, rename, delete, folder creation, and search.\r\n- Added listening-port discovery with “open in browser” sup"
         }
       ],
       "developerName": "cogwheel0",
