@@ -6,15 +6,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "4.1.7",
-      "versionDate": "2026-09-22T19:30:59Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.7/conduit.ipa",
-      "size": 35926535,
+      "version": "4.1.8",
+      "versionDate": "2026-09-28T11:23:35Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.8/conduit.ipa",
+      "size": 36256382,
       "category": "utilities",
-      "versionDescription": "## What's Changed\n* Add iOS native Barge in toggle by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/737\n* Support Open WebUI 0.11.4 and fix user-settings clears by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/748\n* Fix native dropdown crash, composer overflow artifact, and stale streaming state by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/749",
-      "changelog": "## What's Changed\n* Add iOS native Barge in toggle by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/737\n* Support Open WebUI 0.11.4 and fix user-settings clears by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/748\n* Fix native dropdown crash, composer overflow artifact, and stale streaming state by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/749",
+      "versionDescription": "## What's Changed\n* Extract shared packages from the mobile app by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/753\n* Fix issues found in a simulator verification pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/756\n* Refine chat, composer, sidebar, and settings UI by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/761\n* Fix Android entry points, shares, folders, STT, and keyboard insets by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/766\n* Fix stream",
+      "changelog": "## What's Changed\n* Extract shared packages from the mobile app by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/753\n* Fix issues found in a simulator verification pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/756\n* Refine chat, composer, sidebar, and settings UI by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/761\n* Fix Android entry points, shares, folders, STT, and keyboard insets by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/766\n* Fix stream",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "4.1.8",
+          "date": "2026-09-28",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.8/conduit.ipa",
+          "size": 36256382,
+          "minOSVersion": "16.0",
+          "localizedDescription": "## What's Changed\n* Extract shared packages from the mobile app by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/753\n* Fix issues found in a simulator verification pass by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/756\n* Refine chat, composer, sidebar, and settings UI by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/761\n* Fix Android entry points, shares, folders, STT, and keyboard insets by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/766\n* Fix stream"
+        },
         {
           "version": "4.1.7",
           "date": "2026-09-22",
@@ -166,14 +174,6 @@
           "size": 27033447,
           "minOSVersion": "16.0",
           "localizedDescription": "- Added location-aware prompt support for `USER_LOCATION`.\r\n- Added mobile location permissions and `geolocator`.\r\n- Fixed web search visibility using server, user, and model feature flags.\r\n- Cleaned up iOS metadata and lockfile formatting.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.2...v3.1.3"
-        },
-        {
-          "version": "3.1.1",
-          "date": "2026-05-21",
-          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.1.1/conduit.ipa",
-          "size": 26932358,
-          "minOSVersion": "16.0",
-          "localizedDescription": "- Improved chat streaming smoothness, markdown rendering performance, and loading skeletons.\r\n- Refined chat scrolling, keyboard anchoring, and pin-to-top behavior.\r\n- Fixed iOS voice input audio routing and speech recognizer recovery.\r\n- Fixed self-signed/mTLS image loading and Android home widget dependency resolution.\r\n- Improved terminal tab lifecycle handling and sidebar layout polish.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.0...v3.1.1"
         }
       ],
       "developerName": "cogwheel0",
