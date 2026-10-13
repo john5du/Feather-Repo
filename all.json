@@ -65,15 +65,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "4.1.9",
-      "versionDate": "2026-10-06T04:16:49Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.1.9/conduit.ipa",
-      "size": 37477886,
+      "version": "4.2.0",
+      "versionDate": "2026-10-13T06:42:19Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/conduit.ipa",
+      "size": 45085120,
       "category": "utilities",
-      "versionDescription": "## What's Changed\n* Make the test suite faster and leaner by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/774\n* On-device web search, model logos, and chat polish for Direct models by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/775\n* Fix iOS attachment panel height feedback loop by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/783\n* feat(chat): native image viewer with gallery paging by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/792\n* Fix sign-in, Di",
-      "changelog": "## What's Changed\n* Make the test suite faster and leaner by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/774\n* On-device web search, model logos, and chat polish for Direct models by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/775\n* Fix iOS attachment panel height feedback loop by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/783\n* feat(chat): native image viewer with gallery paging by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/792\n* Fix sign-in, Di",
+      "versionDescription": "## What's Changed\n* Add Open WebUI client parity and Advanced UI controls by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/807\n* Make everyday Open WebUI features available without Advanced and polish the new screens by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/808\n* CI: run steps in parallel, cache Gradle, and trim setup by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/810\n* Add Flutter control facades and a narrow platform UI vocabulary (1/5) by @cogwheel0 in ",
+      "changelog": "## What's Changed\n* Add Open WebUI client parity and Advanced UI controls by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/807\n* Make everyday Open WebUI features available without Advanced and polish the new screens by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/808\n* CI: run steps in parallel, cache Gradle, and trim setup by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/810\n* Add Flutter control facades and a narrow platform UI vocabulary (1/5) by @cogwheel0 in ",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "4.2.0",
+          "date": "2026-10-13",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/conduit.ipa",
+          "size": 45085120,
+          "minOSVersion": "16.0",
+          "localizedDescription": "## What's Changed\n* Add Open WebUI client parity and Advanced UI controls by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/807\n* Make everyday Open WebUI features available without Advanced and polish the new screens by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/808\n* CI: run steps in parallel, cache Gradle, and trim setup by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/810\n* Add Flutter control facades and a narrow platform UI vocabulary (1/5) by @cogwheel0 in "
+        },
         {
           "version": "4.1.9",
           "date": "2026-10-06",
@@ -225,14 +233,6 @@
           "size": 27855180,
           "minOSVersion": "16.0",
           "localizedDescription": "- Fix flashing response placeholders appearing during streaming.\r\n- Fix SSO auth and replace webview package.\r\n- Remove haptics for sidebar open and close.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.4...v3.1.5"
-        },
-        {
-          "version": "3.1.4",
-          "date": "2026-05-26",
-          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.1.4/conduit.ipa",
-          "size": 27085517,
-          "minOSVersion": "16.0",
-          "localizedDescription": "- Fix scroll jumps and chats not scrolling to bottom on open.\r\n- Fix empty assistant response on stopping generation.\r\n- Standardize pull to refresh indicator placement.\r\n\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.3...v3.1.4"
         }
       ],
       "developerName": "cogwheel0",
