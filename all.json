@@ -531,15 +531,23 @@
     {
       "name": "Location Spoofer",
       "bundleIdentifier": "com.paopaolabs.location-spoofer",
-      "version": "1.0.8",
-      "versionDate": "2026-09-24T15:39:21Z",
-      "downloadURL": "https://github.com/xweiba/location-spoofer/releases/download/v1.0.8/Location-Spoofer-unsigned.ipa",
-      "size": 3968944,
+      "version": "1.0.9",
+      "versionDate": "2026-10-14T09:39:44Z",
+      "downloadURL": "https://github.com/xweiba/location-spoofer/releases/download/v1.0.9/Location-Spoofer-unsigned.ipa",
+      "size": 3971621,
       "category": "utilities",
-      "versionDescription": "# v1.0.8\n\nRelease date: September 24, 2026\n\n[简体中文](https://github.com/xweiba/location-spoofer/blob/v1.0.8/docs/releases/v1.0.8.md) · [繁體中文](https://github.com/xweiba/location-spoofer/blob/v1.0.8/docs/releases/v1.0.8.zh-Hant.md)\n\nThis re-release replaces build 9 with **build 10** while keeping the v1.0.8 version.\n\n## Highlights\n\n- Fixed the app showing Chinese when a non-Chinese language is preferred: the app now uses only the **first** preferred language. Simplified and Traditional Chinese displ",
-      "changelog": "# v1.0.8\n\nRelease date: September 24, 2026\n\n[简体中文](https://github.com/xweiba/location-spoofer/blob/v1.0.8/docs/releases/v1.0.8.md) · [繁體中文](https://github.com/xweiba/location-spoofer/blob/v1.0.8/docs/releases/v1.0.8.zh-Hant.md)\n\nThis re-release replaces build 9 with **build 10** while keeping the v1.0.8 version.\n\n## Highlights\n\n- Fixed the app showing Chinese when a non-Chinese language is preferred: the app now uses only the **first** preferred language. Simplified and Traditional Chinese displ",
+      "versionDescription": "# v1.0.9\n\nRelease date: October 14, 2026 · Build: 11 · **Optional update**\n\n[简体中文](https://github.com/xweiba/location-spoofer/blob/v1.0.9/docs/releases/v1.0.9.md) · [繁體中文](https://github.com/xweiba/location-spoofer/blob/v1.0.9/docs/releases/v1.0.9.zh-Hant.md)\n\n## Highlights\n\n- Added a standard launch screen to address the app appearing centered with large black bars in some installation environments (#15). This prevents legacy screen compatibility mode when launch-screen recognition is lost.\n- A",
+      "changelog": "# v1.0.9\n\nRelease date: October 14, 2026 · Build: 11 · **Optional update**\n\n[简体中文](https://github.com/xweiba/location-spoofer/blob/v1.0.9/docs/releases/v1.0.9.md) · [繁體中文](https://github.com/xweiba/location-spoofer/blob/v1.0.9/docs/releases/v1.0.9.zh-Hant.md)\n\n## Highlights\n\n- Added a standard launch screen to address the app appearing centered with large black bars in some installation environments (#15). This prevents legacy screen compatibility mode when launch-screen recognition is lost.\n- A",
       "minOSVersion": "15.0",
       "versions": [
+        {
+          "version": "1.0.9",
+          "date": "2026-10-14",
+          "downloadURL": "https://github.com/xweiba/location-spoofer/releases/download/v1.0.9/Location-Spoofer-unsigned.ipa",
+          "size": 3971621,
+          "minOSVersion": "15.0",
+          "localizedDescription": "# v1.0.9\n\nRelease date: October 14, 2026 · Build: 11 · **Optional update**\n\n[简体中文](https://github.com/xweiba/location-spoofer/blob/v1.0.9/docs/releases/v1.0.9.md) · [繁體中文](https://github.com/xweiba/location-spoofer/blob/v1.0.9/docs/releases/v1.0.9.zh-Hant.md)\n\n## Highlights\n\n- Added a standard launch screen to address the app appearing centered with large black bars in some installation environments (#15). This prevents legacy screen compatibility mode when launch-screen recognition is lost.\n- A"
+        },
         {
           "version": "1.0.8",
           "date": "2026-09-24",
