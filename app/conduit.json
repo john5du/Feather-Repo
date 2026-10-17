@@ -6,15 +6,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "4.2.0",
-      "versionDate": "2026-10-13T06:42:19Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.0/conduit.ipa",
-      "size": 45085120,
+      "version": "4.2.1",
+      "versionDate": "2026-10-16T18:51:35Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.1/conduit.ipa",
+      "size": 45123011,
       "category": "utilities",
-      "versionDescription": "## What's Changed\n* Add Open WebUI client parity and Advanced UI controls by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/807\n* Make everyday Open WebUI features available without Advanced and polish the new screens by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/808\n* CI: run steps in parallel, cache Gradle, and trim setup by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/810\n* Add Flutter control facades and a narrow platform UI vocabulary (1/5) by @cogwheel0 in ",
-      "changelog": "## What's Changed\n* Add Open WebUI client parity and Advanced UI controls by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/807\n* Make everyday Open WebUI features available without Advanced and polish the new screens by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/808\n* CI: run steps in parallel, cache Gradle, and trim setup by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/810\n* Add Flutter control facades and a narrow platform UI vocabulary (1/5) by @cogwheel0 in ",
+      "versionDescription": "## What's Changed\n* Support Open WebUI 0.12.2 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/847\n* Let the speaker button work from the start of Android voice calls by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/849",
+      "changelog": "## What's Changed\n* Support Open WebUI 0.12.2 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/847\n* Let the speaker button work from the start of Android voice calls by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/849",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "4.2.1",
+          "date": "2026-10-16",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.1/conduit.ipa",
+          "size": 45123011,
+          "minOSVersion": "16.0",
+          "localizedDescription": "## What's Changed\n* Support Open WebUI 0.12.2 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/847\n* Let the speaker button work from the start of Android voice calls by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/849"
+        },
         {
           "version": "4.2.0",
           "date": "2026-10-13",
@@ -166,14 +174,6 @@
           "size": 27880913,
           "minOSVersion": "16.0",
           "localizedDescription": "- Fix socket connection issues.\r\n- Fix images leaking into responses.\r\n- Implement model pinning.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.5...v3.1.6"
-        },
-        {
-          "version": "3.1.5",
-          "date": "2026-05-27",
-          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.1.5/conduit.ipa",
-          "size": 27855180,
-          "minOSVersion": "16.0",
-          "localizedDescription": "- Fix flashing response placeholders appearing during streaming.\r\n- Fix SSO auth and replace webview package.\r\n- Remove haptics for sidebar open and close.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.4...v3.1.5"
         }
       ],
       "developerName": "cogwheel0",
