@@ -73,15 +73,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "4.2.1",
-      "versionDate": "2026-10-16T18:51:35Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.1/conduit.ipa",
-      "size": 45123011,
+      "version": "4.2.2",
+      "versionDate": "2026-10-26T17:41:38Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.2/conduit.ipa",
+      "size": 45348117,
       "category": "utilities",
-      "versionDescription": "## What's Changed\n* Support Open WebUI 0.12.2 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/847\n* Let the speaker button work from the start of Android voice calls by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/849",
-      "changelog": "## What's Changed\n* Support Open WebUI 0.12.2 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/847\n* Let the speaker button work from the start of Android voice calls by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/849",
+      "versionDescription": "## What's Changed\n* Support Open WebUI 0.12.3 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/850\n* Fix four reported bugs: Direct next to Hermes, MCP tool images, channel thread scrolling, default filters by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/870\n* fix/feat: Improve handling for video files in OpenWebUI/chat by @dalgibbard in https://github.com/cogwheel0/conduit/pull/869\n* Open the Android assistant on a ready new chat, and keep it after a reboot by @cogwheel0 in",
+      "changelog": "## What's Changed\n* Support Open WebUI 0.12.3 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/850\n* Fix four reported bugs: Direct next to Hermes, MCP tool images, channel thread scrolling, default filters by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/870\n* fix/feat: Improve handling for video files in OpenWebUI/chat by @dalgibbard in https://github.com/cogwheel0/conduit/pull/869\n* Open the Android assistant on a ready new chat, and keep it after a reboot by @cogwheel0 in",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "4.2.2",
+          "date": "2026-10-26",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.2.2/conduit.ipa",
+          "size": 45348117,
+          "minOSVersion": "16.0",
+          "localizedDescription": "## What's Changed\n* Support Open WebUI 0.12.3 by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/850\n* Fix four reported bugs: Direct next to Hermes, MCP tool images, channel thread scrolling, default filters by @cogwheel0 in https://github.com/cogwheel0/conduit/pull/870\n* fix/feat: Improve handling for video files in OpenWebUI/chat by @dalgibbard in https://github.com/cogwheel0/conduit/pull/869\n* Open the Android assistant on a ready new chat, and keep it after a reboot by @cogwheel0 in"
+        },
         {
           "version": "4.2.1",
           "date": "2026-10-16",
@@ -233,14 +241,6 @@
           "size": 27888547,
           "minOSVersion": "16.0",
           "localizedDescription": "- Fix Android permissions.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.2.0...v3.2.1"
-        },
-        {
-          "version": "3.1.6",
-          "date": "2026-06-01",
-          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.1.6/conduit.ipa",
-          "size": 27880913,
-          "minOSVersion": "16.0",
-          "localizedDescription": "- Fix socket connection issues.\r\n- Fix images leaking into responses.\r\n- Implement model pinning.\r\n\r\n**Full Changelog**: https://github.com/cogwheel0/conduit/compare/v3.1.5...v3.1.6"
         }
       ],
       "developerName": "cogwheel0",
