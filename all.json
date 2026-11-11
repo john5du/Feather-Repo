@@ -73,15 +73,23 @@
     {
       "name": "Conduit",
       "bundleIdentifier": "app.cogwheel.conduit",
-      "version": "4.3.0",
-      "versionDate": "2026-11-07T16:16:13Z",
-      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.3.0/conduit.ipa",
-      "size": 45894857,
+      "version": "4.3.1",
+      "versionDate": "2026-11-11T07:55:42Z",
+      "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.3.1/conduit.ipa",
+      "size": 48367660,
       "category": "utilities",
-      "versionDescription": "## What's Changed\n* Add a seekable read-aloud player for cloud and device voices by @kapily in https://github.com/cogwheel0/conduit/pull/901\n* Filter playback voices by language by @kapily in https://github.com/cogwheel0/conduit/pull/902\n* Preserve per-chat text and recording drafts across restarts by @kapily in https://github.com/cogwheel0/conduit/pull/903\n* Use native floating context menus on iOS by @kapily in https://github.com/cogwheel0/conduit/pull/904\n* Customize and reorder response acti",
-      "changelog": "## What's Changed\n* Add a seekable read-aloud player for cloud and device voices by @kapily in https://github.com/cogwheel0/conduit/pull/901\n* Filter playback voices by language by @kapily in https://github.com/cogwheel0/conduit/pull/902\n* Preserve per-chat text and recording drafts across restarts by @kapily in https://github.com/cogwheel0/conduit/pull/903\n* Use native floating context menus on iOS by @kapily in https://github.com/cogwheel0/conduit/pull/904\n* Customize and reorder response acti",
+      "versionDescription": "## Highlights\r\n\r\n- **LibreChat (Beta)** becomes Conduit's fourth backend: sign in, chat with its model specs, agents and models, and keep its history in the Chats tab.\r\n- **Hermes 0.23** works over the Desktop Gateway, a gateway's own Webapp listener and the API server, and gets Rooms, chat pinning and hiding, Context & Usage, error cards and background-work controls.\r\n- **Open WebUI 0.13.3** is supported, with its terminals' coding agents offered as models and a full-screen **Computer** viewer",
+      "changelog": "## Highlights\r\n\r\n- **LibreChat (Beta)** becomes Conduit's fourth backend: sign in, chat with its model specs, agents and models, and keep its history in the Chats tab.\r\n- **Hermes 0.23** works over the Desktop Gateway, a gateway's own Webapp listener and the API server, and gets Rooms, chat pinning and hiding, Context & Usage, error cards and background-work controls.\r\n- **Open WebUI 0.13.3** is supported, with its terminals' coding agents offered as models and a full-screen **Computer** viewer",
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "4.3.1",
+          "date": "2026-11-11",
+          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v4.3.1/conduit.ipa",
+          "size": 48367660,
+          "minOSVersion": "16.0",
+          "localizedDescription": "## Highlights\r\n\r\n- **LibreChat (Beta)** becomes Conduit's fourth backend: sign in, chat with its model specs, agents and models, and keep its history in the Chats tab.\r\n- **Hermes 0.23** works over the Desktop Gateway, a gateway's own Webapp listener and the API server, and gets Rooms, chat pinning and hiding, Context & Usage, error cards and background-work controls.\r\n- **Open WebUI 0.13.3** is supported, with its terminals' coding agents offered as models and a full-screen **Computer** viewer"
+        },
         {
           "version": "4.3.0",
           "date": "2026-11-07",
@@ -233,14 +241,6 @@
           "size": 33017803,
           "minOSVersion": "16.0",
           "localizedDescription": "## What's Changed\r\n\r\n- Added compatibility for Open WebUI 0.10, including updated chat streaming, structured output, knowledge upload, tool-call, settings, and conversation parsing behavior.\r\n- Added a clear compatibility gate for unsupported newer Open WebUI servers, so Conduit now blocks known-incompatible server versions with guidance instead of failing unpredictably.\r\n- Fixed assistant response rendering that could rapidly flash between streamed content and the loading skeleton during genera"
-        },
-        {
-          "version": "3.4.0",
-          "date": "2026-06-29",
-          "downloadURL": "https://github.com/cogwheel0/conduit/releases/download/v3.4.0/conduit.ipa",
-          "size": 32996501,
-          "minOSVersion": "16.0",
-          "localizedDescription": "## What's Changed\r\n\r\n- Conduit is much better offline. Chats, folders, notes, search, uploads, and pending messages stay available locally, with changes queued until your Open WebUI server is reachable again. \r\n- Voice mode is more hands-free and natural, with native iOS/Android speech, continuous listening, and barge-in so you can interrupt playback by speaking. \r\n- Notifications are now built in for finished responses, channel messages, and DMs. \r\n- Streaming, notes, and conversation loading a"
         }
       ],
       "developerName": "cogwheel0",
