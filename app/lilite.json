@@ -6,15 +6,23 @@
     {
       "name": "LiLite",
       "bundleIdentifier": "com.liuliuya.PiliNative",
-      "version": "1.0.31",
-      "versionDate": "2026-11-23T05:46:56Z",
-      "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.31/LiLite-1.0.31-unsigned.ipa",
-      "size": 25282176,
+      "version": "1.0.32",
+      "versionDate": "2026-11-23T07:27:43Z",
+      "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.32/LiLite-1.0.32-unsigned.ipa",
+      "size": 25285931,
       "category": "other",
-      "versionDescription": "**首页**\n- 旋转屏幕后，首页边缘不再露出旁边频道的一窄条：不在屏幕上的频道（如直播）会按新的宽度重新排列，不再沿用旋转前的列宽溢出到当前频道下面",
-      "changelog": "**首页**\n- 旋转屏幕后，首页边缘不再露出旁边频道的一窄条：不在屏幕上的频道（如直播）会按新的宽度重新排列，不再沿用旋转前的列宽溢出到当前频道下面",
+      "versionDescription": "**后台播放与锁屏**\n- 默认播放内核（MPV）播放时，锁屏和控制中心会显示播放卡片，播放、暂停、拖动进度可以控制当前视频：播放时不再与其他 App 混音，系统因此能把 LiLite 识别为正在播放的 App\n- 开启「进入后台时继续播放」后，iOS 27 上切到后台或锁屏不再被误当作中断而暂停\n- 进入视频页时视频已经在播放（例如从小窗或连播回来），也会接管锁屏和控制中心的控件",
+      "changelog": "**后台播放与锁屏**\n- 默认播放内核（MPV）播放时，锁屏和控制中心会显示播放卡片，播放、暂停、拖动进度可以控制当前视频：播放时不再与其他 App 混音，系统因此能把 LiLite 识别为正在播放的 App\n- 开启「进入后台时继续播放」后，iOS 27 上切到后台或锁屏不再被误当作中断而暂停\n- 进入视频页时视频已经在播放（例如从小窗或连播回来），也会接管锁屏和控制中心的控件",
       "minOSVersion": "17.0",
       "versions": [
+        {
+          "version": "1.0.32",
+          "date": "2026-11-23",
+          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.32/LiLite-1.0.32-unsigned.ipa",
+          "size": 25285931,
+          "minOSVersion": "17.0",
+          "localizedDescription": "**后台播放与锁屏**\n- 默认播放内核（MPV）播放时，锁屏和控制中心会显示播放卡片，播放、暂停、拖动进度可以控制当前视频：播放时不再与其他 App 混音，系统因此能把 LiLite 识别为正在播放的 App\n- 开启「进入后台时继续播放」后，iOS 27 上切到后台或锁屏不再被误当作中断而暂停\n- 进入视频页时视频已经在播放（例如从小窗或连播回来），也会接管锁屏和控制中心的控件"
+        },
         {
           "version": "1.0.31",
           "date": "2026-11-23",
@@ -166,14 +174,6 @@
           "size": 105773220,
           "minOSVersion": "17.0",
           "localizedDescription": "视频链接直接打开完整视频页，修复普通 iPhone 顶部卡片圆角和重复留白\n暂停时在简介和评论之间横滑会保留播放器的折叠高度，以及各页的阅读位置\n评论里的 @ 进入个人主页，侧滑返回可继续阅读，保留视频进度和播放状态\n减少评论滚动时的视图更新，按需启动画中画画面拷贝"
-        },
-        {
-          "version": "1.0.12",
-          "date": "2026-11-18",
-          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.12/LiLite-1.0.12-unsigned.ipa",
-          "size": 105703300,
-          "minOSVersion": "17.0",
-          "localizedDescription": "修复竖版视频被拉宽的问题。竖片在普通 iPhone 的视频页展开显示，全屏跟随片源方向，手动选择的画面比例仍可使用\n修复带旋转标记的视频在软件渲染和后台画中画中的方向与裁切问题"
         }
       ],
       "developerName": "liuliuya2333",
