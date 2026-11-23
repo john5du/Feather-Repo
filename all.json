@@ -539,15 +539,23 @@
     {
       "name": "LiLite",
       "bundleIdentifier": "com.liuliuya.PiliNative",
-      "version": "1.0.34",
-      "versionDate": "2026-11-23T11:43:13Z",
-      "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.34/LiLite-1.0.34-unsigned.ipa",
-      "size": 25319955,
+      "version": "1.0.36",
+      "versionDate": "2026-11-23T16:26:19Z",
+      "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.36/LiLite-1.0.36-unsigned.ipa",
+      "size": 25337586,
       "category": "other",
-      "versionDescription": "**灵动岛**\n- 在视频页正常播放时不再出现在灵动岛上\n- 开启「进入后台时继续播放」后，回到桌面或锁屏时视频会出现在灵动岛，回到 App 后自动收起\n- 关闭后台播放时，进入后台视频暂停，不会出现在灵动岛\n- 听视频始终显示在灵动岛，和音乐 App 一样\n- 锁屏和控制中心的播放控件不受影响",
-      "changelog": "**灵动岛**\n- 在视频页正常播放时不再出现在灵动岛上\n- 开启「进入后台时继续播放」后，回到桌面或锁屏时视频会出现在灵动岛，回到 App 后自动收起\n- 关闭后台播放时，进入后台视频暂停，不会出现在灵动岛\n- 听视频始终显示在灵动岛，和音乐 App 一样\n- 锁屏和控制中心的播放控件不受影响",
+      "versionDescription": "**iPad / iOS 18**\n- 从卡片打开视频不再出现转场错乱：iOS 18 上打开后页面停在放大状态（播放器铺满整屏、画面挤到角落），或返回后视频页缩成卡片大小留在首页上继续播放，现已修复。iOS 26 以下改用 App 自带的一镜到底动画，iOS 26 起仍可在设置里选择系统缩放\n- 冷启动时首页顶栏偶尔拆成两行（标签栏单独一行、头像和分区在下面一行）的问题已修复",
+      "changelog": "**iPad / iOS 18**\n- 从卡片打开视频不再出现转场错乱：iOS 18 上打开后页面停在放大状态（播放器铺满整屏、画面挤到角落），或返回后视频页缩成卡片大小留在首页上继续播放，现已修复。iOS 26 以下改用 App 自带的一镜到底动画，iOS 26 起仍可在设置里选择系统缩放\n- 冷启动时首页顶栏偶尔拆成两行（标签栏单独一行、头像和分区在下面一行）的问题已修复",
       "minOSVersion": "17.0",
       "versions": [
+        {
+          "version": "1.0.36",
+          "date": "2026-11-23",
+          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.36/LiLite-1.0.36-unsigned.ipa",
+          "size": 25337586,
+          "minOSVersion": "17.0",
+          "localizedDescription": "**iPad / iOS 18**\n- 从卡片打开视频不再出现转场错乱：iOS 18 上打开后页面停在放大状态（播放器铺满整屏、画面挤到角落），或返回后视频页缩成卡片大小留在首页上继续播放，现已修复。iOS 26 以下改用 App 自带的一镜到底动画，iOS 26 起仍可在设置里选择系统缩放\n- 冷启动时首页顶栏偶尔拆成两行（标签栏单独一行、头像和分区在下面一行）的问题已修复"
+        },
         {
           "version": "1.0.34",
           "date": "2026-11-23",
@@ -699,14 +707,6 @@
           "size": 112062932,
           "minOSVersion": "17.0",
           "localizedDescription": "最低支持版本降到 iOS 17，现支持 iOS 17+"
-        },
-        {
-          "version": "1.0.14",
-          "date": "2026-11-19",
-          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.14/LiLite-1.0.14-unsigned.ipa",
-          "size": 109988756,
-          "minOSVersion": "17.0",
-          "localizedDescription": "动态卡片按官方样式重做：视频动态显示大封面、时长、播放和弹幕，转发动态完整显示原动态的文字、图片和视频\n整张动态卡片可点：视频动态直接进视频，其他进入动态详情；修复点卡片打开错误页面的问题\n动态详情显示完整发布时间，底部为转发、分享、评论、点赞，点评论直接定位到评论区\nUP 主空间按官方布局重做，主页、动态、投稿等栏目可左右滑动切换，相邻栏目提前加载\n空间投稿列表改为官方样式，合集和列表显示播放数与发布日期\n全屏转场：进入时从小窗位置放大并旋转，退出时缩回小窗\n首页卡片对齐官方双列布局，首个大卡片可在设置中开启（默认关闭）\n详情页默认不自动播放、字幕默认大小等多项行为与原版对齐"
         }
       ],
       "developerName": "liuliuya2333",
