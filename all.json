@@ -537,6 +537,201 @@
       "beta": false
     },
     {
+      "name": "LiLite",
+      "bundleIdentifier": "com.liuliuya.PiliNative",
+      "version": "1.0.31",
+      "versionDate": "2026-11-23T05:46:56Z",
+      "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.31/LiLite-1.0.31-unsigned.ipa",
+      "size": 25282176,
+      "category": "other",
+      "versionDescription": "**首页**\n- 旋转屏幕后，首页边缘不再露出旁边频道的一窄条：不在屏幕上的频道（如直播）会按新的宽度重新排列，不再沿用旋转前的列宽溢出到当前频道下面",
+      "changelog": "**首页**\n- 旋转屏幕后，首页边缘不再露出旁边频道的一窄条：不在屏幕上的频道（如直播）会按新的宽度重新排列，不再沿用旋转前的列宽溢出到当前频道下面",
+      "minOSVersion": "17.0",
+      "versions": [
+        {
+          "version": "1.0.31",
+          "date": "2026-11-23",
+          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.31/LiLite-1.0.31-unsigned.ipa",
+          "size": 25282176,
+          "minOSVersion": "17.0",
+          "localizedDescription": "**首页**\n- 旋转屏幕后，首页边缘不再露出旁边频道的一窄条：不在屏幕上的频道（如直播）会按新的宽度重新排列，不再沿用旋转前的列宽溢出到当前频道下面"
+        },
+        {
+          "version": "1.0.30",
+          "date": "2026-11-23",
+          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.30/LiLite-1.0.30-unsigned.ipa",
+          "size": 25283675,
+          "minOSVersion": "17.0",
+          "localizedDescription": "**视频页**\n- 竖屏视频像官方一样可以收缩：播放中上推简介或评论，播放器跟着手指从高画面缩到 16:9，往回拉到顶部再展开；暂停后继续上推才会折进「继续播放」栏\n- iPad 和 Duo 横屏时，右侧评论栏按官方 iPad 的比例加宽（播放区约占 63%），评论更好读\n- Duo 内屏竖屏时，简介（含推荐视频）和评论不再并排挤成两窄列，改为上方播放器、下方标签页\n\n**iPhone Duo**\n- 横屏搜索结果、排行榜等列表在折痕两侧各排一列，标题不再挤得只剩几个字；从横屏转到竖屏后列表正常切回单列\n- 横屏时首页和动态的顶栏离屏幕上沿留出空隙，不再贴边\n\n**动态**\n- 动态详情和图文页可以整页右滑返回，和视频页一致\n\n**流畅度**\n- 动态、评论、搜索、番剧、直播等列表滑动更顺：卡片上的弹窗改为用到时才创建，几处一次性全部创建的列表改为滑到才创建，首页封面在滑动中不再做淡入\n- 「我的评论」、直播弹幕列表、全屏选集、缓存选集等页面减少了滑动时的重复计算"
+        },
+        {
+          "version": "1.0.29",
+          "date": "2026-11-23",
+          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.29/LiLite-1.0.29-unsigned.ipa",
+          "size": 25264337,
+          "minOSVersion": "17.0",
+          "localizedDescription": "**播放**\n- 开启自动画中画后，播放中切到后台小窗不再直接消失：默认内核不再因为切后台那一瞬间的状态把画面关掉，留给系统接管小窗的时间也更长；AVPlayer 内核切后台时不再先暂停\n- 竖屏全屏播放时，顶部弹幕从灵动岛下方开始排，不再被灵动岛挡住\n\n**动态**\n- 在动态页点头像栏筛选某个 UP 主时，动态时间不再一直停在「刚刚」：一天内的时间每次显示时按发布时间现算，和进入 UP 主空间看到的一致；转发里原动态的时间同样处理"
+        },
+        {
+          "version": "1.0.28",
+          "date": "2026-11-23",
+          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.28/LiLite-1.0.28-unsigned.ipa",
+          "size": 25265432,
+          "minOSVersion": "17.0",
+          "localizedDescription": "**播放**\n- 暂停视频后往下翻评论，播放器不再立刻收起，再滑动时才收起，和官方客户端一致\n- 播放器上下滑动调音量改为真正调节系统音量\n\n**动画与返回**\n- 首页左上角头像点开「我的」、动态里点作者头像进空间，都有头像一镜到底的过渡；空间还在加载时头像先落在原位等待\n- 右划返回一次到位，打开动画还没结束时也能直接划回去\n- iPhone 多个页面返回时底栏模糊不再闪一下\n- iPad 视频页、动态页返回时不再闪一下，顶栏显隐带动画\n\n**评论区**\n- 按官方尺寸重排：头像、昵称、正文、操作栏、回复预览和表头都缩小到合适比例\n\n**UP 主空间**\n- 头像落在横幅下方，位置与官方一致\n- 往上滑后标题栏背景随滑动渐显，不再丢失模糊\n- 切换「主页 / 动态 / 投稿」等栏目时保持滑动位置，不再回到顶部\n- 追番改为三列海报，显示更新进度\n- 粉丝、关注、获赞与关注按钮的尺寸收紧，不再挤在一起\n\n**iPhone Duo / iPad 横屏**\n- 视频页右侧的 UP 主面板重新排版：头像、昵称、等级与关注按钮在同一行，统计数字不再带箭头，「载入前面的投稿」改为居中小字\n\n**其他**\n- 手动检查更新时，没有新版本会提示「已是最新版本」\n- 关于页的致谢只保留两个频道"
+        },
+        {
+          "version": "1.0.27",
+          "date": "2026-11-22",
+          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.27/LiLite-1.0.27-unsigned.ipa",
+          "size": 25276856,
+          "minOSVersion": "17.0",
+          "localizedDescription": "**播放**\n- 全屏手势提示（亮度、音量、进度、倍速）与控件排版重新设计\n- 锁定屏幕改为玻璃材质按钮：iPhone 横屏锁定后两侧都有解锁键，iPad 为右侧单键，直播全屏也可以锁定\n- 全屏「倍速」改为与画质相同的面板，点开后不会立刻收起\n- 全屏控件显示时，弹幕在顶栏和底栏处自动淡出，不再挡住标题、时间和按钮\n- 选集面板的标题去掉共同的剧名前缀，能分清每一集\n- 从卡片打开视频时，封面一直显示到开始播放，不再黑一下；从列表打开视频也有同样的放大过渡\n- 视频页加载时，关注按钮和右侧标签不再闪变\n- AVPlayer 内核长按 3 倍速播放不再一顿一顿\n- 退出全屏后视频页不再钻到状态栏下面\n\n**iPad**\n- 「我的」在概览和其他页面之间切换时顶部不再跳动，当前页会高亮，旋转后保留所在页面\n- 设置的二级页面保留左侧分区栏，内容不再铺满整屏；分区栏选中样式与「我的」统一\n- 动态多列时显示为卡片，深色模式下也能分清边界\n- 竖屏时首页频道单独占一行，不再被标签栏挡住\n- 历史、收藏、离线缓存等列表的缩略图统一，筛选标签与列表对齐\n- 私信输入栏铺满右栏，当前会话会高亮\n\n**iPhone Duo**\n- 半折叠时，搜索结果、热搜、直播、分区排行、动态详情、消息、「我的」和设置都按折痕分栏，内容不再压在折痕上；空状态和报错提示也移到折痕一侧\n- 折叠状态变化后，首页网格会重新排列\n- 设置卡片不再伸进状态栏那一列\n\n**iPhone**\n- 横屏时首页切换频道不再错位\n- 横屏搜索结果不再露出相邻分页\n- 直播间从左边缘右滑返回时不会误触弹幕\n- 横屏视频页播放器两侧不再露白\n\n**直播**\n- 全屏时左上角可以直接退出\n- 已播时长的写法统一，没有弹幕时显示提示\n- 分区页按屏幕宽度排列，「我的常用」为空时不再报错\n- 贡献榜背景与直播间一致\n\n**其他**\n- 稍后再看、收藏夹右上角的按钮收进「⋯」菜单，标题位置与观看历史一致\n- 评论区底部为悬浮的发评论按钮留出空间，不再挡住最后几条评论\n- 新增深色与色调桌面图标\n- 关于页加入开发者与致谢\n- 「页面动画与回弹」在 iPhone 上可以正常进入"
+        },
+        {
+          "version": "1.0.26",
+          "date": "2026-11-22",
+          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.26/LiLite-1.0.26-unsigned.ipa",
+          "size": 23573515,
+          "minOSVersion": "17.0",
+          "localizedDescription": "**iPad**\n- 评论区开着“横屏时在面板中查看”时，看图后右划只关闭图片，视频继续播放，不会再退出视频页；图片面板新增关闭按钮和图片菜单\n- 动态页重做：去掉左栏，关注的人改为顶部横排，标题栏按钮合并，内容不再被遮挡\n- 搜索结果改为多列网格\n- 首页信息流滑动更流畅，减少掉帧\n- 修复部分情况下进入视频只有声音、画面黑屏\n\n**iPhone Duo**\n- 半折叠时首页顶栏按折痕分成两段，频道标签不再被挤压\n- 折叠、展开过程中顶部搜索栏不再来回跳动\n- 折叠、展开时视频画面不再黑一下\n\n**播放**\n- 音量调节（手势、键盘、触控板）改为调节设备系统音量，按实体音量键时显示音量提示\n- 修复快速返回后再打开另一个视频时只有声音没有画面\n- 大屏视频页并排布局时，简介放到播放器下方，利用播放器下面的空间\n- 移除标签页中的“选集”（与合集重复）及对应设置\n\n**界面**\n- 视频简介等页面的字号跟随阅读字号与系统字体大小，iPhone 上各页面比例统一"
+        },
+        {
+          "version": "1.0.25",
+          "date": "2026-11-21",
+          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.25/LiLite-1.0.25-unsigned.ipa",
+          "size": 23543836,
+          "minOSVersion": "17.0",
+          "localizedDescription": "**交互与返回**\n- 直播间、视频页、番剧页、UP 主空间、搜索结果等页面支持全屏宽度右划返回；在后面的标签页右划先回到上一个标签，播放器区域仍用于拖动进度\n- 评论区点开图片后可以右划关闭，只关闭图片，视频继续播放，不会再退回首页\n- 播放器左上角的回到首页按钮已移除\n- 长按倍速按官方客户端的判定（0.25 秒），倍速时手指轻微移动不再变成拖动进度条\n\n**界面**\n- 合集改为从播放器下方滑出的面板，风格与评论详情一致：顶部固定封面、标题、视频数和订阅按钮，支持分节与正倒序，自动定位到正在播放的一集\n- 视频简介、全屏“更多”面板按官方客户端重做\n- 官方赛事直播间新增赛程、回放、选手评分\n\n**iPad 与 iPhone Duo**\n- 一镜到底在 iPad 与 Duo（展开、半折叠）上直接落到播放器位置，过渡连贯；右划缩回卡片的手感与手机一致\n- 视频页并排布局与侧栏宽度调整，窄栏中的标签与发弹幕按钮不再被截断\n\n**性能与修复**\n- 修复播放视频时返回首页、再进入视频的卡顿\n- 修复听视频部分地址 403 无法播放\n- 离开播放后释放播放器与渲染资源，降低内存占用\n- 改用 Xcode 原生构建"
+        },
+        {
+          "version": "1.0.24",
+          "date": "2026-11-21",
+          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.24/LiLite-1.0.24-unsigned.ipa",
+          "size": 117700532,
+          "minOSVersion": "17.0",
+          "localizedDescription": "- 头像上的大会员角标改为原版尺寸：列表头像 14pt，UP 主空间大头像 20pt，不再过大"
+        },
+        {
+          "version": "1.0.23",
+          "date": "2026-11-20",
+          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.23/LiLite-1.0.23-unsigned.ipa",
+          "size": 117684148,
+          "minOSVersion": "17.0",
+          "localizedDescription": "- 视频详情页的点赞、不喜欢、投币、收藏、分享换成官方客户端图标，加上玻璃底和点按动画\n- 修复进入视频不自动播放\n- 一镜到底：从首页、空间等卡片打开视频时页面从卡片展开，返回时缩回卡片；同时修复打开页面没有转场动画\n- 修复从视频返回首页时底栏透明、闪一下\n- 楼中楼里侧滑只关闭楼中楼，不再直接退出视频\n- 评论图片改为全屏查看器，打开时先显示缩略图，单击关闭\n- 评论区装扮卡片按官方客户端布局重做，编号不再和卡图叠在一起，支持渐变色编号\n- 番剧页显示评论数，新增“点我发弹幕”\n- 追番追剧页按官方布局重做（追番 / 追剧、想看 / 在看 / 看过、管理），返回后列表不再残留选中态\n- UP 主空间：投稿里显示图文，主页背景改为白色，进入时顶部不再闪白条\n- 首页点头像切到“我的”加入过渡动画，简介展开、列表加载、关注等切换补上动画"
+        },
+        {
+          "version": "1.0.22",
+          "date": "2026-11-20",
+          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.22/LiLite-1.0.22-unsigned.ipa",
+          "size": 116795428,
+          "minOSVersion": "17.0",
+          "localizedDescription": "- 直播间按官方客户端重做：模糊封面暗色背景、主播栏（看过人数、开播时长、关注、高能榜）、深色弹幕列表（粉丝牌、主播标签、新消息提示）和底部输入栏；画质、线路、定时停止等设置收进 ⋯ 菜单；竖屏直播和横屏有各自的布局\n- 修复直播实时弹幕连不上（提示“Brotli 直播帧无效”）\n- 修复视频全屏时点几次就卡死、锁定后解不开\n- 修复番剧和剧集弹幕密集时闪烁\n- 修复界面缩放调小后首页加载不出来、顶栏跑到右边；运行中切换缩放后频道页不再错位\n- 首页推荐像官方客户端一样无限下滑自动加载，不再显示“加载更多”按钮\n- 性能优化：首页封面预取更快，打开视频、简介与评论滑动、UP 主空间更流畅"
+        },
+        {
+          "version": "1.0.21",
+          "date": "2026-11-20",
+          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.21/LiLite-1.0.21-unsigned.ipa",
+          "size": 116328788,
+          "minOSVersion": "17.0",
+          "localizedDescription": "- 竖屏播放器换成官方布局：底部一行播放、进度条、时间、全屏；顶部听视频、投屏、更多；倍速、字幕、画质、小窗移到「更多」\n- 播放控件显示和隐藏的动画与官方一致，返回、主页按钮跟着一起动，不再闪现错位\n- 视频简介区照官方：「点我发弹幕」和弹幕开关合在一起，UP 主下显示粉丝数和视频数，操作栏为点赞、不喜欢、投币、收藏、分享（缓存和稍后再看在分享菜单里）\n- 投币、全屏、投屏、弹幕开关、返回换成官方样式的图标\n- 全屏清屏时暂停键原地变成锁定键；亮度、音量、快进提示改为透明玻璃样式\n- 进出全屏不再卡顿，展开简介后播放更流畅\n- 从二级页面返回时底栏随页面滑入，不再先消失再突然出现\n- 修复登录时安全验证白屏\n- 首页推荐改用官方客户端的请求；推荐账号未完成移动端授权时会提示"
+        },
+        {
+          "version": "1.0.20",
+          "date": "2026-11-20",
+          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.20/LiLite-1.0.20-unsigned.ipa",
+          "size": 115726180,
+          "minOSVersion": "17.0",
+          "localizedDescription": "- 修复 iOS 17/18 上播放器点不动的问题（画面、控件按钮都没反应）\n- 看视频时不再自动息屏，暂停或离开播放页后恢复自动锁屏\n- 播放器手势和控件显隐与官方客户端一致：双击画面播放/暂停；播放中 3 秒后隐藏控件，暂停时保留；拖完进度条或横滑快进后收起控件；横滑快进的幅度随视频时长调整；亮度、音量滑动更跟手\n- 返回和主页按钮随播放控件一起隐藏\n- 全屏播放器：画面上下撑满，控件对齐画面左右边缘，修正图标高低不齐；新的快进提示，暂停时画面中央显示播放按钮"
+        },
+        {
+          "version": "1.0.19",
+          "date": "2026-11-19",
+          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.19/LiLite-1.0.19-unsigned.ipa",
+          "size": 115589636,
+          "minOSVersion": "17.0",
+          "localizedDescription": "- 全屏播放器重做：状态栏、对齐的工具图标、清晰度与选集面板、倍速菜单、手势提示和锁定；内嵌播放器改用同一套进度条与拖动预览\n- 番剧简介按官方客户端重排：分类标签、标题与追番、数据与详情、单集互动数据、选集卡片、花絮分组、相关 UP 主和相关推荐；上滑时播放器折叠\n- 选集与花絮面板分段显示，支持左右滑动翻页\n- 首页顶栏与状态栏改为毛玻璃，内容从下方滑过，头像套玻璃圆\n- 视频或番剧页在后台被系统回收后，重新打开会回到原页面和进度\n- “我的”页面观看记录移到历史、稍后再看、收藏、离线下方，分组标题字号调小\n- 发评论按钮和图标加大；视频详情页内容延伸到屏幕底部，去掉底部白条\n- 大幅减少首页、视频详情页、评论区、动态和切换标签时的卡顿掉帧\n- 预加载：首页封面提前解码，按下视频卡片即开始加载详情，列表提前加载下一页，启动后在后台预热图形与字体"
+        },
+        {
+          "version": "1.0.18",
+          "date": "2026-11-19",
+          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.18/LiLite-1.0.18-unsigned.ipa",
+          "size": 112257572,
+          "minOSVersion": "17.0",
+          "localizedDescription": "- 搜索页重做为官方布局：返回、搜索框和放大镜按钮在一行，搜索后自动收起键盘，联想词可以填入继续输入\n- 修复搜索时可能卡死的问题\n- 评论详情面板支持下拉跟手收起，在列表顶部或标题栏往下拉即可\n- 修复观看历史、稍后再看轻轻上滑时列表抖动的问题，搜索改为右上角放大镜打开\n- 视频详情页、评论区和视频列表的字号与间距对齐官方客户端"
+        },
+        {
+          "version": "1.0.17",
+          "date": "2026-11-19",
+          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.17/LiLite-1.0.17-unsigned.ipa",
+          "size": 112157012,
+          "minOSVersion": "17.0",
+          "localizedDescription": "- 修复 iOS 17、18 上从视频页返回后底部标签栏变透明、盖在列表上的问题（#3）\n- 兼容性说明改为支持 iOS 17+"
+        },
+        {
+          "version": "1.0.16",
+          "date": "2026-11-19",
+          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.16/LiLite-1.0.16-unsigned.ipa",
+          "size": 112156740,
+          "minOSVersion": "17.0",
+          "localizedDescription": "- 修复转过一次全屏后视频页不再锁定竖屏、之后整页跟着手机旋转的问题\n- 修复首页向下滚动时底部标签栏不按设置收起\n- 首页顶栏改为官方布局：左侧头像、中间搜索、右侧消息；频道栏放得下时居中\n- 评论设置新增「滚动时隐藏发评论按钮」，关闭后发评论按钮常驻\n- 我的页观看记录预览固定在最上方，卡片缩小为一行三个（已自定义过我的页的，可在 设置 › 导航布局 › 我的页预览 中添加观看记录）\n- iPad 等大屏默认不再使用侧边栏，改为顶部标签栏；导航布局新增「改用侧边栏」开关，打开后仅横屏使用侧边栏（#2）\n- 大屏宽窗口下首页频道栏与搜索、消息、头像并成一行"
+        },
+        {
+          "version": "1.0.15",
+          "date": "2026-11-19",
+          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.15/LiLite-1.0.15-unsigned.ipa",
+          "size": 112062932,
+          "minOSVersion": "17.0",
+          "localizedDescription": "最低支持版本降到 iOS 17，现支持 iOS 17+"
+        },
+        {
+          "version": "1.0.14",
+          "date": "2026-11-19",
+          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.14/LiLite-1.0.14-unsigned.ipa",
+          "size": 109988756,
+          "minOSVersion": "17.0",
+          "localizedDescription": "动态卡片按官方样式重做：视频动态显示大封面、时长、播放和弹幕，转发动态完整显示原动态的文字、图片和视频\n整张动态卡片可点：视频动态直接进视频，其他进入动态详情；修复点卡片打开错误页面的问题\n动态详情显示完整发布时间，底部为转发、分享、评论、点赞，点评论直接定位到评论区\nUP 主空间按官方布局重做，主页、动态、投稿等栏目可左右滑动切换，相邻栏目提前加载\n空间投稿列表改为官方样式，合集和列表显示播放数与发布日期\n全屏转场：进入时从小窗位置放大并旋转，退出时缩回小窗\n首页卡片对齐官方双列布局，首个大卡片可在设置中开启（默认关闭）\n详情页默认不自动播放、字幕默认大小等多项行为与原版对齐"
+        },
+        {
+          "version": "1.0.13",
+          "date": "2026-11-18",
+          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.13/LiLite-1.0.13-unsigned.ipa",
+          "size": 105773220,
+          "minOSVersion": "17.0",
+          "localizedDescription": "视频链接直接打开完整视频页，修复普通 iPhone 顶部卡片圆角和重复留白\n暂停时在简介和评论之间横滑会保留播放器的折叠高度，以及各页的阅读位置\n评论里的 @ 进入个人主页，侧滑返回可继续阅读，保留视频进度和播放状态\n减少评论滚动时的视图更新，按需启动画中画画面拷贝"
+        },
+        {
+          "version": "1.0.12",
+          "date": "2026-11-18",
+          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.12/LiLite-1.0.12-unsigned.ipa",
+          "size": 105703300,
+          "minOSVersion": "17.0",
+          "localizedDescription": "修复竖版视频被拉宽的问题。竖片在普通 iPhone 的视频页展开显示，全屏跟随片源方向，手动选择的画面比例仍可使用\n修复带旋转标记的视频在软件渲染和后台画中画中的方向与裁切问题"
+        }
+      ],
+      "developerName": "liuliuya2333",
+      "subtitle": "轻盈顺滑的原生 iOS 哔哩哔哩客户端。",
+      "localizedDescription": "轻哩是第三方哔哩哔哩 iOS 客户端，使用 SwiftUI / UIKit 编写，支持 iOS 17 及以上。界面跟随系统 Liquid Glass，提供 mpv / AVPlayer 双播放内核、弹幕、画中画、后台播放与离线缓存。",
+      "iconURL": "https://raw.githubusercontent.com/liuliuya2333/LiLite/main/App/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+      "tintColor": "#14C8F5",
+      "screenshotURLs": [],
+      "contact": {
+        "web": "https://github.com/liuliuya2333/LiLite"
+      },
+      "information": [],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.developer.networking.multicast"
+        ],
+        "privacy": {
+          "NSFaceIDUsageDescription": "验证身份以导入或导出登录账号",
+          "NSPhotoLibraryAddUsageDescription": "保存你选择的图片、实况照片或视频截图",
+          "NSLocalNetworkUsageDescription": "发现并连接同一网络上的投屏设备"
+        }
+      },
+      "beta": false
+    },
+    {
       "name": "Location Spoofer",
       "bundleIdentifier": "com.paopaolabs.location-spoofer",
       "version": "1.0.9",

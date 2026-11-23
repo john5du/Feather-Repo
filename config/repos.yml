@@ -50,6 +50,13 @@ repositories:
     ipa_filename_pattern: "*.ipa"
     min_os_version: "15.0"
 
+  - name: LiLite
+    owner: liuliuya2333
+    repo: LiLite
+    json_file: app/lilite.json
+    ipa_filename_pattern: "*.ipa"
+    min_os_version: "17.0"
+
 paths:
   app_dir: app
   all_json: all.json
