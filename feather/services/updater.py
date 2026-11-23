@@ -20,6 +20,7 @@ class UpdateStat:
     repo_name: str
     success: bool = False
     updated: bool = False
+    skipped: bool = False
     message: str = ""
 
 
@@ -29,6 +30,7 @@ class UpdateResult:
     success: bool = True
     updated_count: int = 0
     failed_count: int = 0
+    skipped_count: int = 0
     updated_files: List[str] = field(default_factory=list)
     stats: List[UpdateStat] = field(default_factory=list)
 
@@ -106,6 +108,8 @@ class RepositoryUpdater:
                 if stat.updated:
                     result.updated_count += 1
                     result.updated_files.append(repo_config.json_file)
+                if stat.skipped:
+                    result.skipped_count += 1
                 if not stat.success:
                     result.failed_count += 1
 
@@ -136,7 +140,9 @@ class RepositoryUpdater:
             if not ipa_asset:
                 asset_names = [asset.get("name", "") for asset in release_info["assets"]]
                 patterns = ", ".join(repo_config.ipa_filename_patterns)
-                stat.message = f"未找到匹配 [{patterns}] 的IPA文件"
+                stat.success = True
+                stat.skipped = True
+                stat.message = f"跳过：未找到匹配 [{patterns}] 的IPA文件，保留现有版本"
                 self.logger.warning(
                     f"  {stat.message}",
                     {
@@ -338,6 +344,7 @@ class RepositoryUpdater:
         print("\n" + "=" * 80)
         print("更新统计:")
         print(f"  ✓ 已更新: {result.updated_count} 个")
+        print(f"  - 跳过: {result.skipped_count} 个")
         print(f"  ✗ 失败: {result.failed_count} 个")
         print(f"  处理仓库: {len(result.stats)} 个")
         print(f"  总体成功: {result.success}")
@@ -346,6 +353,12 @@ class RepositoryUpdater:
             print("\n已更新的文件:")
             for file in result.updated_files:
                 print(f"  - {file}")
+
+        skipped = [s for s in result.stats if s.skipped]
+        if skipped:
+            print("\n跳过详情:")
+            for stat in skipped:
+                print(f"  - {stat.repo_name}: {stat.message}")
 
         failed = [s for s in result.stats if not s.success]
         if failed:

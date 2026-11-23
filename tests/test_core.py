@@ -250,6 +250,40 @@ class UpdateFailureSemanticsTests(unittest.TestCase):
         self.assertEqual(result.failed_count, 1)
         self.assertEqual(result.updated_count, 0)
 
+    def test_missing_ipa_is_skipped_not_failed(self):
+        config = ConfigManager(
+            Config(
+                repositories=[
+                    RepositoryConfig(
+                        name="Conduit",
+                        owner="cogwheel0",
+                        repo="conduit",
+                        json_file="app/conduit.json",
+                    )
+                ]
+            )
+        )
+        logger = FeatherLogger.setup("ERROR")
+        client = MagicMock()
+        client.extract_release_info.return_value = {
+            "tag_name": "v4.3.2",
+            "assets": [
+                {"name": "app-release.apk", "url": "https://example.com/a.apk", "size": 1},
+            ],
+            "published_at": None,
+            "body": "",
+        }
+
+        updater = RepositoryUpdater(config, logger, github_client=client)
+        result = updater.update_all()
+
+        self.assertTrue(result.success)
+        self.assertEqual(result.failed_count, 0)
+        self.assertEqual(result.skipped_count, 1)
+        self.assertEqual(result.updated_count, 0)
+        self.assertTrue(result.stats[0].skipped)
+        self.assertIn("跳过", result.stats[0].message)
+
 
 class DateFormatTests(unittest.TestCase):
     def test_iso_and_short(self):
