@@ -6,15 +6,23 @@
     {
       "name": "LiLite",
       "bundleIdentifier": "com.liuliuya.PiliNative",
-      "version": "1.0.36",
-      "versionDate": "2026-11-23T16:26:19Z",
-      "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.36/LiLite-1.0.36-unsigned.ipa",
-      "size": 25337586,
+      "version": "1.0.38",
+      "versionDate": "2026-11-24T06:26:10Z",
+      "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.38/LiLite-1.0.38-unsigned.ipa",
+      "size": 27008027,
       "category": "other",
-      "versionDescription": "**iPad / iOS 18**\n- 从卡片打开视频不再出现转场错乱：iOS 18 上打开后页面停在放大状态（播放器铺满整屏、画面挤到角落），或返回后视频页缩成卡片大小留在首页上继续播放，现已修复。iOS 26 以下改用 App 自带的一镜到底动画，iOS 26 起仍可在设置里选择系统缩放\n- 冷启动时首页顶栏偶尔拆成两行（标签栏单独一行、头像和分区在下面一行）的问题已修复",
-      "changelog": "**iPad / iOS 18**\n- 从卡片打开视频不再出现转场错乱：iOS 18 上打开后页面停在放大状态（播放器铺满整屏、画面挤到角落），或返回后视频页缩成卡片大小留在首页上继续播放，现已修复。iOS 26 以下改用 App 自带的一镜到底动画，iOS 26 起仍可在设置里选择系统缩放\n- 冷启动时首页顶栏偶尔拆成两行（标签栏单独一行、头像和分区在下面一行）的问题已修复",
+      "versionDescription": "**返回手势**\n- 所有二级页面都能从页面任意位置右滑返回，不再只认屏幕边缘；手指在进度条、滑块上拖动时不会误触返回（#4）\n- 在视频页的播放器上从边缘右滑也能直接返回",
+      "changelog": "**返回手势**\n- 所有二级页面都能从页面任意位置右滑返回，不再只认屏幕边缘；手指在进度条、滑块上拖动时不会误触返回（#4）\n- 在视频页的播放器上从边缘右滑也能直接返回",
       "minOSVersion": "17.0",
       "versions": [
+        {
+          "version": "1.0.38",
+          "date": "2026-11-24",
+          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.38/LiLite-1.0.38-unsigned.ipa",
+          "size": 27008027,
+          "minOSVersion": "17.0",
+          "localizedDescription": "**返回手势**\n- 所有二级页面都能从页面任意位置右滑返回，不再只认屏幕边缘；手指在进度条、滑块上拖动时不会误触返回（#4）\n- 在视频页的播放器上从边缘右滑也能直接返回"
+        },
         {
           "version": "1.0.36",
           "date": "2026-11-23",
@@ -166,14 +174,6 @@
           "size": 112156740,
           "minOSVersion": "17.0",
           "localizedDescription": "- 修复转过一次全屏后视频页不再锁定竖屏、之后整页跟着手机旋转的问题\n- 修复首页向下滚动时底部标签栏不按设置收起\n- 首页顶栏改为官方布局：左侧头像、中间搜索、右侧消息；频道栏放得下时居中\n- 评论设置新增「滚动时隐藏发评论按钮」，关闭后发评论按钮常驻\n- 我的页观看记录预览固定在最上方，卡片缩小为一行三个（已自定义过我的页的，可在 设置 › 导航布局 › 我的页预览 中添加观看记录）\n- iPad 等大屏默认不再使用侧边栏，改为顶部标签栏；导航布局新增「改用侧边栏」开关，打开后仅横屏使用侧边栏（#2）\n- 大屏宽窗口下首页频道栏与搜索、消息、头像并成一行"
-        },
-        {
-          "version": "1.0.15",
-          "date": "2026-11-19",
-          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.15/LiLite-1.0.15-unsigned.ipa",
-          "size": 112062932,
-          "minOSVersion": "17.0",
-          "localizedDescription": "最低支持版本降到 iOS 17，现支持 iOS 17+"
         }
       ],
       "developerName": "liuliuya2333",
