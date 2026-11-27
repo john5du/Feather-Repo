@@ -14,7 +14,6 @@
 | --- | --- | --- |
 | [Asspp](https://github.com/Lakr233/Asspp) | 多账号、多地区 App Store 管理神器。 | https://github.com/Lakr233/Asspp |
 | [Conduit](https://github.com/cogwheel0/conduit) | Native mobile client for OpenWebUI. | https://github.com/cogwheel0/conduit |
-| [FluxDo](https://github.com/Lingyan000/fluxdo) | 一个 Linux.do 第三方客户端 | https://github.com/Lingyan000/fluxdo |
 | [Harbour](https://github.com/rrroyal/Harbour) | Docker/Portainer management app for iOS, iPadOS and macOS. | https://github.com/rrroyal/Harbour |
 | [LiLite](https://github.com/liuliuya2333/LiLite) | 轻盈顺滑的原生 iOS 哔哩哔哩客户端。 | https://github.com/liuliuya2333/LiLite |
 | [Location Spoofer](https://github.com/xweiba/location-spoofer) | iOS 虚拟定位研究与测试工具。 | https://github.com/xweiba/location-spoofer |
