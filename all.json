@@ -334,15 +334,23 @@
     {
       "name": "LiLite",
       "bundleIdentifier": "com.liuliuya.PiliNative",
-      "version": "1.0.39",
-      "versionDate": "2026-11-25T02:34:20Z",
-      "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.39/LiLite-1.0.39-unsigned.ipa",
-      "size": 27162715,
+      "version": "1.0.42",
+      "versionDate": "2026-11-27T18:31:56Z",
+      "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.42/LiLite-1.0.42-unsigned.ipa",
+      "size": 29095363,
       "category": "other",
-      "versionDescription": "**修复**\n- iOS 17 上点首页卡片打不开视频的问题（1.0.38 引入）\n- 从卡片打开页面后返回，偶尔停在卡片位置、标签栏不出现、之后什么都打不开的问题\n- 自动画中画回到桌面后几秒就消失的问题\n- 看竖屏视频时屏幕会自动熄灭的问题\n- 设置里「默认展开视频简介」「横屏时展开简介」不生效的问题\n- 直播首页一直显示「请求错误」的问题：直播改为使用移动端推荐，去掉「直播来源」选项\n- 直播间全屏时右上角的「⋯」不再压住时间，电量不再被挤到屏幕边缘\n- 首页滚动后点搜索框，搜索页不再从被顶栏挡住的卡片里放大出来",
-      "changelog": "**修复**\n- iOS 17 上点首页卡片打不开视频的问题（1.0.38 引入）\n- 从卡片打开页面后返回，偶尔停在卡片位置、标签栏不出现、之后什么都打不开的问题\n- 自动画中画回到桌面后几秒就消失的问题\n- 看竖屏视频时屏幕会自动熄灭的问题\n- 设置里「默认展开视频简介」「横屏时展开简介」不生效的问题\n- 直播首页一直显示「请求错误」的问题：直播改为使用移动端推荐，去掉「直播来源」选项\n- 直播间全屏时右上角的「⋯」不再压住时间，电量不再被挤到屏幕边缘\n- 首页滚动后点搜索框，搜索页不再从被顶栏挡住的卡片里放大出来",
+      "versionDescription": "**播放器和返回动画**",
+      "changelog": "**播放器和返回动画**",
       "minOSVersion": "17.0",
       "versions": [
+        {
+          "version": "1.0.42",
+          "date": "2026-11-27",
+          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.42/LiLite-1.0.42-unsigned.ipa",
+          "size": 29095363,
+          "minOSVersion": "17.0",
+          "localizedDescription": "**播放器和返回动画**"
+        },
         {
           "version": "1.0.39",
           "date": "2026-11-25",
@@ -494,14 +502,6 @@
           "size": 112257572,
           "minOSVersion": "17.0",
           "localizedDescription": "- 搜索页重做为官方布局：返回、搜索框和放大镜按钮在一行，搜索后自动收起键盘，联想词可以填入继续输入\n- 修复搜索时可能卡死的问题\n- 评论详情面板支持下拉跟手收起，在列表顶部或标题栏往下拉即可\n- 修复观看历史、稍后再看轻轻上滑时列表抖动的问题，搜索改为右上角放大镜打开\n- 视频详情页、评论区和视频列表的字号与间距对齐官方客户端"
-        },
-        {
-          "version": "1.0.17",
-          "date": "2026-11-19",
-          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.17/LiLite-1.0.17-unsigned.ipa",
-          "size": 112157012,
-          "minOSVersion": "17.0",
-          "localizedDescription": "- 修复 iOS 17、18 上从视频页返回后底部标签栏变透明、盖在列表上的问题（#3）\n- 兼容性说明改为支持 iOS 17+"
         }
       ],
       "developerName": "liuliuya2333",
