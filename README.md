@@ -18,4 +18,3 @@
 | [LiLite](https://github.com/liuliuya2333/LiLite) | 轻盈顺滑的原生 iOS 哔哩哔哩客户端。 | https://github.com/liuliuya2333/LiLite |
 | [Location Spoofer](https://github.com/xweiba/location-spoofer) | iOS 虚拟定位研究与测试工具。 | https://github.com/xweiba/location-spoofer |
 | [PiliPlus](https://github.com/bggRGjQaUbCoE/PiliPlus) | 第三方哔哩哔哩客户端 | https://github.com/bggRGjQaUbCoE/PiliPlus |
-| [YueYin](https://github.com/xiaoqi419/joy-music-mobile) | 优雅的本地音乐播放器。 | https://github.com/xiaoqi419/joy-music-mobile |
