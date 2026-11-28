@@ -6,15 +6,23 @@
     {
       "name": "LiLite",
       "bundleIdentifier": "com.liuliuya.PiliNative",
-      "version": "1.0.42",
-      "versionDate": "2026-11-27T18:31:56Z",
-      "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.42/LiLite-1.0.42-unsigned.ipa",
-      "size": 29095363,
+      "version": "1.0.45",
+      "versionDate": "2026-11-28T02:50:14Z",
+      "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.45/LiLite-1.0.45-unsigned.ipa",
+      "size": 29104183,
       "category": "other",
-      "versionDescription": "**播放器和返回动画**",
-      "changelog": "**播放器和返回动画**",
+      "versionDescription": "- 修复 iPhone 在 100% 界面缩放下，「我的」「导航布局」「页面动画与回弹」等分组列表左右贴边的问题，恢复系统列表留白。\n- 首页视频卡片的「一镜到底」实验选项延续上一版设置，默认关闭。",
+      "changelog": "- 修复 iPhone 在 100% 界面缩放下，「我的」「导航布局」「页面动画与回弹」等分组列表左右贴边的问题，恢复系统列表留白。\n- 首页视频卡片的「一镜到底」实验选项延续上一版设置，默认关闭。",
       "minOSVersion": "17.0",
       "versions": [
+        {
+          "version": "1.0.45",
+          "date": "2026-11-28",
+          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.45/LiLite-1.0.45-unsigned.ipa",
+          "size": 29104183,
+          "minOSVersion": "17.0",
+          "localizedDescription": "- 修复 iPhone 在 100% 界面缩放下，「我的」「导航布局」「页面动画与回弹」等分组列表左右贴边的问题，恢复系统列表留白。\n- 首页视频卡片的「一镜到底」实验选项延续上一版设置，默认关闭。"
+        },
         {
           "version": "1.0.42",
           "date": "2026-11-27",
@@ -166,14 +174,6 @@
           "size": 115589636,
           "minOSVersion": "17.0",
           "localizedDescription": "- 全屏播放器重做：状态栏、对齐的工具图标、清晰度与选集面板、倍速菜单、手势提示和锁定；内嵌播放器改用同一套进度条与拖动预览\n- 番剧简介按官方客户端重排：分类标签、标题与追番、数据与详情、单集互动数据、选集卡片、花絮分组、相关 UP 主和相关推荐；上滑时播放器折叠\n- 选集与花絮面板分段显示，支持左右滑动翻页\n- 首页顶栏与状态栏改为毛玻璃，内容从下方滑过，头像套玻璃圆\n- 视频或番剧页在后台被系统回收后，重新打开会回到原页面和进度\n- “我的”页面观看记录移到历史、稍后再看、收藏、离线下方，分组标题字号调小\n- 发评论按钮和图标加大；视频详情页内容延伸到屏幕底部，去掉底部白条\n- 大幅减少首页、视频详情页、评论区、动态和切换标签时的卡顿掉帧\n- 预加载：首页封面提前解码，按下视频卡片即开始加载详情，列表提前加载下一页，启动后在后台预热图形与字体"
-        },
-        {
-          "version": "1.0.18",
-          "date": "2026-11-19",
-          "downloadURL": "https://github.com/liuliuya2333/LiLite/releases/download/v1.0.18/LiLite-1.0.18-unsigned.ipa",
-          "size": 112257572,
-          "minOSVersion": "17.0",
-          "localizedDescription": "- 搜索页重做为官方布局：返回、搜索框和放大镜按钮在一行，搜索后自动收起键盘，联想词可以填入继续输入\n- 修复搜索时可能卡死的问题\n- 评论详情面板支持下拉跟手收起，在列表顶部或标题栏往下拉即可\n- 修复观看历史、稍后再看轻轻上滑时列表抖动的问题，搜索改为右上角放大镜打开\n- 视频详情页、评论区和视频列表的字号与间距对齐官方客户端"
         }
       ],
       "developerName": "liuliuya2333",
